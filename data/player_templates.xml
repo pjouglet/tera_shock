@@ -1,0 +1,843 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<template class="WARRIOR" >
+		<stats>
+			<stat name="maxHp" val="900" />
+			<stat name="maxMp" val="1000" />
+			<stat name="regHp" val="9" />
+			<stat name="regMp" val="30" />
+			<stat name="powerFactor" val="46" />
+			<stat name="defenseFactor" val="68" />
+			<stat name="impactFactor" val="40" />
+			<stat name="balanceFactor" val="60" />
+			<stat name="atkSpd" val="120" />
+			<stat name="runSpd" val="120" />
+			<stat name="critRate" val="52" />
+			<stat name="critRcpt" val="74" />
+		</stats>
+		<items>
+			<item id="10001" count="1" />
+			<item id="15004" count="1" />
+			<item id="15005" count="1" />
+			<item id="15006" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="41" />
+			<add stat="weakRcpt" order="0x10" val="41" />
+			<add stat="dmgRcpt" order="0x10" val="41" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67128964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10101" female="10201" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10001" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10301" female="10401" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10001" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10501" female="10601" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10001" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10701" female="10801" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10001" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10901" female="11001" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10001" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10901" female="11001" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10001" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11101" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10001" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="LANCER" >
+		<stats>
+			<stat name="maxHp" val="1179" />
+			<stat name="maxMp" val="1000" />
+			<stat name="regHp" val="10" />
+			<stat name="regMp" val="30" />
+			<stat name="powerFactor" val="50" />
+			<stat name="defenseFactor" val="30" />
+			<stat name="impactFactor" val="40" />
+			<stat name="balanceFactor" val="70" />
+			<stat name="atkSpd" val="100" />
+			<stat name="runSpd" val="105" />
+			<stat name="critRate" val="50" />
+			<stat name="critRcpt" val="75" />
+		</stats>
+		<items>
+			<item id="10002" count="1" />
+			<item id="15001" count="1" />
+			<item id="15002" count="1" />
+			<item id="15003" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="45" />
+			<add stat="weakRcpt" order="0x10" val="45" />
+			<add stat="dmgRcpt" order="0x10" val="45" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67128964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10102" female="10202" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10000" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10302" female="10402" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10000" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10502" female="10602" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10000" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10702" female="10802" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10000" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10902" female="11002" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10902" female="11002" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11102" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10000" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="SLAYER" >
+		<stats>
+			<stat name="maxHp" val="926" />
+			<stat name="maxMp" val="1000" />
+			<stat name="regHp" val="8" />
+			<stat name="regMp" val="-20" />
+			<stat name="powerFactor" val="71" />
+			<stat name="defenseFactor" val="75" />
+			<stat name="impactFactor" val="85" />
+			<stat name="balanceFactor" val="40" />
+			<stat name="atkSpd" val="110" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="67" />
+			<stat name="critRcpt" val="63" />
+		</stats>
+		<items>
+			<item id="10003" count="1" />
+			<item id="15004" count="1" />
+			<item id="15005" count="1" />
+			<item id="15006" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="38" />
+			<add stat="weakRcpt" order="0x10" val="38" />
+			<add stat="dmgRcpt" order="0x10" val="38" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67148964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10103" female="10203" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10002" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10303" female="10403" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10002" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10503" female="10603" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10002" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10703" female="10803" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10002" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10903" female="11003" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10903" female="11003" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11103" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10002" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="BERSERKER" >
+		<stats>
+			<stat name="maxHp" val="932" />
+			<stat name="maxMp" val="1000" />
+			<stat name="regHp" val="8" />
+			<stat name="regMp" val="-20" />
+			<stat name="powerFactor" val="75" />
+			<stat name="defenseFactor" val="29" />
+			<stat name="impactFactor" val="90" />
+			<stat name="balanceFactor" val="50" />
+			<stat name="atkSpd" val="115" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="58" />
+			<stat name="critRcpt" val="65" />
+		</stats>
+		<items>
+			<item id="10004" count="1" />
+			<item id="15001" count="1" />
+			<item id="15002" count="1" />
+			<item id="15003" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="39" />
+			<add stat="weakRcpt" order="0x10" val="39" />
+			<add stat="dmgRcpt" order="0x10" val="39" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67128964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10104" female="10204" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10000" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10304" female="10404" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10000" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10504" female="10604" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10000" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10704" female="10804" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10000" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10904" female="11004" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10904" female="11004" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11104" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10000" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="SORCERER" >
+		<stats>
+			<stat name="maxHp" val="921" />
+			<stat name="maxMp" val="2000" />
+			<stat name="regHp" val="8" />
+			<stat name="regMp" val="35" />
+			<stat name="powerFactor" val="65" />
+			<stat name="defenseFactor" val="75" />
+			<stat name="impactFactor" val="60" />
+			<stat name="balanceFactor" val="25" />
+			<stat name="atkSpd" val="110" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="38" />
+			<stat name="critRcpt" val="52" />
+		</stats>
+		<items>
+			<item id="10005" count="1" />
+			<item id="15007" count="1" />
+			<item id="15008" count="1" />
+			<item id="15009" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="54" />
+			<add stat="weakRcpt" order="0x10" val="84" />
+			<add stat="dmgRcpt" order="0x10" val="54" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67188964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10105" female="10205" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10002" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10305" female="10405" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10002" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10505" female="10605" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10002" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10705" female="10805" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10002" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10905" female="11005" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10905" female="11005" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11105" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10002" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="ARCHER" >
+		<stats>
+			<stat name="maxHp" val="855" />
+			<stat name="maxMp" val="1000" />
+			<stat name="regHp" val="7" />
+			<stat name="regMp" val="30" />
+			<stat name="powerFactor" val="67" />
+			<stat name="defenseFactor" val="76" />
+			<stat name="impactFactor" val="50" />
+			<stat name="balanceFactor" val="30" />
+			<stat name="atkSpd" val="120" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="40" />
+			<stat name="critRcpt" val="53" />
+		</stats>
+		<items>
+			<item id="10006" count="1" />
+			<item id="15004" count="1" />
+			<item id="15005" count="1" />
+			<item id="15006" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="50" />
+			<add stat="weakRcpt" order="0x10" val="50" />
+			<add stat="dmgRcpt" order="0x10" val="50" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67168964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10106" female="10206" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10000" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10306" female="10406" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10000" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10506" female="10606" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10000" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10706" female="10806" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10000" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10906" female="11006" >
+				<skills>					
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10906" female="11006" >
+				<skills>					
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10000" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11106" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10000" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="PRIEST" >
+		<stats>
+			<stat name="maxHp" val="1299" />
+			<stat name="maxMp" val="2500" />
+			<stat name="regHp" val="10" />
+			<stat name="regMp" val="45" />
+			<stat name="powerFactor" val="35" />
+			<stat name="defenseFactor" val="63" />
+			<stat name="impactFactor" val="30" />
+			<stat name="balanceFactor" val="20" />
+			<stat name="atkSpd" val="105" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="33" />
+			<stat name="critRcpt" val="51" />
+		</stats>
+		<items>
+			<item id="10007" count="1" />
+			<item id="15007" count="1" />
+			<item id="15008" count="1" />
+			<item id="15009" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="66" />
+			<add stat="weakRcpt" order="0x10" val="90" />
+			<add stat="dmgRcpt" order="0x10" val="66" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67288964" />
+			<skill id="67488964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10107" female="10207" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10002" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10307" female="10407" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10002" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10507" female="10607" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10002" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10707" female="10807" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10002" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10907" female="11007" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10907" female="11007" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />					
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11107" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10002" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+
+	<template class="MYSTIC" >
+		<stats>
+			<stat name="maxHp" val="1040" />
+			<stat name="maxMp" val="2500" />
+			<stat name="regHp" val="9" />
+			<stat name="regMp" val="35" />
+			<stat name="powerFactor" val="45" />
+			<stat name="defenseFactor" val="73" />
+			<stat name="impactFactor" val="30" />
+			<stat name="balanceFactor" val="25" />
+			<stat name="atkSpd" val="105" />
+			<stat name="runSpd" val="110" />
+			<stat name="critRate" val="35" />
+			<stat name="critRcpt" val="52" />
+		</stats>
+		<items>
+			<item id="10008" count="1" />
+			<item id="15007" count="1" />
+			<item id="15008" count="1" />
+			<item id="15009" count="1" />
+			<item id="125" count="5" />
+			<item id="8007" count="3" />
+		</items>
+		<funcs>
+			<add stat="stunRcpt" order="0x10" val="61" />
+			<add stat="weakRcpt" order="0x10" val="81" />
+			<add stat="dmgRcpt" order="0x10" val="61" />
+		</funcs>
+		<skills>
+			<skill id="67118964" />
+			<skill id="67288964" />
+		</skills>
+		<races>
+			<race type="HUMAN" male="10108" female="10208" >
+				<skills>
+					<skill id="76128964" class="-1" />
+					<skill id="10002" class="-1" />
+					<skill id="19100" class="-1" />
+					<skill id="19101" class="-1" />
+					<skill id="19102" class="-1" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELF" male="10308" female="10408" >
+				<skills>
+					<skill id="76128964" class="-2" />
+					<skill id="10002" class="-1" />
+					<skill id="19200" class="-2" />
+					<skill id="19201" class="-2" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="AMAN" male="10508" female="10608" >
+				<skills>
+					<skill id="76128964" class="-3" />
+					<skill id="10002" class="-1" />
+					<skill id="19400" class="-3" />
+					<skill id="19401" class="-3" />
+					<skill id="19402" class="-3" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="CASTANIC" male="10708" female="10808" >
+				<skills>
+					<skill id="76128964" class="-4" />
+					<skill id="10002" class="-1" />
+					<skill id="19300" class="-4" />
+					<skill id="19301" class="-4" />
+					<skill id="19302" class="-4" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="POPORI" male="10908" female="11008" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="ELIN" male="10908" female="11008" >
+				<skills>
+					<skill id="76128964" class="-5" />
+					<skill id="76138964" class="-5" />
+					<skill id="10002" class="-1" />
+					<skill id="19500" class="-5" />
+					<skill id="19501" class="-5" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+			<race type="BARAKA" male="11108" >
+				<skills>
+					<skill id="76128964" class="-6" />
+					<skill id="10002" class="-1" />
+					<skill id="19600" class="-6" />
+					<skill id="19601" class="-6" />
+					<skill id="19602" class="-6" />
+					<skill id="67308865" class="-1" />
+				</skills>
+			</race>
+		</races>
+	</template>
+</list>

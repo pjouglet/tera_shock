@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="32000" class="-8" name="Divine Radiance" levels="1">
+		<set name="iconId" value="67118964" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>
+		<set name="power" value="50" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="damageId" value="67118984" />
+	</skill>
+		
+	<skill id="32001" class="-8" name="Heal Thyself" levels="1">
+		<set name="iconId" value="67288964" />
+	    <set name="power" value="15000" />
+		<set name="reuseDelay" value="3000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="skillGroup" value="HEAL"/>
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="3000" />		
+	</skill>
+	
+	<skill id="32002" class="-8" name="Backstep" levels="1">
+		<set name="iconId" value="67488964" />
+		<set name="targetType" value="TARGET_SELF" />
+		<set name="reuseDelay" value="4000" />
+		<set name="moveDistance" value="-200" />
+		<set name="skillType" value="JUMP" />
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE" />	
+		<set name="hitTime" value="1500" />	
+		<set name="moveTime" value="1000" />		
+	</skill>
+	
+	 <skill id="32003" class="-8" name="Fiery Escape" levels="1">
+		<set name="iconId" value="67368964" />
+        <set name="power" value="50"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="JUMP"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="5000"/>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" resistType="weakResist" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="32004" class="-8" name="Final Reprisal" levels="1">
+		<set name="iconId" value="67378994" />
+        <set name="power" value="150"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="delay" value="800"/>
+		<set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+    </skill>
+	
+	<skill id="32005" class="-8" name="Metamorphic Blast" levels="1">
+		<set name="iconId" value="67218964" />
+		<set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="100"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+    </skill>    
+	
+	 <skill id="32006" class="-8" name="Shocking Implosion" levels="1">
+		<set name="iconId" value="67268964" />
+		<set name="power" value="200"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+    </skill>
+	
+	<skill id="32007" class="-8" name="Triple Nemesis" levels="1">
+		<set name="iconId" value="67398964" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>
+		<set name="power" value="70" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="2100" />	
+		<set name="delay" value="600" />	
+		<set name="reuseDelay" value="4000"/>
+    </skill>
+	
+	<skill id="32008" class="-8" name="Triple Nemesis" levels="1">
+		<set name="iconId" value="67398965" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>
+		<set name="power" value="90" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="2100" />	
+		<set name="delay" value="600" />	
+		<set name="reuseDelay" value="4000"/>
+    </skill>
+	
+	<skill id="32009" class="-8" name="Triple Nemesis" levels="1">
+		<set name="iconId" value="67398966" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>
+		<set name="power" value="100" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="2800" />	
+		<set name="delay" value="1800" />	
+		<set name="reuseDelay" value="4000"/>
+    </skill>
+
+    <skill id="32010" class="-8" name="Regeneration Circle" levels="1">
+		<set name="iconId" value="67128964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_FRACTION_AREA"/>
+		<set name="skillGroup" value="HEAL"/>
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="maxTargets" value="15"/>
+		<for>
+			<effect id="800100" time="2" count="10" type="HEAL" stackType="heal_over_time" power="1500" />
+		</for>
+    </skill>
+	
+	<skill id="32011" class="-8" name="Healing Circle" levels="1">
+		<set name="iconId" value="67138964" />
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="15000"/>
+		<set name="aggroPoint" value="6000" />
+        <set name="skillType" value="HEAL"/>
+		<set name="skillGroup" value="HEAL"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_FRACTION_AREA"/>
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="15"/>
+		<set name="noCaster" value="true" />
+    </skill>
+	
+    <skill id="32012" class="-8" name="Blessing of Zenobia" levels="1">
+		<set name="iconId" value="67258964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_FRACTION_AURA"/>
+		<set name="skillGroup" value="BUFF"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />
+        <set name="radius" value="180"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="120000"/>
+		<for>
+			<effect id="15" time="120" count="1" type="BUFF" stackType="special_speed_up" >
+				<add stat="runSpd" order="0x40" val="10" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="32013" class="-8" name="Blessing of Shakan" levels="1">
+		<set name="iconId" value="67158964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_FRACTION_AREA"/>
+		<set name="skillGroup" value="BUFF"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />
+		<set name="range" value="80"/>
+        <set name="radius" value="120"/>
+        <set name="hitTime" value="2100"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="120000"/>
+		<for>
+			<effect id="201" time="120" count="1" stackType="attack_up" type="BUFF" >
+				<mul stat="atk" order="0x30" val="1.15" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="32014" class="-8" name="Blessing of Seren" levels="1">
+		<set name="iconId" value="67308964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_FRACTION_AURA"/>
+		<set name="skillGroup" value="BUFF"/>
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />
+		<set name="range" value="80"/>
+        <set name="radius" value="220"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="120000"/>
+		<for>
+			<effect id="800500" time="120" count="1" stackType="defense_up" type="BUFF" >
+				<mul stat="def" order="0x30" val="1.15" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="32015" class="-8" name="Kaia's Shield" levels="1">
+		<set name="iconId" value="67328964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+		<set name="skillGroup" value="BUFF"/>
+		<set name="castMaxRange" value="500" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_FRACTION_AREA"/>
+		<set name="range" value="80"/>
+        <set name="radius" value="520"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="30000"/>
+		<for>
+			<effect id="800300" time="10" count="1" stackType="absorb_damage" type="DAMAGE_ABSORPTION" power="6000" value="0" >
+				<add stat="owerturnRcpt" order="0x40" val="100" />
+				<add stat="stunRcpt" order="0x40" val="100" />
+			</effect>
+		</for>
+    </skill>
+</list>

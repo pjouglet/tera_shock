@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>  
+	<skill id="10100" class="-10" name="Poison I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="11" />
+		</for>
+    </skill>
+	
+	<skill id="10101" class="-10" name="Poison II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="23" />
+		</for>
+    </skill>
+	
+	<skill id="10102" class="-10" name="Poison III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="58" />
+		</for>
+    </skill>
+	
+	<skill id="10103" class="-10" name="Poison IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="144" />
+		</for>
+    </skill>
+	
+	<skill id="10104" class="-10" name="Poison V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="341" />
+		</for>
+    </skill>
+	
+	<skill id="10105" class="-10" name="Poison VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="763" />
+		</for>
+    </skill>
+	
+	<skill id="10110" class="-10" name="Poison I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="14" />
+		</for>
+    </skill>
+	
+	<skill id="10111" class="-10" name="Poison II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="28" />
+		</for>
+    </skill>
+	
+	<skill id="10112" class="-10" name="Poison III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="71" />
+		</for>
+    </skill>
+	
+	<skill id="10113" class="-10" name="Poison IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="177" />
+		</for>
+    </skill>
+	
+	<skill id="10114" class="-10" name="Poison V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="421" />
+		</for>
+    </skill>
+	
+	<skill id="10115" class="-10" name="Poison VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="942" />
+		</for>
+    </skill>
+	
+	<skill id="10120" class="-10" name="Poison I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="12" />
+		</for>
+    </skill>
+	
+	<skill id="10121" class="-10" name="Poison II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="26" />
+		</for>
+    </skill>
+	
+	<skill id="10122" class="-10" name="Poison III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="64" />
+		</for>
+    </skill>
+	
+	<skill id="10123" class="-10" name="Poison IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="161" />
+		</for>
+    </skill>
+	
+	<skill id="10124" class="-10" name="Poison V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="381" />
+		</for>
+    </skill>
+	
+	<skill id="10125" class="-10" name="Poison VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect time="1" count="10" type="DAM_OVER_TIME" stackType="poison_crystal_debuff" power="853" />
+		</for>
+    </skill>
+	
+	<skill id="10300" class="-10" name="Attrack Power I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="7" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10301" class="-10" name="Attrack Power II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="9" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10302" class="-10" name="Attrack Power III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="10" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10303" class="-10" name="Attrack Power IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="11" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10304" class="-10" name="Attrack Power V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="13" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10305" class="-10" name="Attrack Power VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="14" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10310" class="-10" name="Attrack Power I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="9" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10311" class="-10" name="Attrack Power II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="11" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10312" class="-10" name="Attrack Power III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="13" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10313" class="-10" name="Attrack Power IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="15" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10314" class="-10" name="Attrack Power V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="17" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10315" class="-10" name="Attrack Power VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="19" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10320" class="-10" name="Attrack Power I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10321" class="-10" name="Attrack Power II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="10" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10322" class="-10" name="Attrack Power III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="12" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10323" class="-10" name="Attrack Power IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="13" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10324" class="-10" name="Attrack Power V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="15" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10325" class="-10" name="Attrack Power VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="10" count="1" type="BUFF" stackType="attack_crystal_buff" >
+				<add stat="powerFactor" order="0x40" val="17" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="10900" class="-10" name="Infusion I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="38" />
+		</for>
+    </skill>
+	
+	<skill id="10901" class="-10" name="Infusion II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="42" />
+		</for>
+    </skill>
+	
+	<skill id="10902" class="-10" name="Infusion III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="50" />
+		</for>
+    </skill>
+	
+	<skill id="10903" class="-10" name="Infusion IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="58" />
+		</for>
+    </skill>
+	
+	<skill id="10904" class="-10" name="Infusion V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="61" />
+		</for>
+    </skill>
+	
+	<skill id="10905" class="-10" name="Infusion VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="63" />
+		</for>
+    </skill>
+	
+	<skill id="10910" class="-10" name="Infusion I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="49" />
+		</for>
+    </skill>
+	
+	<skill id="10911" class="-10" name="Infusion II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="54" />
+		</for>
+    </skill>
+	
+	<skill id="10912" class="-10" name="Infusion III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="63" />
+		</for>
+    </skill>
+	
+	<skill id="10913" class="-10" name="Infusion IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="75" />
+		</for>
+    </skill>
+	
+	<skill id="10914" class="-10" name="Infusion V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="78" />
+		</for>
+    </skill>
+	
+	<skill id="10915" class="-10" name="Infusion VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="80" />
+		</for>
+    </skill>
+	
+	<skill id="10920" class="-10" name="Infusion I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="43" />
+		</for>
+    </skill>
+	
+	<skill id="10921" class="-10" name="Infusion II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="47" />
+		</for>
+    </skill>
+	
+	<skill id="10922" class="-10" name="Infusion III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="55" />
+		</for>
+    </skill>
+	
+	<skill id="10923" class="-10" name="Infusion IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="65" />
+		</for>
+    </skill>
+	
+	<skill id="10924" class="-10" name="Infusion V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="68" />
+		</for>
+    </skill>
+	
+	<skill id="10925" class="-10" name="Infusion VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CHANCE_EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect time="1" count="4" type="MANA_HEAL_OVER_TIME" stackType="mana_regen_crystal_buff" power="71" />
+		</for>
+    </skill>
+</list>

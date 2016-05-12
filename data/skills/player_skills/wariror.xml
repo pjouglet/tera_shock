@@ -1,0 +1,3896 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67118964" class="0" name="Combo Attack I" levels="4">
+		<table name="#power">7 7 8 14</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>	
+	
+	<skill id="67119064" class="0" name="Combo Attack II" levels="4">
+        <table name="#power">9 10 11 19</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+
+	<skill id="67119164" class="0" name="Combo Attack III" levels="4">
+        <table name="#power">13 15 16 28</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+
+    <skill id="67119264" class="0" name="Combo Attack IV" levels="4">
+        <table name="#power">20 22 24 41</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119364" class="0" name="Combo Attack V" levels="4">
+        <table name="#power">29 32 35 59</table>
+		<table name="#targetType">TARGET_DEGREE_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119464" class="0" name="Combo Attack VI" levels="4">
+        <table name="#power">42 46 51 86</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119564" class="0" name="Combo Attack VII" levels="4">
+        <table name="#power">61 67 74 126</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119664" class="0" name="Combo Attack VIII" levels="4">
+        <table name="#power">89 98 108 184</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119764" class="0" name="Combo Attack IX" levels="4">
+        <table name="#power">130 143 157 268</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119864" class="0" name="Combo Attack X" levels="4">
+        <table name="#power">190 209 229 391</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67119964" class="0" name="Combo Attack XI" levels="4">
+        <table name="#power">277 305 334 571</table>
+		<table name="#targetType">TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA TARGET_ONE_AREA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1200 1200 1200 1800</table>
+		<table name="#moveDistance">50 50 30 80</table>
+		<table name="#delay">400 500 500 700</table>
+		<table name="#gainMp">19 21 30 77</table>
+		<set name="power" value="#power" />
+		<set name="delay" value="#delay" />
+		<set name="gainMp" value="#gainMp" />
+		<set name="moveDistance" value="#moveDistance" />		
+		<set name="targetType" value="#targetType" />
+		<set name="radius" value="60"/>		
+		<set name="range" value="30"/>	
+		<set name="skillType" value="MANA_GAIN_STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="#hitTime" /> 
+		<set name="skillName" value="#skillName" /> 
+		<set name="castCount" value="2" />	
+		<set name="interval" value="150" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>		
+    </skill>
+	
+	<skill id="67128964" class="0" name="Evasive Roll" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="150" />	
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="JUMP" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="70" />
+		<set name="hitTime" value="2000" />	
+		<set name="moveTime" value="1000" />	
+		<set name="evasion" value="true" />		
+		<set name="implemented" value="true" />
+		<set name="forceCast" value="true" />
+		<for> 
+			<effect id="100400" time="5" count="1" type="BUFF" /> 
+		</for>
+	</skill>
+	
+    <skill id="67148964" class="0" name="Rain of Blows I" levels="1">
+        <set name="power" value="58"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="2500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="range" value="20"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="8" />	
+		<set name="interval" value="500;200;350;100;300;150;600;100" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	 <skill id="67149064" class="0" name="Rain of Blows II" levels="1">
+        <set name="power" value="85"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="2500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="range" value="20"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="8" />	
+		<set name="interval" value="500;200;350;100;300;150;600;100" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	  <skill id="67149164" class="0" name="Rain of Blows III" levels="1">
+        <set name="power" value="123"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="2500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="range" value="20"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="8" />	
+		<set name="interval" value="500;200;350;100;300;150;600;100" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149264" class="0" name="Rain of Blows IV" levels="1">
+        <set name="power" value="180"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="2500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="range" value="20"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="8" />	
+		<set name="interval" value="500;200;350;100;300;150;600;100" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149364" class="0" name="Rain of Blows V" levels="2">
+        <table name="#iconId">67149364 67149394</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="263"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149364"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149464" class="0" name="Rain of Blows VI" levels="2">
+        <table name="#iconId">67149464 67149494</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="383"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149464"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149564" class="0" name="Rain of Blows VII" levels="2">
+        <table name="#iconId">67149564 67149594</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="559"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149564"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149664" class="0" name="Rain of Blows VIII" levels="2">
+        <table name="#iconId">67149664 67149694</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="816"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149664"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149764" class="0" name="Rain of Blows IX" levels="2">
+        <table name="#iconId">67149764 67149794</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="1190"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149764"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+	
+	<skill id="67149864" class="0" name="Rain of Blows X" levels="2">
+        <table name="#iconId">67149864 67149894</table>
+		<table name="#prevSkillNames">POUNCE UNKNOWN</table>
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">4500 3500</table>
+		<table name="#interval">500;200;350;100;300;150;600;100 400;180;250;100;250;150;400;80</table>
+		<table name="#castCount">8 8</table>
+		<table name="#delay">500 400</table>
+		<table name="#moveTime">2500 2000</table>
+		<set name="iconId" value="#iconId"/>
+        <set name="power" value="1736"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="#moveTime"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+		<set name="delay" value="#delay"/>
+        <set name="mpConsume" value="350"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="reuseId" value="67149864"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.3" />	
+		</cast>
+    </skill>
+
+    <skill id="67278964" class="0" name="Vortex Slash I" levels="1">
+        <set name="power" value="38"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279064" class="0" name="Vortex Slash II" levels="1">
+        <set name="power" value="55"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279164" class="0" name="Vortex Slash III" levels="1">
+        <set name="power" value="81"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279264" class="0" name="Vortex Slash IV" levels="1">
+        <set name="power" value="118"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279364" class="0" name="Vortex Slash V" levels="1">
+        <set name="power" value="172"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279464" class="0" name="Vortex Slash VI" levels="1">
+        <set name="power" value="230"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279564" class="0" name="Vortex Slash VII" levels="1">
+        <set name="power" value="367"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279664" class="0" name="Vortex Slash VIII" levels="1">
+        <set name="power" value="535"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279764" class="0" name="Vortex Slash IX" levels="1">
+        <set name="power" value="781"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+	
+	<skill id="67279864" class="0" name="Vortex Slash X" levels="1">
+        <set name="power" value="1139"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="VORTEX_SLASH" />
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="90"/>
+        <set name="mpConsume" value="230"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+        <set name="delay" value="600"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+			</and>
+		</cond>
+    </skill>
+
+    <skill id="67288964" class="0" name="Combative Strike I" levels="1">
+        <set name="power" value="31"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="204"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289064" class="0" name="Combative Strike II" levels="1">
+        <set name="power" value="45"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="283"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289164" class="0" name="Combative Strike III" levels="1">
+        <set name="power" value="66"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="392"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289264" class="0" name="Combative Strike IV" levels="1">
+        <set name="power" value="97"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="543"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289364" class="0" name="Combative Strike V" levels="1">
+        <set name="power" value="141"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="750"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289464" class="0" name="Combative Strike VI" levels="1">
+        <set name="power" value="206"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="1036"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289564" class="0" name="Combative Strike VII" levels="1">
+        <set name="power" value="300"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="1431"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289664" class="0" name="Combative Strike VIII" levels="1">
+        <set name="power" value="438"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="1976"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289764" class="0" name="Combative Strike IX" levels="1">
+        <set name="power" value="639"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="2731"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289864" class="0" name="Combative Strike X" levels="1">
+        <set name="power" value="933"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="COMBATIVE_STRIKE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hpConsume" value="3824"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
+				<mul stat="def" order="0x30" val="0.955" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67298964" class="0" name="Rising Fury I" levels="2">
+		<table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">23 33</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299064" class="0" name="Rising Fury II" levels="2">
+		<table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">34 48</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+
+	<skill id="67299164" class="0" name="Rising Fury III" levels="2">
+		<table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">49 70</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299264" class="0" name="Rising Fury IV" levels="2">
+		<table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">72 103</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299364" class="0" name="Rising Fury V" levels="2">
+		<table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">105 150</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299464" class="0" name="Rising Fury VI" levels="2">
+        <table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">153 219</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299564" class="0" name="Rising Fury VII" levels="2">
+        <table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">223 319</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299664" class="0" name="Rising Fury VIII" levels="2">
+        <table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">325 466</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67299764" class="0" name="Rising Fury IX" levels="2">
+        <table name="#hitTime">1500 2500</table>
+		<table name="#delay">50 700</table>
+		<table name="#interval">50;100;500;100 100</table>
+		<table name="#moveDistance">160 100</table>
+		<table name="#moveTime">1000 800</table>
+		<table name="#moveDelay">0 200</table>
+		<table name="#power">474 680</table>
+		<table name="#castCount">4 2</table>
+		<table name="#targetType">TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">RISING_FURY_1 RISING_FURY_2</table>
+		<set name="skillName" value="#skillName" />
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="WARRIOR_FURY_STRIKE"/>
+        <set name="targetType" value="#targetType"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="100"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+        <set name="reuseDelay" value="4500"/>
+		<set name="castCount" value="#castCount" />	
+		<set name="interval" value="#interval" />
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.2" />	
+		</cast>
+    </skill>
+	
+	<skill id="67158964" class="0" name="Battle Cry I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="3500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159064" class="0" name="Battle Cry II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="5500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159164" class="0" name="Battle Cry III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="8500"/>
+         <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159264" class="0" name="Battle Cry IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="12500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159364" class="0" name="Battle Cry V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="16500"/>
+         <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159464" class="0" name="Battle Cry VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="21500"/>
+         <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159564" class="0" name="Battle Cry VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="28500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159664" class="0" name="Battle Cry VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="AGGRO"/>
+		<set name="power" value="38500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="150"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100300" time="2" count="1" type="STUN" chance="77" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67198964" class="0" name="Defensive Stance I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="400"/>
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100200" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="warrior_aura" power="10">
+				<mul stat="defenseFactor" order="0x30" val="1.15" />
+				<mul stat="agrMod" order="0x30" val="1.35" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67199064" class="0" name="Defensive Stance II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="400"/>
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100201" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="warrior_aura" power="15">
+				<mul stat="defenseFactor" order="0x30" val="1.2" />
+				<mul stat="agrMod" order="0x30" val="1.45" />
+			</effect>
+		</for>
+    </skill>
+
+    <skill id="67188964" class="0" name="Assault Stance I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100100" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="warrior_aura" power="10">
+				<mul stat="powerFactor" order="0x30" val="1.15" />
+				<add stat="rCrit" order="0x40" val="30" />
+				<mul stat="defenseFactor" order="0x30" val="0.85" />
+			</effect>
+		</for>
+    </skill>    
+	
+	<skill id="67189064" class="0" name="Assault Stance II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100101" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="warrior_aura" power="15">
+				<mul stat="powerFactor" order="0x30" val="1.2" />
+				<add stat="rCrit" order="0x40" val="40" />
+				<mul stat="defenseFactor" order="0x30" val="0.85" />
+			</effect>
+		</for>
+    </skill>    
+	
+	<skill id="67248964" class="0" name="Mangle" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="900"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100600" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mangle" power="10" >
+				<chance name="ApplySkill" chance="100" id="67248965" class="0" attack="true" >
+					<player castSkillName="COMBO_ATTACK_4" />
+				</chance>
+			</effect>
+		</for>
+    </skill>  
+	
+	<skill id="67248965" class="0" name="Mangle Active" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="100630" time="5" type="DEBUFF" stackType="full_speed_down" >
+				<mul stat="runSpd" order="0x30" val="0.75" />
+				<mul stat="atkSpd" order="0x30" val="0.75" />
+			</effect>
+		</for>
+    </skill>  
+
+    <skill id="76118964" class="0" name="Velik's Horn" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="town" value="VELIKA"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="3600"/>
+        <set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67238964" class="0" name="Retaliate I" levels="1">
+        <set name="power" value="55"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239064" class="0" name="Retaliate II" levels="1">
+        <set name="power" value="80"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239164" class="0" name="Retaliate III" levels="1">
+        <set name="power" value="117"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239264" class="0" name="Retaliate IV" levels="1">
+        <set name="power" value="171"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239364" class="0" name="Retaliate V" levels="1">
+        <set name="power" value="249"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239464" class="0" name="Retaliate VI" levels="1">
+        <set name="power" value="364"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239564" class="0" name="Retaliate VII" levels="1">
+        <set name="power" value="531"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239664" class="0" name="Retaliate VIII" levels="1">
+        <set name="power" value="775"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67239764" class="0" name="Retaliate IX" levels="1">
+        <set name="power" value="1131"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="500"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67138964" class="0" name="Torrent of Blows I" levels="1">
+        <set name="power" value="56"/>
+		<set name="aggroPoint" value="2000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139064" class="0" name="Torrent of Blows II" levels="1">
+        <set name="power" value="82"/>
+        <set name="aggroPoint" value="4000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139164" class="0" name="Torrent of Blows III" levels="1">
+        <set name="power" value="119"/>
+        <set name="aggroPoint" value="6000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139264" class="0" name="Torrent of Blows IV" levels="1">
+        <set name="power" value="174"/>
+        <set name="aggroPoint" value="9000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139364" class="0" name="Torrent of Blows V" levels="1">
+        <set name="power" value="254"/>
+        <set name="aggroPoint" value="13000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139464" class="0" name="Torrent of Blows VI" levels="1">
+        <set name="power" value="371"/>
+        <set name="aggroPoint" value="16000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139564" class="0" name="Torrent of Blows VII" levels="1">
+        <set name="power" value="541"/>
+        <set name="aggroPoint" value="20000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+	
+	<skill id="67139664" class="0" name="Torrent of Blows VIII" levels="1">
+        <set name="power" value="790"/>
+        <set name="aggroPoint" value="27000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="1500" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;100;300"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />	
+			<add stat="owerturnRcpt" order="0x40" val="50" />	
+			<add stat="stunRcpt" order="0x40" val="50" />	
+		</cast>
+    </skill>
+
+	<skill id="67378964" class="0" name="Pounce I" levels="1">
+        <set name="power" value="104"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67379064" class="0" name="Pounce II" levels="1">
+        <set name="power" value="151"/>
+         <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67379164" class="0" name="Pounce III" levels="1">
+        <set name="power" value="220"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67379264" class="0" name="Pounce IV" levels="1">
+        <set name="power" value="322"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+
+	<skill id="67379364" class="0" name="Pounce V" levels="1">
+        <set name="power" value="469"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67379464" class="0" name="Pounce VI" levels="1">
+        <set name="power" value="685"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67379564" class="0" name="Pounce VII" levels="1">
+        <set name="power" value="999"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="POUNCE" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveTime" value="1000" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="1000"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for> 
+			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>	
+		</for>		
+		<cast>
+			<mul stat="def" order="0x50" val="1.5" />
+		</cast>
+    </skill>
+	
+	<skill id="67228964" class="0" name="Leaping Strike I" levels="1">
+        <set name="power" value="31"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229064" class="0" name="Leaping Strike II" levels="1">
+        <set name="power" value="45"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229164" class="0" name="Leaping Strike III" levels="1">
+        <set name="power" value="65"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229264" class="0" name="Leaping Strike IV" levels="1">
+        <set name="power" value="95"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229364" class="0" name="Leaping Strike V" levels="1">
+        <set name="power" value="139"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229464" class="0" name="Leaping Strike VI" levels="1">
+        <set name="power" value="203"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67229564" class="0" name="Leaping Strike VII" levels="1">
+        <set name="power" value="296"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="250" />
+		<set name="moveTime" value="700" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="900"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67218964" class="0" name="Poison Blade I" levels="1">
+        <set name="power" value="19"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100500" time="2" count="5" type="DAM_OVER_TIME" power="116" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219064" class="0" name="Poison Blade II" levels="1">
+        <set name="power" value="27"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100501" time="2" count="5" type="DAM_OVER_TIME" power="175" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219164" class="0" name="Poison Blade III" levels="1">
+        <set name="power" value="40"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100502" time="2" count="5" type="DAM_OVER_TIME" power="292" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219264" class="0" name="Poison Blade IV" levels="1">
+        <set name="power" value="58"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100503" time="2" count="5" type="DAM_OVER_TIME" power="438" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219364" class="0" name="Poison Blade V" levels="1">
+        <set name="power" value="85"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="612" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219464" class="0" name="Poison Blade VI" levels="1">
+        <set name="power" value="124"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="845" stackType="poison" chance="27" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67219564" class="0" name="Poison Blade VII" levels="1">
+        <set name="power" value="161"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="500" />
+        <set name="delay" value="500"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="1028" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67208964" class="0" name="Death From Above I" levels="1">
+        <set name="power" value="114"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	
+	<skill id="67209064" class="0" name="Death From Above II" levels="1">
+        <set name="power" value="167"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67209164" class="0" name="Death From Above III" levels="1">
+        <set name="power" value="243"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67209264" class="0" name="Death From Above IV" levels="1">
+        <set name="power" value="355"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67209364" class="0" name="Death From Above V" levels="1">
+        <set name="power" value="517"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67209464" class="0" name="Death From Above VI" levels="1">
+        <set name="power" value="755"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3300"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="50"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67398964" class="0" name="Blade Draw I" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67398964 67398994</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="299"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67398964"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67399064" class="0" name="Blade Draw II" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67399064 67399094</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="436"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67399064"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67399164" class="0" name="Blade Draw III" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67399164 67399194</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="637"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67399164"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+
+	<skill id="67399264" class="0" name="Blade Draw IV" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67399264 67399294</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="929"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67399264"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67399364" class="0" name="Blade Draw V" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67399364 67399394</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="1356"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67399364"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67399464" class="0" name="Blade Draw VI" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67399464 67399494</table>
+		<table name="#delay">1000 500</table>
+		<table name="#interval">1000 500</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveDistance">90 140</table>
+		<table name="#moveTime">1700 900</table>
+		<table name="#moveDelay">500 250</table>
+		<table name="#prevSkillNames">TRAVERSE_CUT;VORTEX_SLASH;CHARGING_SLASH;RISING_FURY_2 UNKNOWN</table>
+        <set name="power" value="1978"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="50;60"/>
+		<set name="range" value="50;10;"/>
+        <set name="mpConsume" value="320"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67399464"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67388964" class="0" name="Traverse Cut I" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67388964 67388994</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">43 129</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67388964"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389064" class="0" name="Traverse Cut II" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67389064 67389094</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">63 189</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67389064"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389164" class="0" name="Traverse Cut III" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67389164 67389194</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">92 276</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67389164"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389264" class="0" name="Traverse Cut IV" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67389264 67389294</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">134 402</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67389264"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389364" class="0" name="Traverse Cut V" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67389364 67389394</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">195 585</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67389364"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389464" class="0" name="Traverse Cut VI" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67389464 67389494</table>
+		<table name="#delay">1000 900</table>
+		<table name="#hitTime">4000 4500</table>
+		<table name="#interval">500 170</table>
+		<table name="#castCount">3 13</table>
+		<table name="#power">284 856</table>
+		<table name="#moveDistance">160 180</table>
+		<table name="#moveTime">1000 1000</table>
+		<table name="#moveDelay">200 200</table>
+		<table name="#prevSkillNames">COMBATIVE_STRIKE;POUNCE UNKNOWN</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="TRAVERSE_CUT" />
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="220"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="11000"/>
+        <set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="#interval"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67389464"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for>
+			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true"  stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.985" />
+			</effect>
+		</for>
+    </skill>
+	
+    <skill id="67358964" class="0" name="Order to Attack" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SUMMON_ATTACK"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="2500"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67368964" class="0" name="Order to Follow" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SUMMON_ABORT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="1000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+
+	<skill id="67348964" class="0" name="Smoke Aggressor I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010100"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349064" class="0" name="Smoke Aggressor II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010101"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349164" class="0" name="Smoke Aggressor III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010102"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349264" class="0" name="Smoke Aggressor IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1900"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010103"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349364" class="0" name="Smoke Aggressor V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1900"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010104"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349464" class="0" name="Smoke Aggressor VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1900"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010105"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67349564" class="0" name="Smoke Aggressor VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1900"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010106"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67349664" class="0" name="Smoke Aggressor VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SMOKE_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1900"/>
+        <set name="reuseDelay" value="50000"/>
+		<set name="blockingMove" value="false" />
+		<set name="summonId" value="1010107"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="smoke_aggressor" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="20000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67268964" class="0" name="Charging Slash I" levels="1">
+        <set name="power" value="120"/>
+		<set name="aggroPoint" value="3000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67269064" class="0" name="Charging Slash II" levels="1">
+        <set name="power" value="175"/>
+        <set name="aggroPoint" value="6000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67269164" class="0" name="Charging Slash III" levels="1">
+        <set name="power" value="255"/>
+        <set name="aggroPoint" value="9000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67269264" class="0" name="Charging Slash IV" levels="1">
+        <set name="power" value="372"/>
+        <set name="aggroPoint" value="13000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67269364" class="0" name="Charging Slash V" levels="1">
+        <set name="power" value="543"/>
+        <set name="aggroPoint" value="16000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67269464" class="0" name="Charging Slash VI" levels="1">
+        <set name="power" value="792"/>
+        <set name="aggroPoint" value="20000"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="CHARGING_SLASH" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="radius" value="45"/>
+		<set name="range" value="45"/>
+        <set name="mpConsume" value="240"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67138964" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1300"/>
+		<set name="moveDelay" value="0"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="castToMove" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67308964" class="0" name="Deadly Gamble" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+		<set name="mpConsume" value="133"/>
+        <set name="reuseDelay" value="120000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="100800" time="20" count="1" type="BUFF" stackType="crit_rate_up" >
+				<add stat="rCrit" order="0x40" val="36" />
+				<sub stat="critChanceRcpt" order="0x40" val="30" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67328964" class="0" name="Backstab" levels="1">
+        <set name="power" value="114"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+        <set name="radius" value="80"/>
+		<set name="width" value="45"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="delay" value="1500"/>
+		<set name="damageId" value="67118964"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="evasion" value="true" />
+		<set name="implemented" value="false" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>	
+		<for> 
+			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
+		</for>
+    </skill>
+	
+	<skill id="67318964" class="0" name="Cascade of Stuns" levels="1">
+        <set name="power" value="1314"/>
+        <set name="mpConsume" value="350"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="20"/>
+		<set name="radius" value="60"/>
+		<set name="moveDistance" value="100" />
+		<set name="moveTime" value="1000" />
+        <set name="hitTime" value="3000"/>
+		<set name="delay" value="700"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.3" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+		<for>
+			<effect id="100900" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67408964" class="0" name="Scythe" levels="1">
+        <set name="power" value="226"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="219"/>
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="moveDistance" value="160" />
+		<set name="moveDelay" value="700" />
+		<set name="moveTime" value="1000" />
+		<set name="delay" value="900"/>
+		<set name="interval" value="900;200;"/>
+        <set name="castCount" value="3"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+		</cond>
+    </skill>
+	
+	<skill id="67338964" class="0" name="Staggering Counter" levels="1">
+        <set name="power" value="788"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="2500"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveDelay" value="0" />
+		<set name="moveTime" value="400" />
+		<set name="delay" value="400"/>
+		<set name="owerturnMod" value="0.2" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+         <cond>
+			<and>
+				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+				<has effectId="100700" msg="Отсутствует эффект Staggering Counter Active." />
+			</and>
+		</cond>
+		<for>
+			<effect time="0" count="1" type="TURN" />
+			<effect id="101100" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="11020" class="0" name="Staggering Reposte" levels="1">
+        <set name="operateType" value="PASSIVE"/>
+        <set name="skillType" value="EFFECT"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="implemented" value="true" />
+		<for>
+			<chance name="UseSkill" chance="100" id="67119885" class="0" attacked="true" owerturned="true" />
+		</for>
+    </skill> 
+	
+	<skill id="67119885" class="0" name="Staggering Reposte Active" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<for>
+			<effect id="100700" time="3" type="BUFF" />
+		</for>
+    </skill>  
+</list>

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list> 
+	<armor id="20715" type="necklace" name="Loremaster's Necklace" requiredLevel="1" rank="uncommon" bindType="onPickUp" attack="4" impact="1" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="78" sellPrice="7">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="2"/>
+			<!-- увеличение навыков сбора -->
+		</funcs>
+	</armor>
+	
+	<armor id="20716" type="necklace" name="Resource Specialist's Choker" requiredLevel="1" rank="rare" bindType="onPickUp" attack="5" impact="1" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="237" sellPrice="22">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="3"/>
+			<!-- увеличение навыков сбора -->
+		</funcs>
+	</armor>
+	
+	<armor id="20717" type="necklace" name="World Leader's Pendant" requiredLevel="1" rank="epic" bindType="onPickUp" attack="5" impact="1" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="474" sellPrice="45">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="3"/>
+			<!-- увеличение навыков сбора -->
+		</funcs>
+	</armor>
+	
+	<armor id="20633" type="necklace" name="Large Scarred Pendant" requiredLevel="9" rank="common" bindType="none" attack="7" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="185" sellPrice="17">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="20"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20601" type="necklace" name="Gilded Wooden Carving" requiredLevel="10" rank="common" bindType="none" attack="7" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="359" sellPrice="34">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="23"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20634" type="necklace" name="Faerie Collar" requiredLevel="12" rank="common" bindType="none" attack="8" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="502" sellPrice="47">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="28"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20640" type="necklace" name="Giant Pearl Pendant" requiredLevel="12" rank="uncommon" bindType="none" attack="8" impact="2" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1005" sellPrice="95">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="32"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20602" type="necklace" name="Skull Pendant" requiredLevel="15" rank="common" bindType="none" attack="10" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="654" sellPrice="62">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="36"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20635" type="necklace" name="Black Pearl Choker" requiredLevel="15" rank="common" bindType="none" attack="10" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="654" sellPrice="62">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="36"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20641" type="necklace" name="Lucky Charm Necklace" requiredLevel="15" rank="uncommon" bindType="none" attack="11" impact="3" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1308" sellPrice="124">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="41"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20636" type="necklace" name="Sanguine Ribbon Choker" requiredLevel="18" rank="common" bindType="none" attack="13" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1046" sellPrice="99">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="43"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20642" type="necklace" name="Finely Crafted Cameo of Lok" requiredLevel="18" rank="uncommon" bindType="none" attack="14" impact="4" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="2093" sellPrice="199">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="49"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20666" type="necklace" name="Spiderweave Chain" requiredLevel="18" rank="uncommon" bindType="onEquip" attack="15" impact="5" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2356" sellPrice="224">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="55"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20603" type="necklace" name="Oversized Locket" requiredLevel="20" rank="common" bindType="none" attack="14" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1377" sellPrice="131">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="48"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20612" type="necklace" name="Sealed Krymetal Locket" requiredLevel="20" rank="uncommon" bindType="onEquip" attack="15" impact="5" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2755" sellPrice="262">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="55"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20637" type="necklace" name="Strand of Bloodcrystals" requiredLevel="21" rank="common" bindType="none" attack="15" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1492" sellPrice="142">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="51"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20643" type="necklace" name="Knotted Crimson Krymetal Chain" requiredLevel="21" rank="uncommon" bindType="none" attack="16" impact="5" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="2985" sellPrice="284">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="58"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20667" type="necklace" name="Thunderchain" requiredLevel="23" rank="uncommon" bindType="onEquip" attack="21" impact="8" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3739" sellPrice="356">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="70"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20638" type="necklace" name="Spiked Chain Necklace" requiredLevel="24" rank="common" bindType="none" attack="19" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1869" sellPrice="178">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="58"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20644" type="necklace" name="Faerie Charm Pendant" requiredLevel="24" rank="uncommon" bindType="none" attack="20" impact="7" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="3739" sellPrice="356">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="66"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20604" type="necklace" name="Sanguine Throatshield" requiredLevel="25" rank="common" bindType="none" attack="20" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1985" sellPrice="189">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="61"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20613" type="necklace" name="Triple Strand of Bloodcrystal Beads" requiredLevel="25" rank="uncommon" bindType="onEquip" attack="21" impact="8" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3972" sellPrice="378">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="70"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20639" type="necklace" name="Noble Family Lavalier" requiredLevel="27" rank="common" bindType="none" attack="23" impact="0" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="2223" sellPrice="211">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="66"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20645" type="necklace" name="Twisted Triple Strand of Dragoncrystal" requiredLevel="27" rank="uncommon" bindType="none" attack="24" impact="9" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="4448" sellPrice="423">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="75"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20668" type="necklace" name="Ruffled Necklace" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="28" impact="11" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4765" sellPrice="453">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="81"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20706" type="necklace" name="Pendant of Three Sins" requiredLevel="27" rank="epic" bindType="onEquip" attack="31" impact="14" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="28600" sellPrice="1361">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="98"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20709" type="necklace" name="Unredeemed Glory" requiredLevel="27" rank="rare" bindType="onEquip" attack="30" impact="12" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="14299" sellPrice="680">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="88"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20605" type="necklace" name="String of Natural Beads" requiredLevel="30" rank="common" bindType="none" attack="28" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2602" sellPrice="247">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="74"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20614" type="necklace" name="Wiseleaf Pendant" requiredLevel="30" rank="uncommon" bindType="onEquip" attack="30" impact="12" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="5205" sellPrice="495">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="84"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20621" type="necklace" name="Whistle Pendant" requiredLevel="30" rank="rare" bindType="onEquip" attack="32" impact="14" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15617" sellPrice="1487">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="95"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20646" type="necklace" name="Velik's Tawny Cameo" requiredLevel="30" rank="uncommon" bindType="none" attack="30" impact="12" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="5205" sellPrice="495">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="84"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20650" type="necklace" name="Dancer's Ribbon" requiredLevel="30" rank="rare" bindType="none" attack="32" impact="14" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="15617" sellPrice="1487">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="95"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20669" type="necklace" name="Pendant of Swirling Miasma" requiredLevel="30" rank="rare" bindType="onEquip" attack="38" impact="17" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17699" sellPrice="1685">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="101"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20670" type="necklace" name="Lying Eye Pendant" requiredLevel="30" rank="rare" bindType="onEquip" attack="38" impact="17" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17699" sellPrice="1685">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="101"/>
+		</funcs>
+	</armor>
+
+	<armor id="20647" type="necklace" name="Chipped Mooncrystal Pendant" requiredLevel="33" rank="uncommon" bindType="none" attack="37" impact="16" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="7079" sellPrice="674">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="92"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20651" type="necklace" name="Ancient Coin Pendant" requiredLevel="33" rank="rare" bindType="none" attack="40" impact="19" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="21239" sellPrice="2022">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="104"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20671" type="necklace" name="Checkered Chain" requiredLevel="33" rank="rare" bindType="onEquip" attack="46" impact="23" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23894" sellPrice="2275">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="110"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20672" type="necklace" name="Pierced Coin Pendant" requiredLevel="33" rank="rare" bindType="onEquip" attack="46" impact="23" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23894" sellPrice="2275">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="110"/>
+		</funcs>
+	</armor>
+	
+	
+	
+	
+	
+	
+	<armor id="20606" type="necklace" name="Student's Lavalier" requiredLevel="35" rank="common" bindType="none" attack="40" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4351" sellPrice="414" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="86"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20615" type="necklace" name="Crystal-studded Vadoma Pendant" requiredLevel="35" rank="uncommon" bindType="onEquip" attack="42" impact="20" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8703" sellPrice="828" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="98"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20622" type="necklace" name="Linmetal Witch Chain" requiredLevel="35" rank="rare" bindType="onEquip" attack="46" impact="23" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="26110" sellPrice="2486" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="110"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20673" type="necklace" name="Rope of Contrasting Chains" requiredLevel="35" rank="rare" bindType="onEquip" attack="53" impact="28" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="28484" sellPrice="2712" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="118"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20648" type="necklace" name="Hourglass Pendant" requiredLevel="36" rank="uncommon" bindType="none" attack="45" impact="22" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="9494" sellPrice="904" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="101"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20652" type="necklace" name="Bib of Sea Pearls" requiredLevel="36" rank="rare" bindType="none" attack="50" impact="25" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="28484" sellPrice="2712" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="114"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20674" type="necklace" name="Clear Amber Pendant" requiredLevel="37" rank="rare" bindType="onEquip" attack="60" impact="33" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="34813" sellPrice="3315" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="124"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20649" type="necklace" name="Razorheart Pendant" requiredLevel="39" rank="uncommon" bindType="none" attack="55" impact="29" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="13054" sellPrice="1243" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="111"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20653" type="necklace" name="Starcrystal Rope" requiredLevel="39" rank="rare" bindType="none" attack="60" impact="33" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="39166" sellPrice="3730" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="124"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20607" type="necklace" name="Spurned Heart Medallion" requiredLevel="40" rank="common" bindType="none" attack="56" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="9268" sellPrice="882" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="99"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20616" type="necklace" name="Steelskull Pendant" requiredLevel="40" rank="uncommon" bindType="onEquip" attack="59" impact="32" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="18536" sellPrice="1765" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="113"/>
+		</funcs>
+	</armor>
+	
+
+	<armor id="20623" type="necklace" name="Old Strand of Amber Gems" requiredLevel="40" rank="rare" bindType="onEquip" attack="65" impact="37" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="55612" sellPrice="5296" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	<!-- вписать на тесте мп -->
+	<armor id="20628" type="necklace" name="Bloodmoney Beads" requiredLevel="40" rank="epic" bindType="onEquip" attack="68" impact="43" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="55612" sellPrice="5296" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20688" type="necklace" name="Primus's Normetal Choker" requiredLevel="40" rank="common" bindType="none" attack="56" impact="0" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="9268" sellPrice="441" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="99"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20693" type="necklace" name="Primus's Norsteel Chain" requiredLevel="40" rank="rare" bindType="onEquip" attack="60" impact="33" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="18536" sellPrice="882" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="124"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20675" type="necklace" name="Lacquered Skull Locket" requiredLevel="41" rank="rare" bindType="none" attack="80" impact="49" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="73902" sellPrice="7390">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="137"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20676" type="necklace" name="Collar of Domination" requiredLevel="41" rank="rare" bindType="onEquip" attack="80" impact="49" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="73902" sellPrice="7390">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="137"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20677" type="necklace" name="Normetal Turncollar" requiredLevel="41" rank="rare" bindType="onEquip" attack="80" impact="49" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="73902" sellPrice="7390">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="137"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20654" type="necklace" name="Cascade of Teardrops" requiredLevel="42" rank="rare" bindType="none" attack="74" impact="45" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="73902" sellPrice="7390">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20661" type="necklace" name="Clean Black Pearl Pendant" requiredLevel="42" rank="epic" bindType="none" attack="78" impact="52" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="147805" sellPrice="14780">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="148"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20678" type="necklace" name="Motley Collar" requiredLevel="44" rank="rare" bindType="onEquip" attack="97" impact="65" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="107730" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="146"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20679" type="necklace" name="Specter's Tear" requiredLevel="44" rank="rare" bindType="onEquip" attack="97" impact="65" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="107730" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="146"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20680" type="necklace" name="Bonebead Necklace" requiredLevel="44" rank="rare" bindType="onEquip" attack="97" impact="65" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="107730" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="146"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20707" type="necklace" name="Jeweled Favor" requiredLevel="44" rank="epic" bindType="onEquip" attack="99" impact="72" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="215461" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="159"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20608" type="necklace" name="Fishtail Pendant" requiredLevel="45" rank="common" bindType="none" attack="79" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17965" sellPrice="1795">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="112"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20617" type="necklace" name="Triple Strand of Mosscrystal Beads" requiredLevel="45" rank="uncommon" bindType="onEquip" attack="83" impact="51" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="35910" sellPrice="3591">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="128"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20624" type="necklace" name="Jade Mermaid Cameo" requiredLevel="45" rank="rare" bindType="onEquip" attack="91" impact="59" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="107730" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="143"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20655" type="necklace" name="Arachnaea Locket" requiredLevel="45" rank="rare" bindType="none" attack="91" impact="59" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="107730" sellPrice="10773">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="143"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20689" type="necklace" name="Tribune's Normetal Choker" requiredLevel="45" rank="common" bindType="none" attack="79" impact="0" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="17955" sellPrice="897">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="112"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20694" type="necklace" name="Tribune's Norsteel Chain" requiredLevel="45" rank="rare" bindType="onEquip" attack="84" impact="54" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="35910" sellPrice="1795">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="140"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20629" type="necklace" name="Naught Pendant" requiredLevel="45" rank="epic" bindType="onEquip" attack="96" impact="69" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="215461" sellPrice="21546">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="159"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20699" type="necklace" name="Tribune's Norsteel Medallion" requiredLevel="45" rank="epic" bindType="onEquip" attack="91" impact="59" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="107730" sellPrice="5386">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="143"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20681" type="necklace" name="Heavy Battlechain" requiredLevel="47" rank="rare" bindType="onEquip" attack="119" impact="87" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="167145" sellPrice="16714">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="156"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20656" type="necklace" name="Interlocking Shadmetal Hearts Pendant" requiredLevel="48" rank="rare" bindType="none" attack="111" impact="79" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="167145" sellPrice="16714">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="152"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20662" type="necklace" name="Cerement Collar" requiredLevel="48" rank="epic" bindType="none" attack="116" impact="92" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="334291" sellPrice="33429">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="169"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20609" type="necklace" name="Iridescent Scale Pendant" requiredLevel="50" rank="common" bindType="none" attack="110" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="31517" sellPrice="3151">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="110"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20618" type="necklace" name="Entwined Vine" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="116" impact="83" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="63034" sellPrice="6303">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="143"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20625" type="necklace" name="Serpentine Shadmetal Chain" requiredLevel="50" rank="rare" bindType="onEquip" attack="127" impact="96" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="189104" sellPrice="18910">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="160"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20657" type="necklace" name="Kaia's Intaglio Pendant" requiredLevel="50" rank="rare" bindType="none" attack="137" impact="105" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="213958" sellPrice="21395">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="163"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20682" type="necklace" name="Necklace of Reaved Stone" requiredLevel="50" rank="epic" bindType="onEquip" attack="153" impact="135" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="427916" sellPrice="42791">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="185"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20683" type="necklace" name="Stormjewel Pendant" requiredLevel="50" rank="epic" bindType="onEquip" attack="153" impact="135" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="427916" sellPrice="42791">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="185"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20690" type="necklace" name="Prefect's Shadmetal Choker" requiredLevel="50" rank="common" bindType="none" attack="110" impact="0" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="31517" sellPrice="1575">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="125"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20695" type="necklace" name="Prefect's Shadsteel Chain" requiredLevel="50" rank="rare" bindType="onEquip" attack="111" impact="79" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="63034" sellPrice="3151">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="152"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20700" type="necklace" name="Prefect's Shadsteel Medallion" requiredLevel="50" rank="epic" bindType="onEquip" attack="127" impact="96" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="189104" sellPrice="9455">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="160"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20703" type="necklace" name="Prefect's Torque" requiredLevel="50" rank="epic" bindType="onEquip" attack="133" impact="111" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="378209" sellPrice="18910">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="178"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20711" type="necklace" name="Chain of Looping Destinies" requiredLevel="50" rank="epic" bindType="onEquip" attack="153" impact="135" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="427916" sellPrice="21395">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="185"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20710" type="necklace" name="Fang of Varcerbus" requiredLevel="50" rank="epic" bindType="onEquip" attack="148" impact="128" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="427916" sellPrice="21395">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="180"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20630" type="necklace" name="Brushed Strand" requiredLevel="50" rank="epic" bindType="onEquip" attack="133" impact="111" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="378209" sellPrice="37820">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="178"/>
+		</funcs>
+	</armor>
+	
+	<!-- нету айди в тератоме
+	<armor id="20000" type="necklace" name="Lok's Eye" requiredLevel="50" rank="epic" bindType="onEquip" attack="123" impact="91" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	
+	<armor id="00000" type="necklace" name="Shakan's Claw Pendant" requiredLevel="50" rank="epic" bindType="onEquip" attack="123" impact="91" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	
+	<armor id="00001" type="necklace" name="Amarun's Bloodstone Necklace" requiredLevel="50" rank="epic" bindType="onEquip" attack="133" impact="111" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127"/>
+		</funcs>
+	</armor>
+	-->
+	<armor id="20658" type="necklace" name="Black Cleft Pendant" requiredLevel="54" rank="rare" bindType="none" attack="161" impact="140" tradable="false" sellable="true" bank="false" guildBank="true" buyPrice="295600" sellPrice="29560">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="173"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20663" type="necklace" name="Feathered Bead Necklace" requiredLevel="54" rank="epic" bindType="none" attack="166" impact="163" tradable="false" sellable="true" bank="false" guildBank="true" buyPrice="591200" sellPrice="59120">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="192"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20691" type="necklace" name="Legate's Shadmetal Choker" requiredLevel="54" rank="common" bindType="none" attack="135" impact="0" tradable="false" sellable="false" bank="true" guildBank="true" buyPrice="50056" sellPrice="2502">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="132"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20696" type="necklace" name="Legate's Shadsteel Chain" requiredLevel="54" rank="rare" bindType="onEquip" attack="146" impact="116" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="300339" sellPrice="15016">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="166"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20701" type="necklace" name="Legate's Shadsteel Medallion" requiredLevel="54" rank="epic" bindType="onEquip" attack="156" impact="127" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="600678" sellPrice="30033">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="169"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20704" type="necklace" name="Legate's Torque" requiredLevel="54" rank="epic" bindType="onEquip" attack="163" impact="148" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="600678" sellPrice="30033">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="187"/>
+			<mul stat="def" order="0x50" val="1.01" >
+				<attacker pvp="true" />
+			</mul>
+		</funcs>
+	</armor>
+	
+	<armor id="20610" type="necklace" name="Ancient Gorget" requiredLevel="55" rank="common" bindType="none" attack="135" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="50056" sellPrice="5005">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="132"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20619" type="necklace" name="Howling Cat Cameo" requiredLevel="55" rank="uncommon" bindType="onEquip" attack="142" impact="110" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="100113" sellPrice="10011">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="150"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20626" type="necklace" name="Cascade of Mosscrystals" requiredLevel="55" rank="rare" bindType="onEquip" attack="156" impact="127" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="300339" sellPrice="30033">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="169"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20631" type="necklace" name="Gemdrop Torque" requiredLevel="55" rank="epic" bindType="onEquip" attack="163" impact="148" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="600678" sellPrice="60067">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="187"/>
+		</funcs>
+	</armor>
+	
+	<!-- нету id в тератоме -->
+	<armor id="20685" type="necklace" name="Gilded Leaf Necklace" requiredLevel="55" rank="epic" bindType="onEquip" attack="163" impact="148" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="99"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20712" type="necklace" name="Laknerus's Necklace" requiredLevel="55" rank="epic" bindType="onEquip" attack="166" impact="163" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="600678" sellPrice="30033">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="192"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20659" type="necklace" name="Triple Strands of Icecrystal Beads" requiredLevel="57" rank="rare" bindType="none" attack="183" impact="186" tradable="false" sellable="true" bank="false" guildBank="true" buyPrice="420474" sellPrice="42047">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="182"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20664" type="necklace" name="Lightningbolt Pendant" requiredLevel="57" rank="epic" bindType="none" attack="186" impact="217" tradable="false" sellable="true" bank="false" guildBank="true" buyPrice="840949" sellPrice="84094">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="202"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20611" type="necklace" name="Xermetal Neckguard" requiredLevel="58" rank="common" bindType="none" attack="167" impact="0" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="142"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20620" type="necklace" name="Crossed Swords Pendant" requiredLevel="58" rank="uncommon" bindType="onEquip" attack="171" impact="161" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="162"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20627" type="necklace" name="Oryin's Bell Pendant" requiredLevel="58" rank="rare" bindType="onEquip" attack="183" impact="186" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="182"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20632" type="necklace" name="Xermetal Winged Pendant" requiredLevel="58" rank="epic" bindType="onEquip" attack="186" impact="217" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="202"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20686" type="necklace" name="Bloodtwist Neckchain" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20692" type="necklace" name="Brigadier's Xermetal Choker" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20697" type="necklace" name="Brigadier's Xersteel Chain" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20702" type="necklace" name="Brigadier's Xersteel Medallion" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20705" type="necklace" name="Brigadier's Torque" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20708" type="necklace" name="Divine Ending" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20713" type="necklace" name="Necklace of Eternity" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20714" type="necklace" name="Nature's Gift" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20718" type="necklace" name="Practicum Necklace" requiredLevel="58" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<armor id="20719" type="necklace" name="Dire Necklace" requiredLevel="58" rank="epic" bindType="onEquip" attack="238" impact="349" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="202"/>
+			<mul stat="atkSpd" order="0x30" val="1.06"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20687" type="necklace" name="Gemmed Collar" requiredLevel="59" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<armor id="20660" type="necklace" name="Polished Bloodcrystal Teardrop" requiredLevel="60" rank="epic" bindType="none" attack="233" impact="300" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="195"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20665" type="necklace" name="Stardrop Pendant" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20720" type="necklace" name="Beaded Amulet" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20721" type="necklace" name="Bloodspnecklace Coils" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20723" type="necklace" name="Filigreed Gorget" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<armor id="20724" type="necklace" name="Sympathetic Shoulder" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<armor id="20725" type="necklace" name="Windswept Pendant" requiredLevel="60" rank="epic" bindType="onEquip" attack="319" impact="618" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="202"/>
+		</funcs>
+	</armor>
+	
+	<armor id="20722" type="necklace" name="Phoenix Fantail" requiredLevel="60" rank="epic" bindType="onEquip" attack="319" impact="618" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1113398" sellPrice="111339">
+		<funcs>
+			<add stat="maxMp" order="0x40" val="224"/>
+			<mul stat="atkSpd" order="0x30" val="1.04" />
+		</funcs>
+	</armor> 
+</list> 

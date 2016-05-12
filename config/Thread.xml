@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- размер пула основных потоков (1) -->
+	<set name="THREAD_POOL_SIZE_GENERAL" value="1" />
+	<!-- размер пула потоков движения (1) -->
+	<set name="THREAD_POOL_SIZE_MOVE" value="1" />
+	<!-- размер пула потоков АИ (1) -->
+	<set name="THREAD_POOL_SIZE_AI" value="1" />
+	
+	<!-- размер пула потоков асинхронного выполнения пакетов (1) -->
+	<set name="THREAD_POOL_PACKET_RUNNER" value="1" />
+	
+	<!-- размер пула потоков применения скилов (1) -->
+	<set name="THREAD_POOL_SIZE_SKILL_USE" value="1" />
+	<!-- размер пула потоков каста скилов (1) -->
+	<set name="THREAD_POOL_SIZE_SKILL_CAST" value="1" />
+	<!-- размер пула потоков передвежения скилов (1) -->
+	<set name="THREAD_POOL_SIZE_SKILL_MOVE" value="1" />
+</list>    

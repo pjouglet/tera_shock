@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>	
+	<skill id="98" class="-9" name="Campfire" levels="1">
+		<set name="iconId" value="127268964"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="targetType" value="TARGET_SELF"/>                
+        <set name="skillType" value="SPAWN_BONFIRE" />
+		<set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="itemIdConsume" value="98" />
+        <set name="regenPower" value="3" />
+        <set name="lifeTime" value="1200000" />
+        <set name="operateType" value="CAST_ITEM" />
+		<!--Костёр начальный -->
+     </skill>
+		
+	<skill id="99" class="-9" name="Firewood" levels="1">
+		<set name="iconId" value="127258964"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+		<set name="targetType" value="TARGET_SELF"/>  
+		<set name="skillType" value="RESTART_BONFIRE" />
+		<set name="itemIdConsume" value="99" />
+		<set name="operateType" value="CAST_ITEM" /> 
+		<!--Дрова-->
+	</skill>
+	
+	<skill id="7214" class="-9" name="Scroll of Ressurection" levels="1">
+		<set name="iconId" value="127518964"/>
+        <set name="skillType" value="RESURRECT"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="hitTime" value="14000"/>
+		<set name="delay" value="13500"/>
+        <set name="reuseDelay" value="1200000"/>
+		<set name="maxTargets" value="2"/>            
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="7214" />
+		<set name="reuseId" value="7214" />
+		<!-- свиток реса -->
+    </skill>
+	
+	<skill id="194" class="-9" name="Scroll of Ressurection" levels="1">
+		<set name="iconId" value="127518964"/>
+        <set name="skillType" value="RESURRECT"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="hitTime" value="14000"/>
+		<set name="delay" value="13500"/>
+        <set name="reuseDelay" value="1200000"/>
+		<set name="maxTargets" value="2"/>            
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="194" />
+		<set name="reuseId" value="7214" />
+		<!-- свиток реса -->
+    </skill>
+	 
+	 <!-- Island of dawn -->
+	<skill id="133" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="TOWER_BASE"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="133" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<!-- South Arun -->
+	<skill id="134" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="LUMBERTOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="134" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="135" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="CRESCENTIA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="135" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="136" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="POPOLION"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="136" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="137" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="PORA_ELINU"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="137" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="138" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="CHEBIKA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="138" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="139" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="TULUFAN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="139" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="140" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="CUTTHROAT_HARBOR"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="140" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="141" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="CASTANICA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="141" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="142" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="VELIKA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>       
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="142" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="143" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="VELIKA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="143" />
+		<set name="reuseId" value="133" />
+    </skill>
+
+    <!-- South Shara -->
+	
+	<skill id="144" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="FRONTERA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="144" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="145" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="TRIA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="145" />
+		<set name="reuseId" value="133" />
+    </skill>
+	<skill id="146" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="TRALION"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="146" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="147" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="ACARUM"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="147" />
+		<set name="reuseId" value="133" />
+    </skill>
+	<skill id="148" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="BLEAKROCK"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="148" />
+		<set name="reuseId" value="133" />
+    </skill>
+	<skill id="149" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="ELENEA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="149" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="150" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="BASTION"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="150" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="151" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="ALEMANTHEIA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="151" />
+		<set name="reuseId" value="133" />
+    </skill>
+
+    <!-- North Shara -->
+	<skill id="152" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="DRAGONFALL"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="152" />
+		<set name="reuseId" value="133" />
+    </skill>
+
+	<skill id="153" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="SCYTHERA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="153" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="154" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="PATHFINDER"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="154" />
+		<set name="reuseId" value="133" />
+    </skill>
+
+    <skill id="155" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="ZULFIKAR_FORTRESS"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="155" />
+		<set name="reuseId" value="133" />
+    </skill>
+
+    <skill id="156" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="KANSTRIA"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="156" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	<skill id="158" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="HABERE"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="158" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	
+	<skill id="159" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="KAIATOR_OUTSKRITS"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="159" />
+		<set name="reuseId" value="133" />
+    </skill>
+	
+	
+	<skill id="420" class="-9" name="Scroll of Teleport" levels="1">
+		<set name="iconId" value="127238966"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+		<set name="town" value="BASTION"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="14500"/>
+		<set name="delay" value="14000"/>
+        <set name="reuseDelay" value="300000"/>          
+		<set name="operateType" value="CAST_ITEM" />
+        <set name="itemIdConsume" value="420" />
+		<set name="reuseId" value="133" />
+    </skill>
+</list>

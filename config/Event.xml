@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- минимальный интервал между авто ивентами (30) -->
+	<set name="EVENT_MIN_TIMEOUT" value="30" />
+	<!-- максимальный интервал между авто ивентами (60) -->
+	<set name="EVENT_MAX_TIMEOUT" value="60" />
+	
+	<!-- время регистрации на ТвТ (5) -->
+	<set name="EVENT_TVT_REGISTER_TIME" value="5" />
+	<!-- время боя на ТвТ (15) -->
+	<set name="EVENT_TVT_BATTLE_TIME" value="15" />
+	<!-- минимальное кол-в игроков на ТвТ (10) -->
+	<set name="EVENT_TVT_MIN_PLAYERS" value="6" />
+	<!-- максимальное кол-во игроков на ТвТ (30) -->
+	<set name="EVENT_TVT_MAX_PLAYERS" value="100" />
+	<!-- минимальный уровень для ТвТ (20) -->
+	<set name="EVENT_TVT_MIN_LEVEL" value="1" />
+	<!-- максимальный уровень для ТвТ (60) -->
+	<set name="EVENT_TVT_MAX_LEVEL" value="60" />
+	
+	<!-- время регистрации на ЛХ (5) -->
+	<set name="EVENT_LH_REGISTER_TIME" value="5" />
+	<!-- время боя на ТвТ (15) -->
+	<set name="EVENT_LH_BATTLE_TIME" value="15" />
+	<!-- минимальное кол-в игроков на ЛХ (10) -->
+	<set name="EVENT_LH_MIN_PLAYERS" value="10" />
+	<!-- максимальное кол-во игроков на ЛХ (30) -->
+	<set name="EVENT_LH_MAX_PLAYERS" value="130" />
+	<!-- минимальный уровень для ЛХ (20) -->
+	<set name="EVENT_LH_MIN_LEVEL" value="1" />
+	<!-- максимальный уровень для ЛХ (60) -->
+	<set name="EVENT_LH_MAX_LEVEL" value="60" />
+	
+	<!-- время регистрации на ТМТ ЛХ (2) -->
+	<set name="EVENT_TMT_REGISTER_TIME" value="5" />
+	<!-- время боя на ТМТ (5) -->
+	<set name="EVENT_TMT_BATTLE_TIME" value="5" />
+	<!-- минимальное кол-в команд на ТМТ (5) -->
+	<set name="EVENT_TMT_MIN_TEAMS" value="4" />
+	<!-- максимальное кол-во команд на TMT (20) -->
+	<set name="EVENT_TMT_MAX_TEAMS" value="20" />
+	<!-- минимальное кол-в игроков в команде на ТМТ (2) -->
+	<set name="EVENT_TMT_MIN_TEAM_SIZE" value="2" />
+	<!-- максимальное кол-во игроков в команде на ТМТ (3) -->
+	<set name="EVENT_TMT_MAX_TEAM_SIZE" value="5" />
+	<!-- минимальный уровень для ТМТ (20) -->
+	<set name="EVENT_TMT_MIN_LEVEL" value="1" />
+	<!-- максимальный уровень для ТМТ (60) -->
+	<set name="EVENT_TMT_MAX_LEVEL" value="60" />
+	
+	<!-- время регистрации на ТвМ (5) -->
+	<set name="EVENT_EB_REGISTER_TIME" value="5" />
+	<!-- время боя на ТвМ (15) -->
+	<set name="EVENT_EB_BATTLE_TIME" value="15" />
+	<!-- минимальное кол-в игроков на ТвМ (10) -->
+	<set name="EVENT_EB_MIN_PLAYERS" value="1" />
+	<!-- максимальное кол-во игроков на ТвМ (30) -->
+	<set name="EVENT_EB_MAX_PLAYERS" value="18" />
+	<!-- минимальный уровень для ТвМ (20) -->
+	<set name="EVENT_EB_MIN_LEVEL" value="20" />
+	<!-- максимальный уровень для ТвМ (60) -->
+	<set name="EVENT_EB_MAX_LEVEL" value="60" />
+	
+	<!-- время регистрации на TDM (5) -->
+	<set name="EVENT_TDM_REGISTER_TIME" value="3" />
+	<!-- время боя на TDM (15) -->
+	<set name="EVENT_TDM_BATTLE_TIME" value="10" />
+	<!-- минимальное кол-в игроков на TDM (10) -->
+	<set name="EVENT_TDM_MIN_PLAYERS" value="2" />
+	<!-- максимальное кол-во игроков на TDM (30) -->
+	<set name="EVENT_TDM_MAX_PLAYERS" value="1000" />
+	<!-- минимальный уровень для TDM (20) -->
+	<set name="EVENT_TDM_MIN_LEVEL" value="1" />
+	<!-- максимальный уровень для TDM (60) -->
+	<set name="EVENT_TDM_MAX_LEVEL" value="60" />
+	
+	<!-- сколько денег за 1 очко славы -->
+	<set name="EVENT_HERO_POINT_TO_GOLD" value="1000" />
+</list>    

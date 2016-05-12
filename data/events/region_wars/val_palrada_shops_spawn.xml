@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="1201" type="375" continentId="1" >
+		<ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="60" random="30" >
+				<point x="-43211.42" y="57480.574" z="236.0" heading="18386" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1301" type="375" continentId="1" >
+		<ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="60" random="30" >
+				<point x="-43088.684" y="57511.547" z="235.0" heading="18568" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1001" type="375" continentId="1" >
+		<ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="60" random="30" >
+				<point x="-42433.56" y="58295.316" z="260.0" heading="47513" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1002" type="75" continentId="1" >
+		<ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="60" random="30" >
+				<point x="-43333.844" y="55701.117" z="105.0" heading="16384" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

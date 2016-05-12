@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- кол-во потоков в асинхронной сети -->
+	<set name="NETWORK_GROUP_SIZE" value="5" />
+	<!-- приоритет потоков асинхронной сети -->
+	<set name="NETWORK_THREAD_PRIORITY" value="5" />
+	<!-- размер буффера клиентских пакетов -->
+	<set name="NETWORK_READ_BUFFER_SIZE" value="16384" />
+	<!-- размер буфера серверных пакетов -->
+	<set name="NETWORK_WRITE_BUFFER_SIZE" value="262144" />
+	<!-- максимальное кол-во разрезания кклиентского пакета -->
+	<set name="NETWORK_MAXIMUM_PACKET_CUT" value="10" />
+	
+	<!-- отображать ли эксепшены читаемой сети -->
+	<set name="NETWORK_VISIBLE_READ_EXCEPTION" value="false" />
+	<!-- отображать ли эксепшены записываемой сети -->
+	<set name="NETWORK_VISIBLE_WRITE_EXCEPTION" value="false" />
+</list>

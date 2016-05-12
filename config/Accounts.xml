@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- минимальный уровень прав для входа на сервер (0) -->
+	<set name="ACCOUNT_MIN_ACCESS_LEVEL" value="0" />
+	
+	<!-- рейт базовых рейтов при проплаченном аккаунте (2.0) -->
+	<set name="ACCOUNT_PREMIUM_EXP_RATE" value="2.0" />
+	<!-- рейт базовых рейтов при проплаченном аккаунте (2.0) -->
+	<set name="ACCOUNT_PREMIUM_MONEY_RATE" value="2.0" />
+	<!-- рейт базовых рейтов при проплаченном аккаунте (2.0) -->
+	<set name="ACCOUNT_PREMIUM_DROP_RATE" value="2.0" />
+
+
+	<set name="ACCOUNT_PREMIUM_QUEST_RATE" value="2.0" />	
+	<set name="ACCOUNT_PREMIUM_QUEST" value="true" />
+	
+	
+	<!-- включить ли авто создание аккаунта при входе (true) -->
+	<set name="ACCOUNT_AUTO_CREATE" value="true" />
+	<!-- включить возможность входить на сервер только проплаченым аккаунтам (false) -->
+	<set name="ACCOUNT_ONLY_PAID" value="false" />
+	
+	<!-- имеют ли проплаченные аккаунты бонуск экспы (true) -->
+	<set name="ACCOUNT_PREMIUM_EXP" value="true" />
+	<!-- имеют ли проплаченные аккаунты бонус денег (true) -->
+	<set name="ACCOUNT_PREMIUM_MONEY" value="true" />
+	<!-- имеют ли проплаченные аккаунты бонус дропа (true) -->
+	<set name="ACCOUNT_PREMIUM_DROP" value="true" />
+</list>

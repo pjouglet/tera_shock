@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+	<!-- 	
+			Оружие для класса "Slayer"
+			@autor Glowing
+			Последнее обновление: 13.02.2014
+	-->	
+
+	<weapon id="4131" type="greatSword" name="Tier 10 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4035" type="greatSword" name="Answers Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4019" type="greatSword" name="Tier 3 Greatsword Temlate" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000"/>
+	<weapon id="4107" type="greatSword" name="Tier 9 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4059" type="greatSword" name="Unique Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4043" type="greatSword" name="Tier 7 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4147" type="greatSword" name="Unusual Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4123" type="greatSword" name="Shift Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4067" type="greatSword" name="Sepokt Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4083" type="greatSword" name="Oknon Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4051" type="greatSword" name="Tier 8 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4171" type="greatSword" name="Tier 12 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4139" type="greatSword" name="Celebrity Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4011" type="greatSword" name="Tier 2 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000"/>
+	<weapon id="4115" type="greatSword" name="Decade Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="7875000" sellPrice="750000"/>
+	<weapon id="4099" type="greatSword" name="Honor Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4027" type="greatSword" name="Tier 5 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000"/>
+	<weapon id="4075" type="greatSword" name="Ceremonial Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4163" type="greatSword" name="Tier 11 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4091" type="greatSword" name="Tier 6 Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4155" type="greatSword" name="Masterpiece Greatsword Template" requiredLevel="1" rank="common" bindType="none" attack="46" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	
+	
+	
+	<weapon id="10003" type="greatSword" name="Standard Issue Greatsword" requiredLevel="1" rank="common" bindType="none" attack="50" impact="15" sockets="2" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="true" bank="true" guildBank="false" buyPrice="316" sellPrice="30">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11627" type="greatSword" name="Expedition Scout's Ceremonial Greatsword" requiredLevel="2" rank="common" bindType="none" attack="52" impact="16" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="154" sellPrice="14">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10011" type="greatSword" name="Mourninglory" requiredLevel="2" rank="common" bindType="none" attack="52" impact="16" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="154" sellPrice="14">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12403" type="greatSword" name="Self-propelled Mower" requiredLevel="3" rank="common" bindType="none" attack="52" impact="16" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="514" sellPrice="49">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12131" type="greatSword" name="Blade of Vekas" requiredLevel="4" rank="common" bindType="none" attack="64" impact="23" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1063" sellPrice="101">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12411" type="greatSword" name="Shiny New Greatsword" requiredLevel="6" rank="common" bindType="none" attack="64" impact="23" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1169" sellPrice="111">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11635" type="greatSword" name="Expedition Outrider's Ceremonial Greatsword" requiredLevel="7" rank="common" bindType="none" attack="76" impact="27" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1275" sellPrice="121">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10019" type="greatSword" name="Greatsword of the First Expedition" requiredLevel="7" rank="common" bindType="none" attack="76" impact="27" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1275" sellPrice="121">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12139" type="greatSword" name="Kugai's Greatsword" requiredLevel="8" rank="common" bindType="none" attack="86" impact="33" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1488" sellPrice="141">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10539" type="greatSword" name="Foecutter" requiredLevel="9" rank="common" bindType="none" attack="79" impact="30" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1488" sellPrice="141">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10939" type="greatSword" name="Attuned Krysteel Tyroblade" requiredLevel="10" rank="common" bindType="none" attack="86" impact="33" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="5"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12147" type="greatSword" name="Karascha's Knife" requiredLevel="10" rank="common" bindType="none" attack="99" impact="40" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3449" sellPrice="328">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10851" type="greatSword" name="Krysteel Tyroblade" requiredLevel="10" rank="common" bindType="none" attack="91" impact="37" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12123" type="greatSword" name="Straightened Claw" equiredLevel="10" rank="common" bindType="none" attack="91" impact="37" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10595" type="greatSword" name="Incisive Greatsword" equiredLevel="11" rank="uncommon" bindType="none" attack="96" impact="46" sockets="3" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="6899" sellPrice="657">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11643" type="greatSword" name="Arcadian Guard's Ceremonial Greatsword" requiredLevel="12" rank="common" bindType="none" attack="104" impact="44" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11731" type="greatSword" name="Arcadian Guard's Greatsword" requiredLevel="12" rank="common" bindType="none" attack="91" impact="37" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10027" type="greatSword" name="Cleavework Sword" requiredLevel="12" rank="common" bindType="none" attack="104" impact="44" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10115" type="greatSword" name="Bolecarver" requiredLevel="12" rank="common" bindType="none" attack="99" impact="40" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11363" type="greatSword" name="Faeriebane" requiredLevel="13" rank="uncommon" bindType="onEquip" attack="126" impact="68" sockets="3" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="10349" sellPrice="985">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10547" type="greatSword" name="Greatsword of Reprisal" requiredLevel="13" rank="uncommon" bindType="none" attack="110" impact="55" sockets="3" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="8049" sellPrice="766">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10947" type="greatSword" name="Attuned Honed Krysteel Greatsword" requiredLevel="15" rank="common" bindType="none" attack="120" impact="54" sockets="2" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10555" type="greatSword" name="Devanesque Greatsword" requiredLevel="15" rank="common" bindType="none" attack="120" impact="54" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="4674" type="greatSword" name="Lulunpang's Sturdy Greatsword" requiredLevel="15" rank="rare" bindType="none" attack="148" impact="89" sockets="3" enchantable="false" extractable="0" remodelable="false" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="31"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="10603" type="greatSword" name="Segmentum Blade" requiredLevel="15" rank="uncommon" bindType="none" attack="126" impact="68" sockets="3" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="10471" sellPrice="997">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11651" type="greatSword" name="Arcadian Outrider's Ceremonial Greatsword" requiredLevel="17" rank="common" bindType="none" attack="145" impact="72" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11739" type="greatSword" name="Arcadian Outrider's Greatsword" requiredLevel="17" rank="common" bindType="none" attack="128" impact="59" sockets="2" enchantable="true" extractable="3" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10035" type="greatSword" name="Cropcutter" requiredLevel="17" rank="common" bindType="none" attack="145" impact="72" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10123" type="greatSword" name="Pathsweeper" requiredLevel="17" rank="uncommon" bindType="onEquip" attack="143" impact="82" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="14660" sellPrice="1396">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10611" type="greatSword" name="Cultist Carver" requiredLevel="18" rank="uncommon" bindType="none" attack="153" impact="90" sockets="3" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="16754" sellPrice="1595">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10563" type="greatSword" name="Echo Ranch Reaper" requiredLevel="18" rank="common" bindType="none" attack="145" impact="72" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="8376" sellPrice="797">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10675" type="greatSword" name="Bomb Squad Knife" requiredLevel="19" rank="uncommon" bindType="none" attack="163" impact="100" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="18849" sellPrice="1795">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12155" type="greatSword" name="Intrepid Greatsword" requiredLevel="19" rank="common" bindType="none" attack="155" impact="80" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="9424" sellPrice="897">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11371" type="greatSword" name="Reaper of Knowledge" requiredLevel="19" rank="uncommon" bindType="onEquip" attack="191" impact="120" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<!-- /1-20 Lv. -->	
+	
+	<!-- 20-30 Lv. -->	
+	
+	<weapon id="11099" type="greatSword" name="Attuned Emblazoned Krysword" requiredLevel="20" rank="uncommon" bindType="onEquip" attack="178" impact="109" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="17"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10955" type="greatSword" name="Attuned Heavy Krysteel Battlesword" requiredLevel="20" rank="common" bindType="none" attack="169" impact="87" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11022" sellPrice="1049">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="11"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11027" type="greatSword" name="Emblazoned Krysword" requiredLevel="20" rank="uncommon" bindType="onEquip" attack="191" impact="120" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10867" type="greatSword" name="Heavy Krysteel Battlesword" requiredLevel="20" rank="common" bindType="none" attack="181" impact="96" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11022" sellPrice="1049">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="13192" type="greatSword" name="Jahangir's Direblade" requiredLevel="20" rank="uncommon" bindType="none" attack="196" impact="127" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="23883" sellPrice="2274">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10619" type="greatSword" name="Edged Exposure" requiredLevel="21" rank="uncommon" bindType="none" attack="200" impact="132" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="23883" sellPrice="2274">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12315" type="greatSword" name="Fiendslicer" requiredLevel="21" rank="uncommon" bindType="onEquip" attack="249" impact="177" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12323" type="greatSword" name="Final Separator" requiredLevel="21" rank="uncommon" bindType="onEquip" attack="249" impact="177" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10571" type="greatSword" name="Tearing Sorrow" requiredLevel="21" rank="common" bindType="none" attack="190" impact="106" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="11941" sellPrice="1137">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11819" type="greatSword" name="Arcadian Decurion's Ceremonial Greatsword" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="215" impact="146" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11891" type="greatSword" name="Arcadian Decurion's Greatsword" requiredLevel="22" rank="uncommon" bindType="none" attack="191" impact="120" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11659" type="greatSword" name="Arcadian Warden's Ceremonial Greatsword" requiredLevel="22" rank="common" bindType="none" attack="204" impact="117" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11747" type="greatSword" name="Arcadian Warden's Greatsword" requiredLevel="22" rank="common" bindType="none" attack="181" impact="96" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12555" type="greatSword" name="Clefthoof Blade" requiredLevel="22" rank="rare" bindType="onEquip" attack="289" impact="233" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="80310" sellPrice="3824">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="35"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12267" type="greatSword" name="Cruelblade" requiredLevel="22" rank="rare" bindType="onEquip" attack="253" impact="193" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="80310" sellPrice="3824">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="35"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10203" type="greatSword" name="Hounding Blade" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="231" impact="161" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10275" type="greatSword" name="Appartion Blade" requiredLevel="22" rank="uncommon" bindType="none" attack="231" impact="161" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10043" type="greatSword" name="Redflood Sword" requiredLevel="22" rank="common" bindType="none" attack="219" impact="129" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10131" type="greatSword" name="Regimen Slicer" requiredLevel="22" rank="common" bindType="none" attack="190" impact="106" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10683" type="greatSword" name="Howlfang Blade" requiredLevel="24" rank="uncommon" bindType="none" attack="231" impact="161" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="29919" sellPrice="2849">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10627" type="greatSword" name="Ireblade" requiredLevel="24" rank="uncommon" bindType="none" attack="249" impact="177" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="29919" sellPrice="2849">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10579" type="greatSword" name="Natural Equalizer" requiredLevel="24" rank="common" bindType="none" attack="236" impact="141" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="14959" sellPrice="1424">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11107" type="greatSword" name="Attuned Fire-Licked Linsteel Longsword" requiredLevel="25" rank="uncommon" bindType="onEquip" attack="249" impact="177" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10963" type="greatSword" name="Attuned Hammered Linsteel Blade" requiredLevel="25" rank="common" bindType="none" attack="236" impact="141" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11035" type="greatSword" name="Fire-Licked Linsteel Longsword" requiredLevel="25" rank="uncommon" bindType="onEquip" attack="285" impact="213" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10875" type="greatSword" name="Hammered Linsteel Blade" requiredLevel="25" rank="common" bindType="none" attack="270" impact="171" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="4685" type="greatSword" name="Yoki's Wide-bladed Greatsword" requiredLevel="25" rank="rare" bindType="onEquip" attack="289" impact="233" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="35"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	
+	<weapon id="13200" type="greatSword" name="Bloodtell Blade" requiredLevel="26" rank="uncommon" bindType="none" attack="313" impact="200" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	
+	
+	
+	
+	<weapon id="12331" type="greatSword" name="Duke's Dueling Sword" requiredLevel="27" rank="rare" bindType="onEquip" attack="410" impact="347" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="114405" sellPrice="5447">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11379" type="greatSword" name="Elaborate Displacer" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="324" impact="258" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="38134" sellPrice="3631">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10587" type="greatSword" name="Eradicator Greatsword" requiredLevel="27" rank="common" bindType="none" attack="287" impact="188" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10051" type="greatSword" name="Frenzyedge" requiredLevel="27" rank="common" bindType="none" attack="307" impact="206" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10139" type="greatSword" name="Field Slicer" requiredLevel="27" rank="common" bindType="none" attack="270" impact="171" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12563" type="greatSword" name="Night Watch Greatsword" requiredLevel="27" rank="rare" bindType="onEquip" attack="422" impact="392" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="114405" sellPrice="5447">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11827" type="greatSword" name="Poporia Decurion's Ceremonial Greatsword" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="302" impact="235" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11899" type="greatSword" name="Poporia Decurion's Greatsword" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="264" impact="194" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11667" type="greatSword" name="Poporia Warden's Ceremonial Greatsword" requiredLevel="27" rank="common" bindType="none" attack="287" impact="188" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11755" type="greatSword" name="Poporia Warden's Greatsword" requiredLevel="27" rank="common" bindType="none" attack="250" impact="156" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10283" type="greatSword" name="Brightkiller" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="285" impact="213" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10211" type="greatSword" name="Rabid Silencer" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="324" impact="258" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10635" type="greatSword" name="Vampir Slayer" requiredLevel="27" rank="uncommon" bindType="none" attack="324" impact="258" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="35582" sellPrice="3389">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12275" type="greatSword" name="Wraithblade" requiredLevel="27" rank="epic" bindType="onEquip" attack="372" impact="386" sockets="4" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="228811" sellPrice="10895">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="41"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11387" type="greatSword" name="Backstabber" requiredLevel="29" rank="rare" bindType="onEquip" attack="410" impact="347" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<!-- /20-30 Lv. -->
+
+	<!-- 30-40 Lv. -->	
+	
+	<weapon id="11115" type="greatSword" name="Attuned Etched Linsteel Battlesword" requiredLevel="30" rank="uncommon" bindType="onEquip" attack="349" impact="284" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="28"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11227" type="greatSword" name="Attuned Runed Linsteel Greatsword" requiredLevel="30" rank="rare" bindType="onEquip" attack="383" impact="340" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="35"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10971" type="greatSword" name="Attuned Seared Linsteel Greatsword" requiredLevel="30" rank="common" bindType="none" attack="331" impact="227" sockets="2" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="20823" sellPrice="1983">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="21"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10643" type="greatSword" name="Deceit Shredder" requiredLevel="30" rank="uncommon" bindType="none" attack="396" impact="343" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11043" type="greatSword" name="Etched Linsteel Battlesword" requiredLevel="30" rank="uncommon" bindType="onEquip" attack="396" impact="343" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10691" type="greatSword" name="Galeswift Greatsword" requiredLevel="30" rank="rare" bindType="none" attack="410" impact="374" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11395" type="greatSword" name="Lawless Blade" requiredLevel="30" rank="rare" bindType="onEquip" attack="435" impact="411" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="141601" sellPrice="13485">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11171" type="greatSword" name="Runed Linsteel Greatsword" requiredLevel="30" rank="rare" bindType="onEquip" attack="435" impact="411" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10883" type="greatSword" name="Seared Linsteel Greatsword" requiredLevel="30" rank="common" bindType="none" attack="376" impact="274" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="20823" sellPrice="1983">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10059" type="greatSword" name="Bay Clipper" requiredLevel="32" rank="common" bindType="none" attack="433" impact="332" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11963" type="greatSword" name="Ostgarath Centurion's Ceremonial Greatsword" requiredLevel="32" rank="rare" bindType="onEquip" attack="466" impact="452" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="12019" type="greatSword" name="Ostgarath Centurion's Greatsword" requiredLevel="32" rank="rare" bindType="onEquip" attack="410" impact="374" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11835" type="greatSword" name="Ostgarath Decurion's Ceremonial Greatsword" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="425" impact="377" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11907" type="greatSword" name="Ostgarath Decurion's Greatsword" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="373" impact="312" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11675" type="greatSword" name="Ostgarath Warden's Ceremonial Greatsword" requiredLevel="32" rank="common" bindType="none" attack="403" impact="301" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11763" type="greatSword" name="Ostgarath Warden's Greatsword" requiredLevel="32" rank="common" bindType="none" attack="354" impact="249" sockets="2" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10147" type="greatSword" name="Righteous Greatsword" requiredLevel="32" rank="common" bindType="none" attack="376" impact="274" sockets="2" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10291" type="greatSword" name="Atroxic Sword" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="396" impact="343" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10219" type="greatSword" name="Sword of Great Morris" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="456" impact="414" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11411" type="greatSword" name="Buddyblade" requiredLevel="33" rank="rare" bindType="onEquip" attack="535" impact="548" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="18206">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10347" type="greatSword" name="Grand Entrancer" requiredLevel="33" rank="rare" bindType="onEquip" attack="535" impact="548" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10651" type="greatSword" name="Greatsword of the Labyrinth" requiredLevel="33" rank="uncommon" bindType="none" attack="487" impact="456" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11419" type="greatSword" name="Milling Sword" requiredLevel="33" rank="rare" bindType="onEquip" attack="535" impact="548" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="18206">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11403" type="greatSword" name="Pirate's Greatsword" requiredLevel="33" rank="rare" bindType="onEquip" attack="535" impact="548" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="18206">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10403" type="greatSword" name="Tenebrum" requiredLevel="33" rank="rare" bindType="onEquip" attack="466" impact="452" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10699" type="greatSword" name="Resolute Greatsword" requiredLevel="33" rank="rare" bindType="none" attack="535" impact="548" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	
+	<weapon id="11235" type="greatSword" name="Attuned Deadly Norsteel Tooled Blade" requiredLevel="35" rank="rare" bindType="onEquip" attack="535" impact="548" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11123" type="greatSword" name="Attuned Hardened Norsteel Longsword" requiredLevel="35" rank="uncommon" bindType="onEquip" attack="487" impact="456" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="69628" sellPrice="6631" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10979" type="greatSword" name="Attuned Honed Norsteel Battlesword" requiredLevel="35" rank="common" bindType="none" attack="462" impact="365" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="34813" sellPrice="3315" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11427" type="greatSword" name="Blade of Two Faces" requiredLevel="35" rank="rare" bindType="onEquip" attack="611" impact="663" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="227875" sellPrice="21702" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11179" type="greatSword" name="Deadly Norsteel Tooled Blade" requiredLevel="35" rank="rare" bindType="onEquip" attack="611" impact="663" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11051" type="greatSword" name="Hardened Norsteel Longsword" requiredLevel="35" rank="uncommon" bindType="onEquip" attack="557" impact="552" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="69628" sellPrice="6631" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10891" type="greatSword" name="Honed Norsteel Battlesword" requiredLevel="35" rank="common" bindType="none" attack="528" impact="442" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="34813" sellPrice="3315" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="4696" type="greatSword" name="Shan's Vulcanus Greatsword" requiredLevel="35" rank="epic" bindType="onEquip" attack="597" impact="751" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="47"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+		</funcs>
+	</weapon>
+	
+	<weapon id="10659" type="greatSword" name="Firesweep" requiredLevel="36" rank="uncommon" bindType="none" attack="597" impact="608" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="75958" sellPrice="7234" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10707" type="greatSword" name="Unconcealed Blade" requiredLevel="36" rank="rare" bindType="none" attack="655" impact="729" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="227875" sellPrice="21702" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10227" type="greatSword" name="Blade of the Colossal Ancients" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="640" impact="668" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10299" type="greatSword" name="Flame Slicer" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="557" impact="552" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10155" type="greatSword" name="Monarch's Justice" requiredLevel="37" rank="common" bindType="none" attack="528" impact="442" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10067" type="greatSword" name="Reaver of the Profane" requiredLevel="37" rank="common" bindType="none" attack="607" impact="535" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11443" type="greatSword" name="Sorrowful Parting" requiredLevel="37" rank="rare" bindType="onEquip" attack="702" impact="802" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11971" type="greatSword" name="Val Aureum Centurion's Ceremonial Greatsword" requiredLevel="37" rank="rare" bindType="onEquip" attack="655" impact="729" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12027" type="greatSword" name="Val Aureum Centurion's Greatsword" requiredLevel="37" rank="rare" bindType="onEquip" attack="570" impact="603" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11843" type="greatSword" name="Val Aureum Decurion's Ceremonial Greatsword" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="597" impact="608" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11915" type="greatSword" name="Val Aureum Decurion's Greatsword" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="520" impact="502" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11683" type="greatSword" name="Val Aureum Warden's Ceremonial Greatsword" requiredLevel="37" rank="common" bindType="none" attack="566" impact="486" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11771" type="greatSword" name="Val Aureum Warden's Greatsword" requiredLevel="37" rank="common" bindType="none" attack="493" impact="402" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11435" type="greatSword" name="Wind Shear" requiredLevel="37" rank="rare" bindType="onEquip" attack="702" impact="802" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="17928" type="greatSword" name="Fiendish Claymore" requiredLevel="38" rank="epic" bindType="onEquip" attack="785" impact="1101" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="626657" sellPrice="29840" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="47"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12339" type="greatSword" name="Lawmaker" requiredLevel="38" rank="rare" bindType="onEquip" attack="858" impact="1069" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12347" type="greatSword" name="Thruthsedge" requiredLevel="38" rank="rare" bindType="onEquip" attack="858" impact="1069" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12283" type="greatSword" name="Torment" requiredLevel="38" rank="epic" bindType="onEquip" attack="785" impact="1101" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="true" bank="true" guildBank="false" buyPrice="626657" sellPrice="29840" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="47"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12571" type="greatSword" name="Utterdark Blade" requiredLevel="38" rank="rare" bindType="onEquip" attack="889" impact="1123" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10355" type="greatSword" name="Woecleaver" requiredLevel="38" rank="rare" bindType="onEquip" attack="750" impact="883" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10411" type="greatSword" name="Workmate" requiredLevel="38" rank="rare" bindType="onEquip" attack="655" impact="729" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10667" type="greatSword" name="Forester's Scythe" requiredLevel="39" rank="uncommon" bindType="none" attack="730" impact="810" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="104442" sellPrice="9946" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10715" type="greatSword" name="Staunch Greatsword" requiredLevel="39" rank="rare" bindType="none" attack="802" impact="972" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<!-- /30-40 Lv. -->	
+
+	<!-- 40-50 Lv. -->		
+	
+	<weapon id="10987" type="greatSword" name="Attuned Massive Norsteel Blade" requiredLevel="40" rank="common" bindType="none" attack="648" impact="589" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="74148" sellPrice="7061" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="27"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11131" type="greatSword" name="Attuned Runed Norsteel Greatsword" requiredLevel="40" rank="uncommon" bindType="onEquip" attack="683" impact="736" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="33"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11323" type="greatSword" name="Attuned Sword of Erasure" requiredLevel="40" rank="epic" bindType="onEquip" attack="785" impact="1101" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="889796" sellPrice="84742" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="47"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>
+	
+	<weapon id="11243" type="greatSword" name="Attuned Sword of Folded Norsteel" requiredLevel="40" rank="rare" bindType="onEquip" attack="750" impact="883" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>
+	
+	<weapon id="10899" type="greatSword" name="Massive Norsteel Blade" requiredLevel="40" rank="common" bindType="none" attack="742" impact="713" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="74148" sellPrice="7061" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12163" type="greatSword" name="Primus's Greatsword of Dedication" requiredLevel="40" rank="rare" bindType="onEquip" attack="702" impact="802" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+		</funcs>
+	</weapon>
+	
+	<weapon id="12203" type="greatSword" name="Primus's Greatsword of Victory" requiredLevel="40" rank="epic" bindType="onEquip" attack="750" impact="883" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="40"/>
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11059" type="greatSword" name="Runed Norsteel Greatsword" requiredLevel="40" rank="uncommon" bindType="onEquip" attack="782" impact="891" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11283" type="greatSword" name="Sword of Erasure" requiredLevel="40" rank="epic" bindType="onEquip" attack="899" impact="1333" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="889796" sellPrice="84742" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>
+	
+	<weapon id="11187" type="greatSword" name="Sword of Folded Norsteel" requiredLevel="40" rank="rare" bindType="onEquip" attack="858" impact="1069" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>
+	
+	<weapon id="11475" type="greatSword" name="Blade of Betrayal" requiredLevel="41" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11459" type="greatSword" name="Greatsword of Zarhagen" requiredLevel="41" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11451" type="greatSword" name="Orderly Motion" requiredLevel="41" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11467" type="greatSword" name="Outdoor Sword" requiredLevel="41" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10307" type="greatSword" name="Analog Blade" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="782" impact="891" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10459" type="greatSword" name="Breath Stealer" requiredLevel="42" rank="epic" bindType="onEquip" attack="1031" impact="1614" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="118244">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10163" type="greatSword" name="Clawing Claymore" requiredLevel="42" rank="common" bindType="none" attack="742" impact="713" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10235" type="greatSword" name="Crosswind Slicer" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="897" impact="1079" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10075" type="greatSword" name="Pacifying Blade" requiredLevel="42" rank="common" bindType="none" attack="851" impact="863" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10499" type="greatSword" name="Peacekeeper" requiredLevel="42" rank="epic" bindType="onEquip" attack="899" impact="1333" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="118244">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="10723" type="greatSword" name="Red Barren" requiredLevel="42" rank="rare" bindType="none" attack="918" impact="1176" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>		
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+
+	<weapon id="10795" type="greatSword" name="Straying Blade" requiredLevel="42" rank="epic" bindType="none" attack="1031" impact="1614" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1182441" sellPrice="118244">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>		
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+
+	<weapon id="11979" type="greatSword" name="Westonia Centurion's Ceremonial Greatsword" requiredLevel="42" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>
+
+	<weapon id="12035" type="greatSword" name="Westonia Centurion's Greatsword" requiredLevel="42" rank="rare" bindType="onEquip" attack="802" impact="972" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>
+
+	<weapon id="11851" type="greatSword" name="Westonia Decurion's Ceremonial Greatsword" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="836" impact="980" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+
+	<weapon id="11923" type="greatSword" name="Westonia Decurion's Greatsword" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="730" impact="810" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+
+	<weapon id="11691" type="greatSword" name="Westonia Defender's Ceremonial Greatsword" requiredLevel="42" rank="common" bindType="none" attack="793" impact="784" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="98531" sellPrice="9853">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+
+	<weapon id="11779" type="greatSword" name="Westonia Defender's Greatsword" requiredLevel="42" rank="common" bindType="none" attack="693" impact="648" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="98531" sellPrice="9853">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10363" type="greatSword" name="Doubleback Batten" requiredLevel="43" rank="rare" bindType="onEquip" attack="1049" impact="1424" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>
+
+	<weapon id="10419" type="greatSword" name="Brother's Claymore" requiredLevel="43" rank="rare" bindType="onEquip" attack="918" impact="1176" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12291" type="greatSword" name="Anguish" requiredLevel="44" rank="epic" bindType="onEquip" attack="1178" impact="1953" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12579" type="greatSword" name="Apex Predator Blade" requiredLevel="44" rank="rare" bindType="onEquip" attack="1333" impact="1989" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="43092">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11507" type="greatSword" name="Belkedreff's Favorite Knife" requiredLevel="44" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11499" type="greatSword" name="Blade of Wrathful Shadows" requiredLevel="44" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11483" type="greatSword" name="Bloodletting Blade" requiredLevel="44" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12355" type="greatSword" name="Boneslicer" requiredLevel="44" rank="epic" bindType="onEquip" attack="1349" impact="2363" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11515" type="greatSword" name="Greatsword of Valor" requiredLevel="44" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12363" type="greatSword" name="Heartslicer" requiredLevel="44" rank="epic" bindType="onEquip" attack="1349" impact="2363" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11491" type="greatSword" name="Line Splicer" requiredLevel="44" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11251" type="greatSword" name="Attuned Dangerous Shadsteel Dual Edge" requiredLevel="45" rank="rare" bindType="onEquip" attack="1049" impact="1424" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11139" type="greatSword" name="Attuned Emblazoned Shadsteel Blade" requiredLevel="45" rank="uncommon" bindType="onEquip" attack="956" impact="1187" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="287281" sellPrice="28728">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11331" type="greatSword" name="Attuned Folded Shadsword" requiredLevel="45" rank="epic" bindType="onEquip" attack="1098" impact="1775" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10995" type="greatSword" name="Attuned Hammered Shadsteel Greatsword" requiredLevel="45" rank="common" bindType="none" attack="907" impact="949" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="143640" sellPrice="14364">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11195" type="greatSword" name="Dangerous Shadsteel Dual Edge" requiredLevel="45" rank="rare" bindType="onEquip" attack="1203" impact="1724" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11067" type="greatSword" name="Emblazoned Shadsteel Blade" requiredLevel="45" rank="uncommon" bindType="onEquip" attack="1096" impact="1436" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="287281" sellPrice="28728">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11291" type="greatSword" name="Folded Shadsword" requiredLevel="45" rank="epic" bindType="onEquip" attack="1259" impact="2149" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10907" type="greatSword" name="Hammered Shadsteel Greatsword" requiredLevel="45" rank="common" bindType="none" attack="1040" impact="1149" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="143640" sellPrice="14364">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="4707" type="greatSword" name="Nepir's Extinguisher Greatsword" requiredLevel="45" rank="epic" bindType="onEquip" attack="1178" impact="1953" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10731" type="greatSword" name="Raiderblade" requiredLevel="45" rank="rare" bindType="none" attack="1126" impact="1567" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12171" type="greatSword" name="Tribune's Greatsword of Dedication" requiredLevel="45" rank="rare" bindType="onEquip" attack="985" impact="1294" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="287281" sellPrice="14364">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12211" type="greatSword" name="Tribune's Greatsword of Victory" requiredLevel="45" rank="epic" bindType="onEquip" attack="1049" impact="1424" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="861845" sellPrice="43092">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="18584" type="greatSword" name="Twitchblade" requiredLevel="45" rank="epic" bindType="onPickUp" attack="1442" impact="2599" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11523" type="greatSword" name="Deathreaper" requiredLevel="46" rank="rare" bindType="onEquip" attack="1289" impact="1895" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1206583" sellPrice="120658">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+		
+	<weapon id="10315" type="greatSword" name="Acerbic Blade" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="1096" impact="1436" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="402194" sellPrice="40219">	
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10467" type="greatSword" name="Careless Carver" requiredLevel="47" rank="epic" bindType="onEquip" attack="1442" impact="2599" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2413167" sellPrice="241316">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10083" type="greatSword" name="Quakemaker" requiredLevel="47" rank="common" bindType="none" attack="1191" impact="1390" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10171" type="greatSword" name="Soul Filleter" requiredLevel="47" rank="common" bindType="none" attack="1040" impact="1149" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10243" type="greatSword" name="Swaggering Sword" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="1255" impact="1737" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10507" type="greatSword" name="Teratothrust" requiredLevel="47" rank="epic" bindType="onEquip" attack="1259" impact="2149" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2413167" sellPrice="241316">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11987" type="greatSword" name="Val Palrada Centurion's Ceremonial Greatsword" requiredLevel="47" rank="rare" bindType="onEquip" attack="1289" impact="1895" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12043" type="greatSword" name="Val Palrada Centurion's Greatsword" requiredLevel="47" rank="rare" bindType="onEquip" attack="1126" impact="1567" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11859" type="greatSword" name="Val Palrada Decurion's Ceremonial Greatsword" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="1174" impact="1580" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11931" type="greatSword" name="Val Palrada Decurion's Greatsword" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="1026" impact="1305" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11699" type="greatSword" name="Val Palrada Defender's Ceremonial Greatsword" requiredLevel="47" rank="common" bindType="none" attack="1114" impact="1264" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11787" type="greatSword" name="Val Palrada Defender's Greatsword" requiredLevel="47" rank="common" bindType="none" attack="973" impact="1044" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11531" type="greatSword" name="Varathion's Greatsword" requiredLevel="47" rank="rare" bindType="onEquip" attack="1378" impact="2085" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10739" type="greatSword" name="Blade of Crowning Glory" requiredLevel="48" rank="rare" bindType="none" attack="1475" impact="2294" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10803" type="greatSword" name="Blade of Derring-Do" requiredLevel="48" rank="epic" bindType="none" attack="1544" impact="2860" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="2674332" sellPrice="267433">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10371" type="greatSword" name="Crimson Regret" requiredLevel="48" rank="rare" bindType="onEquip" attack="1475" impact="2294" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10427" type="greatSword" name="Jawbreaker" requiredLevel="48" rank="rare" bindType="onEquip" attack="1289" impact="1895" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11539" type="greatSword" name="Candarik's Greatsword" requiredLevel="49" rank="epic" bindType="onEquip" attack="1651" impact="3147" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>
+	
+	<!-- /40-50 Lv. -->	
+
+	<!-- 50-60 Lv. -->		
+	
+	<weapon id="32101" type="greatSword" name="Abyss Army Knife" requiredLevel="50" rank="epic" bindType="none" attack="1768" impact="3462" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="320" type="greatSword" name="Astraelir Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1890" impact="3807" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11147" type="greatSword" name="Attuned Shadsteel Edge of Darkness" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1344" impact="1912" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11339" type="greatSword" name="Attuned Shadsteel Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1544" impact="2860" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11259" type="greatSword" name="Attuned Shadsteel Reaper" requiredLevel="50" rank="rare" bindType="onEquip" attack="1475" impact="2294" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11003" type="greatSword" name="Attuned Tooled Shadsteel Sword" requiredLevel="50" rank="common" bindType="none" attack="1275" impact="1529" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12459" type="greatSword" name="Blazewind" requiredLevel="50" rank="rare" bindType="onEquip" attack="1689" impact="2777" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12299" type="greatSword" name="Bruteslayer" requiredLevel="50" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12475" type="greatSword" name="Casual Acquittance" requiredLevel="50" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12627" type="greatSword" name="Chillblade" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11547" type="greatSword" name="Claymore of the Victor" requiredLevel="50" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="342333">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<!--Добавить параметр: 0.2% of your total MP instantly returns when you use a skill. -->
+	<weapon id="12587" type="greatSword" name="Compass Blade" requiredLevel="50" rank="rare" bindType="onEquip" attack="1916" impact="3528" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1711666" sellPrice="85583">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12451" type="greatSword" name="Death Provocateur" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1344" impact="1912" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12619" type="greatSword" name="Dracoloth Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10747" type="greatSword" name="Fervent Greatsword" requiredLevel="50" rank="rare" bindType="none" attack="1689" impact="2777" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1711666" sellPrice="171166">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12635" type="greatSword" name="Froststing" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12643" type="greatSword" name="Greatsword of Sabranak" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12611" type="greatSword" name="Greatsword of the Usurper" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12371" type="greatSword" name="Headlopper" requiredLevel="50" rank="epic" bindType="onEquip" attack="1924" impact="4189" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+	
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	<weapon id="12467" type="greatSword" name="Maverick Edge" requiredLevel="50" rank="rare" bindType="onEquip" attack="1475" impact="2294" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11555" type="greatSword" name="Plagueblade" requiredLevel="50" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="342333">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12595" type="greatSword" name="Plagueborne Blade" requiredLevel="50" rank="rare" bindType="onEquip" attack="1916" impact="3528" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1711666" sellPrice="85583">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12483" type="greatSword" name="Posh Richblade" requiredLevel="50" rank="epic" bindType="onEquip" attack="1544" impact="2860" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12179" type="greatSword" name="Prefect's Greatsword of Dedication" requiredLevel="50" rank="rare" bindType="onEquip" attack="1378" impact="2085" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="25213">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12243" type="greatSword" name="Prefect's Greatsword of Glory" requiredLevel="50" rank="epic" bindType="onEquip" attack="1544" impact="2860" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12219" type="greatSword" name="Prefect's Greatsword of Victory" requiredLevel="50" rank="epic" bindType="onEquip" attack="1475" impact="2294" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="75641">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12435" type="greatSword" name="Procedural Evacuator" requiredLevel="50" rank="common" bindType="none" attack="1275" impact="1529" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+		</funcs>
+	</weapon>	
+	
+	
+	<weapon id="12443" type="greatSword" name="Scissorblade" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1539" impact="2314" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11075" type="greatSword" name="Shadsteel Edge of Darkness" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1539" impact="2314" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11299" type="greatSword" name="Shadsteel Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11203" type="greatSword" name="Shadsteel Reaper" requiredLevel="50" rank="rare" bindType="onEquip" attack="1689" impact="2777" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12867" type="greatSword" name="Speculum Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1651" impact="3147" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12603" type="greatSword" name="Swarm Banisher" requiredLevel="50" rank="epic" bindType="onEquip" attack="1829" impact="3635" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12427" type="greatSword" name="Tender Ministrations" requiredLevel="50" rank="common" bindType="none" attack="1460" impact="1851" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12419" type="greatSword" name="Tenderizer" requiredLevel="50" rank="epic" bindType="onEquip" attack="1890" impact="3807" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10915" type="greatSword" name="Tooled Shadsteel Sword" requiredLevel="50" rank="common" bindType="none" attack="1460" impact="1851" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12523" type="greatSword" name="Val Elenium Centurion's Ceremonial Greatsword" requiredLevel="50" rank="rare" bindType="onEquip" attack="1577" impact="2524" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12531" type="greatSword" name="Val Elenium Centurion's Greatsword" requiredLevel="50" rank="rare" bindType="onEquip" attack="1378" impact="2085" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="45"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12507" type="greatSword" name="Val Elenium Decurion's Ceremonial Greatsword" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1437" impact="2103" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12515" type="greatSword" name="Val Elenium Decurion's Greatsword" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="1255" impact="1737" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="39"/>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12491" type="greatSword" name="Val Elenium Defender's Ceremonial Greatsword" requiredLevel="50" rank="common" bindType="none" attack="1363" impact="1683" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12499" type="greatSword" name="Val Elenium Defender's Greatsword" requiredLevel="50" rank="common" bindType="none" attack="1191" impact="1390" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="32"/>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12539" type="greatSword" name="Val Elenium Tribune's Ceremonial Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1651" impact="3147" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12547" type="greatSword" name="Val Elenium Tribune's Greatsword" requiredLevel="50" rank="epic" bindType="onEquip" attack="1442" impact="2599" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="52"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12379" type="greatSword" name="Wild Rover" requiredLevel="50" rank="epic" bindType="onEquip" attack="1924" impact="4189" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12651" type="greatSword" name="Wyrmbane" requiredLevel="50" rank="epic" bindType="onEquip" attack="1651" impact="3147" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+			<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+		</funcs>
+	</weapon>	
+	
+	
+	<weapon id="18601" type="greatSword" name="Ascent Adze" requiredLevel="52" rank="epic" bindType="onPickUp" attack="2058" impact="5067" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11347" type="greatSword" name="Attuned Fullered Xerblade" requiredLevel="52" rank="epic" bindType="onEquip" attack="1890" impact="3807" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4805425" sellPrice="480542">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11155" type="greatSword" name="Attuned Hardened Xersteel Longsword" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="1645" impact="2545" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="800904" sellPrice="80090">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11011" type="greatSword" name="Attuned Seared Xersteel Battlesword" requiredLevel="52" rank="common" bindType="none" attack="1561" impact="2036" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="400452" sellPrice="40045">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11267" type="greatSword" name="Attuned Wicked Xersteel Sword" requiredLevel="52" rank="rare" bindType="onEquip" attack="1806" impact="3054" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2402712" sellPrice="240271">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11307" type="greatSword" name="Fullered Xerblade" requiredLevel="52" rank="epic" bindType="onEquip" attack="2058" impact="5067" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11083" type="greatSword" name="Hardened Xersteel Longsword" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="1884" impact="3387" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10923" type="greatSword" name="Seared Xersteel Battlesword" requiredLevel="52" rank="common" bindType="none" attack="1843" impact="2710" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>		
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11995" type="greatSword" name="Sylvanoth Centurion's Ceremonial Greatsword" requiredLevel="52" rank="rare" bindType="onEquip" attack="1971" impact="3695" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1996944" sellPrice="199694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12051" type="greatSword" name="Sylvanoth Centurion's Greatsword" requiredLevel="52" rank="rare" bindType="onEquip" attack="1689" impact="2777" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="2282222" sellPrice="228222">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11867" type="greatSword" name="Sylvanoth Decurion's Ceremonial Greatsword" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="1818" impact="3079" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11939" type="greatSword" name="Sylvanoth Decurion's Greatsword" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="1539" impact="2314" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11707" type="greatSword" name="Sylvanoth Defender's Ceremonial Greatsword" requiredLevel="52" rank="common" bindType="none" attack="1753" impact="2463" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11795" type="greatSword" name="Sylvanoth Defender's Greatsword" requiredLevel="52" rank="common" bindType="none" attack="1460" impact="1851" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12075" type="greatSword" name="Sylvanoth Tribune's Ceremonial Greatsword" requiredLevel="52" rank="epic" bindType="onEquip" attack="2038" impact="4607" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12099" type="greatSword" name="Sylvanoth Tribune's Greatsword" requiredLevel="52" rank="epic" bindType="onEquip" attack="1768" impact="3462" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11211" type="greatSword" name="Wicked Xersteel Sword" requiredLevel="52" rank="rare" bindType="onEquip" attack="2017" impact="4065" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1996944" sellPrice="199694">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10379" type="greatSword" name="Sword Immemorial" requiredLevel="53" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10435" type="greatSword" name="Sword Immemorial Primed" requiredLevel="53" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11019" type="greatSword" name="Attuned Brazen Xersteel Reaper" requiredLevel="54" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11355" type="greatSword" name="Attuned Riddled Bloodsword" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11275" type="greatSword" name="Attuned Runed Xersteel Widowmaker" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11163" type="greatSword" name="Attuned Xersteel Greatsword ofTwisted Deeds" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10931" type="greatSword" name="Brazen Xersteel Reaper" requiredLevel="54" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10251" type="greatSword" name="Frostsedge" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12787" type="greatSword" name="Greatsword of the Four Winds" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12187" type="greatSword" name="Legate's Greatsword of Dedication" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12251" type="greatSword" name="Legate's Greatsword of Glory" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12227" type="greatSword" name="Legate's Greatsword of Victory" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10323" type="greatSword" name="Primed Frostsedge" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10515" type="greatSword" name="Primed Surgical Precision" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11315" type="greatSword" name="Riddled Bloodsword" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11219" type="greatSword" name="Runed Xersteel Widowmaker" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10091" type="greatSword" name="Sparkpoint" requiredLevel="54" rank="common" bindType="unknown" attack="1843" impact="2710" sockets="2" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0"/>
+	<weapon id="10179" type="greatSword" name="Sparkpoint Primed" requiredLevel="54" rank="common" bindType="unknown" attack="1655" impact="2240" sockets="2" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0"/>
+	<weapon id="10475" type="greatSword" name="Surgical Precision" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11091" type="greatSword" name="Xersteel Greatsword ofTwisted Deeds" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12875" type="greatSword" name="Dragon-Tooth Greatsword" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10755" type="greatSword" name="Quaestio Greatsword" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12851" type="greatSword" name="Soulreaper" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12795" type="greatSword" name="Sword of Cold Reason" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12699" type="greatSword" name="Attuned Blastforged Xersteel Slicer" requiredLevel="56" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12667" type="greatSword" name="Attuned Damascened Xersteel Reaper" requiredLevel="56" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12683" type="greatSword" name="Attuned Goldquenched Xersteel Sword" requiredLevel="56" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12715" type="greatSword" name="Attuned Sunforged Xersteel Slasher" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12691" type="greatSword" name="Blastforged Xersteel Slicer" requiredLevel="56" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12659" type="greatSword" name="Damascened Xersteel Reaper" requiredLevel="56" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10779" type="greatSword" name="Desolate Blade" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12675" type="greatSword" name="Goldquenched Xersteel Sword" requiredLevel="56" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11579" type="greatSword" name="Lyssrath's Fang" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12707" type="greatSword" name="Sunforged Xersteel Slasher" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12003" type="greatSword" name="Lorcadan Centurion's Ceremonial Greatsword" requiredLevel="57" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12059" type="greatSword" name="Lorcadan Centurion's Greatsword" requiredLevel="57" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11875" type="greatSword" name="Lorcadan Decurion's Ceremonial Greatsword" requiredLevel="57" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11947" type="greatSword" name="Lorcadan Decurion's Greatsword" requiredLevel="57" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11715" type="greatSword" name="Lorcadan Defender's Ceremonial Greatsword" requiredLevel="57" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11803" type="greatSword" name="Lorcadan Defender's Greatsword" requiredLevel="57" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12083" type="greatSword" name="Lorcadan Tribune's Ceremonial Greatsword" requiredLevel="57" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12107" type="greatSword" name="Lorcadan Tribune's Greatsword" requiredLevel="57" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12811" type="greatSword" name="Annihilus Blade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12747" type="greatSword" name="Attuned Drop-Forged Xersteel Greatsword" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12963" type="greatSword" name="Attuned Exquisite Sword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12763" type="greatSword" name="Attuned Forge-Welded Xersteel Reaper" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12731" type="greatSword" name="Attuned Tempered Xersteel Battlesword" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12779" type="greatSword" name="Attuned Xersteel Sevenfold Bloodspiller" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10259" type="greatSword" name="Babbling Bloodblade" requiredLevel="58" rank="uncommon" bindType="onEquip" attack="2291" impact="4960" sockets="3" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1121265" sellPrice="112126">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="13003" type="greatSword" name="Blade of the Eternal" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12995" type="greatSword" name="Blade of the Triumphant" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12307" type="greatSword" name="Blood-cooled Lavablade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12891" type="greatSword" name="Blood-Cooled Lavablade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12195" type="greatSword" name="Brigadier's Greatsword of Dedication" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12259" type="greatSword" name="Brigadier's Greatsword of Glory" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12235" type="greatSword" name="Brigadier's Greatsword of Victory" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="13176" type="greatSword" name="Brogar's Foereaper" requiredLevel="58" rank="epic" bindType="onPickUp" attack="3606" impact="15183" sockets="4" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8907188" sellPrice="890718">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+		</funcs>
+	</weapon>
+	
+	<weapon id="12931" type="greatSword" name="Crazelock" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11603" type="greatSword" name="Crevasse Splayer" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12939" type="greatSword" name="Cryptblade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12899" type="greatSword" name="Darksome Blade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12835" type="greatSword" name="Deathrime Blade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12739" type="greatSword" name="Drop-Forged Xersteel Greatsword" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12387" type="greatSword" name="Ebonblade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13152" type="greatSword" name="Exquisite Sword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12803" type="greatSword" name="Fear-Lord's Greatsword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12955" type="greatSword" name="Flamewright" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12755" type="greatSword" name="Forge-Welded Xersteel Reaper" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12947" type="greatSword" name="Frostwright" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12979" type="greatSword" name="Greatsword of Assured Termination" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12843" type="greatSword" name="Greatsword of Conflagration" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10099" type="greatSword" name="Grim Reaper" requiredLevel="58" rank="common" bindType="unknown" attack="2241" impact="3968" sockets="2" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10187" type="greatSword" name="Regimental Blade" requiredLevel="58" rank="common" bindType="none" attack="2033" impact="3279" sockets="2" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="560632" sellPrice="56063">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="37"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11571" type="greatSword" name="Isaura's Vengeance" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12819" type="greatSword" name="Jeersword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10763" type="greatSword" name="Killfury Greatsword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12915" type="greatSword" name="Mage Trimmer" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12883" type="greatSword" name="Phonic Greatsword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10331" type="greatSword" name="Vocablade" requiredLevel="58" rank="uncommon" bindType="onEquip" attack="2078" impact="4099" sockets="3" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1121265" sellPrice="112126">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="44"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="13160" type="greatSword" name="Saif-Olek" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11611" type="greatSword" name="Sempiternal Blade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13011" type="greatSword" name="Shadowhilt Sword" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13168" type="greatSword" name="Shana's Barbatus Greatsword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12907" type="greatSword" name="Sharpened Steel Tongue" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11563" type="greatSword" name="Sikandari Greatblade" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10483" type="greatSword" name="Skycarver" requiredLevel="58" rank="epic" bindType="onEquip" attack="2502" impact="7420" sockets="4" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="6727595" sellPrice="672759">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="57"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10523" type="greatSword" name="Skycarver Primed" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12827" type="greatSword" name="Soulreaver" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10387" type="greatSword" name="Steel Ballet" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10443" type="greatSword" name="Culling Blade" requiredLevel="58" rank="rare" bindType="onEquip" attack="2225" impact="4918" sockets="3" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3363797" sellPrice="336379">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12987" type="greatSword" name="Sword of Snow  Magma" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12923" type="greatSword" name="Sword of the Deep" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12723" type="greatSword" name="Tempered Xersteel Battlesword" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12971" type="greatSword" name="Thunder-Strike Sword" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12395" type="greatSword" name="Tyrant Reaver" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13184" type="greatSword" name="Vendetta" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12771" type="greatSword" name="Xersteel Sevenfold Bloodspiller" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10491" type="greatSword" name="Bloodscream" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10107" type="greatSword" name="Machine Edge" requiredLevel="60" rank="common" bindType="none" attack="3391" impact="8932" sockets="2" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">	
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10395" type="greatSword" name="Razorsharp Mendacity" requiredLevel="60" rank="rare" bindType="onEquip" attack="3712" impact="13397" sockets="3" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4324882" sellPrice="432488">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10267" type="greatSword" name="Subtle Shiv" requiredLevel="60" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="13232" type="greatSword" name="Regressor" requiredLevel="60" rank="epic" bindType="onEquip" attack="3879" impact="17498" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8649765" sellPrice="864976">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/>	
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>			
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="13224" type="greatSword" name="Grafting Blade" requiredLevel="60" rank="epic" bindType="onPickUp" attack="4384" impact="22230" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7688680" sellPrice="768868">
+		<funcs>
+			<add stat="absMpOnMax" order="0x40" val="51"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul> 
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul> 
+			<!--Добавить: 0.2% of your total MP instantly returns when you use a skill.-->   
+		</funcs>
+	</weapon>
+</list>

@@ -1,0 +1,1206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>	
+
+	<!--
+		* Всего реализовано в данной локации 0 квестов
+		* @author Glowing
+	-->	
+	
+	<quest id="2501" type="LEVEL_UP_QUEST" startLevel="35" name="Secrets Not Meant to Be Known" >
+		<npcs>	
+			<npc id="1102" type="63" /> <!-- Seir -->
+			<npc id="1166" type="63" /> <!-- Elleon -->
+			<npc id="1023" type="66" /> <!-- Elsine -->
+			<npc id="1001" type="66" /> <!-- Baruch -->
+			<npc id="1003" type="218" /> <!-- Kardelen -->
+			<npc id="1001" type="218" /> <!-- Dinian -->
+			<npc id="1022" type="218" /> <!-- Mirak -->
+			<npc id="1007" type="218" /> <!-- Nema -->
+			<npc id="1501" type="218" /> <!-- Teleportal -->
+		</npcs>
+		
+		<rewards>
+			<action name="ADD_EXP" exp="360000" />						
+
+			<action name="ADD_ITEM" id="15793" count="1" >
+				<player classes="BERSERKER;LANCER" />
+			</action>				
+			<action name="ADD_ITEM" id="15796" count="1" >
+				<player classes="ARCHER;SLAYER;WARRIOR" />
+			</action>
+			<action name="ADD_ITEM" id="15799" count="1" >
+				<player classes="MYSTIC;PRIEST;SORCERER" />
+			</action>		
+		</rewards>
+		
+		<links>			
+			<link name="@quest:2501001" id="1" icon="RED_QUESTION" >
+				<and>
+					<quest state="1" />
+					<npc id="1102" type="63" />
+				</and>
+			</link>			
+			
+			<link name="@quest:2501001" id="2" icon="RED_QUESTION" >
+				<and>
+					<quest state="2" />
+					<npc id="1166" type="63" />
+				</and>
+			</link>
+
+			<link name="@quest:2501001" id="3" icon="RED_QUESTION" >
+				<and>
+					<quest state="3" />
+					<npc id="1023" type="66" />
+				</and>
+			</link>		
+			
+			<link name="@quest:2501001" id="4" icon="RED_QUESTION" >
+				<and>
+					<quest state="4" />
+					<npc id="1001" type="66" />
+				</and>
+			</link>
+
+			<link name="@quest:2501001" id="5" icon="RED_QUESTION" >
+				<and>
+					<quest state="5" />
+					<npc id="1003" type="218" />
+				</and>
+			</link>		
+			
+			<link name="@quest:2501001" id="6" icon="RED_QUESTION" >
+				<and>
+					<quest state="7" />
+					<npc id="1003" type="218" />
+				</and>
+			</link>
+
+			<link name="@quest:2501001" id="7" icon="RED_QUESTION" >
+				<and>
+					<quest state="8" />
+					<npc id="1001" type="218" />
+				</and>
+			</link>		
+			
+			<link name="@quest:2501001" id="8" icon="RED_QUESTION" >
+				<and>
+					<quest state="9" />
+					<npc id="1022" type="218" />
+				</and>
+			</link>
+
+			<link name="@quest:2501001" id="9" icon="RED_QUESTION" >
+				<and>
+					<quest state="11" />
+					<npc id="1007" type="218" />
+				</and>
+			</link>
+
+			<link name="@quest:2501001" id="10" icon="RED_QUESTION" >
+				<and>
+					<quest state="12" />
+					<npc id="1501" type="218" />
+				</and>
+			</link>					
+
+			<link name="@quest:2501001" id="11" icon="RED_STAR" >
+				<and>
+					<quest state="15" />
+					<npc id="1022" type="218" />				
+				</and>
+			</link>				
+		</links>
+		
+		<events>
+			<event name="PLAYER_SPAWN" >
+				<action name="QUEST_START" npcId="1102" npcType="63" x="-1937" y="13049" z="2178" >
+					<quest state="1" />
+				</action>
+
+				<action name="QUEST_START" npcId="1166" npcType="63" x="4198" y="11201" z="1873" >
+					<quest state="2" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1023" npcType="66" x="-56102" y="-39516" z="2388" >
+					<quest state="3" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1001" npcType="66" x="-55658" y="-37636" z="2505" >
+					<quest state="4" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1003" npcType="218" x="-43081" y="-47909" z="1457" >
+					<or>
+						<quest state="5" />
+						<quest state="7" />
+					</or>	
+				</action>
+				
+				<action name="QUEST_START" npcId="1001" npcType="218" x="-43006" y="-47970" z="1457" >
+					<quest state="8" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1022" npcType="218" x="-40445" y="-62880" z="2404" >
+					<or>
+						<quest state="9" />
+						<quest state="15" />
+					</or>
+				</action>
+				
+				<action name="QUEST_START" npcId="1007" npcType="218" x="-33433" y="-56854" z="2869" >
+					<quest state="11" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1501" npcType="218" x="-27955" y="-59463" z="4067" >
+					<quest state="12" />
+				</action>		
+
+				<action name="UPDATE_COUNTER" var1="rager|5" var2="destroyer|6" var3="prophet|3" >	
+					<quest state="6" />
+				</action>					
+			</event>
+			
+			<event name="ADD_NPC" id="1102" type="63" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="1" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1166" type="63" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="2" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1023" type="66" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="3" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1001" type="66" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="4" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1003" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<or>
+						<quest state="5" />
+						<quest state="7" />
+					</or>	
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1001" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="8" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1022" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="9" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1007" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="11" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1501" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="12" />
+				</action>
+			</event>						
+
+			<event name="ADD_NPC" id="1022" type="218" >	
+				<action name="SET_NPC_ICON" type="RED_STAR" >
+					<quest state="15" />
+				</action>
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >
+				<action name="QUEST_START" npcId="1102" npcType="63" x="-1937" y="13049" z="2178" />					
+				<action name="SET_NPC_ICON" npcId="1102" npcType="63" type="RED_QUESTION" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:2501001" />
+			</event>			
+
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="3" page="3" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="QUEST_STATE" state="2" />
+				<action name="QUEST_START" npcId="1166" npcType="63" x="4198" y="11201" z="1873" />
+				<action name="SET_NPC_ICON" npcId="1166" npcType="63" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+ 
+ 			<event name="SELECT_LINK" id="2">	
+				<action name="SHOW_QUEST_INFO" id="2" page="4" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="QUEST_STATE" state="3" />
+				<action name="QUEST_START" npcId="1023" npcType="66" x="-56102" y="-39516" z="2388" />
+				<action name="SET_NPC_ICON" npcId="1023" npcType="66" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+  
+ 			<event name="SELECT_LINK" id="3">	
+				<action name="SHOW_QUEST_INFO" id="2" page="5" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="3">	
+				<action name="QUEST_STATE" state="4" />
+				<action name="QUEST_START" npcId="1001" npcType="66" x="-55658" y="-37636" z="2505" />
+				<action name="SET_NPC_ICON" npcId="1001" npcType="66" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="4">	
+				<action name="SHOW_QUEST_INFO" id="2" page="6" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="4">	
+				<action name="QUEST_STATE" state="5" />
+				<action name="QUEST_START" npcId="1003" npcType="218" x="-43081" y="-47909" z="1457" />
+				<action name="SET_NPC_ICON" npcId="1003" npcType="218" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="5">	
+				<action name="SHOW_QUEST_INFO" id="2" page="7" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="5">	
+				<action name="QUEST_STATE" state="6" />
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />
+				<action name="UPDATE_COUNTER" var1="rager|5" var2="destroyer|6" var3="prophet|3" />								
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+		
+			<!-- действия при убийстве нужного моба -->
+			<event name="KILL_NPC" id="3" type="18" >
+				<action name="ADD_VAR" var="rager" value="1" >
+					<and>
+						<quest state="6" />				
+					<not>
+						<player var="rager" val="5" />
+					</not>
+					</and>						
+				</action>
+				
+				<action name="QUEST_STATE" state="7" >
+					<and>
+						<player var="complete_rager" val="0" />
+						<player var="rager" val="5" />
+						<player var="complete_destroyer" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>				
+				
+				<action name="UPDATE_COUNTER" var1="rager|5" var2="destroyer|6" var3="prophet|3" >	
+					<player var="complete_rager" val="0" />
+				</action>				
+								
+				<action name="QUEST_START" npcId="1003" npcType="218" x="-43081" y="-47909" z="1457" >
+					<and>
+						<player var="complete_rager" val="0" />
+						<player var="rager" val="5" />
+						<player var="complete_destroyer" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>
+
+				<action name="QUEST_MOVE_TO_PANEL" >
+					<and>
+						<player var="complete_rager" val="0" />
+						<player var="rager" val="5" />
+						<player var="complete_destroyer" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>								
+				
+				<action name="SET_NPC_ICON" npcId="1003" npcType="218" type="RED_QUESTION" >
+					<and>
+						<player var="complete_rager" val="0" />
+						<player var="rager" val="5" />
+						<player var="complete_destroyer" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>				
+
+				<action name="SYSTEM_MESSAGE" id="909" message="QuestName%@quest:2501001" >
+					<and>
+						<player var="complete_rager" val="0" />
+						<player var="rager" val="5" />
+						<player var="complete_destroyer" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>	
+						
+				<action name="ADD_VAR" var="complete_rager" value="1" >
+					<and>
+						<player var="rager" val="5" />
+						<player var="complete_rager" val="0" />
+					</and>
+				</action>
+			</event>
+				
+			<!-- действия при убийстве нужного моба -->
+			<event name="KILL_NPC" id="8" type="18" >
+				<action name="ADD_VAR" var="destroyer" value="1" >
+					<and>
+						<quest state="6" />				
+					<not>
+						<player var="destroyer" val="6" />
+					</not>
+					</and>						
+				</action>
+				
+				<action name="QUEST_STATE" state="7" >
+					<and>
+						<player var="complete_destroyer" val="0" />
+						<player var="destroyer" val="6" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>				
+				
+				<action name="UPDATE_COUNTER" var1="rager|5" var2="destroyer|6" var3="prophet|3" >	
+					<player var="complete_destroyer" val="0" />
+				</action>				
+								
+				<action name="QUEST_START" npcId="1003" npcType="218" x="-43081" y="-47909" z="1457" >
+					<and>
+						<player var="complete_destroyer" val="0" />
+						<player var="destroyer" val="6" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>
+
+				<action name="QUEST_MOVE_TO_PANEL" >
+					<and>
+						<player var="complete_destroyer" val="0" />
+						<player var="destroyer" val="6" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>								
+				
+				<action name="SET_NPC_ICON" npcId="1003" npcType="218" type="RED_QUESTION" >
+					<and>
+						<player var="complete_destroyer" val="0" />
+						<player var="destroyer" val="6" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>				
+
+				<action name="SYSTEM_MESSAGE" id="909" message="QuestName%@quest:2501001" >
+					<and>
+						<player var="complete_destroyer" val="0" />
+						<player var="destroyer" val="6" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_prophet" val="1" />
+					</and>
+				</action>	
+								
+				<action name="ADD_VAR" var="complete_destroyer" value="1" >
+					<and>
+						<player var="destroyer" val="6" />
+						<player var="complete_destroyer" val="0" />
+					</and>
+				</action>
+			</event>
+						
+			<!-- действия при убийстве нужного моба -->
+			<event name="KILL_NPC" id="9" type="18" >
+				<action name="ADD_VAR" var="prophet" value="1" >
+					<and>
+						<quest state="6" />				
+					<not>
+						<player var="prophet" val="3" />
+					</not>
+					</and>						
+				</action>
+				
+				<action name="QUEST_STATE" state="7" >
+					<and>
+						<player var="complete_prophet" val="0" />
+						<player var="prophet" val="3" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_destroyer" val="1" />
+					</and>
+				</action>							
+
+				<action name="UPDATE_COUNTER" var1="rager|5" var2="destroyer|6" var3="prophet|3" >	
+					<player var="complete_prophet" val="0" />
+				</action>				
+								
+				<action name="QUEST_START" npcId="1003" npcType="218" x="-43081" y="-47909" z="1457" >
+					<and>
+						<player var="complete_prophet" val="0" />
+						<player var="prophet" val="3" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_destroyer" val="1" />
+					</and>
+				</action>
+
+				<action name="QUEST_MOVE_TO_PANEL" >
+					<and>
+						<player var="complete_prophet" val="0" />
+						<player var="prophet" val="3" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_destroyer" val="1" />
+					</and>
+				</action>								
+				
+				<action name="SET_NPC_ICON" npcId="1003" npcType="218" type="RED_QUESTION" >
+					<and>
+						<player var="complete_prophet" val="0" />
+						<player var="prophet" val="3" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_destroyer" val="1" />
+					</and>
+				</action>				
+
+				<action name="SYSTEM_MESSAGE" id="909" message="QuestName%@quest:2501001" >
+					<and>
+						<player var="complete_prophet" val="0" />
+						<player var="prophet" val="3" />
+						<player var="complete_rager" val="1" />
+						<player var="complete_destroyer" val="1" />
+					</and>
+				</action>	
+								
+				<action name="ADD_VAR" var="complete_prophet" value="1" >
+					<and>
+						<player var="prophet" val="3" />
+						<player var="complete_prophet" val="0" />
+					</and>
+				</action>
+			</event>
+				
+ 			<event name="SELECT_LINK" id="6">	
+				<action name="SHOW_QUEST_INFO" id="2" page="8" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="6">	
+				<action name="QUEST_STATE" state="8" />
+				<action name="QUEST_START" npcId="1001" npcType="218" x="-43006" y="-47970" z="1457" />
+				<action name="SET_NPC_ICON" npcId="1001" npcType="218" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event> 
+ 			<event name="SELECT_LINK" id="7">	
+				<action name="SHOW_QUEST_INFO" id="2" page="9" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="7">	
+				<action name="QUEST_STATE" state="9" />
+				<action name="QUEST_START" npcId="1022" npcType="218" x="-40445" y="-62880" z="2404" />
+				<action name="SET_NPC_ICON" npcId="1022" npcType="218" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="8">	
+				<action name="SHOW_QUEST_INFO" id="2" page="11" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="8">	
+				<action name="QUEST_STATE" state="11" />
+				<action name="QUEST_START" npcId="1007" npcType="218" x="-33433" y="-56854" z="2869" />
+				<action name="SET_NPC_ICON" npcId="1007" npcType="218" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="9">	
+				<action name="SHOW_QUEST_INFO" id="2" page="12" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="9">	
+				<action name="QUEST_STATE" state="12" />
+				<action name="QUEST_START" npcId="1501" npcType="218" x="-27955" y="-59463" z="4067" />
+				<action name="SET_NPC_ICON" npcId="1501" npcType="218" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			
+			<event name="SELECT_LINK" id="10">	
+				<action name="SHOW_QUEST_INFO" id="3" page="16" button="@quest:2501001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="10">	
+				<action name="QUEST_STATE" state="15" />							
+				<action name="QUEST_START" npcId="1022" npcType="218" x="-40445" y="-62880" z="2404" />
+				<action name="SET_NPC_ICON" npcId="1022" npcType="218" type="RED_STAR" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>								
+					
+			<event name="SELECT_LINK" id="11">
+				<action name="SHOW_QUEST_INFO" id="3" page="17" button="@quest:2501004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="11">	
+				<action name="FINISH_QUEST" />
+			</event>
+			
+			<event name="FINISHED_QUEST" >					
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>		
+
+	<quest id="2502" type="LEVEL_UP_QUEST" startLevel="36" prev="2501" name="A Race Through Dark Places" >
+		<npcs>	
+			<npc id="1001" type="66" /> <!-- Baruch -->
+			<npc id="1024" type="66" /> <!-- Brurun -->
+			<npc id="1006" type="225" /> <!-- Orlaith -->
+			<npc id="1022" type="225" /> <!-- Elsine -->
+			<npc id="1027" type="225" /> <!-- Rendalf -->
+			<npc id="1023" type="225" /> <!-- Runha -->
+		</npcs>
+		
+		<rewards>
+			<action name="ADD_EXP" exp="420000" />						
+
+			<action name="ADD_ITEM" id="15794" count="1" >
+				<player classes="BERSERKER;LANCER" />
+			</action>				
+			<action name="ADD_ITEM" id="15797" count="1" >
+				<player classes="ARCHER;SLAYER;WARRIOR" />
+			</action>
+			<action name="ADD_ITEM" id="15800" count="1" >
+				<player classes="MYSTIC;PRIEST;SORCERER" />
+			</action>		
+		</rewards>
+		
+		<links>			
+			<link name="@quest:2502001" id="1" icon="RED_QUESTION" >
+				<and>
+					<quest state="1" />
+					<npc id="1001" type="66" />
+				</and>
+			</link>			
+			
+			<link name="@quest:2502001" id="2" icon="RED_QUESTION" >
+				<and>
+					<quest state="2" />
+					<npc id="1024" type="66" />
+				</and>
+			</link>
+
+			<link name="@quest:2502001" id="3" icon="RED_QUESTION" >
+				<and>
+					<quest state="3" />
+					<npc id="1001" type="66" />
+				</and>
+			</link>		
+			
+			<link name="@quest:2502001" id="4" icon="RED_QUESTION" >
+				<and>
+					<quest state="4" />
+					<npc id="1006" type="225" />
+				</and>
+			</link>
+
+			<link name="@quest:2502001" id="5" icon="RED_QUESTION" >
+				<and>
+					<quest state="5" />
+					<npc id="1022" type="225" />
+				</and>
+			</link>		
+			
+			<link name="@quest:2502001" id="6" icon="RED_QUESTION" >
+				<and>
+					<quest state="6" />
+					<npc id="1027" type="225" />
+				</and>
+			</link>
+
+			<link name="@quest:2502001" id="7" icon="RED_QUESTION" >
+				<and>
+					<quest state="7" />
+					<npc id="1023" type="225" />
+				</and>
+			</link>		
+
+			<link name="@quest:2502001" id="8" icon="RED_STAR" >
+				<and>
+					<quest state="12" />
+					<npc id="1023" type="225" />				
+				</and>
+			</link>				
+		</links>
+		
+		<events>						
+			<event name="PLAYER_SPAWN" >
+				<action name="QUEST_START" npcId="1001" npcType="66" x="-55658" y="-37636" z="2505" >
+					<or>
+						<quest state="1" />
+						<quest state="3" />
+					</or>	
+				</action>
+
+				<action name="QUEST_START" npcId="1024" npcType="66" x="-55811" y="-39788" z="2384" >
+					<quest state="2" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1006" npcType="225" x="-73824" y="-35880" z="2347" >
+					<quest state="4" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1022" npcType="225" x="-85260" y="-39261" z="3488" >
+					<quest state="5" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1027" npcType="225" x="-84439" y="-34147" z="2694" >
+					<quest state="6" />
+				</action>
+				
+				<action name="QUEST_START" npcId="1023" npcType="225" x="-43006" y="-47970" z="1457" >
+					<or>
+						<quest state="7" />
+						<quest state="12" />
+					</or>	
+				</action>				
+			</event>
+			
+			<event name="ADD_NPC" id="1001" type="66" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<or>
+						<quest state="1" />
+						<quest state="3" />
+					</or>
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1024" type="66" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="2" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1006" type="225" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="4" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1022" type="225" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="5" />
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1027" type="225" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="6" />	
+				</action>
+			</event>			
+						
+			<event name="ADD_NPC" id="1023" type="225" >	
+				<action name="SET_NPC_ICON" type="RED_QUESTION" >
+					<quest state="7" />	
+				</action>
+			</event>							
+
+			<event name="ADD_NPC" id="1023" type="225" >	
+				<action name="SET_NPC_ICON" type="RED_STAR" >
+					<quest state="12" />
+				</action>
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >
+				<action name="QUEST_START" npcId="1001" npcType="66" x="-55658" y="-37636" z="2505" />					
+				<action name="SET_NPC_ICON" npcId="1001" npcType="66" type="RED_QUESTION" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:2502001" />
+			</event>			
+
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="3" page="3" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="QUEST_STATE" state="2" />
+				<action name="QUEST_START" npcId="1024" npcType="66" x="-55811" y="-39788" z="2384" />
+				<action name="SET_NPC_ICON" npcId="1024" npcType="66" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+ 
+ 			<event name="SELECT_LINK" id="2">	
+				<action name="SHOW_QUEST_INFO" id="2" page="4" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="QUEST_STATE" state="3" />
+				<action name="QUEST_START" npcId="1001" npcType="66" x="-55658" y="-37636" z="2505" />					
+				<action name="SET_NPC_ICON" npcId="1001" npcType="66" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+  
+ 			<event name="SELECT_LINK" id="3">	
+				<action name="SHOW_QUEST_INFO" id="2" page="5" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="3">	
+				<action name="QUEST_STATE" state="4" />
+				<action name="QUEST_START" npcId="1006" npcType="225" x="-73824" y="-35880" z="2347" />
+				<action name="SET_NPC_ICON" npcId="1006" npcType="225" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="4">	
+				<action name="SHOW_QUEST_INFO" id="2" page="6" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="4">	
+				<action name="QUEST_STATE" state="5" />
+				<action name="QUEST_START" npcId="1022" npcType="225" x="-85260" y="-39261" z="3488" />
+				<action name="SET_NPC_ICON" npcId="1022" npcType="225" type="RED_QUESTION" />
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+			 
+ 			<event name="SELECT_LINK" id="5">	
+				<action name="SHOW_QUEST_INFO" id="2" page="7" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="5">	
+				<action name="QUEST_STATE" state="6" />
+				<action name="QUEST_START" npcId="1027" npcType="225" x="-84439" y="-34147" z="2694" />
+				<action name="SET_NPC_ICON" npcId="1027" npcType="225" type="RED_QUESTION" />							
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>
+
+ 			<event name="SELECT_LINK" id="6">	
+				<action name="SHOW_QUEST_INFO" id="2" page="8" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="6">	
+				<action name="QUEST_STATE" state="7" />
+				<action name="QUEST_START" npcId="1023" npcType="225" x="-43006" y="-47970" z="1457" />
+				<action name="SET_NPC_ICON" npcId="1023" npcType="225" type="RED_QUESTION" />						
+				<action name="UPDATE_INTRESTING" />
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event> 
+		
+			<event name="SELECT_LINK" id="7">	
+				<action name="SHOW_QUEST_INFO" id="3" page="10" button="@quest:2502001" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="7">	
+				<action name="QUEST_STATE" state="12" />							
+				<action name="QUEST_START" npcId="1023" npcType="225" x="-43006" y="-47970" z="1457" />
+				<action name="SET_NPC_ICON" npcId="1023" npcType="225" type="RED_STAR" />			
+				<action name="QUEST_MOVE_TO_PANEL" />
+			</event>								
+					
+			<event name="SELECT_LINK" id="8">
+				<action name="SHOW_QUEST_INFO" id="3" page="11" button="@quest:2502004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="8">	
+				<action name="FINISH_QUEST" />
+			</event>
+			
+			<event name="FINISHED_QUEST" >					
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>		
+			
+	<quest id="2503" type="STORY_QUEST" name="Dark Dreams Sundered" >
+		<rewards>
+			<action name="ADD_EXP" exp="1" />						
+		</rewards>
+		
+		<links>
+			<link name="@quest:321001" id="1" icon="YELLOW_NOTICE" >
+				<and>
+					<player minLevel="99" />
+					<npc id="0" type="0" />
+				</and>
+			</link>
+			
+			<link name="@quest:321001" id="2" icon="YELLOW_STAR" >
+				<and>
+					<npc id="0" type="0" />
+				</and>
+			</link>
+		</links>
+		
+		<events>
+			<event name="PLAYER_SPAWN" >	
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />
+			</event>				
+			
+			<event name="ADD_NPC" id="0" type="0" >	
+				<action name="SET_NPC_ICON" type="YELLOW_STAR" />
+			</event>
+			
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="2" button="@quest:1" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="START_QUEST" />
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />	
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:321001" />
+			</event>			
+					
+			<event name="SELECT_LINK" id="2">
+				<action name="SHOW_QUEST_INFO" id="3" button="@quest:321004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="FINISH_QUEST" />
+			</event>
+			
+			<event name="FINISHED_QUEST" >
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>	
+	
+	<quest id="2504" type="STORY_QUEST" name="Final Fury" >
+		<rewards>
+			<action name="ADD_EXP" exp="1" />						
+		</rewards>
+		
+		<links>
+			<link name="@quest:321001" id="1" icon="YELLOW_NOTICE" >
+				<and>
+					<player minLevel="99" />
+					<npc id="0" type="0" />
+				</and>
+			</link>
+			
+			<link name="@quest:321001" id="2" icon="YELLOW_STAR" >
+				<and>
+					<npc id="0" type="0" />
+				</and>
+			</link>
+		</links>
+		
+		<events>
+			<event name="PLAYER_SPAWN" >	
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />
+			</event>				
+			
+			<event name="ADD_NPC" id="0" type="0" >	
+				<action name="SET_NPC_ICON" type="YELLOW_STAR" />
+			</event>
+			
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="2" button="@quest:1" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="START_QUEST" />
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />	
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:321001" />
+			</event>			
+					
+			<event name="SELECT_LINK" id="2">
+				<action name="SHOW_QUEST_INFO" id="3" button="@quest:321004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="FINISH_QUEST" />
+			</event>
+			
+			<event name="FINISHED_QUEST" >
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>	
+		
+	<quest id="2505" type="STORY_QUEST" name="The Guardian of Velika" >
+		<rewards>
+			<action name="ADD_EXP" exp="1" />						
+		</rewards>
+		
+		<links>
+			<link name="@quest:321001" id="1" icon="YELLOW_NOTICE" >
+				<and>
+					<player minLevel="99" />
+					<npc id="0" type="0" />
+				</and>
+			</link>
+			
+			<link name="@quest:321001" id="2" icon="YELLOW_STAR" >
+				<and>
+					<npc id="0" type="0" />
+				</and>
+			</link>
+		</links>
+		
+		<events>
+			<event name="PLAYER_SPAWN" >	
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />
+			</event>				
+			
+			<event name="ADD_NPC" id="0" type="0" >	
+				<action name="SET_NPC_ICON" type="YELLOW_STAR" />
+			</event>
+			
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="2" button="@quest:1" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="START_QUEST" />
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />	
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:321001" />
+			</event>			
+					
+			<event name="SELECT_LINK" id="2">
+				<action name="SHOW_QUEST_INFO" id="3" button="@quest:321004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="FINISH_QUEST" />
+			</event>
+			
+			<event name="FINISHED_QUEST" >
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>	
+			
+
+	<quest id="2832" type="ZONE_QUEST" name="Wings of Darkness" >
+		<npcs>	
+			<npc id="1007" type="224" /> <!-- Loqa (tul) -->
+			<npc id="1128" type="63" /> <!-- Midril -->
+		</npcs>
+		
+		<rewards>
+			<action name="ADD_EXP" exp="780900" />				
+			<action name="ADD_ITEM" id="20000000" reward="true" count="78090" />	
+			<action name="ADD_ITEM" id="134" count="1" />	
+			
+			<action name="ADD_ITEM" id="50042" count="1" />	
+			<action name="ADD_ITEM" id="50052" count="1" />	
+			<action name="ADD_ITEM" id="50055" count="1" />				
+		</rewards>
+		
+		<links>
+			<link name="@quest:2832001" id="1" icon="YELLOW_NOTICE" >
+				<and>
+					<player minLevel="2" />
+					<player maxLevel="11" />
+					<quest state="0" />
+					<not>
+						<quest complete="2832" />						
+					</not>
+					<npc id="1007" type="224" />					
+				</and>
+			</link>
+	
+			<link name="@quest:2832001" id="2" icon="YELLOW_STAR" >
+				<and>
+					<player minLevel="2" />
+					<player maxLevel="11" />
+					<quest state="2" />
+					<npc id="1128" type="63" />
+				</and>
+			</link>				
+		</links>
+		
+		<events>
+			<event name="CANCELED_QUEST" >	
+				<action name="UPDATE_INTRESTING" id="1007" type="224" />
+				<action name="UPDATE_INTRESTING" id="1128" type="63" />
+			</event>
+			
+			<event name="PLAYER_SPAWN" >
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" >
+					<quest state="9" />
+				</action>			
+			</event>			
+
+			<event name="ADD_NPC" id="0" type="0" >	
+				<action name="SET_NPC_ICON" type="NONE" >
+					<quest state="9" />
+				</action>
+			</event>			
+			
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="2" page="2" button="@quest:1" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="START_QUEST" />
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >	
+				<action name="QUEST_STATE" state="2" />			
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />									
+				<action name="SET_NPC_ICON" npcId="0" npcType="0" type="NONE" />		
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:2832001" />
+			</event>						
+							
+			<event name="SELECT_LINK" id="2">
+				<action name="SHOW_QUEST_INFO" id="3" page="3" button="@quest:2832004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="FINISH_QUEST" />
+			</event>			
+			
+			<event name="FINISHED_QUEST" >			
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>		
+		
+	<quest id="2833" type="ZONE_QUEST" name="The Sick Sense" >
+		<npcs>	
+			<npc id="1001" type="202" /> <!-- Weldon -->
+		</npcs>
+		
+		<rewards>
+			<action name="ADD_EXP" exp="6100000" />				
+			<action name="ADD_ITEM" id="20000000" reward="true" count="1500000" />			
+		</rewards>
+		
+		<links>
+			<link name="@quest:2833001" id="1" icon="YELLOW_NOTICE" >
+				<and>
+					<player minLevel="2" />
+					<quest state="0" />
+					<quest complete="2832" />	
+					<npc id="1001" type="202" />					
+				</and>
+			</link>
+	
+			<link name="@quest:2833001" id="2" icon="YELLOW_STAR" >
+				<and>
+					<quest state="2" />
+					<npc id="1001" type="202" />
+				</and>
+			</link>				
+		</links>
+		
+		<events>
+			<event name="CANCELED_QUEST" >	
+				<action name="UPDATE_INTRESTING" id="1001" type="202" />
+			</event>
+			
+			<event name="PLAYER_SPAWN" >
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" >
+					<quest state="9" />
+				</action>			
+			</event>			
+
+			<event name="ADD_NPC" id="0" type="0" >	
+				<action name="SET_NPC_ICON" type="NONE" >
+					<quest state="9" />
+				</action>
+			</event>			
+			
+			<event name="SELECT_LINK" id="1">	
+				<action name="SHOW_QUEST_INFO" id="2" page="2" button="@quest:1" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="1">	
+				<action name="START_QUEST" />
+			</event>
+			
+			<event name="ACCEPTED_QUEST" >	
+				<action name="QUEST_STATE" state="2" />			
+				<action name="QUEST_START" npcId="0" npcType="0" x="0" y="0" z="0" />									
+				<action name="SET_NPC_ICON" npcId="0" npcType="0" type="NONE" />		
+				<action name="QUEST_MOVE_TO_PANEL" />
+				<action name="EVENT_MESSAGE" head="@624" message="QuestName" info="@quest:2833001" />
+			</event>						
+
+			<!-- 60 -->
+			<event name="KILL_NPC" id="57" type="2" >
+				<action name="DROP_ITEM" id="20660" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="20360" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="20060" min="1" max="1" chance="100" />	
+				
+				<action name="DROP_ITEM" id="10393" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="10395" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="10397" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="10399" min="1" max="1" chance="100" />	
+				
+				<action name="DROP_ITEM" id="15553" min="1" max="1" chance="100" />								
+				<action name="DROP_ITEM" id="15554" min="1" max="1" chance="100" />								
+				<action name="DROP_ITEM" id="15555" min="1" max="1" chance="100" />	
+				
+				<action name="DROP_ITEM" id="15556" min="1" max="1" chance="100" />								
+				<action name="DROP_ITEM" id="15557" min="1" max="1" chance="100" />								
+				<action name="DROP_ITEM" id="15558" min="1" max="1" chance="100" />								
+			</event>
+			
+			<!-- 58 (centaur) -->
+			<event name="KILL_NPC" id="13" type="2" >								
+				<action name="DROP_ITEM" id="10487" min="1" max="1" chance="100" />	
+				<action name="DROP_ITEM" id="10486" min="1" max="1" chance="100" />							
+			</event>
+							
+			<!-- other -->
+			<event name="KILL_NPC" id="3" type="2" >
+				<action name="DROP_ITEM" id="8379" min="50" max="70" chance="100" />							
+				<action name="DROP_ITEM" id="8415" min="50" max="70" chance="100" />							
+				<action name="DROP_ITEM" id="8223" min="50" max="70" chance="100" />					
+				<action name="DROP_ITEM" id="8505" min="50" max="70" chance="100" />					
+				<action name="DROP_ITEM" id="6015" min="80" max="99" chance="100" />							
+				<action name="DROP_ITEM" id="6031" min="80" max="99" chance="100" />						
+				<action name="DROP_ITEM" id="129" min="50" max="80" chance="100" />						
+			</event>				
+
+			<event name="SELECT_LINK" id="2">
+				<action name="SHOW_QUEST_INFO" id="3" page="3" button="@quest:2833004" />
+			</event>
+			
+			<event name="SELECT_BUTTON" id="2">	
+				<action name="FINISH_QUEST" />
+			</event>			
+			
+			<event name="FINISHED_QUEST" >			
+				<action name="QUEST_FINISH" />
+			</event>
+		</events>
+	</quest>
+	
+</list>

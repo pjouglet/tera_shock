@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Контрольная точка -->
+	<npc id="30000" type="488" >
+		<ai newAI="true" class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="10" >
+				<point x="45306" y="54501" z="70" regionId="1_6_70@7004" name="Jagged Coast" />
+				<point x="69094" y="55823" z="80" regionId="1_6_65@7004" name="Azarel Labyrinth" />
+				<point x="103833" y="54756" z="2259" regionId="1_6_56@7004" name="Fyrmount" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

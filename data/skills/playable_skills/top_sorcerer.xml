@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="31000" class="-8" name="Fireball" levels="1">
+		<set name="iconId" value="67118964" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>		
+		<set name="power" value="50" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<set name="damageId" value="67118964" />
+	</skill>
+	
+	<skill id="31001" class="-8" name="Flame Pillar" levels="1">
+		<set name="iconId" value="67188964" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="150" />
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="70" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+	</skill>
+	
+	<skill id="31002" class="-8" name="Backstep" levels="1">
+		<set name="iconId" value="67178964" />
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="reuseDelay" value="4000" />
+		<set name="moveDistance" value="-200" />
+		<set name="moveTime" value="1000" />
+		<set name="skillType" value="JUMP" />
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE" />	
+		<set name="hitTime" value="1300" />		
+    </skill>
+	
+	<skill id="31003" class="-8" name="Magma Bomb" levels="1">
+		<set name="iconId" value="67218964" />
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="320" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="4000"/>
+    </skill>
+	
+	<skill id="31004" class="-8" name="Ice Needle" levels="1">
+		<set name="iconId" value="67128964" />
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />
+        <set name="range" value="700"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="damageId" value="67128984" />
+		<set name="maxTargets" value="20" />
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" resistType="weakResist" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="31005" class="-8" name="Painblast" levels="1">
+		<set name="iconId" value="67268964" />
+		<set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="hitTime" value="3100"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+        <for>
+			<effect id="500706" time="2" count="10" type="DAM_OVER_TIME" dynamicCount="true" power="341" resistType="damageResist" stackType="poison" chance="100" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="31006" class="-8" name="Painful Trap" levels="1">
+		<set name="iconId" value="67278964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+		<set name="skillGroup" value="TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="180"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="1"/>
+		<set name="radius" value="100"/>
+    </skill>
+	
+	<skill id="31007" class="-8" name="Painful Trap Attack" levels="1">
+		<set name="iconId" value="67278984" />
+        <set name="power" value="150"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	
+	<skill id="31008" class="-8" name="Lightning Trap" levels="1">
+		<set name="iconId" value="67138964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+		<set name="skillGroup" value="TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="hitTime" value="4800"/>
+		<set name="delay" value="3600"/>
+		<set name="lifeTime" value="180"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="1"/>
+		<set name="radius" value="100"/>
+    </skill>
+	
+	<skill id="31009" class="-8" name="Lightning Trap Attack" levels="1">
+		<set name="iconId" value="67138984" />
+        <set name="power" value="50"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+		<for> 
+			<effect id="301" time="6" count="1" type="STUN" dynamicTime="true" chance="80" resistType="stunResist" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="31010" class="-8" name="Glacial Retreat" levels="1">
+		<set name="iconId" value="67288964" />
+        <set name="power" value="50"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="JUMP"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" resistType="weakResist" stackType="speed_down" chance="100" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="31011" class="-8" name="Teleport Jaunt" levels="1">
+		<set name="iconId" value="67368964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_JUMP"/>
+		<set name="skillGroup" value="JUMP"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="delay" value="500"/>
+        <set name="moveDistance" value="300"/>
+		<set name="moveDelay" value="400"/>
+		<set name="moveTime" value="100"/>
+        <set name="hitTime" value="1400"/>
+        <set name="reuseDelay" value="6000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="evasion" value="true" />			
+    </skill>
+	
+	<skill id="31012" class="-8" name="Fireblast" levels="1">
+		<set name="iconId" value="67168964" />
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="250"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="hitTime" value="8000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="damageId" value="67188964" />
+    </skill>
+	
+	<skill id="31013" class="-8" name="Void Pulse" levels="1">
+		<set name="iconId" value="67228964" />
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="750"/>
+		<set name="power" value="150" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="750" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="damageId" value="67228984" />	
+	</skill>
+	
+	<skill id="31014" class="-8" name="Overchannel" levels="1">
+		<set name="iconId" value="67198964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+		<set name="skillGroup" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="20000"/>
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="31015" class="-8" name="Mana Barrier" levels="1">
+		<set name="iconId" value="67208964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+		<set name="skillGroup" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+        <for>
+			<effect id="500600" time="10" count="1" type="DAMAGE_ABSORPTION" stackType="absorb_damage" power="7063" value="14" />
+		</for>
+    </skill>
+	
+	<skill id="31016" class="-8" name="Burst of Celerity" levels="1">
+		<set name="iconId" value="67348964" />
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+		<set name="skillGroup" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+        <for>
+			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
+				<mul stat="atkSpd" order="0x30" val="1.2" />
+			</effect>
+		</for>
+    </skill>
+</list>

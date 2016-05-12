@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<config name="RegionWarWarrior" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="JUMP" val="100" />
+				<set name="BUFF" val="40" />
+				<set name="DEBUFF" val="40" />
+				<set name="fastTurn" val="true" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+			
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="1500" />
+				<set name="reactionMaxRange" val="900" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="RegionWarSorcerer" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="JUMP" val="0" />
+				<set name="BUFF" val="40" />
+				<set name="TRAP" val="30" />
+				<set name="fastTurn" val="true" />
+				<set name="shortRange" val="100" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+				
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="700" />
+				<set name="reactionMaxRange" val="400" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="RegionWarPriest" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="JUMP" val="0" />
+				<set name="BUFF" val="40" />
+				<set name="HEAL" val="100" />
+				<set name="fastTurn" val="true" />
+				<set name="shortRange" val="100" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+				
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="600" />
+				<set name="reactionMaxRange" val="400" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="RegionWarSlayer" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="JUMP" val="100" />
+				<set name="BUFF" val="40" />
+				<set name="fastTurn" val="true" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+			
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="1500" />
+				<set name="reactionMaxRange" val="900" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="RegionWarLancer" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="SHIELD" val="100" />
+				<set name="BUFF" val="40" />
+				<set name="DEBUFF" val="40" />
+				<set name="HEAL" val="40" />
+				<set name="fastTurn" val="true" />
+			</task>
+			
+			<task state="IN_RUN_AWAY" factory="DefaultRunAwayTaskFactory" >
+				<set name="offset" val="750" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+			
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="500" />
+				<set name="reactionMaxRange" val="400" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="RegionWarArcher" >
+		<intervals default="1000" >
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="0" />
+				<set name="randomWalkMaxRange" val="0" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+				<set name="noticeRange" val="150" />
+			</task>
+			
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<set name="JUMP" val="0" />
+				<set name="BUFF" val="40" />
+				<set name="TRAP" val="30" />
+				<set name="DEBUFF" val="80" />
+				<set name="fastTurn" val="true" />
+				<set name="shortRange" val="100" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="DefaultWaitAction" >
+				<set name="randomWalkMaxRange" val="50" />
+				<set name="randomWalkMinDelay" val="0" />
+				<set name="randomWalkMaxDelay" val="0" />
+			</think>
+				
+			<think state="RETURN_TO_HOME" action="NoRestoreReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<set name="battleMaxRange" val="700" />
+				<set name="reactionMaxRange" val="400" />
+				<set name="criticalHp" val="0" />
+				<set name="rearRate" val="0" />
+				<set name="runAwayRate" val="0" />
+			</think>
+		</thinks>
+	</config>
+</list>
+
+
+<!-- 
+/** в ожидании чего-то */
+	WAIT(null, null),
+	/** в патрулировании местности */
+	PATROL(null, null),
+	/** в возвращении на точку респа */
+	RETURN_TO_HOME(null, null),
+	/** в бою */
+	IN_BATTLE(null, null),
+	/** в ярости */
+	IN_RAGE(null, null),
+	/** убегает от противника */
+	IN_RUN_AWAY(null, null);
+	-->

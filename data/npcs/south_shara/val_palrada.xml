@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+	<!-- Quarantine Zone -->
+	
+	<template id="18" name="Violent Mycanar" class="MONSTER" type="40" level="46" exp="8300" attack="10000" defense="1000" impact="200" balance="2000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="150" skills="18016;18017;18018;18019;18020;18021;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="37" name="Gorilla" class="MONSTER" type="40" level="45" exp="0" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="29" name="Brutal Sabertoth" class="MONSTER" type="40" level="46" exp="9300" attack="9000" defense="1000" impact="200" balance="2000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="160" geomRadius="30" skills="18007;18008;18009;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="3" name="Enraged Armored Pegling" class="MINION_LEADER" type="40" level="46" exp="7000" attack="10000" defense="1000" impact="200" balance="2000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="150" geomRadius="20" skills="18013;18014;18015;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="4" name="Armored Pegling" class="MINION" type="40" level="46" exp="350" attack="3000" defense="300" impact="150" balance="500" maxHp="7000" maxMp="1000" atkSpd="120" runSpd="150" geomRadius="15" skills="18010;18011;18012;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="17" name="Mutagenic Wolf" class="MONSTER" type="40" level="46" exp="7300" attack="10000" defense="1000" impact="200" balance="1000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="170" skills="18022;18023;18024;18025;18026;18027;18028;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="39" name="Snarling Redwolf" class="MONSTER" type="40" level="46" exp="8300" attack="10000" defense="1000" impact="200" balance="1000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="170" skills="18022;18023;18024;18025;18026;18027;18028;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="12" name="Selvaras Assasin" class="MONSTER" type="40" level="46" exp="7300" attack="10000" defense="1000" impact="200" balance="1000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="150" geomRadius="25" skills="18000;18001;18002;18003;18004;18005;18006;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="11" name="Selvaras Scout" class="MONSTER" type="40" level="46" exp="8450" attack="10000" defense="1000" impact="200" balance="1000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="150" geomRadius="25" skills="18000;18001;18002;18003;18004;18005;18006;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="34" name="Забор" class="NPC_OBJECT" type="40" level="46" exp="1" attack="1" defense="1000" impact="1" balance="1" maxHp="50000" maxMp="1000" atkSpd="120" runSpd="100" skills="" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="35" name="Бочка" class="NPC_OBJECT" type="40" level="45" exp="1" attack="1" defense="1000" impact="1" balance="1" maxHp="50000" maxMp="1000" atkSpd="120" runSpd="100" skills="" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="36" name="Камень летающий" class="NPC_OBJECT" type="40" level="1" exp="1" attack="1" defense="1000" impact="1" balance="1" maxHp="50000" maxMp="1000" atkSpd="120" runSpd="100" skills="" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="15" name="Mutant Worker" class="MONSTER" type="40" level="46" exp="9300" attack="11000" defense="1000" impact="200" balance="1000" maxHp="50000" maxMp="10000" atkSpd="120" runSpd="140" skills="18029;18030;18031;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="19" name="Mutant Polykind" class="MINION_LEADER" type="40" level="45" exp="5900" attack="8000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="140" geomRadius="25" skills="18035;18036;18037;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="20" name="Mad Polykind" class="MINION" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="6500" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="15" skills="18032;18033;18034;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="23" name="Guardian Aberration" class="MINION_LEADER" type="40" level="45" exp="5900" attack="12000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="140" skills="18038;18039;18040;18041;18042;18043;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="24" name="Crazed Polykind" class="MINION" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="6500" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="15" skills="18032;18033;18034;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="28" name="Turakius" class="MONSTER" type="40" level="45" exp="7200" attack="10000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="140" skills="18044;18045;18046;18047;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="30" name="Mutant Triblader" class="MONSTER" type="40" level="45" exp="7200" attack="8000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="25" skills="18048;18049;18050;18051;18052;18053;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="31" name="Mutant Triblader" class="MONSTER" type="40" level="45" exp="6890" attack="10000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="25" skills="18048;18049;18050;18051;18052;18053;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="1" name="Berserk Scarecrow" class="MINION_LEADER" type="40" level="45" exp="7900" attack="10000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="25" skills="18059;18060;18061;18062;18063;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="2" name="Berserk Puppet" class="MINION" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="140" geomRadius="15" skills="18054;18055;18056;18057;18058;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="5" name="Berser Harvest Golem" class="MINION_LEADER" type="40" level="45" exp="4900" attack="13000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="1000" atkSpd="120" runSpd="150" skills="18064;18065;18066;18067;18068;18069;18070;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="8" name="Chaotic Scarecrow" class="MINION" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="6500" maxMp="1000" atkSpd="120" runSpd="150" geomRadius="15" skills="18054;18055;18056;18057;18058;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="13" name="Prion Eviscerator" class="MONSTER" type="40" level="45" exp="7200" attack="14000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="150" skills="18074;18075;18076;18077;18078;18079;18080;18081;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="14" name="Prion Devastator" class="MONSTER" type="40" level="45" exp="7200" attack="12000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="150" skills="18074;18075;18076;18077;18078;18079;18080;18081;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="32" name="Zombie Miner" class="MONSTER" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="6500" maxMp="1000" atkSpd="120" runSpd="100" geomRadius="15" skills="18071;18072;18073;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="33" name="33" class="MONSTER" type="40" level="45" exp="320" attack="3600" defense="270" impact="140" balance="900" maxHp="6500" maxMp="1000" atkSpd="120" runSpd="100" geomRadius="15" skills="18071;18072;18073;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	<template id="16" name="Mutant Miner" class="MONSTER" type="40" level="45" exp="8200" attack="12000" defense="900" impact="190" balance="900" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="140" skills="18029;18030;18031;" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	
+	<template id="25" name="Crestarath Archer" class="MONSTER" type="40" level="45" exp="12320" attack="14000" defense="1350" impact="250" balance="1450" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="160" skills="18082;18083;18084;18085;18086;18087;" >
+		<add stat="weakRcpt" order="0x40" val="45" />
+		<add stat="dmgRcpt" order="0x40" val="45" />
+		<add stat="stunRcpt" order="0x40" val="45" />
+	</template>
+	
+	<template id="26" name="Crestarath Reaper" class="MONSTER" type="40" level="45" exp="11300" attack="12000" defense="1350" impact="250" balance="1450" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="160" skills="18088;18089;18090;18091;18092;18093;" >
+		<add stat="weakRcpt" order="0x40" val="45" />
+		<add stat="dmgRcpt" order="0x40" val="45" />
+		<add stat="stunRcpt" order="0x40" val="45" />
+	</template>
+	
+	<template id="27" name="Crestarath Slayer" class="MONSTER" type="40" level="45" exp="10300" attack="14000" defense="1350" impact="250" balance="1450" maxHp="47000" maxMp="10000" atkSpd="120" runSpd="160" skills="18094;18095;18096;" >
+		<add stat="weakRcpt" order="0x40" val="45" />
+		<add stat="dmgRcpt" order="0x40" val="45" />
+		<add stat="stunRcpt" order="0x40" val="45" />
+	</template>
+	
+	
+	
+	
+	
+	
+	
+	<template id="1900" name="1900" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="9001" name="9001" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="9000" name="9000" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="510" name="510" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="320" name="320" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="230" name="230" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1020" name="1020" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="5001" name="5001" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="5000" name="5000" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1010" name="1010" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="220" name="220" class="MONSTER" type="42" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1700" name="1700" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1014" name="1014" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1008" name="1008" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1007" name="1007" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1007" name="1007" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1011" name="1011" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1004" name="1004" class="FRIENDLY" type="242" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1002" name="1002" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1001" name="1001" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1700" name="1700" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1032" name="1032" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1014" name="1014" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1031" name="1031" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1037" name="1037" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1003" name="1003" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1036" name="1036" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1401" name="1401" class="FRIENDLY" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1004" name="1004" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1019" name="1019" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1024" name="1024" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1007" name="1007" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1015" name="1015" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1016" name="1016" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1008" name="1008" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1102" name="1102" class="FRIENDLY" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1027" name="1027" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1029" name="1029" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1030" name="1030" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1026" name="1026" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1011" name="1011" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1201" name="1201" class="REGION_WAR_SHOP" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1009" name="1009" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1301" name="1301" class="REGION_WAR_SHOP" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1600" name="1600" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1010" name="1010" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1028" name="1028" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1002" name="1002" class="REGION_WAR_SHOP" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1017" name="1017" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1012" name="1012" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1403" name="1403" class="FRIENDLY" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1035" name="1035" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1005" name="1005" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1013" name="1013" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1006" name="1006" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1018" name="1018" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1603" name="1603" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1023" name="1023" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1001" name="1001" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1602" name="1602" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1033" name="1033" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1001" name="1001" class="REGION_WAR_SHOP" type="375" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1034" name="1034" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1022" name="1022" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1003" name="1003" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4002" name="4002" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="3004" name="3004" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="3005" name="3005" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="303" name="303" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4010" name="4010" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2002" name="2002" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2008" name="2008" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2009" name="2009" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4005" name="4005" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4004" name="4004" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1700" name="1700" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1900" name="1900" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1021" name="1021" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1013" name="1013" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1023" name="1023" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1022" name="1022" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1007" name="1007" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1008" name="1008" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4009" name="4009" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2003" name="2003" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2006" name="2006" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="302" name="302" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="3006" name="3006" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="301" name="301" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1018" name="1018" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1019" name="1019" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1003" name="1003" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1011" name="1011" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1003" name="1003" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1020" name="1020" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1012" name="1012" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2004" name="2004" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="2005" name="2005" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="4001" name="4001" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="3002" name="3002" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="3003" name="3003" class="MONSTER" type="41" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1016" name="1016" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1025" name="1025" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1005" name="1005" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1017" name="1017" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1017" name="1017" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="110" name="110" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="270" name="270" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="200" name="200" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1102" name="1102" class="FRIENDLY" type="241" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1026" name="1026" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="280" name="280" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="150" name="150" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="140" name="140" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="131" name="131" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="130" name="130" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="290" name="290" class="MONSTER" type="39" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1020" name="1020" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1019" name="1019" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="41" name="41" class="MONSTER" type="40" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1033" name="1033" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="42" name="42" class="MONSTER" type="40" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1700" name="1700" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1015" name="1015" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1004" name="1004" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1018" name="1018" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1101" name="1101" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1028" name="1028" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1100" name="1100" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1014" name="1014" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1002" name="1002" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="38" name="38" class="MONSTER" type="40" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="10" name="10" class="MONSTER" type="40" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1036" name="1036" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1035" name="1035" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1037" name="1037" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1024" name="1024" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1022" name="1022" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1023" name="1023" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1011" name="1011" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1021" name="1021" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1102" name="1102" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1103" name="1103" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1012" name="1012" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1016" name="1016" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1020" name="1020" class="FRIENDLY" type="75" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1013" name="1013" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+	<template id="1027" name="1027" class="FRIENDLY" type="240" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="1000" maxMp="1000" atkSpd="120" runSpd="100" skills="" />
+</list>

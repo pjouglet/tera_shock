@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Контрольная точка -->
+	<npc id="30000" type="488" continentId="1" >
+		<ai newAI="true" class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="10" >
+				<point x="-37582" y="43923" z="797" regionId="1_14_157@7013" name="Lost Mines" />
+				<point x="-53419" y="51485" z="909" regionId="1_14_157@7013" name="Quarantine Village" />
+				<point x="-57717" y="69501" z="1677" regionId="1_14_158@7013" name="Feral Valley Shout" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

@@ -1,0 +1,3020 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67118964" class="7" name="Sharan Bolt I" levels="4">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />	
+		<set name="power" value="11" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+	</skill>
+	
+	<skill id="67119064" class="7" name="Sharan Bolt II" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="power" value="13" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119164" class="7" name="Sharan Bolt III" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="power" value="19" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119264" class="7" name="Sharan Bolt IV" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>	
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="power" value="28" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119364" class="7" name="Sharan Bolt V" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>	
+		<set name="radius" value="5" />
+		<set name="range" value="470" />	
+		<set name="power" value="41" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119464" class="7" name="Sharan Bolt VI" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="power" value="59" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119564" class="7" name="Sharan Bolt VII" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>	
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="power" value="87" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119664" class="7" name="Sharan Bolt VIII" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />		
+		<set name="power" value="126" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119764" class="7" name="Sharan Bolt IX" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>		
+		<set name="radius" value="5" />
+		<set name="range" value="470" />	
+		<set name="power" value="184" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119864" class="7" name="Sharan Bolt X" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>	
+		<set name="radius" value="5" />
+		<set name="range" value="470" />	
+		<set name="power" value="269" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67119964" class="7" name="Sharan Bolt XI" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="delay" value="700"/>			
+		<set name="power" value="392" />
+		<set name="radius" value="5" />
+		<set name="range" value="470" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="32" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67288964" class="7" name="Arun's Vitae I" levels="1">
+	    <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8008" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>				
+	</skill>
+	
+	<skill id="67289064" class="7" name="Arun's Vitae II" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8009" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289164" class="7" name="Arun's Vitae III" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8010" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289264" class="7" name="Arun's Vitae IV" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8011" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289364" class="7" name="Arun's Vitae V" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8012" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289464" class="7" name="Arun's Vitae VI" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8013" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289564" class="7" name="Arun's Vitae VII" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8014" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289664" class="7" name="Arun's Vitae VIII" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8015" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289764" class="7" name="Arun's Vitae IX" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8016" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289864" class="7" name="Arun's Vitae X" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8017" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="400" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67328964" class="7" name="Arun's Tears" levels="1">
+        <set name="skillType" value="SPAWN_ITEM" />	
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>			
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="itemId" value="8023" />
+		<set name="delay" value="2000" />
+		<set name="itemCount" value="1" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="500" />
+		<set name="hitTime" value="3000" />	
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	 <skill id="67338964" class="7" name="Metamorphic Smite I" levels="1">
+        <set name="power" value="59"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339064" class="7" name="Metamorphic Smite II" levels="1">
+        <set name="power" value="97"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339164" class="7" name="Metamorphic Smite III" levels="1">
+        <set name="power" value="142"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339264" class="7" name="Metamorphic Smite IV" levels="1">
+        <set name="power" value="207"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339364" class="7" name="Metamorphic Smite V" levels="1">
+        <set name="power" value="303"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339464" class="7" name="Metamorphic Smite VI" levels="1">
+        <set name="power" value="442"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339564" class="7" name="Metamorphic Smite VII" levels="1">
+        <set name="power" value="645"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339664" class="7" name="Metamorphic Smite VIII" levels="1">
+        <set name="power" value="941"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67339764" class="7" name="Metamorphic Smite IX" levels="1">
+        <set name="power" value="1372"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="80"/>
+		<set name="radius" value="70"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="1400"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67218964" class="7" name="Summon: Party" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="PARTY_SUMMON"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="1000"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="4000"/>
+        <set name="reuseDelay" value="600000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>	
+    </skill>
+
+    <skill id="67178964" class="7" name="Mana Infusion" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="7200"/>
+		<set name="delay" value="7000"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+        <for>
+			<effect id="800200" time="1" count="20" type="MANA_HEAL_OVER_TIME" power="100" stackType="mana_heal_over_time" />
+		</for>
+    </skill>
+	
+	<skill id="67278964" class="7" name="Teleport Jaunt" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillType" value="TELEPORT_JUMP"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="120"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="delay" value="600"/>
+        <set name="moveDistance" value="300"/>
+		<set name="moveDelay" value="500"/>
+		<set name="moveTime" value="100"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="8000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="evasion" value="true" />		
+        <set name="implemented" value="true" />
+		<cond>
+			<player notBarrier="true" msg="Нельзя использовать около преград." />
+		</cond>	
+    </skill>
+	
+	<skill id="67318964" class="7" name="Retaliate I" levels="1">
+		<set name="power" value="45"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319064" class="7" name="Retaliate II" levels="1">
+        <set name="power" value="66"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319164" class="7" name="Retaliate III" levels="1">
+        <set name="power" value="96"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319264" class="7" name="Retaliate IV" levels="1">
+        <set name="power" value="141"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319364" class="7" name="Retaliate V" levels="1">
+        <set name="power" value="205"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319464" class="7" name="Retaliate VI" levels="1">
+        <set name="power" value="300"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319564" class="7" name="Retaliate VII" levels="1">
+        <set name="power" value="437"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67319664" class="7" name="Retaliate VIII" levels="1">
+        <set name="power" value="638"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67188964" class="7" name="Metamorphic Blast I" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="26"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>	
+    </skill>
+	
+	 <skill id="67189064" class="7" name="Metamorphic Blast II" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="37"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189164" class="7" name="Metamorphic Blast III" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="55"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189264" class="7" name="Metamorphic Blast IV" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="80"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189364" class="7" name="Metamorphic Blast V" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="116"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189464" class="7" name="Metamorphic Blast VI" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="170"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189564" class="7" name="Metamorphic Blast VII" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="248"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189664" class="7" name="Metamorphic Blast VIII" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="362"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189764" class="7" name="Metamorphic Blast IX" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="528"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67189864" class="7" name="Metamorphic Blast X" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="770"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="mpConsume" value="163"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67138964" class="7" name="Titanic Wrath I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="120"/>
+        <set name="mpConsume" value="875"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="8000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+		<for>
+			<effect id="601" type="BUFF" time="25" count="1" stackType="power_factor_up_mystic" >
+				<add stat="powerFactor" order="0x40" val="20" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67139064" class="7" name="Titanic Wrath II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="120"/>
+        <set name="mpConsume" value="1125"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="8000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+		<for>
+			<effect id="602" type="BUFF" time="25" count="1" stackType="power_factor_up_mystic" >
+				<add stat="powerFactor" order="0x40" val="25" />	
+			</effect>
+		</for>
+    </skill>
+
+    <skill id="67128964" class="7" name="Corruption Ring I" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="14"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129064" class="7" name="Corruption Ring II" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="21"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129164" class="7" name="Corruption Ring III" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="31"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129264" class="7" name="Corruption Ring IV" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="45"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129364" class="7" name="Corruption Ring V" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="66"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129464" class="7" name="Corruption Ring VI" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="96"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129564" class="7" name="Corruption Ring VII" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="140"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129664" class="7" name="Corruption Ring VIII" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="204"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67129764" class="7" name="Corruption Ring IX" levels="13">
+        <table name="#operateType">ACTIVATE ACTIVE</table>
+        <table name="#skillType">ABSORPTION_HP MANA_HEAL_ON_ABSORPTION_HP </table>
+		<table name="#targetType">TARGET_AURA TARGET_PARTY</table>
+		<table name="#delay">1500 1000</table>
+		<table name="#mpConsume">625 0</table>
+		<table name="#hitTime">7500 2000</table>
+		<table name="#interval">1200 0</table>
+		<table name="#castCount">5 1</table>
+		<set name="power" value="297"/>
+		<set name="mpConsume" value="#mpConsume"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="#targetType"/>
+		<set name="radius" value="200"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>
+    </skill>
+	
+	<skill id="67248964" class="7" name="Aura of the Swift" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="125"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700700" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura" power="30">
+				<mul stat="runSpd" order="0x30" val="1.1" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67238964" class="7" name="Aura of the Merciless" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="750"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700600" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura" power="30">
+				<mul stat="rCrit" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67258964" class="7" name="Aura of the Unyielding I" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700200" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura_2" power="30">
+				<mul stat="critChanceRcpt" order="0x30" val="1.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259064" class="7" name="Aura of the Unyielding II" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700201" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura_2" power="30">
+				<mul stat="critChanceRcpt" order="0x30" val="1.4" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259164" class="7" name="Aura of the Unyielding III" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700202" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura_2" power="30">
+				<mul stat="critChanceRcpt" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67268964" class="7" name="Aura of the Tenacious" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="300"/>
+        <set name="mpConsume" value="750"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="2000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700300" time="2" type="AURA_MANA_DAM_OVER_TIME" stackType="mystic_aura_2" power="30" >
+				<task name="ManaHealTask" interval="2000" power="20" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67358964" class="7" name="Thrall of Protection I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023000"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359064" class="7" name="Thrall of Protection II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023001"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359164" class="7" name="Thrall of Protection III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023002"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359264" class="7" name="Thrall of Protection IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023003"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359364" class="7" name="Thrall of Protection V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023004"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359464" class="7" name="Thrall of Protection VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023005"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359564" class="7" name="Thrall of Protection VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023006"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359664" class="7" name="Thrall of Protection VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023007"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359764" class="7" name="Thrall of Protection IX" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023008"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359864" class="7" name="Thrall of Protection X" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023009"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67359964" class="7" name="Thrall of Protection XI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023010"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67360064" class="7" name="Thrall of Protection XII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023011"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67360164" class="7" name="Thrall of Protection XIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023012"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67360264" class="7" name="Thrall of Protection XIV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="425"/>
+        <set name="hitTime" value="4000"/>
+		<set name="delay" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="summonId" value="1023013"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_protection" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="600000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67378964" class="7" name="Thrall of Life I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023200"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379064" class="7" name="Thrall of Life II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023201"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379164" class="7" name="Thrall of Life III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023202"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379264" class="7" name="Thrall of Life IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023203"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379364" class="7" name="Thrall of Life V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023204"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379464" class="7" name="Thrall of Life VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023205"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379564" class="7" name="Thrall of Life VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023206"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379664" class="7" name="Thrall of Life VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023207"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379764" class="7" name="Thrall of Life IX" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023208"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379864" class="7" name="Thrall of Life X" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023209"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67379964" class="7" name="Thrall of Life XI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+         <set name="reuseDelay" value="180000"/>
+		<set name="summonId" value="1023210"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_life" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="30000" />
+		<set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67458964" class="7" name="Order to Attack" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SUMMON_ATTACK"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="2500"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67468964" class="7" name="Order to Follow" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SUMMON_ABORT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="1000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+
+    <skill id="67208964" class="7" name="Resurrect" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="RESURRECT"/>
+        <set name="targetType" value="TARGET_AREA_PARTY_GUILD"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="1700"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="1"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67428964" class="7" name="Mire I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="750"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67428964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for> 
+			<effect id="701400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.1" />
+				<mul stat="balance" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67429064" class="7" name="Mire II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="750"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67429064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for> 
+			<effect id="701400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.1" />
+				<mul stat="balance" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67388964" class="7" name="Sonorous Dreams I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 35000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="750"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67388964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="701100" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67389064" class="7" name="Sonorous Dreams II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 35000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="750"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67389064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="701100" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67198964" class="7" name="Arun's Cleansing Touch" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 3000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#castCount">1 2</table>
+		<table name="#blockingMove">false true</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="125"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="800"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67198964"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="debuff" />
+		</for>
+    </skill>
+	
+	<skill id="67158964" class="7" name="Titanic Favor I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="1088" />
+		<set name="aggroPoint" value="3000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67158964"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="48" />
+		</for>
+    </skill>
+	
+	<skill id="67159064" class="7" name="Titanic Favor II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="1378" />
+		<set name="aggroPoint" value="5000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159064"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="60" />
+		</for>
+    </skill>
+	
+	<skill id="67159164" class="7" name="Titanic Favor III" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="1690" />
+		<set name="aggroPoint" value="8000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159164"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="74" />
+		</for>
+    </skill>
+	
+	<skill id="67159264" class="7" name="Titanic Favor IV" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="1995" />
+		<set name="aggroPoint" value="11000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159264"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="88" />
+		</for>
+    </skill>
+	
+	<skill id="67159364" class="7" name="Titanic Favor V" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="2263" />
+		<set name="aggroPoint" value="13000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159364"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="99" />
+		</for>
+    </skill>
+	
+	<skill id="67159464" class="7" name="Titanic Favor VI" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="2464" />
+		<set name="aggroPoint" value="16000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159464"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="108" />
+		</for>
+    </skill>
+	
+	<skill id="67159564" class="7" name="Titanic Favor VII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="2585" />
+		<set name="aggroPoint" value="20000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="800"/>
+        <set name="mpConsume" value="350"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67159564"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		<for>
+			<effect id="700400" time="1" count="10" type="HEAL" stackType="heal_over_time" power="113" />
+		</for>
+    </skill>
+	
+	<skill id="67348964" class="7" name="Volley of Curses I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="82" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67348964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700801" time="2" count="5" type="DAM_OVER_TIME" power="62" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349064" class="7" name="Volley of Curses II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="119" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700801" time="2" count="5" type="DAM_OVER_TIME" power="96" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349164" class="7" name="Volley of Curses III" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="174" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349164"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700802" time="2" count="5" type="DAM_OVER_TIME" power="138" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349264" class="7" name="Volley of Curses IV" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="254" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349264"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700803" time="2" count="5" type="DAM_OVER_TIME" power="205" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349364" class="7" name="Volley of Curses V" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="371" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349364"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700804" time="2" count="5" type="DAM_OVER_TIME" power="289" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349464" class="7" name="Volley of Curses VI" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="541" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349464"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700805" time="2" count="5" type="DAM_OVER_TIME" power="417" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349564" class="7" name="Volley of Curses VII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="789" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349564"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700806" time="2" count="5" type="DAM_OVER_TIME" power="578" stackType="poison" chance="27" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67349664" class="7" name="Volley of Curses VIII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 3000</table>
+		<table name="#reuseDelay">0 1400</table>
+		<table name="#castCount">1 2</table>
+		<set name="power" value="1152" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="900"/>
+        <set name="mpConsume" value="163"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67349664"/>
+		<set name="blockingMove" value="false"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="700807" time="2" count="5" type="DAM_OVER_TIME" power="817" stackType="poison" chance="27" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67398964" class="7" name="Regression I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CLEAR_BUFF"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="150"/>
+        <set name="mpConsume" value="1000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="60000"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67399064" class="7" name="Regression II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CLEAR_BUFF"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="150"/>
+        <set name="mpConsume" value="600"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="60000"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67438964" class="7" name="Thrall of Vengeance I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023300"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439064" class="7" name="Thrall of Vengeance II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023301"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439164" class="7" name="Thrall of Vengeance III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+		<set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023302"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439264" class="7" name="Thrall of Vengeance IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023303"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439364" class="7" name="Thrall of Vengeance V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023304"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439464" class="7" name="Thrall of Vengeance VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023305"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439564" class="7" name="Thrall of Vengeance VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+        <set name="summonId" value="1023306"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439664" class="7" name="Thrall of Vengeance VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+        <set name="summonId" value="1023307"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439764" class="7" name="Thrall of Vengeance IX" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023308"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439864" class="7" name="Thrall of Vengeance X" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023309"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67439964" class="7" name="Thrall of Vengeance XI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023310"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67440064" class="7" name="Thrall of Vengeance XII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="875"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+		<set name="reuseDelay" value="22000"/>
+		<set name="summonId" value="1023311"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_vengeance" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="300000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="76118964" class="7" name="Velik's Horn" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="town" value="VELIKA"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="3600000"/>
+        <set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67148964" class="7" name="Ancient Binding I" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="470"/>		
+		<set name="delay" value="1000"/>		
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="437" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="2200" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="30000"/>
+		<set name="damageId" value="67148984" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+		<for>
+			<effect id="700500" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.5" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="67149064" class="7" name="Ancient Binding II" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="470"/>		
+		<set name="delay" value="1000"/>		
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="437" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="2200" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="30000"/>
+		<set name="damageId" value="67149084" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+		<for>
+			<effect id="700501" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.4" />
+			</effect>
+		</for>
+	</skill>
+	
+	<!-- нужно реализовать масс выстрел по ареи и найти иконку стана -->
+	<skill id="67168964" class="7" name="Shara's Lash" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="delay" value="600"/>		
+		<set name="power" value="600"/>		
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="437" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="700" />	
+		<set name="implemented" value="false" />
+		<set name="reuseDelay" value="3000"/>
+		<set name="damageId" value="67168984" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только со скипеторм."/>
+		</cond>		
+	</skill>
+	
+	<skill id="67228964" class="7" name="Vow of Rebirth" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="radius" value="40"/>
+		<set name="range" value="40"/>
+		<set name="maxTargets" value="1"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+		<set name="noCaster" value="true" />
+        <set name="reuseDelay" value="900000"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="700100" time="1200" count="1" type="PHEONIX" stackType="pheonix" />
+		</for>
+    </skill>
+	
+	<skill id="67408964" class="7" name="Curse of Exhaustion I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 180000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="1000"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67408964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="701200" time="20" count="1" type="DEBUFF" stackType="reuse_up" chance="100" debuff="true" >
+				<mul stat="shortReuse" order="0x30" val="1.2" />
+				<mul stat="rangeReuse" order="0x30" val="1.2" />
+				<mul stat="otherReuse" order="0x30" val="1.2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409064" class="7" name="Curse of Exhaustion II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2200</table>
+		<table name="#reuseDelay">0 180000</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="100"/>
+        <set name="mpConsume" value="1000"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="900"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="SCEPTER" msg="Используется только с скиптером."/>
+		</cond>	
+		 <for>
+			<effect id="701201" time="25" count="1" type="DEBUFF" stackType="reuse_up" chance="100" debuff="true" >
+				<mul stat="shortReuse" order="0x30" val="1.2" />
+				<mul stat="rangeReuse" order="0x30" val="1.2" />
+				<mul stat="otherReuse" order="0x30" val="1.2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67448964" class="7" name="Thrall of Wrath I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023400"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449064" class="7" name="Thrall of Wrath II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023401"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449164" class="7" name="Thrall of Wrath III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023402"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449264" class="7" name="Thrall of Wrath IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023403"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449364" class="7" name="Thrall of Wrath V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023404"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449464" class="7" name="Thrall of Wrath VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_SUMMON"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpСonsume" value="1250"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="summonId" value="1023405"/>
+		<set name="summonType" value="1023"/>
+		<set name="configAI" value="thrall_of_wrath" />
+		<set name="aiClass" value="DEFAULT_SUMMON" />
+		<set name="lifeTime" value="180000" />
+		<set name="implemented" value="true" />
+    </skill>
+</list>

@@ -1,0 +1,1180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>	
+
+	<npc id="1056" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="SLAYER" />   			
+		</link>
+	</npc>
+	
+	<npc id="1053" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="WARRIOR" />   			
+		</link>
+	</npc>
+	
+	<npc id="1057" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="ARCHER" />   			
+		</link>
+	</npc>
+	
+	<npc id="1054" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="BERSERKER" />   			
+		</link>
+	</npc>
+	
+	<npc id="1055" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="LANCER" />   			
+		</link>
+	</npc>
+	
+	<npc id="1058" type="72">
+		<!-- НПЦ для изучения скилов SORCERER -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="MYSTIC" />   			
+		</link>
+	</npc>
+	
+	<npc id="1059" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="PRIEST" />   			
+		</link>
+	</npc>
+	
+	<npc id="1060" type="72">
+		<!-- НПЦ для изучения скилов Alemantheia -->
+		<link name="Learn Skills" icon="DIALOG" >
+			<reply name="ReplySkillShop" classes="MYSTIC" />   			
+		</link>
+	</npc>
+	
+	<npc id="1002" type="72" >
+		<!-- Buy General Goods кристаллов Alemantheia-->
+		<link name="Buy Crystals" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="10001">
+				<section>
+					<item id="8202" />
+					<item id="8214" />
+					<item id="8244" />
+					<item id="8256" />
+					<item id="8268" />
+					<item id="8280" />
+					<item id="8292" />
+					<item id="8316" />
+					<item id="8334" />
+					<item id="8346" />
+					<item id="8358" />
+					<item id="8370" />
+					<item id="8382" />
+					<item id="8544" />
+					<item id="8568" />
+					<item id="8203" />
+					<item id="8215" />
+					<item id="8245" />
+					<item id="8257" />
+					<item id="8269" />
+					<item id="8281" />
+					<item id="8293" />
+					<item id="8317" />
+					<item id="8335" />
+					<item id="8347" />
+					<item id="8359" />
+					<item id="8371" />
+					<item id="8383" />
+					<item id="8545" />
+					<item id="8569" />
+					<item id="8204" />
+					<item id="8216" />
+					<item id="8246" />
+					<item id="8258" />
+					<item id="8270" />
+					<item id="8282" />
+					<item id="8294" />
+					<item id="8318" />
+					<item id="8336" />
+					<item id="8348" />
+					<item id="8360" />
+					<item id="8372" />
+					<item id="8384" />
+					<item id="8546" />
+					<item id="8570" />
+					<item id="8205" />
+					<item id="8217" />
+					<item id="8247" />
+					<item id="8259" />
+					<item id="8271" />
+					<item id="8283" />
+					<item id="8295" />
+					<item id="8319" />
+					<item id="8337" />
+					<item id="8349" />
+					<item id="8361" />
+					<item id="8373" />
+					<item id="8385" />
+					<item id="8547" />
+					<item id="8571" />
+				</section>
+				<section>
+					<item id="8394" />
+					<item id="8406" />
+					<item id="8436" />
+					<item id="8448" />
+					<item id="8460" />
+					<item id="8472" />
+					<item id="8496" />
+					<item id="8508" />
+					<item id="8520" />
+					<item id="8556" />
+					<item id="8395" />
+					<item id="8407" />
+					<item id="8437" />
+					<item id="8449" />
+					<item id="8461" />
+					<item id="8473" />
+					<item id="8497" />
+					<item id="8509" />
+					<item id="8521" />
+					<item id="8557" />
+					<item id="8396" />
+					<item id="8408" />
+					<item id="8438" />
+					<item id="8450" />
+					<item id="8462" />
+					<item id="8474" />
+					<item id="8498" />
+					<item id="8510" />
+					<item id="8522" />
+					<item id="8558" />
+					<item id="8397" />
+					<item id="8409" />
+					<item id="8439" />
+					<item id="8451" />
+					<item id="8463" />
+					<item id="8475" />
+					<item id="8499" />
+					<item id="8511" />
+					<item id="8523" />
+					<item id="8559" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1048" type="72" >
+		<!-- Buy General Goods кристаллов Alemantheia-->
+		<link name="Buy Crystals" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="10001">
+				<section>
+					<item id="8202" />
+					<item id="8214" />
+					<item id="8244" />
+					<item id="8256" />
+					<item id="8268" />
+					<item id="8280" />
+					<item id="8292" />
+					<item id="8316" />
+					<item id="8334" />
+					<item id="8346" />
+					<item id="8358" />
+					<item id="8370" />
+					<item id="8382" />
+					<item id="8544" />
+					<item id="8568" />
+					<item id="8203" />
+					<item id="8215" />
+					<item id="8245" />
+					<item id="8257" />
+					<item id="8269" />
+					<item id="8281" />
+					<item id="8293" />
+					<item id="8317" />
+					<item id="8335" />
+					<item id="8347" />
+					<item id="8359" />
+					<item id="8371" />
+					<item id="8383" />
+					<item id="8545" />
+					<item id="8569" />
+					<item id="8204" />
+					<item id="8216" />
+					<item id="8246" />
+					<item id="8258" />
+					<item id="8270" />
+					<item id="8282" />
+					<item id="8294" />
+					<item id="8318" />
+					<item id="8336" />
+					<item id="8348" />
+					<item id="8360" />
+					<item id="8372" />
+					<item id="8384" />
+					<item id="8546" />
+					<item id="8570" />
+					<item id="8205" />
+					<item id="8217" />
+					<item id="8247" />
+					<item id="8259" />
+					<item id="8271" />
+					<item id="8283" />
+					<item id="8295" />
+					<item id="8319" />
+					<item id="8337" />
+					<item id="8349" />
+					<item id="8361" />
+					<item id="8373" />
+					<item id="8385" />
+					<item id="8547" />
+					<item id="8571" />
+				</section>
+				<section>
+					<item id="8394" />
+					<item id="8406" />
+					<item id="8436" />
+					<item id="8448" />
+					<item id="8460" />
+					<item id="8472" />
+					<item id="8496" />
+					<item id="8508" />
+					<item id="8520" />
+					<item id="8556" />
+					<item id="8395" />
+					<item id="8407" />
+					<item id="8437" />
+					<item id="8449" />
+					<item id="8461" />
+					<item id="8473" />
+					<item id="8497" />
+					<item id="8509" />
+					<item id="8521" />
+					<item id="8557" />
+					<item id="8396" />
+					<item id="8408" />
+					<item id="8438" />
+					<item id="8450" />
+					<item id="8462" />
+					<item id="8474" />
+					<item id="8498" />
+					<item id="8510" />
+					<item id="8522" />
+					<item id="8558" />
+					<item id="8397" />
+					<item id="8409" />
+					<item id="8439" />
+					<item id="8451" />
+					<item id="8463" />
+					<item id="8475" />
+					<item id="8499" />
+					<item id="8511" />
+					<item id="8523" />
+					<item id="8559" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1001" type="72">
+		<!-- Buy General Goods итемов Alemantheia -->
+		<link name="Buy General Goods" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="1601" >
+				<section>
+					<item id="15" />
+					<item id="98" />
+					<item id="99" />
+					<item id="91" />
+					<item id="92" />
+					<item id="93" />
+				</section>
+				
+				<section>
+					<item id="125" />
+					<item id="126" />
+					<item id="127" />
+					<item id="128" />
+					<item id="7154" />
+					<item id="7155" />
+					<item id="6283" />
+					<item id="6284" />
+					<item id="6285" />
+					<item id="6286" />
+					<item id="6287" />
+					<item id="6288" />
+					<item id="6289" />
+					<item id="6290" />
+					<item id="6291" />
+					<item id="6292" />
+				</section>
+				
+				<section>
+					<item id="22001" />
+					<item id="22002" />
+					<item id="22004" />
+					<item id="22005" />
+					<item id="22006" />
+					<item id="22007" />
+					<item id="22009" />
+					<item id="22010" />
+					<item id="22011" />
+					<item id="22012" />
+					<item id="22014" />
+					<item id="22015" />					
+					<item id="22016" />
+					<item id="22017" />
+					<item id="22019" />
+					<item id="22020" />
+					<item id="22021" />
+					<item id="22022" />
+					<item id="22024" />
+					<item id="22025" />
+					<item id="22026" />
+					<item id="22027" />
+					<item id="22029" />
+					<item id="22030" />
+					<item id="22031" />
+					<item id="22032" />
+					<item id="22034" />
+					<item id="22035" />
+					<item id="22036" />
+					<item id="22037" />
+					<item id="22039" />
+					<item id="22040" />
+				</section>
+				
+				<section>
+					<item id="143" />
+					<item id="151" />
+					<!-- <item id="159" /> (Kaiator Teleport Scroll) -->
+					<item id="145" />
+					<item id="146" />
+					<item id="147" />
+					<item id="148" />
+					<item id="149" />
+					<item id="144" />
+					<item id="420" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1020" type="72">
+		<!-- Buy General Goods итемов Alemantheia -->
+		<link name="Buy General Goods" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="1601" >
+				<section>
+					<item id="15" />
+					<item id="98" />
+					<item id="99" />
+					<item id="91" />
+					<item id="92" />
+					<item id="93" />
+				</section>
+				
+				<section>
+					<item id="125" />
+					<item id="126" />
+					<item id="127" />
+					<item id="128" />
+					<item id="7154" />
+					<item id="7155" />
+					<item id="6283" />
+					<item id="6284" />
+					<item id="6285" />
+					<item id="6286" />
+					<item id="6287" />
+					<item id="6288" />
+					<item id="6289" />
+					<item id="6290" />
+					<item id="6291" />
+					<item id="6292" />
+				</section>
+				
+				<section>
+					<item id="22001" />
+					<item id="22002" />
+					<item id="22004" />
+					<item id="22005" />
+					<item id="22006" />
+					<item id="22007" />
+					<item id="22009" />
+					<item id="22010" />
+					<item id="22011" />
+					<item id="22012" />
+					<item id="22014" />
+					<item id="22015" />					
+					<item id="22016" />
+					<item id="22017" />
+					<item id="22019" />
+					<item id="22020" />
+					<item id="22021" />
+					<item id="22022" />
+					<item id="22024" />
+					<item id="22025" />
+					<item id="22026" />
+					<item id="22027" />
+					<item id="22029" />
+					<item id="22030" />
+					<item id="22031" />
+					<item id="22032" />
+					<item id="22034" />
+					<item id="22035" />
+					<item id="22036" />
+					<item id="22037" />
+					<item id="22039" />
+					<item id="22040" />
+				</section>
+				
+				<section>
+					<item id="143" />
+					<item id="151" />
+					<!-- <item id="159" /> (Kaiator Teleport Scroll) -->
+					<item id="145" />
+					<item id="146" />
+					<item id="147" />
+					<item id="148" />
+					<item id="149" />
+					<item id="144" />
+					<item id="420" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1433" type="72" >
+		<!-- Buy General Goods красок Alemantheia -->
+		<link name="Dyeing" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2401">
+				<section>
+					<item id="208" />
+					<item id="216" />
+					<item id="201" />
+					<item id="202" />
+					<item id="203" />
+					<item id="204" />
+					<item id="205" />
+					<item id="207" />
+					<item id="238" />
+					<item id="239" />
+					<item id="240" />
+					<item id="241" />
+					<item id="242" />
+					<item id="244" />
+				</section>
+				<section>
+					<item id="217" />
+					<item id="218" />
+					<item id="219" />
+					<item id="220" />
+					<item id="221" />
+					<item id="222" />
+					<item id="223" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1431" type="72">
+		<!-- Ремодельер в Alemantheia -->
+		<link name="Изменение модели" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2601">
+				<section>
+					<item id="4009" />
+					<item id="4010" />
+					<item id="4011" />
+					<item id="4012" />
+					<item id="4013" />
+					<item id="4014" />
+					<item id="4015" />
+					<item id="4016" />
+					<item id="4017" />
+					<item id="4018" />
+					<item id="4019" />
+					<item id="4020" />
+					<item id="4021" />
+					<item id="4022" />
+					<item id="4023" />
+					<item id="4024" />
+					<item id="4025" />
+					<item id="4026" />
+					<item id="4027" />
+					<item id="4028" />
+					<item id="4029" />
+					<item id="4030" />
+					<item id="4031" />
+					<item id="4032" />
+					<item id="4033" />
+					<item id="4034" />
+					<item id="4035" />
+					<item id="4036" />
+					<item id="4037" />
+					<item id="4038" />
+					<item id="4039" />
+					<item id="4040" />
+					<item id="4041" />
+					<item id="4042" />
+					<item id="4043" />
+					<item id="4044" />
+					<item id="4045" />
+					<item id="4046" />
+					<item id="4047" />
+					<item id="4048" />
+					<item id="4049" />
+					<item id="4050" />
+					<item id="4051" />
+					<item id="4052" />
+					<item id="4053" />
+					<item id="4054" />
+					<item id="4055" />
+					<item id="4056" />
+					<item id="4057" />
+					<item id="4058" />
+					<item id="4059" />
+					<item id="4060" />
+					<item id="4061" />
+					<item id="4062" />
+					<item id="4063" />
+					<item id="4064" />
+					<item id="4065" />
+					<item id="4066" />
+					<item id="4067" />
+					<item id="4068" />
+					<item id="4069" />
+					<item id="4070" />
+					<item id="4071" />
+					<item id="4072" />
+					<item id="4073" />
+					<item id="4074" />
+					<item id="4075" />
+					<item id="4076" />
+					<item id="4077" />
+					<item id="4078" />
+					<item id="4079" />
+					<item id="4080" />
+					<item id="4081" />
+					<item id="4082" />
+					<item id="4083" />
+					<item id="4084" />
+					<item id="4085" />
+					<item id="4086" />
+					<item id="4087" />
+					<item id="4088" />
+					<item id="4089" />
+					<item id="4090" />
+					<item id="4091" />
+					<item id="4092" />
+					<item id="4093" />
+					<item id="4094" />
+					<item id="4095" />
+					<item id="4096" />
+					<item id="4097" />
+					<item id="4098" />
+					<item id="4099" />
+					<item id="4100" />
+					<item id="4101" />
+					<item id="4102" />
+					<item id="4103" />
+					<item id="4104" />
+				</section>
+				<section>
+					<item id="4510" />
+					<item id="4511" />
+					<item id="4512" />
+					<item id="4519" />
+					<item id="4520" />
+					<item id="4521" />
+					<item id="4528" />
+					<item id="4529" />
+					<item id="4530" />
+					<item id="4537" />
+					<item id="4538" />
+					<item id="4539" />
+					<item id="4546" />
+					<item id="4547" />
+					<item id="4548" />
+					<item id="4555" />
+					<item id="4556" />
+					<item id="4557" />
+					<item id="4564" />
+					<item id="4565" />
+					<item id="4566" />
+					<item id="4573" />
+					<item id="4574" />
+					<item id="4575" />
+					<item id="4582" />
+					<item id="4583" />
+					<item id="4584" />
+					<item id="4591" />
+					<item id="4592" />
+					<item id="4593" />
+					<item id="4600" />
+					<item id="4601" />
+					<item id="4602" />
+					<item id="4609" />
+					<item id="4610" />
+					<item id="4611" />
+				</section>
+				<section>
+					<item id="4513" />
+					<item id="4514" />
+					<item id="4515" />
+					<item id="4522" />
+					<item id="4523" />
+					<item id="4524" />
+					<item id="4531" />
+					<item id="4532" />
+					<item id="4533" />
+					<item id="4540" />
+					<item id="4541" />
+					<item id="4542" />
+					<item id="4549" />
+					<item id="4550" />
+					<item id="4551" />
+					<item id="4558" />
+					<item id="4559" />
+					<item id="4560" />
+					<item id="4567" />
+					<item id="4568" />
+					<item id="4569" />
+					<item id="4576" />
+					<item id="4577" />
+					<item id="4578" />
+					<item id="4585" />
+					<item id="4586" />
+					<item id="4587" />
+					<item id="4594" />
+					<item id="4595" />
+					<item id="4596" />
+					<item id="4603" />
+					<item id="4604" />
+					<item id="4605" />
+					<item id="4612" />
+					<item id="4613" />
+					<item id="4614" />
+				</section>							
+				<section>
+					<item id="4516" />
+					<item id="4517" />
+					<item id="4518" />
+					<item id="4525" />
+					<item id="4526" />
+					<item id="4527" />
+					<item id="4534" />
+					<item id="4535" />
+					<item id="4536" />
+					<item id="4543" />
+					<item id="4544" />
+					<item id="4545" />
+					<item id="4552" />
+					<item id="4553" />
+					<item id="4554" />
+					<item id="4561" />
+					<item id="4562" />
+					<item id="4563" />
+					<item id="4570" />
+					<item id="4571" />
+					<item id="4572" />
+					<item id="4579" />
+					<item id="4580" />
+					<item id="4581" />
+					<item id="4588" />
+					<item id="4589" />
+					<item id="4590" />
+					<item id="4597" />
+					<item id="4598" />
+					<item id="4599" />
+					<item id="4606" />
+					<item id="4607" />
+					<item id="4608" />
+					<item id="4615" />
+					<item id="4616" />
+					<item id="4617" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1163" type="72">
+		<!-- Глиф Мастер Alemantheia Sorcerer -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2005">
+				<section>
+					<item id="7600" />
+					<item id="7606" />
+					<item id="7610" />
+					<item id="7613" />
+					<item id="7615" />
+					<item id="7616" />
+					<item id="7618" />
+					<item id="7619" />
+					<item id="7620" />
+					<item id="7621" />
+					<item id="7622" />
+					<item id="7623" />
+					<item id="7624" />
+					<item id="7625" />
+					<item id="7628" />
+					<item id="7633" />
+					<item id="7637" />
+					<item id="7638" />
+					<item id="7851" />
+					<item id="7853" />
+					<item id="7857" />
+					<item id="7859" />
+					<item id="7860" />
+					<item id="7861" />
+					<item id="7862" />
+					<item id="7863" />
+					<item id="7864" />
+					<item id="7865" />
+					<item id="7867" />
+					<item id="7869" />
+					<item id="7602" />
+					<item id="7614" />
+					<item id="7858" />
+					<item id="7866" />
+					<item id="7605" />
+					<item id="7611" />
+					<item id="7634" />
+					<item id="7635" />
+					<item id="7636" />
+					<item id="7854" />
+					<item id="7856" />
+					<item id="7870" />
+					<item id="7601" />
+					<item id="7607" />
+					<item id="7626" />
+					<item id="7627" />
+					<item id="7609" />
+					<item id="7612" />
+					<item id="7603" />
+					<item id="7604" />
+					<item id="7608" />
+					<item id="7852" />
+					<item id="7629" />
+					<item id="7855" />
+					<item id="7630" />
+					<item id="7850" />
+					<item id="7871" />
+					<item id="7872" />
+					<item id="7631" />
+					<item id="7632" />
+					<item id="37800" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1166" type="72">
+		<!-- Глиф Мастер Alemantheia Mystic -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2007">
+				<section>
+					<item id="7700" />
+					<item id="7702" />
+					<item id="7709" />
+					<item id="7710" />
+					<item id="7711" />
+					<item id="7713" />
+					<item id="7714" />
+					<item id="7715" />
+					<item id="7716" />
+					<item id="7718" />
+					<item id="7719" />
+					<item id="7720" />
+					<item id="7723" />
+					<item id="7724" />
+					<item id="7725" />
+					<item id="7726" />
+					<item id="7727" />
+					<item id="7728" />
+					<item id="7729" />
+					<item id="7733" />
+					<item id="7734" />
+					<item id="7900" />
+					<item id="7902" />
+					<item id="7903" />
+					<item id="7904" />
+					<item id="7906" />
+					<item id="7907" />
+					<item id="7908" />
+					<item id="7909" />
+					<item id="7910" />
+					<item id="7911" />
+					<item id="7912" />
+					<item id="7913" />
+					<item id="7914" />
+					<item id="7920" />
+					<item id="7703" />
+					<item id="7735" />
+					<item id="7736" />
+					<item id="7905" />
+					<item id="7919" />
+					<item id="7730" />
+					<item id="7722" />
+					<item id="7915" />
+					<item id="7916" />
+					<item id="7917" />
+					<item id="7701" />
+					<item id="7705" />
+					<item id="7901" />
+					<item id="7918" />
+					<item id="7731" />
+					<item id="7704" />
+					<item id="7708" />
+					<item id="7732" />
+					<item id="39100" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+
+	<npc id="1146" type="72" >
+		<!-- Глиф Мастер Alemantheia Priest -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop"  sectionId="2008">
+				<section>
+					<item id="7750" />
+					<item id="7752" />
+					<item id="7753" />
+					<item id="7755" />
+					<item id="7760" />
+					<item id="7761" />
+					<item id="7762" />
+					<item id="7763" />
+					<item id="7764" />
+					<item id="7767" />
+					<item id="7768" />
+					<item id="7769" />
+					<item id="7771" />
+					<item id="7772" />
+					<item id="7773" />
+					<item id="7775" />
+					<item id="7776" />
+					<item id="7777" />
+					<item id="7778" />
+					<item id="7779" />
+					<item id="7783" />
+					<item id="7784" />
+					<item id="7786" />
+					<item id="7787" />
+					<item id="7788" />
+					<item id="7789" />
+					<item id="7790" />
+					<item id="7793" />
+					<item id="7794" />
+					<item id="7795" />
+					<item id="7796" />
+					<item id="7797" />
+					<item id="7798" />
+					<item id="7799" />
+					<item id="7800" />
+					<item id="7801" />
+					<item id="7751" />
+					<item id="7756" />
+					<item id="7774" />
+					<item id="7758" />
+					<item id="7759" />
+					<item id="7766" />
+					<item id="7791" />
+					<item id="7792" />
+					<item id="7754" />
+					<item id="7785" />
+					<item id="7757" />
+					<item id="7780" />
+					<item id="7781" />
+					<item id="7782" />
+					<item id="39750" />
+					<item id="39751" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1154" type="72" >
+		<!-- Глиф Мастер Alemantheia Archer -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2006">
+				<section>
+					<item id="7650" />
+					<item id="7651" />
+					<item id="7652" />
+					<item id="7653" />
+					<item id="7655" />
+					<item id="7657" />
+					<item id="7658" />
+					<item id="7659" />
+					<item id="7661" />
+					<item id="7662" />
+					<item id="7663" />
+					<item id="7665" />
+					<item id="7667" />
+					<item id="7670" />
+					<item id="7672" />
+					<item id="7677" />
+					<item id="7683" />
+					<item id="7685" />
+					<item id="7686" />
+					<item id="7687" />
+					<item id="7688" />
+					<item id="7694" />
+					<item id="7695" />
+					<item id="7696" />
+					<item id="7668" />
+					<item id="7676" />
+					<item id="7684" />
+					<item id="7691" />
+					<item id="7660" />
+					<item id="7675" />
+					<item id="7681" />
+					<item id="7682" />
+					<item id="7656" />
+					<item id="7693" />
+					<item id="7664" />
+					<item id="7690" />
+					<item id="7669" />
+					<item id="7678" />
+					<item id="7673" />
+					<item id="7674" />
+					<item id="7679" />
+					<item id="7680" />
+					<item id="7666" />
+					<item id="7692" />
+					<item id="38450" />
+					<item id="38451" />
+					<item id="38452" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1156" type="72">
+		<!-- Глиф Мастер Alemantheia Lancer -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop"  sectionId="2002">
+				<section>
+					<item id="7450" />
+					<item id="7453" />
+					<item id="7454" />
+					<item id="7455" />
+					<item id="7459" />
+					<item id="7460" />
+					<item id="7461" />
+					<item id="7462" />
+					<item id="7463" />
+					<item id="7467" />
+					<item id="7468" />
+					<item id="7469" />
+					<item id="7471" />
+					<item id="7472" />
+					<item id="7478" />
+					<item id="7483" />
+					<item id="7485" />
+					<item id="7486" />
+					<item id="7487" />
+					<item id="7488" />
+					<item id="7451" />
+					<item id="7452" />
+					<item id="7465" />
+					<item id="7481" />
+					<item id="7491" />
+					<item id="7492" />
+					<item id="7464" />
+					<item id="7482" />
+					<item id="7457" />
+					<item id="7473" />
+					<item id="7480" />
+					<item id="7474" />
+					<item id="7489" />
+					<item id="7475" />
+					<item id="7476" />
+					<item id="7490" />
+					<item id="7456" />
+					<item id="7466" />
+					<item id="7477" />
+					<item id="7484" />
+					<item id="7470" />
+					<item id="35850" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1149" type="72" >
+		<!-- Глиф Мастер Alemantheia Slayer -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop" sectionId="2003">
+				<section>
+					<item id="7500" />
+					<item id="7501" />
+					<item id="7502" />
+					<item id="7504" />
+					<item id="7505" />
+					<item id="7506" />
+					<item id="7507" />
+					<item id="7508" />
+					<item id="7509" />
+					<item id="7510" />
+					<item id="7511" />
+					<item id="7514" />
+					<item id="7518" />
+					<item id="7519" />
+					<item id="7520" />
+					<item id="7521" />
+					<item id="7522" />
+					<item id="7523" />
+					<item id="7524" />
+					<item id="7528" />
+					<item id="7534" />
+					<item id="7535" />
+					<item id="7537" />
+					<item id="7538" />
+					<item id="7539" />
+					<item id="7540" />
+					<item id="7541" />
+					<item id="7543" />
+					<item id="7517" />
+					<item id="7516" />
+					<item id="7531" />
+					<item id="7532" />
+					<item id="7512" />
+					<item id="7515" />
+					<item id="7527" />
+					<item id="7542" />
+					<item id="7525" />
+					<item id="7533" />
+					<item id="7503" />
+					<item id="7513" />
+					<item id="7529" />
+					<item id="7530" />
+					<item id="7526" />
+					<item id="7536" />
+					<item id="36500" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1150" type="72" >
+		<!-- Глиф Мастер Alemantheia Berserker -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop"  sectionId="2004">
+				<section>
+					<item id="7550" />
+					<item id="7551" />
+					<item id="7552" />
+					<item id="7553" />
+					<item id="7554" />
+					<item id="7556" />
+					<item id="7557" />
+					<item id="7558" />
+					<item id="7559" />
+					<item id="7561" />
+					<item id="7563" />
+					<item id="7564" />
+					<item id="7565" />
+					<item id="7568" />
+					<item id="7570" />
+					<item id="7571" />
+					<item id="7574" />
+					<item id="7575" />
+					<item id="7577" />
+					<item id="7586" />
+					<item id="7588" />
+					<item id="7592" />
+					<item id="7555" />
+					<item id="7560" />
+					<item id="7566" />
+					<item id="7584" />
+					<item id="7567" />
+					<item id="7579" />
+					<item id="7580" />
+					<item id="7562" />
+					<item id="7569" />
+					<item id="7583" />
+					<item id="7595" />
+					<item id="7587" />
+					<item id="7593" />
+					<item id="7594" />
+					<item id="7576" />
+					<item id="7572" />
+					<item id="7585" />
+					<item id="7578" />
+					<item id="7581" />
+					<item id="7589" />
+					<item id="7590" />
+					<item id="37150" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+	
+	<npc id="1159" type="72" >
+		<!-- Глиф Мастер Alemantheia Warrior -->
+		<link name="Learn Glyphs" icon="DIALOG" >
+			<reply name="ReplyShop"  sectionId="2001">
+				<section>
+					<item id="7448" />
+					<item id="7449" />
+					<item id="7400" />
+					<item id="7401" />
+					<item id="7404" />
+					<item id="7405" />
+					<item id="7406" />
+					<item id="7407" />
+					<item id="7408" />
+					<item id="7409" />
+					<item id="7410" />
+					<item id="7411" />
+					<item id="7412" />
+					<item id="7413" />
+					<item id="7415" />
+					<item id="7416" />
+					<item id="7417" />
+					<item id="7418" />
+					<item id="7421" />
+					<item id="7422" />
+					<item id="7427" />
+					<item id="7430" />
+					<item id="7433" />
+					<item id="7434" />
+					<item id="7439" />
+					<item id="7440" />
+					<item id="7441" />
+					<item id="7442" />
+					<item id="7443" />
+					<item id="7444" />
+					<item id="7445" />
+					<item id="7446" />
+					<item id="7402" />
+					<item id="7414" />
+					<item id="7951" />
+					<item id="7952" />
+					<item id="7953" />
+					<item id="7954" />
+					<item id="7955" />
+					<item id="7419" />
+					<item id="7428" />
+					<item id="7435" />
+					<item id="7423" />
+					<item id="7436" />
+					<item id="7424" />
+					<item id="7425" />
+					<item id="7437" />
+					<item id="7438" />
+					<item id="7426" />
+					<item id="7429" />
+					<item id="7431" />
+					<item id="7432" />
+					<item id="35200" />
+				</section>
+			</reply>
+		</link>
+	</npc>
+</list>

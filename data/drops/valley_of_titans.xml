@@ -1,0 +1,4412 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Hyena Stalker -->
+	<drop templateId="1091" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="100" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+
+	<!-- Ravenoys Hyena -->
+	<drop templateId="1031" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="100" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Starving Hyena -->
+	<drop templateId="1032" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="100" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Hyena -->
+	<drop templateId="1052" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="100" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Hyena -->
+	<drop templateId="1042" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Raider -->
+	<drop templateId="1071" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Pillager -->
+	<drop templateId="1062" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Brigand -->
+	<drop templateId="1061" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Kulkari -->
+	<drop templateId="1041" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Clawtimer -->
+	<drop templateId="1051" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Reaper -->
+	<drop templateId="2051" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Sentry -->
+	<drop templateId="2061" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Jaggernaut -->
+	<drop templateId="2082" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Seer -->
+	<drop templateId="2081" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="280" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gutrend Skullcrusher -->
+	<drop templateId="1081" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Hillwalker Warthog -->
+	<drop templateId="2011" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Gread Tusk Warthog -->
+	<drop templateId="2021" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="280" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Scavenging Bear -->
+	<drop templateId="2031" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Revenoys Bear -->
+	<drop templateId="2041" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="280" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Revenoys Bear -->
+	<drop templateId="2041" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="280" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Lokian Battlerager -->
+	<drop templateId="3021" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Scion Justicar -->
+	<drop templateId="3011" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Lokian Reapmaster -->
+	<drop templateId="3042" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Lokian Reaver -->
+	<drop templateId="3031" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Lokian Darkcaller -->
+	<drop templateId="3041" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Lokian Mystic -->
+	<drop templateId="3032" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="290" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Dakarius -->
+	<drop templateId="7041" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="300" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- Crushers -->
+			<item templateId="15046" min="1" max="1" chance="1000" />
+			<item templateId="15047" min="1" max="1" chance="1000" />
+			<item templateId="15048" min="1" max="1" chance="1000" />
+			<!-- Greatwrap -->
+			<item templateId="15049" min="1" max="1" chance="1000" />
+			<item templateId="15050" min="1" max="1" chance="1000" />
+			<item templateId="15051" min="1" max="1" chance="1000" />
+			<!-- Dreamer's  -->
+			<item templateId="15052" min="1" max="1" chance="1000" />
+			<item templateId="15053" min="1" max="1" chance="1000" />
+			<item templateId="15054" min="1" max="1" chance="1000" />
+			
+			<!-- Crushers -->
+			<item templateId="15145" min="1" max="1" chance="1000" />
+			<item templateId="15146" min="1" max="1" chance="1000" />
+			<item templateId="15147" min="1" max="1" chance="1000" />
+			<!-- Greatwrap -->
+			<item templateId="15148" min="1" max="1" chance="1000" />
+			<item templateId="15149" min="1" max="1" chance="1000" />
+			<item templateId="15150" min="1" max="1" chance="1000" />
+			<!-- Dreamer's  -->
+			<item templateId="15151" min="1" max="1" chance="1000" />
+			<item templateId="15152" min="1" max="1" chance="1000" />
+			<item templateId="15153" min="1" max="1" chance="1000" />
+			
+			<!-- Primed Bar Crushers  -->
+			<item templateId="15226" min="1" max="1" chance="500" />
+			<item templateId="15227" min="1" max="1" chance="500" />
+			<item templateId="15228" min="1" max="1" chance="500" />			
+			<!-- Dreamer's  -->
+			<item templateId="15229" min="1" max="1" chance="500" />		
+			<item templateId="15230" min="1" max="1" chance="500" />		
+			<item templateId="15231" min="1" max="1" chance="500" />					
+			<!-- Dreamer's  -->
+			<item templateId="15232" min="1" max="1" chance="500" />		
+			<item templateId="15233" min="1" max="1" chance="500" />		
+			<item templateId="15234" min="1" max="1" chance="500" />	
+			
+			<!-- Primed Bar Crushers  -->
+			<item templateId="15307" min="1" max="1" chance="500" />
+			<item templateId="15308" min="1" max="1" chance="500" />
+			<item templateId="15309" min="1" max="1" chance="500" />			
+			<!-- Dreamer's  -->
+			<item templateId="15310" min="1" max="1" chance="500" />		
+			<item templateId="15311" min="1" max="1" chance="500" />		
+			<item templateId="15312" min="1" max="1" chance="500" />					
+			<!-- Dreamer's  -->
+			<item templateId="15313" min="1" max="1" chance="500" />		
+			<item templateId="15314" min="1" max="1" chance="500" />		
+			<item templateId="15315" min="1" max="1" chance="500" />		
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV-->		
+			<item templateId="7203" min="1" max="3" chance="1000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="200" />
+			<!-- Design: Aerosilex -->
+			<item templateId="23009" min="1" max="1" chance="1000" />
+			<!-- Design: Boscleather -->
+			<item templateId="23010" min="1" max="1" chance="1000" />
+			<!-- Design: Linsteel Ingot -->
+			<item templateId="23008" min="1" max="1" chance="1000" />
+			<!-- Design: Sylvacloth -->
+			<item templateId="23007" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="3" chance="1000" />
+			<!-- Lesson: Tier 5 Alchemy Extraction -->
+			<item templateId="22024" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 5 Cloth Extraction -->
+			<item templateId="22021" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 5 Leather Extraction -->
+			<item templateId="22025" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 5 Metal Extraction -->
+			<item templateId="22022" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="1000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="1000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="1000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Daga Rune -->
+			<item templateId="507" min="1" max="1" chance="1000" />
+			<!-- Essence of Wind -->
+			<item templateId="1007" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Geit Rune -->
+			<item templateId="517" min="1" max="1" chance="1000" />
+			<!-- Greenhide -->
+			<item templateId="1008" min="1" max="1" chance="1000" />			
+			<!-- Linmetal Ore -->
+			<item templateId="1006" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Sylva Fibers -->
+			<item templateId="1005" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Silrune of Arun -->
+			<item templateId="512" min="1" max="1" chance="1000" />
+			<!-- Silrune of Shara -->
+			<item templateId="502" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="500" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="500" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="500" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="500" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="500" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="500" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="500" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="500" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="500" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="500" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<item templateId="10041" min="1" max="1" chance="1000" />
+			<item templateId="10042" min="1" max="1" chance="1000" />
+			<item templateId="10043" min="1" max="1" chance="1000" />
+			<item templateId="10044" min="1" max="1" chance="1000" />
+			<item templateId="10045" min="1" max="1" chance="1000" />
+			<item templateId="10046" min="1" max="1" chance="1000" />
+			<item templateId="10047" min="1" max="1" chance="1000" />
+			<item templateId="10048" min="1" max="1" chance="1000" />
+			
+			<item templateId="10129" min="1" max="1" chance="1000" />
+			<item templateId="10130" min="1" max="1" chance="1000" />
+			<item templateId="10131" min="1" max="1" chance="1000" />
+			<item templateId="10132" min="1" max="1" chance="1000" />
+			<item templateId="10133" min="1" max="1" chance="1000" />
+			<item templateId="10134" min="1" max="1" chance="1000" />
+			<item templateId="10135" min="1" max="1" chance="1000" />
+			<item templateId="10136" min="1" max="1" chance="1000" />
+			
+			<item templateId="10201" min="1" max="1" chance="500" />
+			<item templateId="10202" min="1" max="1" chance="500" />
+			<item templateId="10203" min="1" max="1" chance="500" />
+			<item templateId="10204" min="1" max="1" chance="500" />
+			<item templateId="10205" min="1" max="1" chance="500" />
+			<item templateId="10206" min="1" max="1" chance="500" />
+			<item templateId="10207" min="1" max="1" chance="500" />
+			<item templateId="10208" min="1" max="1" chance="500" />
+			
+			<item templateId="10273" min="1" max="1" chance="500" />
+			<item templateId="10274" min="1" max="1" chance="500" />
+			<item templateId="10275" min="1" max="1" chance="500" />
+			<item templateId="10276" min="1" max="1" chance="500" />
+			<item templateId="10277" min="1" max="1" chance="500" />
+			<item templateId="10278" min="1" max="1" chance="500" />
+			<item templateId="10279" min="1" max="1" chance="500" />
+			<item templateId="10280" min="1" max="1" chance="500" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- Cascade of Stars -->
+			<item templateId="20302" min="1" max="1" chance="1000" />
+			<!-- Earthen Band -->
+			<item templateId="20002" min="1" max="1" chance="1000" />
+			<!-- Skull Pendant -->
+			<item templateId="20602" min="1" max="1" chance="1000" />
+			
+			<!-- Giant Pearl Stud -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<!-- Twist of Fate -->
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<!-- Sealed Krymetal Locket -->
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Crazing Noruk -->
+	<drop templateId="1011" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="260" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Stomping Noruk -->
+	<drop templateId="1021" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Torax -->
+	<drop templateId="7033" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="150" max="270" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" >
+			<!-- White 17 -->
+			<item templateId="15037" min="1" max="1" chance="5000" />
+			<item templateId="15038" min="1" max="1" chance="5000" />
+			<item templateId="15039" min="1" max="1" chance="5000" />
+			<item templateId="15040" min="1" max="1" chance="5000" />
+			<item templateId="15041" min="1" max="1" chance="5000" />
+			<item templateId="15042" min="1" max="1" chance="5000" />
+			<item templateId="15043" min="1" max="1" chance="5000" />
+			<item templateId="15044" min="1" max="1" chance="5000" />
+			<item templateId="15045" min="1" max="1" chance="5000" />
+			
+			<!-- Green 17 -->
+			<item templateId="15136" min="1" max="1" chance="1000" />
+			<item templateId="15137" min="1" max="1" chance="1000" />
+			<item templateId="15138" min="1" max="1" chance="1000" />
+			<item templateId="15139" min="1" max="1" chance="1000" />
+			<item templateId="15140" min="1" max="1" chance="1000" />
+			<item templateId="15141" min="1" max="1" chance="1000" />
+			<item templateId="15142" min="1" max="1" chance="1000" />
+			<item templateId="15143" min="1" max="1" chance="1000" />
+			<item templateId="15144" min="1" max="1" chance="1000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" >
+			<!-- Bomb IV -->		
+			<item templateId="7203" min="1" max="3" chance="5000" />	
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="1000" />
+			<!-- Healing Mote -->
+			<item templateId="8005" min="1" max="1" chance="5000" />
+			<!-- Lesson: Tier 4 Alchemy Extraction -->
+			<item templateId="22019" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Cloth Extraction -->
+			<item templateId="22016" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Leather Extraction -->
+			<item templateId="22020" min="1" max="1" chance="1000" />
+			<!-- Lesson: Tier 4 Metal Extraction -->
+			<item templateId="22017" min="1" max="1" chance="1000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="5000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="5000" />
+			<!-- Recipe: Major Caduceus Scroll II -->
+			<item templateId="26910" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Curative Scroll II -->
+			<item templateId="26900" min="1" max="1" chance="1000" />
+			<!-- Recipe: Major Scroll of Tenacity II -->
+			<item templateId="26905" min="1" max="1" chance="1000" />
+			<!-- Rejuvenation Mote -->
+			<item templateId="8000" min="1" max="1" chance="5000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="1" chance="1000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" >
+			<!-- Dawnhide -->
+			<item templateId="1004" min="1" max="1" chance="1000" />
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="1" chance="1000" />
+			<!-- Krymetal Ore -->
+			<item templateId="1002" min="1" max="1" chance="1000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="1" chance="1000" />
+			<!-- Paverune of Shara -->
+			<item templateId="501" min="1" max="1" chance="1000" />			
+			<!-- Paverune of Arun -->
+			<item templateId="511" min="1" max="1" chance="1000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="1" chance="1000" />
+			<!-- Sun Essence -->
+			<item templateId="1003" min="1" max="1" chance="1000" />
+			<!-- Verdra Fibers -->
+			<item templateId="1101" min="1" max="1" chance="1000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="1000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="1000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="1000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="1000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="1000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="1000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="1000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="1000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="1000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="1000" />
+		</group>
+		<!-- оружие -->
+		<group id="5" chance="100" >
+			<!-- White 17 -->
+			<item templateId="10033" min="1" max="1" chance="5000" />
+			<item templateId="10034" min="1" max="1" chance="5000" />
+			<item templateId="10035" min="1" max="1" chance="5000" />
+			<item templateId="10036" min="1" max="1" chance="5000" />
+			<item templateId="10037" min="1" max="1" chance="5000" />
+			<item templateId="10038" min="1" max="1" chance="5000" />
+			<item templateId="10039" min="1" max="1" chance="5000" />
+			<item templateId="10040" min="1" max="1" chance="5000" />
+
+			<!-- Green 17 -->
+			<item templateId="10121" min="1" max="1" chance="1000" />
+			<item templateId="10122" min="1" max="1" chance="1000" />
+			<item templateId="10123" min="1" max="1" chance="1000" />
+			<item templateId="10124" min="1" max="1" chance="1000" />
+			<item templateId="10125" min="1" max="1" chance="1000" />
+			<item templateId="10126" min="1" max="1" chance="1000" />
+			<item templateId="10127" min="1" max="1" chance="1000" />
+			<item templateId="10128" min="1" max="1" chance="1000" />
+		</group>
+		<!-- бижа -->
+		<group id="6" chance="100" >
+			<!-- White 15 -->
+			<item templateId="20302" min="1" max="1" chance="5000" />
+			<item templateId="20002" min="1" max="1" chance="5000" />
+			<item templateId="20602" min="1" max="1" chance="5000" />
+			
+			<!-- Green 20 -->
+			<item templateId="20312" min="1" max="1" chance="1000" />
+			<item templateId="20012" min="1" max="1" chance="1000" />
+			<item templateId="20612" min="1" max="1" chance="1000" />
+		</group>
+	</drop>
+	
+	<!-- Arakia -->
+	<drop templateId="5003" templateType="6" >
+		<!-- деньги -->
+		<group id="0" chance="100" >
+			<item templateId="20000000" min="4000" max="8000" chance="100000" />
+		</group>
+		<!-- шмотки -->
+		<group id="1" chance="100" count="10" >
+			<!-- Crushers -->
+			<item templateId="16540" min="1" max="1" chance="5000" />
+			<item templateId="16541" min="1" max="1" chance="5000" />
+			<item templateId="16542" min="1" max="1" chance="5000" />
+			<!-- Greatwrap -->
+			<item templateId="16543" min="1" max="1" chance="5000" />
+			<item templateId="16544" min="1" max="1" chance="5000" />
+			<item templateId="16545" min="1" max="1" chance="5000" />
+			<!-- Dreamer's  -->
+			<item templateId="16546" min="1" max="1" chance="5000" />
+			<item templateId="16547" min="1" max="1" chance="5000" />
+			<item templateId="16548" min="1" max="1" chance="5000" />
+		</group>
+		<!-- всячина -->
+		<group id="2" chance="100" count="10" >
+			<!-- Campfire -->
+			<item templateId="98" min="1" max="1" chance="10000" />
+			<!-- Speed Potion -->
+			<item templateId="8007" min="1" max="3" chance="10000" />
+			<!-- Mana Elixir II -->
+			<item templateId="6066" min="1" max="3" chance="10000" />
+			<!-- Mana Elixir III -->
+			<item templateId="6068" min="1" max="3" chance="10000" />
+			<!-- Scroll of Resurrection -->
+			<item templateId="7214" min="1" max="3" chance="10000" />
+		</group>
+		<!-- ресурсы -->
+		<group id="3" chance="100" count="5" >
+			<!-- Ethereal Charm II -->
+			<item templateId="7105" min="1" max="4" chance="10000" />
+			<!-- Onslaught Charm II -->
+			<item templateId="7101" min="1" max="4" chance="10000" />
+			<!-- Sanguine Charm II -->
+			<item templateId="7109" min="1" max="4" chance="10000" />
+			<!-- Silrune of Titans -->
+			<item templateId="522" min="1" max="4" chance="10000" />
+		</group>
+		<!-- Кристалы -->
+		<group id="4" chance="100" count="10" >
+			<!-- Acrimonious Cabochon -->
+			<item templateId="8303" min="1" max="1" chance="5000" />
+			<!-- Anarchic Cabochon -->
+			<item templateId="8423" min="1" max="1" chance="5000" />
+			<!-- Backbiting Cabochon -->
+			<item templateId="8309" min="1" max="1" chance="5000" />
+			<!-- Dauntless Cabochon -->
+			<item templateId="8429" min="1" max="1" chance="5000" />
+			<!-- Domineering Cabochon -->
+			<item templateId="8231" min="1" max="1" chance="5000" />
+			<!-- Hunter's Cabochon -->
+			<item templateId="8327" min="1" max="1" chance="5000" />
+			<!-- Mutinous Cabochon -->
+			<item templateId="8237" min="1" max="1" chance="5000" />
+			<!-- Soothing Cabochon -->
+			<item templateId="8489" min="1" max="1" chance="5000" />
+			<!-- Squelching Cabochon -->
+			<item templateId="8225" min="1" max="1" chance="5000" />
+			<!-- Stalwart Cabochon -->
+			<item templateId="8483" min="1" max="1" chance="5000" />
+			<!-- Fine Brilliant Cabochon -->
+			<item templateId="8387" min="1" max="1" chance="5000" />
+			<!-- Fine Brutal Cabochon -->
+			<item templateId="8273" min="1" max="1" chance="5000" />
+			<!-- Fine Carving Cabochon -->
+			<item templateId="8537" min="1" max="1" chance="5000" />
+			<!-- Fine Cruel Cabochon -->
+			<item templateId="8285" min="1" max="1" chance="5000" />
+			<!-- Fine Cunning Cabochon -->
+			<item templateId="8339" min="1" max="1" chance="5000" />
+			<!-- Fine Empyrean Cabochon -->
+			<item templateId="8453" min="1" max="1" chance="5000" />
+			<!-- Fine Fleetfoot Cabochon -->
+			<item templateId="8513" min="1" max="1" chance="5000" />
+			<!-- Fine Focused Cabochon -->
+			<item templateId="8249" min="1" max="1" chance="5000" />
+			<!-- Fine Forceful Cabochon -->
+			<item templateId="8297" min="1" max="1" chance="5000" />
+			<!-- Fine Furious Cabochon -->
+			<item templateId="8219" min="1" max="1" chance="5000" />
+			<!-- Fine Glistening Cabochon -->
+			<item templateId="8363" min="1" max="1" chance="5000" />
+			<!-- Fine Infused Cabochon -->
+			<item templateId="8357" min="1" max="1" chance="5000" />
+			<!-- Fine Inspiring Cabochon -->
+			<item templateId="8477" min="1" max="1" chance="5000" />
+			<!-- Fine Poised Cabochon -->
+			<item templateId="8441" min="1" max="1" chance="5000" />
+			<!-- Fine Protective Cabochon -->
+			<item templateId="8399" min="1" max="1" chance="5000" />
+			<!-- Fine Relentless Cabochon -->
+			<item templateId="8501" min="1" max="1" chance="5000" />
+			<!-- Fine Resolute Cabochon -->
+			<item templateId="8411" min="1" max="1" chance="5000" />
+			<!-- Fine Savage Cabochon -->
+			<item templateId="8321" min="1" max="1" chance="5000" />
+			<!-- Fine Slaying Cabochon -->
+			<item templateId="8207" min="1" max="1" chance="5000" />
+			<!-- Fine Swift Cabochon -->
+			<item templateId="8375" min="1" max="1" chance="5000" />
+			<!-- Fine Threatening Cabochon -->
+			<item templateId="8573" min="1" max="1" chance="5000" />
+			<!-- Fine Vigorous Cabochon -->
+			<item templateId="8525" min="1" max="1" chance="5000" />
+			<!-- Fine Virulent Cabochon -->
+			<item templateId="8261" min="1" max="1" chance="5000" />
+			<!-- Fine Warding Cabochon -->
+			<item templateId="8465" min="1" max="1" chance="5000" />
+		</group>
+	</drop>
+</list>

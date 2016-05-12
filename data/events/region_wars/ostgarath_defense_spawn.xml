@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Fyrmount -->
+	<npc id="21012" type="300" >
+		<ai class="DEFAULT" config="RegionWarArcher" >
+			<time respawn="10" >
+				<point x="103365" y="53858" z="2327" heading="38891" />
+				<point x="103618" y="53771" z="2328" heading="43919" />
+				<point x="103982" y="53785" z="2359" heading="51839" />
+				<point x="104475" y="54078" z="2380" heading="57736" />
+				<point x="104470" y="54419" z="2343" heading="7518" />
+				<point x="104194" y="54943" z="2266" heading="5575" />
+				<point x="103953" y="55145" z="2240" heading="13143" />
+				<point x="103501" y="55203" z="2229" heading="19230" />
+				<point x="103271" y="55109" z="2206" heading="25985" />
+				<point x="103171" y="54821" z="2215" heading="34217" />
+				<point x="103233" y="54496" z="2228" heading="37102" />
+				<point x="103359" y="54228" z="2236" heading="38814" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21009" type="300" >
+		<ai class="DEFAULT" config="RegionWarPriest" >
+			<time respawn="10" >
+				<point x="103351" y="55045" z="2217" heading="25567" />
+				<point x="103298" y="54524" z="2230" heading="37459" />
+				<point x="103637" y="53805" z="2323" heading="47184" />
+				<point x="104426" y="54133" z="2364" heading="8105" />
+				<point x="104030" y="55049" z="2264" heading="22897" />
+				<point x="103511" y="55117" z="2230" heading="5070" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21011" type="300" >
+		<ai class="DEFAULT" config="RegionWarLancer" >
+			<time respawn="10" >
+				<point x="103295" y="55297" z="2205" heading="20961" />
+				<point x="103047" y="54580" z="2216" heading="34390" />
+				<point x="103199" y="54035" z="2236" heading="28203" />
+				<point x="103627" y="53585" z="2356" heading="45315" />
+				<point x="104178" y="53704" z="2392" heading="54765" />
+				<point x="104701" y="54522" z="2318" heading="5316" />
+				<point x="104236" y="55281" z="2250" heading="8828" />
+				<point x="103613" y="55398" z="2236" heading="16550" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21010" type="300" >
+		<ai class="DEFAULT" config="RegionWarSlayer" >
+			<time respawn="10" >
+				<point x="103464" y="55027" z="2227" heading="39805" />
+				<point x="103393" y="54678" z="2230" heading="49891" />
+				<point x="103585" y="54227" z="2242" heading="45171" />
+				<point x="104031" y="54186" z="2306" heading="58725" />
+				<point x="104110" y="54952" z="2257" heading="17065" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21008" type="300" >
+		<ai class="DEFAULT" config="RegionWarSorcerer" >
+			<time respawn="10" >
+				<point x="103779" y="54600" z="2256" heading="62202" />
+				<point x="103704" y="54739" z="2261" heading="34200" />
+				<point x="103726" y="54869" z="2254" heading="18894" />
+				<point x="103853" y="54935" z="2258" heading="14271" />
+				<point x="103955" y="54826" z="2260" heading="1346" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Azarel Labyrinth -->
+	<npc id="21012" type="300" >
+		<ai class="DEFAULT" config="RegionWarArcher" >
+			<time respawn="10" >
+				<point x="71165" y="61100" z="990" heading="16395" />
+				<point x="70857" y="61126" z="990" heading="16395" />
+				
+				<point x="69104" y="56292" z="90" heading="17482" />
+				<point x="68720" y="56077" z="87" heading="24340" />
+				<point x="69434" y="56085" z="87" heading="9062" />
+				<point x="70057" y="55567" z="80" heading="13405" />
+				<point x="68152" y="55575" z="80" heading="18722" />
+				<point x="68456" y="54596" z="83" heading="43613" />
+				<point x="69091" y="54174" z="75" heading="49513" />
+				<point x="69744" y="54604" z="83" heading="6065" />
+				<point x="70522" y="56570" z="117" heading="260" />
+				<point x="67627" y="56563" z="118" heading="33097" />
+				<point x="69129" y="57690" z="390" heading="17369" />
+				<point x="69062" y="57683" z="390" heading="17087" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21009" type="300" >
+		<ai class="DEFAULT" config="RegionWarPriest" >
+			<time respawn="10" >
+				<point x="69294" y="56115" z="87" heading="8448" />
+				<point x="68822" y="56112" z="87" heading="23783" />
+				<point x="68079" y="55451" z="80" heading="20191" />
+				<point x="70072" y="55482" z="80" heading="11744" />
+				<point x="69681" y="54727" z="83" heading="53800" />
+				<point x="69090" y="54341" z="80" heading="49178" />
+				<point x="68527" y="54741" z="83" heading="43867" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21011" type="300" >
+		<ai class="DEFAULT" config="RegionWarLancer" >
+			<time respawn="10" >
+				<point x="68964" y="55942" z="80" heading="24594" />
+				<point x="69222" y="55957" z="80" heading="8938" />
+				<point x="69219" y="55708" z="80" heading="57578" />
+				<point x="68969" y="55696" z="80" heading="42649" />
+				
+				<point x="68354" y="54428" z="73" heading="43651" />
+				<point x="69084" y="53770" z="77" heading="49498" />
+				<point x="69864" y="54400" z="73" heading="54945" />
+				<point x="70119" y="55740" z="80" heading="12239" />
+				<point x="68117" y="55750" z="80" heading="18283" />
+				<point x="69245" y="57810" z="390" heading="20914" />
+				<point x="68960" y="57815" z="390" heading="10444" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21007" type="300" >
+		<ai class="DEFAULT" config="RegionWarWarrior" >
+			<time respawn="10" >
+				<point x="69943" y="56606" z="80" heading="8474" />
+				<point x="68288" y="56701" z="84" heading="22048" />
+				<point x="68872" y="54858" z="80" heading="46592" />
+				<point x="69290" y="54775" z="80" heading="54378" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21008" type="300" >
+		<ai class="DEFAULT" config="RegionWarSorcerer" >
+			<time respawn="10" >
+				<point x="69028" y="55730" z="80" heading="48891" />
+				<point x="69160" y="55726" z="80" heading="48891" />
+				<point x="69202" y="55759" z="80" heading="64900" />
+				<point x="69201" y="55885" z="80" heading="64900" />
+				<point x="69167" y="55916" z="80" heading="17503" />
+				<point x="69035" y="55918" z="80" heading="16473" />
+				<point x="68984" y="55878" z="80" heading="33221" />
+				<point x="68995" y="55742" z="80" heading="33221" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Jagged Coast -->
+	<npc id="21012" type="300" >
+		<ai class="DEFAULT" config="RegionWarArcher" >
+			<time respawn="10" >
+				<point x="46644" y="55006" z="100" heading="14796" />
+				<point x="46296" y="54960" z="142" heading="21471" />
+				<point x="46850" y="54831" z="97" heading="5424" />
+				<point x="46837" y="54489" z="122" heading="57021" />
+				<point x="46508" y="54454" z="103" heading="170" />
+				<point x="46448" y="54635" z="97" heading="6396" />
+				
+				<point x="46098" y="54356" z="67" heading="1721" />
+				<point x="45985" y="54496" z="67" heading="797" />
+				<point x="46082" y="54625" z="67" heading="797" />
+				<point x="44636" y="54515" z="67" heading="33850" />
+				<point x="44648" y="54370" z="67" heading="33850" />
+				<point x="44742" y="54456" z="67" heading="33850" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21009" type="300" >
+		<ai class="DEFAULT" config="RegionWarPriest" >
+			<time respawn="10" >
+				<point x="46549" y="54903" z="104" heading="59572" />
+				<point x="46768" y="54536" z="108" heading="554" />
+				
+				<point x="46077" y="54486" z="67" heading="964" />
+				<point x="44655" y="54464" z="67" heading="32926" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21011" type="300" >
+		<ai class="DEFAULT" config="RegionWarLancer" >
+			<time respawn="10" >
+				<point x="46363" y="54504" z="86" heading="1722" />
+				<point x="44352" y="54447" z="71" heading="33197" />
+				<point x="45181" y="54628" z="67" heading="24437" />
+				<point x="45419" y="54620" z="81" heading="8147" />
+				<point x="45430" y="54360" z="67" heading="55896" />
+				<point x="45181" y="54382" z="67" heading="41061" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21010" type="300" >
+		<ai class="DEFAULT" config="RegionWarSlayer" >
+			<time respawn="10" >
+				<point x="44873" y="54462" z="67" heading="14557" />
+				<point x="45763" y="54474" z="67" heading="596" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="21008" type="300" >
+		<ai class="DEFAULT" config="RegionWarSorcerer" >
+			<time respawn="10" >
+				<point x="45408" y="54420" z="67" heading="65477" />
+				<point x="45406" y="54555" z="80" heading="65435" />
+				<point x="45361" y="54593" z="67" heading="16318" />
+				<point x="45223" y="54598" z="67" heading="16318" />
+				<point x="45220" y="54567" z="67" heading="33328" />
+				<point x="45226" y="54437" z="67" heading="33328" />
+				<point x="45235" y="54416" z="67" heading="52163" />
+				<point x="45365" y="54413" z="67" heading="49452" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <skill id="76128964" class="-1" name="Deft Footwork" levels="1">
+		<set name="reuseDelay" value="3600000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="30" />
+		<set name="hitTime" value="500" />		
+		<for> 
+			<effect id="90100" time="180" count="1" type="BUFF"> 
+				<add stat="owerturnRcpt" order="0x40" val="50" >
+					<attacker pvp="true" />
+				</add>
+			</effect>
+		</for>		
+	</skill>
+	
+	<skill id="19100" class="-1" name="Indomitable Spirit" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+		<for> 
+			<mul stat="def" order="0x30" val="1.1" >
+				<and>
+					<player percentHp="30" />
+					<attacker pvp="true" />
+				</and>
+			</mul>
+		</for>	
+	</skill>
+	
+	<skill id="19101" class="-1" name="Resilience of Body" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+	</skill>
+	
+	<skill id="19102" class="-1" name="Nomadic Crafter" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />	
+	</skill>
+		
+	<skill id="76128964" class="-2" name="Core Infusion" levels="1">
+		<set name="reuseDelay" value="7200000"/>
+		<set name="power" value="100"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="MANAHEAL_PERCENT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="500" />		
+		<set name="blockingMove" value="false" />				
+	</skill>
+		
+	<skill id="19200" class="-2" name="Elf I" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+	</skill>
+	
+	<skill id="19201" class="-2" name="Elf II" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+	</skill>
+	
+	<skill id="76128964" class="-3" name="Last Aman Standing" levels="1">
+		<set name="reuseDelay" value="3600000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="500" />		
+		<set name="blockingMove" value="false" />
+		<for> 
+			<effect id="90400" time="30" count="1" type="BUFF"> 
+				<add stat="stunRcpt" order="0x40" val="70" />
+				<add stat="owerturnRcpt" order="0x40" val="70" />
+			</effect>
+		</for>		
+	</skill>
+	
+	<skill id="19400" class="-3" name="Aman I" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for> 
+			<mul stat="def" order="0x30" val="1.1" >
+				<player percentHp="30" />
+			</mul>
+		</for>		
+	</skill>
+	
+	<skill id="19401" class="-3" name="Blood of Dragons" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for> 
+			<add stat="dmgRcpt" order="0x40" val="10" />
+		</for>	
+	</skill>
+	
+	<skill id="19402" class="-3" name="Blood of Dragons" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for> 
+			<mul stat="def" order="0x30" val="1.1" >
+				<player percentHp="30" />
+			</mul>
+		</for>	
+	</skill>	
+	
+	<skill id="76128964" class="-4" name="Runic Awakening" levels="1">
+		<set name="reuseDelay" value="1800000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="500" />		
+		<set name="blockingMove" value="false" />
+		<for> 
+			<effect id="90300" time="180" count="1" type="BUFF"> 
+				<mul stat="balance" order="0x30" val="0.8" >
+					<player battle="true"/>
+				</mul>
+				<mul stat="runSpd" order="0x30" val="1.3" >
+					<player battle="true"/>
+				</mul>
+			</effect>
+		</for>				
+	</skill>
+	
+	<skill id="19300" class="-4" name="Dirty Fighting" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />	
+		<for> 
+			<mul stat="rCrit" order="0x30" val="1.01" >
+				<target side="BEHIND"/>
+			</mul>
+		</for>			
+	</skill>
+	
+	<skill id="19301" class="-4" name="Weaponforger" levels="1">
+		<set name="reuseDelay" value="0"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="PASSIVE" />
+		<set name="mpConsume" value="70" />
+		<set name="hitTime" value="1000" />			
+	</skill>
+	
+	<skill id="19302" class="-4" name="Light Landing" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />	
+		<for> 
+			<mul stat="fallDam" order="0x30" val="0.5" />
+		</for>				
+	</skill>
+	
+	
+	
+	<skill id="76128964" class="-5" name="Elins Active" levels="1">
+	<!--skill id="76128964" class="-1" name="ActiveRases" levels="1"-->
+		<set name="reuseDelay" value="1800000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="EFFECT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="30" />
+		<set name="hitTime" value="500" />		
+		<for> 
+		</for>				
+	</skill>	
+	
+	<skill id="76138964" class="-5" name="Horizon Run" levels="1">
+		<set name="reuseDelay" value="1800000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="500" />		
+		<set name="blockingMove" value="false" />
+		<for> 
+			<effect id="90510" time="180" count="1" type="BUFF"> 
+				<add stat="runSpd" order="0x40" val="20" >
+					<player battle="false"/>
+				</add>
+			</effect>
+		</for>					
+	</skill>	
+		
+	<skill id="19500" class="-5" name="Elin I" levels="1">
+		<set name="reuseDelay" value="0"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="PASSIVE" />
+		<set name="mpConsume" value="70" />
+		<set name="hitTime" value="1000" />			
+	</skill>
+	
+	<skill id="19501" class="-5" name="Elin II" levels="1">
+		<set name="reuseDelay" value="0"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="PASSIVE" />
+		<set name="mpConsume" value="70" />
+		<set name="hitTime" value="1000" />			
+	</skill>
+	
+	<skill id="76128964" class="-6" name="Baraka Active" levels="1">
+		<set name="reuseDelay" value="7200000"/>
+		<set name="power" value="100"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL_PERCENT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="500" />		
+		<set name="blockingMove" value="false" />		
+	</skill>	
+	
+	<skill id="19600" class="-6" name="Indefatigable" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for> 
+			<add stat="minHeartPercent" order="0x40" val="20" />
+		</for>			
+	</skill>
+	
+	<skill id="19601" class="-6" name="Baraka II" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+	</skill>
+	
+	<skill id="19602" class="-6" name="Baraka III" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />		
+	</skill>
+
+    <skill id="10000" class="-1" name="SpeedBoots" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for>			
+			<add stat="runSpd" order="0x40" val="65" >	
+				<player battle="false"/>
+			</add>
+		</for>
+		<!--+65 к бегу если ты не в боевой стойке Ланцер,берс,лукарь-->
+		
+	</skill>
+
+	 <skill id="10001" class="-1" name="SpeedBoots" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for>			
+			<add stat="runSpd" order="0x40" val="50" >	
+				<player battle="false"/>
+			</add>
+		</for>
+		<!--+50 к бегу если ты не в боевой стойке варриор-->
+		
+	</skill>
+	
+	
+    <skill id="10002" class="-1" name="SpeedBoots" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for>			
+			<add stat="runSpd" order="0x40" val="60" >	
+				<player battle="false"/>
+			</add>
+		</for>
+		<!--+60 к бегу если ты не в боевой стойке слаер, сорк, приест, мистик-->
+	</skill>	
+	
+	<skill id="7777777" class="-1" name="SpeedBoots" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PASSIVE" />
+		<set name="operateType" value="PASSIVE" />
+		<for>			
+			<add stat="runSpd" order="0x40" val="300" >	
+				<player battle="false"/>
+			</add>
+		</for>
+		<!--+300 к бегу если ты не в боевой стойке -->
+	</skill>
+	
+	<!-- скил для входа/выхода в ПвП режим -->
+	<skill id="67308865" class="-1" name="PvP Mode" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="PVP_MODE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />		
+		<set name="delay" value="1000" />					
+		<set name="reuseDelay" value="3000" />
+	</skill>
+</list>

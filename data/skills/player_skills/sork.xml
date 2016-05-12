@@ -1,0 +1,2714 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67118964" class="4" name="Fireball I" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="7" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>
+	</skill>	
+	
+	<skill id="67119064" class="4" name="Fireball II" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="9" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>	
+	
+	<skill id="67119164" class="4" name="FireBall III" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="14" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119264" class="4" name="Fireball IV" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="20" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119364" class="4" name="Fireball V" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="29" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119464" class="4" name="Fireball VI" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="42" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119564" class="4" name="Fireball VII" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="62" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119664" class="4" name="Fireball VIII" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="90" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119764" class="4" name="Fireball IX" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="131" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119864" class="4" name="Fireball X" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="191" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67119964" class="4" name="Fireball XI" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="550"/>		
+		<set name="power" value="279" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="10" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="400" />	
+		<!-- set name="reuseDelay" value="1000" / -->
+		<set name="canOwerturn" value="false" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>		
+    </skill>
+		
+	<skill id="67188964" class="4" name="Flame Pillar I" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="29" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67189064" class="4" name="Flame Pillar II" levels="1">
+        <set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="45" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189164" class="4" name="Flame Pillar III" levels="1">
+        <set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="66" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189264" class="4" name="Flame Pillar IV" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="96" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189364" class="4" name="Flame Pillar V" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="140" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189464" class="4" name="Flame Pillar VI" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="204" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189564" class="4" name="Flame Pillar VII" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="298" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189664" class="4" name="Flame Pillar VIII" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="434" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189764" class="4" name="Flame Pillar IX" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="634" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67189864" class="4" name="Flame Pillar X" levels="1">
+		<set name="reuseDelay" value="4000" />
+		<set name="targetType" value="TARGET_AREA" />		
+		<set name="range" value="60"/>
+		<set name="radius" value="40"/>
+		<set name="power" value="925" />
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="160" />
+		<set name="hitTime" value="3100" />	
+		<set name="delay" value="500" />	
+		<set name="castCount" value="7" />	
+		<set name="interval" value="300" />
+		<set name="shieldIgnore" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67178964" class="4" name="Backstep" levels="1">
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="reuseDelay" value="5000" />
+		<set name="moveDistance" value="-200" />
+		<set name="moveTime" value="1000" />
+		<set name="evasion" value="true" />			
+		<set name="mpConsume" value="85"/>
+		<set name="skillType" value="JUMP" />
+		<set name="operateType" value="ACTIVE" />	
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="hitTime" value="1300" />	
+		<set name="implemented" value="true" />
+		<set name="forceCast" value="true" />
+		<cond>
+			<player notBarrier="true" msg="Нельзя использовать около преград." />
+		</cond>	
+    </skill>
+
+	 <skill id="67218964" class="4" name="Magma Bomb I" levels="1">
+        <set name="power" value="42"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219064" class="4" name="Magma Bomb II" levels="1">
+        <set name="power" value="62"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219164" class="4" name="Magma Bomb III" levels="1">
+		<set name="power" value="90"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219264" class="4" name="Magma Bomb IV" levels="1">
+		<set name="power" value="131"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219364" class="4" name="Magma Bomb V" levels="1">
+		<set name="power" value="192"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219464" class="4" name="Magma Bomb VI" levels="1">
+		<set name="power" value="280"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219564" class="4" name="Magma Bomb VII" levels="1">
+		<set name="power" value="408"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219664" class="4" name="Magma Bomb VIII" levels="1">
+		<set name="power" value="596"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219764" class="4" name="Magma Bomb IX" levels="1">
+		<set name="power" value="869"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219864" class="4" name="Magma Bomb X" levels="1">
+		<set name="power" value="1268"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="270"/>
+		<set name="radius" value="80"/>
+        <set name="mpConsume" value="340"/>
+		<set name="delay" value="1200"/>
+        <set name="hitTime" value="1800"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67128964" class="4" name="Ice Needle I" levels="1">
+        <set name="power" value="52"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67128984" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129064" class="4" name="Ice Needle II" levels="1">
+        <set name="power" value="76"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67128984" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129164" class="4" name="Ice Needle III" levels="1">
+        <set name="power" value="111"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129184" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129264" class="4" name="Ice Needle IV" levels="1">
+        <set name="power" value="162"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129284" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129364" class="4" name="Ice Needle V" levels="1">
+        <set name="power" value="236"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129384" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129464" class="4" name="Ice Needle VI" levels="1">
+        <set name="power" value="344"/>
+       <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129484" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129564" class="4" name="Ice Needle VII" levels="1">
+        <set name="power" value="502"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129584" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129664" class="4" name="Ice Needle VIII" levels="1">
+        <set name="power" value="733"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129684" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67129764" class="4" name="Ice Needle IX" levels="1">
+        <set name="power" value="1069"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SLOW_SHOT"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="400"/>
+        <set name="mpConsume" value="300"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+        <set name="hitTime" value="2200"/>
+		<set name="delay" value="500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="damageId" value="67129784" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="maxTargets" value="20" />
+        <set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+		<for> 
+			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.8" />
+			</effect>
+		</for>
+    </skill>
+	
+    <skill id="67158964" class="4" name="Mana Infusion I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="6900"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500300" time="2" count="12" type="MANA_HEAL_OVER_TIME" power="120" stackType="mana_heal_over_time" />
+		</for>
+    </skill>
+	
+	<skill id="67159064" class="4" name="Mana Infusion II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="6900"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500301" time="2" count="12" type="MANA_HEAL_OVER_TIME" power="160" stackType="mana_heal_over_time" />
+		</for>
+    </skill>
+	
+	<skill id="67268964" class="4" name="Painblast I" levels="1">
+		<set name="power" value="58"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500700" time="2" count="5" type="DAM_OVER_TIME" power="26" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269064" class="4" name="Painblast II" levels="1">
+		<set name="power" value="84"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500701" time="2" count="5" type="DAM_OVER_TIME" power="40" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269164" class="4" name="Painblast III" levels="1">
+		<set name="power" value="123"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500702" time="2" count="5" type="DAM_OVER_TIME" power="58" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269264" class="4" name="Painblast IV" levels="1">
+		<set name="power" value="180"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500703" time="2" count="5" type="DAM_OVER_TIME" power="85" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269364" class="4" name="Painblast V" levels="1">
+		<set name="power" value="262"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500704" time="2" count="5" type="DAM_OVER_TIME" power="121" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269464" class="4" name="Painblast VI" levels="1">
+		<set name="power" value="382"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500705" time="2" count="5" type="DAM_OVER_TIME" power="174" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269564" class="4" name="Painblast VII" levels="1">
+		<set name="power" value="558"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500706" time="2" count="5" type="DAM_OVER_TIME" power="241" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67269664" class="4" name="Painblast VIII" levels="1">
+		<set name="power" value="814"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="3100"/>
+		<set name="mpConsume" value="300"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="shieldIgnore" value="true"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500707" time="2" count="5" type="DAM_OVER_TIME" power="341" stackType="poison" chance="97" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67298964" class="4" name="Mana Siphon" levels="13">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_RAIL_FAST_MANA_SHOT</table>
+		<table name="#delay">800 300</table>
+		<table name="#hitTime">6000 2500</table>
+		<table name="#interval">800 500</table>
+		<table name="#castCount">2 1</table>
+		<table name="#blockingMove">false true</table>
+		<set name="power" value="500"/>
+		<set name="startPower" value="0.7"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="5"/>
+		<set name="speed" value="4000"/>
+		<set name="range" value="400"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67298964"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="blockingMove" value="#blockingMove" />
+		<set name="offsetId" value="12"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="19000"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67148964" class="4" name="Arcane Pulse I" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="220"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67148964"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67148984" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149064" class="4" name="Arcane Pulse II" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="321"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149064"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149084" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149164" class="4" name="Arcane Pulse III" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="469"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149164"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149184" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149264" class="4" name="Arcane Pulse IV" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="684"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149264"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149284" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149364" class="4" name="Arcane Pulse V" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="998"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149364"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149384" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149464" class="4" name="Arcane Pulse VI" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="1456"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149464"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149484" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149564" class="4" name="Arcane Pulse VII" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="2125"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149564"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149584" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67149664" class="4" name="Arcane Pulse VIII" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_SINGLE_SLOW_SHOT</table>
+		<table name="#delay">1000 300</table>
+		<table name="#hitTime">6000 2200</table>
+		<table name="#interval">1000 0</table>
+		<table name="#castCount">3 1</table>
+		<table name="#mpConsume">124 124 124 248 0</table>
+		<set name="power" value="3101"/>
+		<set name="startPower" value="0.5"/>
+		<set name="chargeMod" value="0.2"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="480"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67149564"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="offsetId" value="13"/>
+		<set name="speed" value="900"/>
+		<set name="speedOffset" value="-400"/>
+		<set name="interval" value="#interval"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="damageId" value="67149584" />
+		<set name="maxTargets" value="20" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+    </skill>
+
+	<skill id="67278964" class="4" name="Painful Trap I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67278984" class="4" name="Painful Trap Attack I" levels="1">
+        <set name="power" value="49"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67279064" class="4" name="Painful Trap II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67279084" class="4" name="Painful Trap Attack II" levels="1">
+        <set name="power" value="104"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67279164" class="4" name="Painful Trap III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67279184" class="4" name="Painful Trap Attack III" levels="1">
+        <set name="power" value="221"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67279264" class="4" name="Painful Trap IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67279284" class="4" name="Painful Trap Attack IV" levels="1">
+        <set name="power" value="471"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67279364" class="4" name="Painful Trap V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="3800"/>
+		<set name="delay" value="2800"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67279384" class="4" name="Painful Trap Attack V" levels="1">
+        <set name="power" value="1137"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67358964" class="4" name="Time Gyre I" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">400 400</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="0"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="200"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="3"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67358964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="501300" time="10" count="1" type="ROOT" stackType="root" chance="97" debuff="true" noOwerturn="true" noAttacked="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67359064" class="4" name="Time Gyre II" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">400 400</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="0"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="200"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="3"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67359064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+       <for>
+			<effect id="501301" time="10" count="1" type="ROOT" stackType="root" chance="97" debuff="true" noOwerturn="true" noAttacked="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67359164" class="4" name="Time Gyre III" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">400 400</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="0"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="200"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="3"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="300"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67359164"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+       <for>
+			<effect id="501302" time="10" count="1" type="ROOT" stackType="root" chance="97" debuff="true" noOwerturn="true" noAttacked="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67308964" class="4" name="Flaming Barrage I" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 3000</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">600 600</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="211"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1500"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67308964"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67309064" class="4" name="Flaming Barrage II" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 3000</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">600 600</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="450"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1500"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67309064"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67309164" class="4" name="Flaming Barrage III" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 3000</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">600 600</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="958"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1500"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67309164"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67309264" class="4" name="Flaming Barrage IV" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 3000</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">600 600</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="2040"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="510"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1500"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67309264"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="67138964" class="4" name="Lightning Trap I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="400"/>
+        <set name="hitTime" value="4800"/>
+		<set name="delay" value="3600"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67138984" class="4" name="Lightning Trap Attack I" levels="1">
+        <set name="power" value="181"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+		<for> 
+			<effect id="301" time="6" count="1" type="STUN" dynamicTime="true" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+
+	<skill id="67139064" class="4" name="Lightning Trap II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_TRAP"/>
+        <set name="targetType" value="TARGET_SELF" />
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="400"/>
+        <set name="hitTime" value="4800"/>
+		<set name="delay" value="3600"/>
+		<set name="lifeTime" value="10"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67139084" class="4" name="Lightning Trap Attack II" levels="1">
+        <set name="power" value="821"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TRAP_AURA"/>
+        <set name="radius" value="100"/>
+		<set name="owerturnMod" value="0.01" />
+		<for> 
+			<effect id="301" time="6" count="1" type="STUN" dynamicTime="true" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+    <skill id="67248964" class="4" name="Retaliate I" levels="1">
+        <set name="power" value="39"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249064" class="4" name="Retaliate II" levels="1">
+        <set name="power" value="57"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249164" class="4" name="Retaliate III" levels="1">
+        <set name="power" value="83"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249264" class="4" name="Retaliate IV" levels="1">
+        <set name="power" value="121"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249364" class="4" name="Retaliate V" levels="1">
+        <set name="power" value="176"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249464" class="4" name="Retaliate VI" levels="1">
+        <set name="power" value="257"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249564" class="4" name="Retaliate VII" levels="1">
+        <set name="power" value="375"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249664" class="4" name="Retaliate VIII" levels="1">
+        <set name="power" value="547"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67249764" class="4" name="Retaliate IX" levels="1">
+        <set name="power" value="798"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+
+    <skill id="67288964" class="4" name="Glacial Retreat I" levels="1">
+        <set name="power" value="57"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289064" class="4" name="Glacial Retreat II" levels="1">
+        <set name="power" value="83"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="8000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289164" class="4" name="Glacial Retreat III" levels="1">
+        <set name="power" value="122"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="6000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289264" class="4" name="Glacial Retreat IV" levels="1">
+        <set name="power" value="178"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289364" class="4" name="Glacial Retreat V" levels="1">
+        <set name="power" value="259"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289464" class="4" name="Glacial Retreat VI" levels="1">
+        <set name="power" value="378"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289564" class="4" name="Glacial Retreat VII" levels="1">
+        <set name="power" value="552"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67289664" class="4" name="Glacial Retreat VIII" levels="1">
+        <set name="power" value="806"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="50"/>
+		<set name="range" value="30"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2800"/>
+		<set name="delay" value="200"/>
+		<set name="moveDistance" value="-200"/>
+		<set name="moveTime" value="1400"/>
+		<set name="moveDelay" value="100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="owerturnMod" value="0.1" />
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+		<for> 
+			<effect id="500200" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+
+	<skill id="67368964" class="4" name="Teleport Jaunt" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_JUMP"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="120"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="delay" value="500"/>
+        <set name="moveDistance" value="300"/>
+		<set name="moveDelay" value="400"/>
+		<set name="moveTime" value="100"/>
+        <set name="hitTime" value="1400"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="ignoreBarrier" value="true" />
+		<set name="evasion" value="true" />		
+        <set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="DISC" msg="Используется только с диском."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>	
+    </skill>
+	
+	<skill id="67238964" class="4" name="Mindblast I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="6800"/>
+		<set name="mpConsume" value="400"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="4500"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+        <for>
+			<effect id="500800" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239064" class="4" name="Mindblast II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="6800"/>
+		<set name="mpConsume" value="400"/>
+		<set name="radius" value="100"/>
+		<set name="range" value="250"/>
+		<set name="maxTargets" value="5"/>
+		<set name="delay" value="4500"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+        <for>
+			<effect id="500800" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67168964" class="4" name="Fireblast I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="652"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67169064" class="4" name="Fireblast II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="951"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67169164" class="4" name="Fireblast III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="1388"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67169264" class="4" name="Fireblast IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="2025"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67169364" class="4" name="Fireblast V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="2954"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67169464" class="4" name="Fireblast VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="4311"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="hitTime" value="8000"/>
+		<set name="mpConsume" value="1000"/>
+		<set name="radius" value="120"/>
+		<set name="range" value="250"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="damageId" value="67188964" />
+		<set name="owerturnMod" value="0.1" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67228964" class="4" name="Void Pulse I" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="500"/>
+		<set name="power" value="901" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="1000" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="damageId" value="67228984" />	
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67229064" class="4" name="Void Pulse II" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="500"/>
+		<set name="power" value="1315" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="1000" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="damageId" value="67229084" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67229164" class="4" name="Void Pulse III" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="500"/>
+		<set name="power" value="1919" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="1000" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="damageId" value="67229184" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67229264" class="4" name="Void Pulse IV" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="500"/>
+		<set name="power" value="2800" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="1000" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="damageId" value="67229184" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67229364" class="4" name="Void Pulse V" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="500"/>
+		<set name="power" value="4086" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="1000" />
+		<set name="speed" value="300" />
+		<set name="hitTime" value="1700" />	
+		<set name="delay" value="900" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="damageId" value="67229184" />
+		<cond>
+			<using weapon="DISC" msg="Используется только с диском."/>
+		</cond>	
+	</skill>
+	
+	<skill id="67198964" class="4" name="Overchannel I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="400" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67199064" class="4" name="Overchannel II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="400" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="18000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67199164" class="4" name="Overchannel III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="400" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67199264" class="4" name="Overchannel IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="400" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67199364" class="4" name="Overchannel V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="400" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.25" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67208964" class="4" name="Mana Barrier I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="90000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500600" time="45" count="1" type="DAMAGE_ABSORPTION" stackType="absorb_damage" power="7063" value="14" />
+		</for>
+    </skill>
+	
+	<skill id="67209064" class="4" name="Mana Barrier II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="90000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="500601" time="45" count="1" type="DAMAGE_ABSORPTION" stackType="absorb_damage" power="13529" value="33" />
+		</for>
+    </skill>
+	
+	<skill id="67348964" class="4" name="Burst of Celerity" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="375" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="25000"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
+				<mul stat="atkSpd" order="0x30" val="1.2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67328964" class="4" name="Burning Breath I" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#mpConsume">500 500</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="33"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="600"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67328964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<for>
+			<effect id="501000" time="2" count="5" dynamicCount="true" type="DAM_OVER_TIME" chance="97" power="1175" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67329064" class="4" name="Burning Breath II" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#mpConsume">500 500</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="48"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="600"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67329064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<for>
+			<effect id="501000" time="2" count="5" dynamicCount="true" type="DAM_OVER_TIME" chance="97" power="1631" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="67329164" class="4" name="Burning Breath III" levels="11">
+        <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#mpConsume">500 500</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="70"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="600"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67329164"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="0.01" />
+		<for>
+			<effect id="501000" time="2" count="5" dynamicCount="true" type="DAM_OVER_TIME" chance="97" power="2305" debuff="true" />
+		</for>
+    </skill>
+	
+	<skill id="76118964" class="4" name="Velik's Horn" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="town" value="VELIKA"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="3600"/>
+        <set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67388964" class="4" name="Stone Skin" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="UNAGGRO"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="500" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="300000"/>
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="501500" time="5" count="1" type="INVUL" stackType="invul" value="0" />
+		</for>
+    </skill>
+</list>

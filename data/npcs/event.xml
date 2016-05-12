@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- ивент менеджер -->
+    <template id="10005" iconId="1001" name="Mystel" class="FRIENDLY" type="402" level="60" exp="0" attack="1" defense="1" impact="1" balance="1" maxHp="1" maxMp="3000" atkSpd="150" runSpd="200" aggro="0" />
+	
+	<!-- лансер -->
+    <template id="10000" iconId="19" name="Lokian Vanguard" modelId="19" class="EVENT_MONSTER" type="18" level="60" exp="0" attack="40000" defense="5000" impact="1000" balance="15000" maxHp="200000" maxMp="3000" atkSpd="150" runSpd="200" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="0" fractionRange="5000" fractionId="monster_team" skills="20000;20001;20002;20003;20004;20005;20032;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="maxDamDef" order="0x40" val="30000" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- slayer -->
+	<template id="10001" iconId="20" name="Lokian Slayer" modelId="20" class="EVENT_MONSTER" type="18" level="60" exp="0" attack="65000" defense="3000" impact="2500" balance="14000" maxHp="200000" maxMp="3000" atkSpd="150" runSpd="200" turnSpeed="12000" critRate="150" geomRadius="40" geomHeight="60" aggro="0" fractionRange="5000" fractionId="monster_team" skills="20006;20007;20008;20009;20010;20011;" >
+		<add stat="weakRcpt" order="0x40" val="80" />
+		<add stat="dmgRcpt" order="0x40" val="80" />
+		<add stat="stunRcpt" order="0x40" val="80" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- bers -->
+	<template id="10002" iconId="21" name="Lokian Skullcleaver" modelId="21" class="EVENT_MONSTER" type="18" level="60" exp="0" attack="65000" defense="4000" impact="2500" balance="15000" maxHp="200000" maxMp="3000" atkSpd="150" runSpd="200" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="0" fractionRange="5000" fractionId="monster_team" skills="20012;20013;20014;20015;20016;20017;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="09" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="maxDamDef" order="0x40" val="20000" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- priest -->
+	<template id="10003" iconId="22" name="Lokian Priest" modelId="22" class="EVENT_MONSTER" type="18" level="60" exp="0" attack="30000" defense="2000" impact="1000" balance="14000" maxHp="200000" maxMp="3000" atkSpd="150" runSpd="200" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="0" fractionRange="5000" fractionId="monster_team" skills="20018;20019;20020;20021;20022;20033;20034;20035;20036;20037;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- sork -->
+	<template id="10004" iconId="23" name="Lokian Magister" modelId="23" class="EVENT_MONSTER" type="18" level="60" exp="0" attack="80000" defense="2000" impact="1000" balance="14000" maxHp="200000" maxMp="3000" atkSpd="150" runSpd="200" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="0" fractionRange="5000" fractionId="monster_team" skills="20023;20024;20025;20026;20027;20028;20029;20030;20031;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<template id="10000" iconId="1001" name="Mystel" class="FRIENDLY" type="402" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="900" maxMp="900" atkSpd="120" runSpd="100" skills="" />
+	
+	
+	
+	
+	<template id="20000" iconId="2010" name="Bastion Region Manager" class="FRIENDLY" type="248" level="1" exp="1" attack="1" defense="1" impact="1" balance="1" maxHp="900" maxMp="900" atkSpd="120" runSpd="100" skills="" />
+	
+	<template id="30000" iconId="21" name="Контрольная точка" class="REGION_WAR_CONTROL" type="488" level="60" exp="0" attack="1" defense="1000" impact="1" balance="1" maxHp="500000" maxMp="1000" atkSpd="120" runSpd="0" regHp="2000" geomHeight="100" skills="" />
+	
+	<template id="30001" iconId="34" name="Забор" class="REGION_WAR_BARRIER" type="40" level="60" exp="0" attack="1" defense="1000" impact="1" balance="1" maxHp="700000" maxMp="1000" atkSpd="120" runSpd="100" geomRadius="60" skills="" >
+		<add stat="weakRcpt" order="0x40" val="33" />
+		<add stat="dmgRcpt" order="0x40" val="33" />
+		<add stat="stunRcpt" order="0x40" val="33" />
+	</template>
+	
+	
+	<!-- bastion лансер -->
+    <template id="30002" iconId="19" name="Lokian Vanguard" modelId="19" class="REGION_WAR_DEFENSE" type="18" level="60" exp="0" attack="50000" defense="8000" impact="1" balance="15000" maxHp="70000" maxMp="3000" atkSpd="120" runSpd="120" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="300" fractionRange="300" fractionId="region_defense" skills="20000;20001;20002;20003;20004;20005;20032;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="maxDamDef" order="0x40" val="30000" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- bastion slayer -->
+	<template id="30003" iconId="20" name="Lokian Slayer" modelId="20" class="REGION_WAR_DEFENSE" type="18" level="60" exp="0" attack="400000" defense="3000" impact="500" balance="14000" maxHp="70000" maxMp="3000" atkSpd="140" runSpd="160" turnSpeed="12000" critRate="150" geomRadius="40" geomHeight="60" aggro="300" fractionRange="300" fractionId="region_defense" skills="20006;20007;20008;20009;20010;20011;" >
+		<add stat="weakRcpt" order="0x40" val="80" />
+		<add stat="dmgRcpt" order="0x40" val="80" />
+		<add stat="stunRcpt" order="0x40" val="80" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- bastion bers -->
+	<template id="30004" iconId="21" name="Lokian Skullcleaver" modelId="21" class="REGION_WAR_DEFENSE" type="18" level="60" exp="0" attack="500000" defense="3500" impact="500" balance="15000" maxHp="70000" maxMp="3000" atkSpd="120" runSpd="140" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="300" fractionRange="300" fractionId="region_defense" skills="20012;20013;20014;20015;20016;20017;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="maxDamDef" order="0x40" val="20000" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- bastion priest -->
+	<template id="30005" iconId="22" name="Lokian Priest" modelId="22" class="REGION_WAR_DEFENSE" type="18" level="60" exp="0" attack="200000" defense="3000" impact="1" balance="14000" maxHp="70000" maxMp="3000" atkSpd="150" runSpd="0" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="300" fractionRange="300" fractionId="region_defense" skills="20018;20019;20020;20021;20022;20033;20034;20035;20036;20037;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+	
+	<!-- bastion sork -->
+	<template id="30006" iconId="23" name="Lokian Magister" modelId="23" class="REGION_WAR_DEFENSE" type="18" level="60" exp="0" attack="600000" defense="2000" impact="1" balance="14000" maxHp="70000" maxMp="3000" atkSpd="140" runSpd="0" turnSpeed="12000" critRate="150" geomRadius="30" geomHeight="60" aggro="300" fractionRange="300" fractionId="region_defense" skills="20023;20024;20025;20026;20027;20028;20029;20030;20031;" >
+		<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="owerturnRcpt" order="0x40" val="50" />
+	</template>
+</list>
+
+
+<!-- 44 1D8 044D
+
+44 1D 844D
+
+1D8
+
+45D8044D
+ 
+1171784781
+
+1140917325
+1142785101 
+
+44 1ED 044D
+
+
+1140917325 - 1140916224(44010000) - 1140850688
+
+32309248
+
+1173159936 + 1101
+
+1173161037
+1171784781
+-->
+

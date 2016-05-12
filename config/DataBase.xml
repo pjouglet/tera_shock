@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- класс драйвера базы данных (com.mysql.jdbc.Driver) -->
+	<set name="DATA_BASE_DRIVER" value="com.mysql.jdbc.Driver" />
+	<!-- адресс базы данных (jdbc:mysql://localhost/stdb) -->
+	<set name="DATA_BASE_URL" value="jdbc:mysql://localhost/tera_server" />
+	
+	<!-- логин для доступа к базе данных (root) -->
+	<set name="DATA_BASE_LOGIN" value="root" />
+	<!-- пароль для доступа к базе данных (000000) -->
+	<set name="DATA_BASE_PASSWORD" value="" />
+	
+	<!-- максимальное кол-во коннектов к базе в пуле (10) -->
+	<set name="DATA_BASE_MAX_CONNECTIONS" value="10" />
+	<!-- максимальное кол-во создаваемых statements (1000) -->
+	<set name="DATA_BASE_MAX_STATEMENTS" value="1000" />
+	<!-- чистить ли БД при старте сервера (true) -->
+	<set name="DATA_BASE_CLEANING_START" value="true" />
+</list>    

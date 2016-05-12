@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<race type="HUMAN" >
+		<stats>
+			<stat name="regHp" val="1.5" />
+			<stat name="regMp" val="1" />
+			<stat name="powerFactor" val="1.15" />
+			<stat name="defenseFactor" val="1" />
+			<stat name="impactFactor" val="1.15" />
+			<stat name="balanceFactor" val="1" />
+			<stat name="atkSpd" val="1" />
+			<stat name="runSpd" val="1" />
+			<stat name="critRate" val="1" />
+			<stat name="critRcpt" val="1" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="1.1" />
+			<mul stat="weakRcpt" order="0x20" val="0.9" />
+			<mul stat="dmgRcpt" order="0x20" val="1.1" />
+			<mul stat="maxHp" order="0x15" val="1.1" />
+			<mul stat="maxMp" order="0x15" val="0.9" />
+			<mul stat="atk" order="0x15" val="1.1" />
+		</funcs>
+	</race>
+	
+	<race type="AMAN" >
+		<stats>
+			<stat name="regHp" val="2" />
+			<stat name="regMp" val="1" />
+			<stat name="powerFactor" val="1.25" />
+			<stat name="defenseFactor" val="1" />
+			<stat name="impactFactor" val="1.25" />
+			<stat name="balanceFactor" val="1" />
+			<stat name="atkSpd" val="0.9" />
+			<stat name="runSpd" val="0.9" />
+			<stat name="critRate" val="0.9" />
+			<stat name="critRcpt" val="0.9" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="1.2" />
+			<mul stat="weakRcpt" order="0x20" val="0.8" />
+			<mul stat="dmgRcpt" order="0x20" val="1.2" />
+			<mul stat="maxHp" order="0x15" val="1.2" />
+			<mul stat="maxMp" order="0x15" val="0.8" />
+			<mul stat="atk" order="0x15" val="1.2" />
+		</funcs>
+	</race>
+	
+	<race type="ELF" >
+		<stats>
+			<stat name="regHp" val="1" />
+			<stat name="regMp" val="2" />
+			<stat name="powerFactor" val="0.85" />
+			<stat name="defenseFactor" val="0.9" />
+			<stat name="impactFactor" val="0.85" />
+			<stat name="balanceFactor" val="0.9" />
+			<stat name="atkSpd" val="1.15" />
+			<stat name="runSpd" val="1.15" />
+			<stat name="critRate" val="1.25" />
+			<stat name="critRcpt" val="1.5" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="0.9" />
+			<mul stat="weakRcpt" order="0x20" val="1.1" />
+			<mul stat="dmgRcpt" order="0x20" val="0.9" />
+			<mul stat="maxHp" order="0x15" val="0.9" />
+			<mul stat="maxMp" order="0x15" val="1.4" />
+			<mul stat="atk" order="0x15" val="0.9" />
+			<mul stat="cAtk" order="0x15" val="1.25" />
+		</funcs>
+	</race>
+	
+	<race type="CASTANIC" >
+		<stats>
+			<stat name="regHp" val="1" />
+			<stat name="regMp" val="1.5" />
+			<stat name="powerFactor" val="0.75" />
+			<stat name="defenseFactor" val="0.8" />
+			<stat name="impactFactor" val="0.75" />
+			<stat name="balanceFactor" val="0.8" />
+			<stat name="atkSpd" val="1.2" />
+			<stat name="runSpd" val="1.2" />
+			<stat name="critRate" val="1.4" />
+			<stat name="critRcpt" val="1.8" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="0.8" />
+			<mul stat="weakRcpt" order="0x20" val="1.5" />
+			<mul stat="dmgRcpt" order="0x20" val="0.8" />
+			<mul stat="maxHp" order="0x15" val="0.8" />
+			<mul stat="maxMp" order="0x15" val="1.2" />
+			<mul stat="atk" order="0x15" val="0.8" />
+			<mul stat="cAtk" order="0x15" val="1.35" />
+		</funcs>
+	</race>
+	
+	<race type="BARAKA" >
+		<stats>
+			<stat name="regHp" val="2" />
+			<stat name="regMp" val="2" />
+			<stat name="powerFactor" val="1" />
+			<stat name="defenseFactor" val="1.3" />
+			<stat name="impactFactor" val="1" />
+			<stat name="balanceFactor" val="1.3" />
+			<stat name="atkSpd" val="0.85" />
+			<stat name="runSpd" val="0.85" />
+			<stat name="critRate" val="0.8" />
+			<stat name="critRcpt" val="0.8" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="1.4" />
+			<mul stat="weakRcpt" order="0x20" val="1.4" />
+			<mul stat="dmgRcpt" order="0x20" val="1.4" />
+			<mul stat="def" order="0x15" val="1.15" />
+			<mul stat="atk" order="0x15" val="1.3" >
+				<target player="false" />
+			</mul>
+			<mul stat="agrMod" order="0x15" val="1.3" />
+			<mul stat="healPowerPercent" order="0x15" val="1.3" />
+			<mul stat="maxHp" order="0x15" val="1.25" />
+			<mul stat="maxMp" order="0x15" val="1.25" />
+		</funcs>
+	</race>
+	
+	<race type="ELIN" >
+		<stats>
+			<stat name="regHp" val="1" />
+			<stat name="regMp" val="2" />
+			<stat name="powerFactor" val="0.7" />
+			<stat name="defenseFactor" val="0.7" />
+			<stat name="impactFactor" val="0.7" />
+			<stat name="balanceFactor" val="0.7" />
+			<stat name="atkSpd" val="1.2" />
+			<stat name="runSpd" val="1.2" />
+			<stat name="critRcpt" val="3" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="0.8" />
+			<mul stat="weakRcpt" order="0x20" val="1.4" />
+			<mul stat="dmgRcpt" order="0x20" val="1" />
+			<mul stat="maxHp" order="0x15" val="0.7" />
+			<mul stat="maxMp" order="0x15" val="2" />
+			<mul stat="atk" order="0x15" val="0.75" />
+			<mul stat="cAtk" order="0x15" val="1.2" />
+		</funcs>
+	</race>
+	
+	<race type="POPORI" >
+		<stats>
+			<stat name="regHp" val="2" />
+			<stat name="regMp" val="1" />
+			<stat name="powerFactor" val="1.1" />
+			<stat name="defenseFactor" val="1" />
+			<stat name="impactFactor" val="1.1" />
+			<stat name="balanceFactor" val="1" />
+			<stat name="atkSpd" val="1.05" />
+			<stat name="runSpd" val="1.05" />
+			<stat name="critRate" val="1" />
+			<stat name="critRcpt" val="1" />
+		</stats>
+		<funcs>
+			<mul stat="stunRcpt" order="0x20" val="1.1" />
+			<mul stat="weakRcpt" order="0x20" val="0.9" />
+			<mul stat="dmgRcpt" order="0x20" val="1.1" />
+			<mul stat="maxHp" order="0x15" val="1.1" />
+			<mul stat="maxMp" order="0x15" val="0.9" />
+			<mul stat="atk" order="0x15" val="1.05" />
+		</funcs>
+	</race>
+</list>

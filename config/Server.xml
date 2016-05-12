@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- порт сервера для бинда (11101) -->
+	<set name="SERVER_PORT" value="14752" />
+
+	<!-- допустимые символы для нового ника -->
+	<set name="SERVER_NAME_TEMPLATE" value="([0-9A-Za-z]{2,16})|([0-9\u0410-\u044f]{2,16})|([0-9А-Яа-я]{2,16})" />
+	
+	<!-- множитель получаемого опыта (1.0) -->
+	<set name="SERVER_RATE_EXP" value="10.0" />
+	<!-- множитель получаемого опыта в пати (1.1) -->
+	<set name="SERVER_PARTY_RATE_EXP" value="10" />
+	<!-- множитель дропнутых денег (1.0) -->
+	<set name="SERVER_RATE_MONEY" value="6.0" />
+	<!-- множитель выпадающего дропа (1.0) -->
+	<set name="SERVER_RATE_DROP_ITEM" value="4.0" />
+	<!-- множитель квестов (1.0) -->
+	<set name="SERVER_RATE_QUEST_REWARD" value="2.0" />
+	
+	<!-- использовать ли опкоды снифера (false) -->
+	<set name="SERVER_USE_SNIFFER_OPCODE" value="true" />
+	<!-- использовать ли реальный рандоминайзер для дропа (false) -->
+	<set name="SERVER_DROP_REAL_RANDOM" value="true" />
+	<!-- использовать ли реальный рандоминайзер для критов (false) -->
+	<set name="SERVER_CRIT_REAL_RANDOM" value="false" />
+	<!--использовать ли реальный рандоминайзер для эффектов (false) -->
+	<set name="SERVER_EFFECT_REAL_RANDOM" value="false" />
+	<!-- использовать ли реальный рандоминайзер для функций (false) -->
+	<set name="SERVER_FUNC_REAL_RANDOM" value="false" />
+	<!-- использовать ли реальный рандоминайзер для дэмага (false) -->
+	<set name="SERVER_DAMAGE_REAL_RANDOM" value="false" />
+	<!-- использовать ли реальный рандоминайзер для опрокидывания (false) -->
+	<set name="SERVER_OWERTURN_REAL_RANDOM" value="false" />
+	
+        <!-- модификатор онлайна (1.0) -->
+	<set name="SERVER_ONLINE_FAKE" value="3.15" />
+	<!-- адресс вывода в фаил онлайна сервера /home/brabusx/online/online.txt -->
+	<set name="SERVER_ONLINE_FILE" value="online.php" />
+	
+	
+	
+	<!-- саб ид игроков (1000) -->
+	<set name="SERVER_PLAYER_SUB_ID" value="1000" />
+	<!-- саб ид нпс (2000) -->
+	<set name="SERVER_NPC_SUB_ID" value="2000" />
+	<!-- саб ид итемов (3000) -->
+	<set name="SERVER_ITEM_SUB_ID" value="3000" />
+	<!-- саб ид выстрелов (4000) -->
+	<set name="SERVER_SHOT_SUB_ID" value="4000" />
+	<!-- саб ид объектов (5000) -->
+	<set name="SERVER_OBJECT_SUB_ID" value="5000" />
+	<!-- саб ид ловушек (6000) -->
+	<set name="SERVER_TRAP_SUB_ID" value="6000" />
+	<!-- саб ид ресурсов (7000) -->
+	<set name="SERVER_RESOURSE_SUB_ID" value="7000" />
+</list>    

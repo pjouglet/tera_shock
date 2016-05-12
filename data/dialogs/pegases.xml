@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>		
+	<npc id="1016" type="213" >
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="TOWER_BASE" >
+				<route index="8" price="1050" target="VELIKA" />
+				<route index="134" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="136" price="1050" target="POPOLION" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<!-- South Arun -->
+	<npc id="1009" type="63">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="VELIKA" >
+				<route index="1" price="1050" target="TOWER_BASE" />
+				<route index="2" price="1050" target="LUMBERTOWN" />
+				<route index="3" price="1050" target="CRESCENTIA" />	
+				<route index="4" price="1050" target="POPOLION" />
+				<route index="5" price="1050" target="PORA_ELINU" />	
+				<route index="15" price="1050" target="CHEBIKA" />
+				<route index="17" price="1050" target="TULUFAN" />
+				<route index="19" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="21" price="1050" target="CASTANICA" />
+				<route index="29" price="1050" target="ALEMANTHEIA" />
+				<route index="30" price="1050" target="KAIATOR_OUTSKRITS" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1015" type="60">
+		<link name="Take a flight" icon="DIALOG">
+			<reply name="ReplyPegas" town="LUMBERTOWN" >
+				<route index="9" price="1050" target="VELIKA" />
+				<route index="7" price="1050" short="true" target="CRESCENTIA" />
+				<route index="93" price="1050" target="CASTANICA" />
+				<route index="74" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="91" price="1050" target="TOWER_BASE" />
+				<route index="89" price="1050" target="CHEBIKA" />
+				<route index="87" price="1050" target="TULUFAN" />
+				<route index="97" price="1050" target="POPOLION" />
+				<route index="95" price="1050" target="PORA_ELINU" />
+            </reply>
+		</link>
+	</npc>
+	
+	<npc id="1013" type="59">
+		<link name="Take a flight" icon="DIALOG">
+			<reply name="ReplyPegas" town="CRESCENTIA" >
+				<route index="14" price="1050" short="true" target="LUMBERTOWN" />
+				<route index="10" price="1050" target="VELIKA" />
+				<route index="121" price="1050" target="CASTANICA" />
+				<route index="82" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="119" price="1050" target="TOWER_BASE" />
+				<route index="112" price="1050" target="CHEBIKA" />
+				<route index="102" price="1050" target="TULUFAN" />
+				<route index="125" price="1050" target="POPOLION" />
+				<route index="123" price="1050" target="PORA_ELINU" />
+            </reply>
+		</link>
+	</npc>
+	
+	<npc id="1008" type="61">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="CASTANICA" >
+				<route index="22" price="1050" target="VELIKA" />
+				<route index="28" price="1050" short="true" target="CUTTHROAT_HARBOR" />
+				<route index="122" price="1050" target="CRESCENTIA" />
+				<route index="94" price="1050" target="LUMBERTOWN" />
+				<route index="127" price="1050" target="TOWER_BASE" />
+				<route index="114" price="1050" target="CHEBIKA" />
+				<route index="104" price="1050" target="TULUFAN" />
+				<route index="131" price="1050" target="POPOLION" />
+				<route index="129" price="1050" target="PORA_ELINU" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1006" type="62">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="CUTTHROAT_HARBOR" >
+				<route index="20" price="1050" target="VELIKA" />
+				<route index="27" price="1050" short="true" target="CASTANICA" />
+				<route index="81" price="1050" target="CRESCENTIA" />
+				<route index="73" price="1050" target="LUMBERTOWN" />
+				<route index="79" price="1050" target="TOWER_BASE" />
+				<route index="77" price="1050" target="CHEBIKA" />
+				<route index="75" price="1050" target="TULUFAN" />
+				<route index="85" price="1050" target="POPOLION" />
+				<route index="83" price="1050" target="PORA_ELINU" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1006" type="67">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="POPOLION" >
+				<route index="6" price="1050" short="true" target="PORA_ELINU" />
+				<route index="11" price="1050" target="VELIKA" />
+				<route index="126" price="1050" target="CRESCENTIA" />
+				<route index="98" price="1050" target="LUMBERTOWN" />
+				<route index="132" price="1050" target="CASTANICA" />
+				<route index="86" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="135" price="1050" target="TOWER_BASE" />
+				<route index="118" price="1050" target="CHEBIKA" />
+				<route index="108" price="1050" target="TULUFAN" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1006" type="223">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="PORA_ELINU" >
+				<route index="13" price="1050" short="true" target="POPOLION" />
+				<route index="12" price="1050" target="VELIKA" />
+				<route index="124" price="1050" target="CRESCENTIA" />
+				<route index="96" price="1050" target="LUMBERTOWN" />
+				<route index="130" price="1050" target="CASTANICA" />
+				<route index="84" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="133" price="1050" target="TOWER_BASE" />
+				<route index="116" price="1050" target="CHEBIKA" />
+				<route index="106" price="1050" target="TULUFAN" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1016" type="65">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="CHEBIKA" >
+				<route index="25" price="1050" short="true" target="TULUFAN" />
+				<route index="16" price="1050" target="VELIKA" />
+				<route index="111" price="1050" target="CRESCENTIA" />
+				<route index="90" price="1050" target="LUMBERTOWN" />
+				<route index="113" price="1050" target="CASTANICA" />
+				<route index="78" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="109" price="1050" target="TOWER_BASE" />
+				<route index="117" price="1050" target="POPOLION" />
+				<route index="115" price="1050" target="PORA_ELINU" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1016" type="66">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="TULUFAN" >
+				<route index="26" price="1050" short="true" target="CHEBIKA" />
+				<route index="18" price="1050" target="VELIKA" />
+				<route index="101" price="1050" target="CRESCENTIA" />
+				<route index="88" price="1050" target="LUMBERTOWN" />
+				<route index="103" price="1050" target="CASTANICA" />
+				<route index="76" price="1050" target="CUTTHROAT_HARBOR" />
+				<route index="99" price="1050" target="TOWER_BASE" />
+				<route index="107" price="1050" target="POPOLION" />
+				<route index="105" price="1050" target="PORA_ELINU" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<!-- SOuth Shara -->
+	<npc id="1012" type="72">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="ALEMANTHEIA" >
+				<route index="311" price="1051" target="TRALION" />
+				<route index="331" price="1052" target="TRIA" />
+				<route index="351" price="1053" target="ACARUM" />
+				<route index="371" price="1054" target="BLEAKROCK" />
+				<route index="391" price="1055" target="FRONTERA" />
+				<route index="411" price="1056" target="ELENEA" />
+				<route index="491" price="1050" target="VELIKA" />
+				<route index="501" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="434" price="1057" target="BASTION" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1011" type="72">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="ALEMANTHEIA" >
+				<route index="311" price="1050" target="TRALION" />
+				<route index="331" price="1050" target="TRIA" />
+				<route index="351" price="1050" target="ACARUM" />
+				<route index="371" price="1050" target="BLEAKROCK" />
+				<route index="391" price="1050" target="FRONTERA" />
+				<route index="411" price="1050" target="ELENEA" />
+				<route index="491" price="1050" target="VELIKA" />
+				<route index="501" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="434" price="1050" target="BASTION" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1006" type="75">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="FRONTERA" >
+				<route index="40" price="1050" target="ALEMANTHEIA" />
+				<route index="143" price="1050" target="TRALION" />
+				<route index="145" price="1050" target="TRIA" />
+				<route index="139" price="1050" target="ACARUM" />
+				<route index="137" price="1050" target="ELENEA" />
+				<route index="141" price="1050" target="BLEAKROCK" />
+				<route index="190" price="1050" target="BASTION" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<npc id="1006" type="71">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="BASTION" >
+				<route index="184" price="1050" target="FRONTERA" />
+				<route index="186" price="1050" target="ELENEA" />
+				<route index="183" price="1050" target="ACARUM" />
+				<route index="433" price="1050" target="ALEMANTHEIA" />
+				<route index="185" price="1050" target="BLEAKROCK" />
+				<route index="181" price="1050" target="TRALION" />
+				<route index="182" price="1050" target="TRIA" />
+			</reply>
+		</link>	
+	</npc>
+	
+	<!-- 
+	157 - vestonia - essenia
+	158 - essenia - vestonia
+	159 - vestonia - essenia
+	160 - essenia - vestonia
+	-->
+
+	<!-- North Shara -->
+	<npc id="1069" type="84">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="KAIATOR_OUTSKRITS" >
+				<route index="59" price="1050" target="HABERE" />
+				<route index="61" price="1050" target="DRAGONFALL" />
+				<route index="63" price="1050" target="SCYTHERA" />
+				<route index="71" price="1050" target="VELIKA" />
+				<route index="72" price="1050" target="ALEMANTHEIA" />
+				<route index="51" price="1050" target="PATHFINDER" />
+				<route index="53" price="1050" target="ZULFIKAR" />
+				<route index="55" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+
+	<npc id="1007" type="77">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="KAIATOR_OUTSKRITS" >
+				<route index="52" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="170" price="1050" target="HABERE" />
+				<route index="163" price="1050" target="DRAGONFALL" />
+				<route index="168" price="1050" target="SCYTHERA" />
+				<route index="65" price="1050" target="ZULFIKAR" />
+				<route index="173" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+
+	<npc id="1006" type="79">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="HABERE" >
+				<route index="60" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="169" price="1050" target="PATHFINDER" />
+				<route index="165" price="1050" target="DRAGONFALL" />
+				<route index="171" price="1050" target="SCYTHERA" />
+				<route index="201" price="1050" target="KANSTRIA" />
+				<route index="202" price="1050" target="ZULFIKAR" />
+			</reply>
+		</link>	
+	</npc>
+
+	<npc id="1004" type="81">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="SCYTHERA" >
+				<route index="64" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="70" price="1050" target="DRAGONFALL" />
+				<route index="167" price="1050" target="PATHFINDER" />
+				<route index="172" price="1050" target="HABERE" />
+				<route index="199" price="1050" target="ZULFIKAR" />
+				<route index="198" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+
+	<npc id="1006" type="80">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="DRAGONFALL" >
+				<route index="62" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="69" price="1050" target="SCYTHERA" />
+				<route index="164" price="1050" target="PATHFINDER" />
+				<route index="166" price="1050" target="HABERE" />
+				<route index="196" price="1050" target="ZULFIKAR" />
+				<route index="195" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+</list>

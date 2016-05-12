@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <template id="100" name="Khuljarak" class="RAID_BOSS" type="472" level="50" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="110" geomHeight="120" critRate="150" turnSpeed="12000" skills="17000;17001;17002;17003;17004;17005;17006;17007;17008;17009;17010;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	<template id="101" name="Baracos" class="RAID_BOSS" type="472" level="50" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	<!-- огромая сабака гриф -->
+	<template id="1000" name="Nightmare Kelsaik" class="RAID_BOSS" type="775" level="60" exp="1000000" attack="600000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	<!-- помошник огромая сабака гриф -->
+	<template id="1003" name="Nightmare Kelsaik Rampant" class="RAID_BOSS" type="775" level="60" exp="1000000" attack="600000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	<!-- помоник Элитного стонбеак -->
+	<template id="1004" name="Nightmare Kelsaik Rampant" class="RAID_BOSS" type="775" level="60" exp="1000000" attack="600000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+		
+	
+	<!-- жук цф -->
+	<template id="8005" name="Nightmare Auricadis" class="RAID_BOSS" type="725" level="60" exp="2000000" attack="800000" defense="10000" impact="6000" balance="60000" maxHp="10000000" maxMp="100000" atkSpd="120" runSpd="250" regHp="10000" regMp="10000" geomRadius="150" geomHeight="100" critRate="150" turnSpeed="12000" skills="17022;17023;17024;17025;17026;17027;17028;17029;17030;17031;17032;17033;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	
+	
+	
+	<!-- cерый дракон среднего размера -->
+	<template id="121" name="Skulregnath" class="RAID_BOSS" type="480" level="45" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	<!-- наездница на жабе -->
+	<template id="122" name="Nuroppy" class="RAID_BOSS" type="480" level="45" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	<!-- наездница на жабе -->
+	<template id="119" name="Great Chief Tungkan" class="RAID_BOSS" type="480" level="45" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	
+	<!-- Типа Валакаса -->
+	<template id="113" name="Harkyriss " class="RAID_BOSS" type="480" level="45" exp="1000000" attack="40000" defense="3500" impact="3000" balance="30000" maxHp="50000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="700" geomHeight="290" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	<!-- ходячий на задних лапах дракон -->
+	<template id="99" name="Marutash" class="RAID_BOSS" type="31" level="46" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="50000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+	
+	<!-- чёрная туча -->
+	<template id="1006" name="Zulmarek" class="RAID_BOSS" type="33" level="46" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="50000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+
+	
+
+		<!-- Паук яичко -->
+	<template id="7011" name="Linyphi" class="RAID_BOSS" type="51" level="60" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="90" geomHeight="160" critRate="150" turnSpeed="12000" skills="17011;17012;17013;17014;17015;17016;17017;17018;17019;17020;17021;">
+    	<add stat="weakRcpt" order="0x40" val="90" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="90" />
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="60" />
+		</mul>
+		
+		<mul stat="cAtk" order="0x30" val="2" >
+			<player percentHp="5" />
+		</mul>
+	</template>
+	
+		
+	
+	
+	
+	
+	</list>
+
+
+
+
+	
+
+<!-- 44 1D8 044D
+
+44 1D 844D
+
+1D8
+
+45D8044D
+ 
+1171784781
+
+1140917325
+1142785101 
+
+44 1ED 044D
+
+
+1140917325 - 1140916224(44010000) - 1140850688
+
+32309248
+
+1173159936 + 1101
+
+1173161037
+1171784781
+-->
+

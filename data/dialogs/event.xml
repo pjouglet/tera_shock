@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>	
+<!-- Магазин  Кристаллов Island of Dawn -->
+	<!-- <npc id="1004" type="64" >
+		
+		<link name="@npc:100" icon="DIALOG" >
+			<reply name="ReplyMultiShop" priceId="8007" >
+				<item id="8200" price="3" />
+				<item id="8212" price="3" />
+				<item id="8242" price="3" />
+				<item id="8254" price="7" />
+				<item id="8266" price="3" />
+				<item id="8278" price="11"  />
+			</reply>
+		</link>
+	</npc> -->
+	
+	<!-- Mystel -->
+	<npc id="10000" type="402" >
+		<link name="Fame point" icon="GREEN" >
+			<reply name="ReplyHeroPoint" />
+		</link>
+		<link name="Get reward" icon="GREEN" >
+			<reply name="ReplyEventReward" />
+		</link>
+		<link name="Exchange money" icon="GREEN" >
+			<reply name="ReplyHeroPointToGold" />
+		</link>
+		<link name="Statistics" icon="GREEN" >
+			<reply name="ReplyKillStatistic" />
+		</link>
+	</npc>
+</list>

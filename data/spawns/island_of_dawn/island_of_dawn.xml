@@ -1,0 +1,1893 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<npc id="1101" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="92465.0" y="-87972.0" z="-4560.0" heading="49969" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1004" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="49458" y="-70408" z="-5868" heading="63228" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1037" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="53134" y="-69961" z="-5666" heading="65119" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1005" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="56125" y="-66961" z="-5374" heading="48275" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1" type="13">
+		<ai class="DEFAULT" config="DefaultSocial" >
+			<time respawn="45" >
+				<point x="68631.0" y="-82706.0" z="-3300.0" />
+				<point x="73432.0" y="-84924.0" z="-3970.0" />
+				<point x="68525.0" y="-83520.0" z="-3498.0" />
+				<point x="68496.0" y="-83685.0" z="-3525.0" />
+				<point x="68536.0" y="-82645.0" z="-3300.0" />
+				<point x="70443.0" y="-85540.0" z="-3675.0" />
+				<point x="68750.0" y="-82743.0" z="-3298.0" />
+				<point x="68523.0" y="-82690.0" z="-3301.0" />
+				<point x="73366.0" y="-84973.0" z="-3976.0" />
+				<point x="68522.0" y="-83406.0" z="-3479.0" />
+				<point x="71264.0" y="-84448.0" z="-3564.0" />
+				<point x="68454.0" y="-83496.0" z="-3494.0" />
+				<point x="71222.0" y="-84304.0" z="-3547.0" />
+				<point x="65875.0" y="-82293.0" z="-3456.0" />
+				<point x="73311.0" y="-85065.0" z="-3987.0" />
+				<point x="71288.0" y="-83476.0" z="-3432.0" />
+				<point x="71542.0" y="-86077.0" z="-3743.0" />
+				<point x="71659.0" y="-85964.0" z="-3750.0" />
+				<point x="71680.0" y="-85930.0" z="-3755.0" />
+				<point x="71856.0" y="-86026.0" z="-3782.0" />
+				<point x="71765.0" y="-85944.0" z="-3767.0" />
+				<point x="73050.0" y="-85234.0" z="-3975.0" />
+				<point x="73042.0" y="-84666.0" z="-3896.0" />
+				<point x="71743.0" y="-86039.0" z="-3757.0" />
+				<point x="72406.0" y="-84439.0" z="-3717.0" />
+				<point x="72541.0" y="-84323.0" z="-3711.0" />
+				<point x="72459.0" y="-84377.0" z="-3713.0" />
+				<point x="73055.0" y="-84711.0" z="-3909.0" />
+				<point x="72309.0" y="-85173.0" z="-3818.0" />
+				<point x="72169.0" y="-85141.0" z="-3785.0" />
+				<point x="72178.0" y="-85264.0" z="-3812.0" />
+				<point x="73018.0" y="-84601.0" z="-3879.0" />
+				<point x="72551.0" y="-84315.0" z="-3707.0" />
+				<point x="71264.0" y="-83400.0" z="-3420.0" />
+				<point x="71814.0" y="-84910.0" z="-3721.0" />
+				<point x="71203.0" y="-84319.0" z="-3548.0" />
+				<point x="71273.0" y="-84284.0" z="-3548.0" />
+				<point x="71840.0" y="-84930.0" z="-3729.0" />
+				<point x="73506.0" y="-85104.0" z="-4008.0" />
+				<point x="70417.0" y="-85662.0" z="-3673.0" />
+				<point x="72978.0" y="-85246.0" z="-3970.0" />
+				<point x="72587.0" y="-85574.0" z="-3897.0" />
+				<point x="71212.0" y="-84511.0" z="-3571.0" />
+				<point x="72104.0" y="-86089.0" z="-3806.0" />
+				<point x="70440.0" y="-85464.0" z="-3668.0" />
+				<point x="70994.0" y="-86708.0" z="-3629.0" />
+				<point x="72644.0" y="-85411.0" z="-3902.0" />
+				<point x="72672.0" y="-84302.0" z="-3724.0" />
+				<point x="71670.0" y="-85426.0" z="-3730.0" />
+				<point x="70446.0" y="-85580.0" z="-3676.0" />
+				<point x="73191.0" y="-84626.0" z="-3896.0" />
+				<point x="73039.0" y="-85395.0" z="-3961.0" />
+				<point x="72589.0" y="-84293.0" z="-3706.0" />
+				<point x="71091.0" y="-86752.0" z="-3638.0" />
+				<point x="72180.0" y="-85101.0" z="-3778.0" />
+				<point x="70010.0" y="-84228.0" z="-3525.0" />
+				<point x="73071.0" y="-84488.0" z="-3860.0" />
+				<point x="70063.0" y="-84220.0" z="-3522.0" />
+				<point x="71023.0" y="-86770.0" z="-3619.0" />
+				<point x="73112.0" y="-85231.0" z="-3981.0" />
+				<point x="72440.0" y="-84380.0" z="-3710.0" />
+				<point x="71755.0" y="-85472.0" z="-3746.0" />
+				<point x="69512.0" y="-85573.0" z="-3670.0" />
+				<point x="72674.0" y="-85459.0" z="-3906.0" />
+				<point x="71547.0" y="-85468.0" z="-3718.0" />
+				<point x="69654.0" y="-85510.0" z="-3658.0" />
+				<point x="70346.0" y="-85450.0" z="-3669.0" />
+				<point x="70287.0" y="-85024.0" z="-3637.0" />
+				<point x="70312.0" y="-86071.0" z="-3606.0" />
+				<point x="70480.0" y="-85989.0" z="-3644.0" />
+				<point x="70417.0" y="-85430.0" z="-3666.0" />
+				<point x="71248.0" y="-83425.0" z="-3433.0" />
+				<point x="71880.0" y="-84812.0" z="-3703.0" />
+				<point x="72634.0" y="-84474.0" z="-3782.0" />
+				<point x="70221.0" y="-85047.0" z="-3635.0" />
+				<point x="70349.0" y="-86134.0" z="-3593.0" />
+				<point x="70325.0" y="-85961.0" z="-3633.0" />
+				<point x="69674.0" y="-85554.0" z="-3658.0" />
+				<point x="69572.0" y="-85619.0" z="-3669.0" />
+				<point x="69568.0" y="-85470.0" z="-3658.0" />
+				<point x="70198.0" y="-84855.0" z="-3642.0" />
+				<point x="70303.0" y="-86050.0" z="-3607.0" />
+				<point x="70286.0" y="-85970.0" z="-3621.0" />
+				<point x="71031.0" y="-86797.0" z="-3618.0" />
+				<point x="71810.0" y="-84808.0" z="-3698.0" />
+				<point x="73347.0" y="-85004.0" z="-3980.0" />
+				<point x="68531.0" y="-83514.0" z="-3498.0" />
+				<point x="65912.0" y="-82262.0" z="-3446.0" />
+				<point x="66056.0" y="-82256.0" z="-3420.0" />
+				<point x="71635.0" y="-85512.0" z="-3732.0" />
+				<point x="71066.0" y="-86638.0" z="-3648.0" />
+				<point x="72662.0" y="-85320.0" z="-3903.0" />
+				<point x="69965.0" y="-84330.0" z="-3548.0" />
+				<point x="71781.0" y="-84858.0" z="-3709.0" />
+				<point x="71288.0" y="-83576.0" z="-3492.0" />
+				<point x="71717.0" y="-85500.0" z="-3743.0" />
+				<point x="72167.0" y="-85129.0" z="-3782.0" />
+				<point x="71803.0" y="-85393.0" z="-3750.0" />
+				<point x="66027.0" y="-82231.0" z="-3423.0" />
+				<point x="72717.0" y="-84306.0" z="-3739.0" />
+				<point x="71710.0" y="-86141.0" z="-3748.0" />
+				<point x="72650.0" y="-85339.0" z="-3900.0" />
+				<point x="71945.0" y="-86198.0" z="-3776.0" />
+				<point x="66047.0" y="-82325.0" z="-3441.0" />
+				<point x="72963.0" y="-85269.0" z="-3965.0" />
+				<point x="71149.0" y="-84347.0" z="-3549.0" />
+				<point x="68532.0" y="-82778.0" z="-3307.0" />
+				<point x="72887.0" y="-85328.0" z="-3947.0" />
+				<point x="72536.0" y="-85658.0" z="-3888.0" />
+				<point x="73453.0" y="-84927.0" z="-3970.0" />
+				<point x="72584.0" y="-84293.0" z="-3706.0" />
+				<point x="73022.0" y="-84571.0" z="-3873.0" />
+				<point x="72765.0" y="-85370.0" z="-3920.0" />
+				<point x="72504.0" y="-84434.0" z="-3738.0" />
+				<point x="65977.0" y="-82236.0" z="-3431.0" />
+				<point x="72699.0" y="-85306.0" z="-3909.0" />
+				<point x="69864.0" y="-84345.0" z="-3552.0" />
+				<point x="72579.0" y="-85501.0" z="-3896.0" />
+				<point x="69855.0" y="-84383.0" z="-3560.0" />
+				<point x="72671.0" y="-85490.0" z="-3904.0" />
+				<point x="72529.0" y="-85601.0" z="-3890.0" />
+				<point x="69901.0" y="-84270.0" z="-3534.0" />
+				<point x="71276.0" y="-83416.0" z="-3429.0" />
+				<point x="68549.0" y="-82617.0" z="-3300.0" />
+				<point x="68531.0" y="-83615.0" z="-3515.0" />
+				<point x="69616.0" y="-85465.0" z="-3658.0" />
+				<point x="70187.0" y="-85048.0" z="-3635.0" />
+				<point x="70254.0" y="-85184.0" z="-3639.0" />
+				<point x="70096.0" y="-85024.0" z="-3636.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1102" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="95082.0" y="-86675.0" z="-4365.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="2" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="63946.0" y="-81392.0" z="-3671.0" />
+				<point x="65623.0" y="-80952.0" z="-3340.0" />
+				<point x="65695.0" y="-82869.0" z="-3666.0" />
+				<point x="63646.0" y="-82315.0" z="-3942.0" />
+				<point x="65666.0" y="-82044.0" z="-3429.0" />
+				<point x="65353.0" y="-82891.0" z="-3705.0" />
+				<point x="65850.0" y="-73407.0" z="-3232.0" />
+				<point x="63822.0" y="-81692.0" z="-3818.0" />
+				<point x="64689.0" y="-76837.0" z="-2971.0" />
+				<point x="64907.0" y="-72001.0" z="-3506.0" />
+				<point x="65355.0" y="-81574.0" z="-3524.0" />
+				<point x="64245.0" y="-81513.0" z="-3700.0" />
+				<point x="64492.0" y="-83050.0" z="-3861.0" />
+				<point x="64512.0" y="-83625.0" z="-3852.0" />
+				<point x="63505.0" y="-82816.0" z="-3950.0" />
+				<point x="66142.0" y="-73604.0" z="-3270.0" />
+				<point x="65604.0" y="-74430.0" z="-3027.0" />
+				<point x="65390.0" y="-80097.0" z="-3289.0" />
+				<point x="66251.0" y="-72864.0" z="-3421.0" />
+				<point x="65232.0" y="-81979.0" z="-3549.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1103" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="92777.0" y="-87762.0" z="-4560.0" heading="56044" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1033" type="202">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="119391.0" y="-3471.0" z="3157.0" heading="31584" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1034" type="202">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" > 
+				<point x="119406.0" y="-3309.0" z="3160.0" heading="30702" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="3" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="58795.0" y="-80041.0" z="-4343.0" />
+				<point x="58176.0" y="-78959.0" z="-4431.0" />
+				<point x="58791.0" y="-79451.0" z="-4334.0" />
+				<point x="59658.0" y="-79761.0" z="-4190.0" />
+				<point x="57124.0" y="-78770.0" z="-4410.0" />
+				<point x="55565.0" y="-78119.0" z="-4578.0" />
+				<point x="57061.0" y="-77921.0" z="-4427.0" />
+				<point x="57923.0" y="-78854.0" z="-4429.0" />
+				<point x="56324.0" y="-78196.0" z="-4513.0" />
+				<point x="54808.0" y="-77980.0" z="-4614.0" />
+				<point x="58864.0" y="-80905.0" z="-4433.0" />
+				<point x="53876.0" y="-78261.0" z="-4586.0" />
+				<point x="56121.0" y="-77761.0" z="-4558.0" />
+				<point x="54745.0" y="-77726.0" z="-4622.0" />
+				<point x="55927.0" y="-77680.0" z="-4569.0" />
+				<point x="59566.0" y="-79675.0" z="-4194.0" />
+				<point x="56555.0" y="-77353.0" z="-4459.0" />
+				<point x="59088.0" y="-79625.0" z="-4297.0" />
+				<point x="58773.0" y="-79431.0" z="-4334.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="5" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="52402.0" y="-80367.0" z="-4616.0" />
+				<point x="53213.0" y="-78764.0" z="-4583.0" />
+				<point x="52180.0" y="-80467.0" z="-4621.0" />
+				<point x="50875.0" y="-79743.0" z="-4686.0" />
+				<point x="51402.0" y="-79601.0" z="-4684.0" />
+				<point x="51704.0" y="-78704.0" z="-4695.0" />
+				<point x="51851.0" y="-81669.0" z="-4507.0" />
+				<point x="53123.0" y="-79218.0" z="-4529.0" />
+				<point x="50596.0" y="-81797.0" z="-4459.0" />
+				<point x="50685.0" y="-81251.0" z="-4511.0" />
+				<point x="50983.0" y="-79806.0" z="-4683.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="6" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="49923.0" y="-71529.0" z="-5852.0" />
+				<point x="49109.0" y="-70970.0" z="-5843.0" />
+				<point x="49935.0" y="-71881.0" z="-5812.0" />
+				<point x="52351.0" y="-73166.0" z="-5495.0" />
+				<point x="52565.0" y="-72944.0" z="-5593.0" />
+				<point x="48164.0" y="-71105.0" z="-5715.0" />
+				<point x="48219.0" y="-73292.0" z="-5483.0" />
+				<point x="50476.0" y="-73156.0" z="-5630.0" />
+				<point x="50454.0" y="-69068.0" z="-5737.0" />
+				<point x="49278.0" y="-72430.0" z="-5683.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="7" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="54404.0" y="-71516.0" z="-5463.0" />
+				<point x="55371.0" y="-69675.0" z="-5558.0" />
+				<point x="54918.0" y="-70653.0" z="-5575.0" />
+				<point x="53835.0" y="-69713.0" z="-5640.0" />
+				<point x="55223.0" y="-71593.0" z="-5549.0" />
+				<point x="55222.0" y="-72934.0" z="-5608.0" />
+				<point x="54146.0" y="-69834.0" z="-5618.0" />
+				<point x="54055.0" y="-70361.0" z="-5629.0" />
+				<point x="54406.0" y="-69769.0" z="-5592.0" />
+				<point x="54340.0" y="-69985.0" z="-5610.0" />
+				<point x="52710.0" y="-70673.0" z="-5824.0" />
+				<point x="54395.0" y="-71512.0" z="-5434.0" />
+				<point x="52558.0" y="-71200.0" z="-5806.0" />
+				<point x="55545.0" y="-72479.0" z="-5653.0" />
+				<point x="55909.0" y="-68743.0" z="-5570.0" />
+				<point x="53521.0" y="-71635.0" z="-5649.0" />
+				<point x="52876.0" y="-71956.0" z="-5679.0" />
+				<point x="55331.0" y="-72497.0" z="-5642.0" />
+				<point x="54659.0" y="-72676.0" z="-5522.0" />
+				<point x="54874.0" y="-69042.0" z="-5571.0" />
+				<point x="54905.0" y="-67373.0" z="-5448.0" />
+				<point x="54415.0" y="-71515.0" z="-5463.0" />
+				<point x="54261.0" y="-69994.0" z="-5610.0" />
+				<point x="54351.0" y="-68862.0" z="-5545.0" />
+				<point x="54690.0" y="-73203.0" z="-5521.0" />
+				<point x="53476.0" y="-71319.0" z="-5705.0" />
+				<point x="55663.0" y="-67246.0" z="-5460.0" />
+				<point x="54699.0" y="-69665.0" z="-5557.0" />
+				<point x="54833.0" y="-67955.0" z="-5445.0" />
+				<point x="55879.0" y="-70559.0" z="-5693.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="558" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="57461.0" y="-70999.0" z="-5881.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="8" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="56810.0" y="-71419.0" z="-5860.0" />
+				<point x="58823.0" y="-71342.0" z="-5788.0" />
+				<point x="58561.0" y="-75187.0" z="-5726.0" />
+				<point x="56722.0" y="-72941.0" z="-5724.0" />
+				<point x="56976.0" y="-71456.0" z="-5883.0" />
+				<point x="58241.0" y="-70598.0" z="-5845.0" />
+				<point x="57160.0" y="-71652.0" z="-5907.0" />
+				<point x="56680.0" y="-71330.0" z="-5845.0" />
+				<point x="58440.0" y="-71417.0" z="-5885.0" />
+				<point x="55973.0" y="-73396.0" z="-5637.0" />
+				<point x="58276.0" y="-71582.0" z="-5898.0" />
+				<point x="59380.0" y="-76190.0" z="-5695.0" />
+				<point x="58207.0" y="-74897.0" z="-5777.0" />
+				<point x="57588.0" y="-71432.0" z="-5916.0" />
+				<point x="59617.0" y="-73663.0" z="-5639.0" />
+				<point x="56659.0" y="-71731.0" z="-5840.0" />
+				<point x="56033.0" y="-71087.0" z="-5716.0" />
+				<point x="58011.0" y="-71581.0" z="-5923.0" />
+				<point x="56687.0" y="-71145.0" z="-5836.0" />
+				<point x="56538.0" y="-71428.0" z="-5830.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="9" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="56053.0" y="-73684.0" z="-5634.0" />
+				<point x="54690.0" y="-74965.0" z="-5389.0" />
+				<point x="55955.0" y="-73976.0" z="-5613.0" />
+				<point x="55933.0" y="-74708.0" z="-5557.0" />
+				<point x="58886.0" y="-73503.0" z="-5759.0" />
+				<point x="57780.0" y="-74522.0" z="-5781.0" />
+				<point x="57557.0" y="-74909.0" z="-5756.0" />
+				<point x="58186.0" y="-72594.0" z="-5888.0" />
+				<point x="56564.0" y="-75415.0" z="-5622.0" />
+				<point x="54287.0" y="-74122.0" z="-5354.0" />
+				<point x="57475.0" y="-74121.0" z="-5767.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1001" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="75423" y="-8009" z="-4147" />
+				<point x="77250" y="-80359" z="-4248" />
+				<point x="76110" y="-81389" z="-4139" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="556" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="48749.0" y="-72045.0" z="-5677.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1036" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="52693.305" y="-86363.66" z="-3388.9236" heading="47998" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1117" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="75199.0" y="-82822.0" z="-3803.0" heading="3112" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1119" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73261.0" y="-82439.0" z="-3465.0" heading="58450" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1118" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="75136.0" y="-82569.0" z="-3817.0" heading="4096" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1112" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="86439.0" y="-85301.0" z="-4611.0" heading="28190" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1115" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="74128.0" y="-83035.0" z="-3611.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1114" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80804.0" y="-81392.0" z="-4425.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1108" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="89525.0" y="-86537.0" z="-4501.0" heading="61422" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1111" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="86414.0" y="-85130.0" z="-4612.0" heading="28190" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1110" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80440.0" y="-82002.0" z="-4509.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1105" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="92872.0" y="-88186.0" z="-4555.0" heading="743" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1104" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="92109.0" y="-87982.0" z="-4558.0" heading="50317" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1107" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="88691.0" y="-86135.0" z="-4510.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1106" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="90543.0" y="-87465.0" z="-4545.0" heading="48107" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1003" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="86946.0" y="-85116.0" z="-4611.0" heading="44827" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1134" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="58948.0" y="-67998.0" z="-5056.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1004" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73651.52" y="-83147.83" z="-3533.7249" heading="3396" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1001" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69114" y="-79331" z="-2582" heading="42086" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="304" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="73363.0" y="-84379.0" z="-3826.0" />
+				<point x="71899.0" y="-86507.0" z="-3727.0" />
+				<point x="73101.0" y="-83979.0" z="-3615.0" />
+				<point x="70951.0" y="-85309.0" z="-3668.0" />
+				<point x="72537.0" y="-85379.0" z="-3882.0" />
+				<point x="72159.0" y="-86701.0" z="-3710.0" />
+				<point x="69967.0" y="-86185.0" z="-3569.0" />
+				<point x="67615.0" y="-84184.0" z="-3649.0" />
+				<point x="76770.0" y="-85001.0" z="-4509.0" />
+				<point x="69821.0" y="-84419.0" z="-3574.0" />
+				<point x="71933.0" y="-86157.0" z="-3780.0" />
+				<point x="71630.0" y="-85810.0" z="-3750.0" />
+				<point x="74680.0" y="-86349.0" z="-4210.0" />
+				<point x="69071.0" y="-86435.0" z="-3517.0" />
+				<point x="68141.0" y="-86658.0" z="-3421.0" />
+				<point x="69644.0" y="-86009.0" z="-3635.0" />
+				<point x="72131.0" y="-86127.0" z="-3807.0" />
+				<point x="70339.0" y="-83957.0" z="-3481.0" />
+				<point x="69605.0" y="-84415.0" z="-3559.0" />
+				<point x="77014.0" y="-85480.0" z="-4498.0" />
+				<point x="67448.0" y="-84144.0" z="-3648.0" />
+				<point x="70227.0" y="-86439.0" z="-3540.0" />
+				<point x="70932.0" y="-86703.0" z="-3619.0" />
+				<point x="72113.0" y="-83956.0" z="-3588.0" />
+				<point x="66750.0" y="-84696.0" z="-3631.0" />
+				<point x="73705.0" y="-86335.0" z="-4035.0" />
+				<point x="69116.0" y="-84549.0" z="-3560.0" />
+				<point x="70634.0" y="-86849.0" z="-3552.0" />
+				<point x="65874.0" y="-85037.0" z="-3615.0" />
+				<point x="75598.0" y="-85944.0" z="-4378.0" />
+				<point x="74210.0" y="-86243.0" z="-4137.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1135" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64720.0" y="-66347.0" z="-4198.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1133" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64125.0" y="-65365.0" z="-4221.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1130" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55847.0" y="-82513.0" z="-4204.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1009" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69817.0" y="-78393.0" z="-2312.0" heading="42083" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1128" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55393.0" y="-81815.0" z="-4195.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1126" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="49870.0" y="-80830.0" z="-4521.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1127" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55237.0" y="-82560.0" z="-4243.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1601" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69114.0" y="-78849.0" z="-2547.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<!-- <npc id="1124" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="74105.0" y="-82989.0" z="-3608.0" />
+			</time>
+		</ai>
+	</npc> -->
+	
+	<npc id="1038" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80968.89" y="-81495.984" z="-4440.693" heading="17126" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1602" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69035" y="-78778" z="-2548" heading="38712" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1026" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73650.0" y="-81293.0" z="-3185.0" heading="54203" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1145" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="63543.0" y="-84077.0" z="-3809.0" heading="20257" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1603" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="68983.0" y="-78692.0" z="-2549.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1122" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="74293.0" y="-82036.0" z="-3466.0" heading="46296" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1123" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="74068.0" y="-82634.0" z="-3569.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1120" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="72974.0" y="-83207.0" z="-3520.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1121" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73511.0" y="-83043.0" z="-3523.0" heading="13311" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1147" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="63671.0" y="-84100.0" z="-3806.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1146" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="63631.0" y="-83800.0" z="-3851.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1143" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="53226.0" y="-69532.0" z="-5656.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1025" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="53318.37" y="-69918.91" z="-5660.7417" heading="16704" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1001" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="70733" y="-70224" z="-3422" heading="50962" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1028" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="53819.66" y="-74460.375" z="-5225.9106" heading="13658" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1142" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="52994.0" y="-70033.0" z="-5670.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1141" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="52748.0" y="-69746.0" z="-5661.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1139" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="58179.0" y="-67721.0" z="-5087.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="301" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="56729.0" y="-81240.0" z="-4275.0" />
+				<point x="60848.0" y="-82244.0" z="-4266.0" />
+				<point x="61042.0" y="-81714.0" z="-4147.0" />
+				<point x="60866.0" y="-83833.0" z="-4315.0" />
+				<point x="52504.0" y="-85994.0" z="-3448.0" />
+				<point x="61214.0" y="-83575.0" z="-4268.0" />
+				<point x="56503.0" y="-81604.0" z="-4212.0" />
+				<point x="54145.0" y="-81239.0" z="-4264.0" />
+				<point x="59081.0" y="-83922.0" z="-4356.0" />
+				<point x="59349.0" y="-84198.0" z="-4313.0" />
+				<point x="59216.0" y="-83904.0" z="-4360.0" />
+				<point x="56919.0" y="-81515.0" z="-4278.0" />
+				<point x="61099.0" y="-83516.0" z="-4282.0" />
+				<point x="52887.0" y="-85833.0" z="-3484.0" />
+				<point x="52405.0" y="-85587.0" z="-3591.0" />
+				<point x="54162.0" y="-80989.0" z="-4257.0" />
+				<point x="60809.0" y="-81806.0" z="-4210.0" />
+				<point x="54104.0" y="-81479.0" z="-4249.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1138" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64533.0" y="-65401.0" z="-4202.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="302" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="64323.0" y="-83722.0" z="-3871.0" />
+				<point x="67245.0" y="-84949.0" z="-3681.0" />
+				<point x="65780.0" y="-83633.0" z="-3757.0" />
+				<point x="65925.0" y="-84537.0" z="-3681.0" />
+				<point x="65631.0" y="-84150.0" z="-3763.0" />
+				<point x="66436.0" y="-84663.0" z="-3643.0" />
+				<point x="66845.0" y="-84044.0" z="-3617.0" />
+				<point x="64989.0" y="-84392.0" z="-3789.0" />
+				<point x="66277.0" y="-83444.0" z="-3690.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1137" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64860.0" y="-65449.0" z="-4180.0" heading="48908" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1136" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64992.0" y="-66333.0" z="-4191.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1032" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73267.0" y="-80400.0" z="-3006.0" heading="51316" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1033" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66980.0" y="-75261.0" z="-2987.0" heading="10160" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1034" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="73102.0" y="-80085.0" z="-2927.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1024" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67119.0" y="-75382.0" z="-2978.0" heading="11773" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1024" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80968.0" y="-80957.0" z="-4409.0" heading="32452" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1027" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="68115.0" y="-80826.0" z="-3036.0" heading="41985" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="888" type="13">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67855.0" y="-78098.0" z="-2784.0" />
+				<point x="68064.0" y="-78349.0" z="-2775.0" />
+				<point x="67982.0" y="-78065.0" z="-2772.0" />
+				<point x="67901.0" y="-78243.0" z="-2784.0" />
+				<point x="68102.0" y="-78486.0" z="-2772.0" />
+				<point x="67970.0" y="-78523.0" z="-2784.0" />
+				<point x="68025.0" y="-78204.0" z="-2772.0" />
+				<point x="67936.0" y="-78384.0" z="-2784.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1025" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="71759.0" y="-78832.0" z="-2558.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1021" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69784.0" y="-78282.0" z="-2312.0" heading="42713" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1026" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="53128.0" y="-69782.0" z="-5660.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="2501" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67383.0" y="-79559.0" z="-2975.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1027" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="49823.0" y="-80761.0" z="-4524.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1028" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67289.0" y="-81790.0" z="-3255.0" heading="40607" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1029" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67882.0" y="-78793.0" z="-2781.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1030" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="70893.0" y="-82132.0" z="-3159.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1031" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66555.0" y="-76929.0" z="-2971.0" heading="27389" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1049" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="68288.0" y="-81659.0" z="-3138.0" headind="11774" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1048" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66016.38" y="-78448.734" z="-2992.539" heading="1684" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1050" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67184.0" y="-79444.0" z="-2968.0" heading="37014" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1053" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66778.0" y="-78443.0" z="-2961.0" heading="35668" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1053" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="72923.0" y="-72890.0" z="-2708.0" heading="46751" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1052" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67331.0" y="-79895.0" z="-3018.0" heading="41199" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1043" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="68584.0" y="-81305.0" z="-3063.0" heading="26032" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1001" type="364">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66603.0" y="-77937.0" z="-2963.0" heading="33579" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1101" type="364">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67833.0" y="-80532.0" z="-3019.0" heading="42201" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1042" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69311.36" y="-79090.38" z="-2550.5103" heading="44569" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1045" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67624.0" y="-80222.0" z="-3018.0" heading="40053" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1047" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66551.0" y="-79519.0" z="-3004.0" heading="6020" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1046" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66826.0" y="-79974.0" z="-3003.0" heading="15001" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="102" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="54144.0" y="-82260.0" z="-4291.0" />
+				<point x="84749.0" y="-85501.0" z="-4683.0" />
+				<point x="60142.0" y="-82971.0" z="-4325.0" />
+				<point x="77447.0" y="-81256.0" z="-4311.0" />
+				<point x="57733.0" y="-83427.0" z="-4424.0" />
+				<point x="60207.0" y="-83297.0" z="-4317.0" />
+				<point x="81326.0" y="-79218.0" z="-4418.0" />
+				<point x="54463.0" y="-82006.0" z="-4213.0" />
+				<point x="74101.0" y="-85593.0" z="-4135.0" />
+				<point x="74387.0" y="-85520.0" z="-4193.0" />
+				<point x="74438.0" y="-85779.0" z="-4197.0" />
+				<point x="82229.0" y="-89024.0" z="-4730.0" />
+				<point x="52898.0" y="-87892.0" z="-3194.0" />
+				<point x="82265.0" y="-89163.0" z="-4731.0" />
+				<point x="52996.0" y="-87795.0" z="-3193.0" />
+				<point x="82137.0" y="-88750.0" z="-4727.0" />
+				<point x="52974.0" y="-87594.0" z="-3234.0" />
+				<point x="55903.0" y="-84331.0" z="-4395.0" />
+				<point x="55587.0" y="-84601.0" z="-4408.0" />
+				<point x="55813.0" y="-84534.0" z="-4427.0" />
+				<point x="51348.0" y="-86171.0" z="-3441.0" />
+				<point x="51601.0" y="-86218.0" z="-3458.0" />
+				<point x="51221.0" y="-86194.0" z="-3398.0" />
+				<point x="85652.0" y="-83876.0" z="-4693.0" />
+				<point x="58245.0" y="-86028.0" z="-4244.0" />
+				<point x="58514.0" y="-85808.0" z="-4264.0" />
+				<point x="72524.0" y="-81650.0" z="-3163.0" />
+				<point x="85725.0" y="-81707.0" z="-4557.0" />
+				<point x="83091.0" y="-82903.0" z="-4535.0" />
+				<point x="85602.0" y="-84054.0" z="-4698.0" />
+				<point x="72257.0" y="-80012.0" z="-2809.0" />
+				<point x="72194.0" y="-79850.0" z="-2790.0" />
+				<point x="53119.0" y="-83529.0" z="-4449.0" />
+				<point x="53001.0" y="-83434.0" z="-4461.0" />
+				<point x="52978.0" y="-83881.0" z="-4422.0" />
+				<point x="82952.0" y="-79347.0" z="-4514.0" />
+				<point x="72901.0" y="-81774.0" z="-3164.0" />
+				<point x="85868.0" y="-86708.0" z="-4672.0" />
+				<point x="85618.0" y="-86829.0" z="-4690.0" />
+				<point x="85744.0" y="-81375.0" z="-4518.0" />
+				<point x="85787.0" y="-81531.0" z="-4537.0" />
+				<point x="76862.0" y="-82768.0" z="-4220.0" />
+				<point x="85397.0" y="-86720.0" z="-4688.0" />
+				<point x="83083.0" y="-81262.0" z="-4541.0" />
+				<point x="82935.0" y="-79496.0" z="-4537.0" />
+				<point x="72803.0" y="-81353.0" z="-3143.0" />
+				<point x="84145.0" y="-88769.0" z="-4674.0" />
+				<point x="84412.0" y="-88724.0" z="-4642.0" />
+				<point x="84387.0" y="-88851.0" z="-4618.0" />
+				<point x="77473.0" y="-81452.0" z="-4308.0" />
+				<point x="50297.0" y="-80980.0" z="-4536.0" />
+				<point x="77678.0" y="-81459.0" z="-4331.0" />
+				<point x="50606.0" y="-80882.0" z="-4546.0" />
+				<point x="57498.0" y="-83626.0" z="-4429.0" />
+				<point x="76581.0" y="-82626.0" z="-4179.0" />
+				<point x="57604.0" y="-83612.0" z="-4428.0" />
+				<point x="76504.0" y="-82478.0" z="-4172.0" />
+				<point x="82705.0" y="-79320.0" z="-4516.0" />
+				<point x="83095.0" y="-82767.0" z="-4538.0" />
+				<point x="75807.0" y="-85333.0" z="-4430.0" />
+				<point x="75650.0" y="-85311.0" z="-4416.0" />
+				<point x="54538.0" y="-84165.0" z="-4405.0" />
+				<point x="54348.0" y="-84132.0" z="-4422.0" />
+				<point x="54507.0" y="-83755.0" z="-4355.0" />
+				<point x="54565.0" y="-82268.0" z="-4259.0" />
+				<point x="82933.0" y="-82950.0" z="-4533.0" />
+				<point x="75929.0" y="-85523.0" z="-4443.0" />
+				<point x="72645.0" y="-80187.0" z="-2826.0" />
+				<point x="81663.0" y="-89098.0" z="-4716.0" />
+				<point x="81577.0" y="-88826.0" z="-4716.0" />
+				<point x="81592.0" y="-88933.0" z="-4716.0" />
+				<point x="85031.0" y="-85272.0" z="-4679.0" />
+				<point x="81233.0" y="-79471.0" z="-4439.0" />
+				<point x="59831.0" y="-83214.0" z="-4304.0" />
+				<point x="83170.0" y="-81475.0" z="-4567.0" />
+				<point x="85603.0" y="-83696.0" z="-4675.0" />
+				<point x="84659.0" y="-85393.0" z="-4684.0" />
+				<point x="83360.0" y="-81182.0" z="-4522.0" />
+				<point x="81074.0" y="-79125.0" z="-4389.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="101" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="65252.0" y="-80654.0" z="-3398.0" />
+				<point x="72182.0" y="-82839.0" z="-3417.0" />
+				<point x="68558.0" y="-83161.0" z="-3425.0" />
+				<point x="65024.0" y="-82197.0" z="-3643.0" />
+				<point x="64681.0" y="-82262.0" z="-3743.0" />
+				<point x="69670.0" y="-70834.0" z="-3471.0" />
+				<point x="68170.0" y="-80912.0" z="-3047.0" />
+				<point x="69271.0" y="-71144.0" z="-3427.0" />
+				<point x="71305.0" y="-87100.0" z="-3581.0" />
+				<point x="71351.0" y="-86955.0" z="-3630.0" />
+				<point x="71436.0" y="-87212.0" z="-3565.0" />
+				<point x="74881.0" y="-77119.0" z="-2451.0" />
+				<point x="74884.0" y="-76791.0" z="-2468.0" />
+				<point x="74971.0" y="-76994.0" z="-2470.0" />
+				<point x="69026.0" y="-86038.0" z="-3591.0" />
+				<point x="70621.0" y="-76193.0" z="-2534.0" />
+				<point x="70446.0" y="-76083.0" z="-2548.0" />
+				<point x="66329.0" y="-82236.0" z="-3364.0" />
+				<point x="66223.0" y="-82443.0" z="-3443.0" />
+				<point x="68215.0" y="-83006.0" z="-3371.0" />
+				<point x="65942.0" y="-82602.0" z="-3549.0" />
+				<point x="72557.0" y="-86289.0" z="-3836.0" />
+				<point x="64942.0" y="-75513.0" z="-2919.0" />
+				<point x="65565.0" y="-73839.0" z="-3060.0" />
+				<point x="68633.0" y="-80953.0" z="-3010.0" />
+				<point x="70520.0" y="-75882.0" z="-2575.0" />
+				<point x="69296.0" y="-71979.0" z="-3210.0" />
+				<point x="70611.0" y="-76319.0" z="-2511.0" />
+				<point x="70745.0" y="-75981.0" z="-2570.0" />
+				<point x="70812.0" y="-76368.0" z="-2505.0" />
+				<point x="71996.0" y="-72379.0" z="-3013.0" />
+				<point x="72065.0" y="-72238.0" z="-2989.0" />
+				<point x="72100.0" y="-72006.0" z="-2966.0" />
+				<point x="67885.0" y="-77097.0" z="-2778.0" />
+				<point x="67313.0" y="-77159.0" z="-2806.0" />
+				<point x="67431.0" y="-77402.0" z="-2798.0" />
+				<point x="69221.0" y="-71728.0" z="-3260.0" />
+				<point x="62617.0" y="-83612.0" z="-3925.0" />
+				<point x="62896.0" y="-83261.0" z="-3960.0" />
+				<point x="62830.0" y="-83716.0" z="-3844.0" />
+				<point x="68229.0" y="-83247.0" z="-3429.0" />
+				<point x="69314.0" y="-83822.0" z="-3526.0" />
+				<point x="69476.0" y="-83864.0" z="-3527.0" />
+				<point x="69458.0" y="-83513.0" z="-3441.0" />
+				<point x="72256.0" y="-82852.0" z="-3433.0" />
+				<point x="71968.0" y="-82731.0" z="-3361.0" />
+				<point x="66088.0" y="-82578.0" z="-3514.0" />
+				<point x="66231.0" y="-82511.0" z="-3462.0" />
+				<point x="73030.0" y="-80299.0" z="-2974.0" />
+				<point x="65530.0" y="-73682.0" z="-3067.0" />
+				<point x="65730.0" y="-80768.0" z="-3289.0" />
+				<point x="72690.0" y="-86404.0" z="-3845.0" />
+				<point x="65457.0" y="-73463.0" z="-3057.0" />
+				<point x="72956.0" y="-80486.0" z="-3019.0" />
+				<point x="66197.0" y="-82221.0" z="-3386.0" />
+				<point x="73386.0" y="-80207.0" z="-2962.0" />
+				<point x="65498.0" y="-81000.0" z="-3359.0" />
+				<point x="64832.0" y="-82421.0" z="-3724.0" />
+				<point x="65120.0" y="-75306.0" z="-2955.0" />
+				<point x="64997.0" y="-75194.0" z="-2920.0" />
+				<point x="69093.0" y="-71958.0" z="-3208.0" />
+				<point x="68656.0" y="-80821.0" z="-2981.0" />
+				<point x="69615.0" y="-71069.0" z="-3450.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="111" type="13">
+		<ai class="DEFAULT" config="DefaultSocial" >
+			<time respawn="45" >
+				<point x="76954.0" y="-81628.0" z="-4232.0" />
+				<point x="76911.0" y="-80262.0" z="-4239.0" />
+				<point x="77325.0" y="-79861.0" z="-4219.0" />
+				<point x="77285.0" y="-79852.0" z="-4218.0" />
+				<point x="77275.0" y="-79832.0" z="-4216.0" />
+				<point x="77251.0" y="-79827.0" z="-4216.0" />
+				<point x="77338.0" y="-79685.0" z="-4207.0" />
+				<point x="76937.0" y="-80357.0" z="-4243.0" />
+				<point x="76849.0" y="-80438.0" z="-4254.0" />
+				<point x="76984.0" y="-80472.0" z="-4250.0" />
+				<point x="76858.0" y="-81619.0" z="-4220.0" />
+				<point x="76869.0" y="-81611.0" z="-4221.0" />
+				<point x="76897.0" y="-81750.0" z="-4232.0" />
+				<point x="76785.0" y="-81678.0" z="-4213.0" />
+				<point x="76768.0" y="-81692.0" z="-4210.0" />
+				<point x="77309.0" y="-79848.0" z="-4218.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="300920" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="53139.0" y="-81775.0" z="-4388.0" />
+				<point x="62123.0" y="-82403.0" z="-4130.0" />
+				<point x="60720.0" y="-82763.0" z="-4323.0" />
+				<point x="62395.0" y="-83683.0" z="-4022.0" />
+				<point x="61131.0" y="-82316.0" z="-4251.0" />
+				<point x="54430.0" y="-84895.0" z="-4416.0" />
+				<point x="54988.0" y="-86657.0" z="-4195.0" />
+				<point x="61314.0" y="-83807.0" z="-4257.0" />
+				<point x="60619.0" y="-82281.0" z="-4290.0" />
+				<point x="60377.0" y="-84296.0" z="-4285.0" />
+				<point x="59081.0" y="-85381.0" z="-4203.0" />
+				<point x="59443.0" y="-84644.0" z="-4252.0" />
+				<point x="58144.0" y="-85330.0" z="-4322.0" />
+				<point x="61275.0" y="-84517.0" z="-4080.0" />
+				<point x="56352.0" y="-84840.0" z="-4388.0" />
+				<point x="51225.0" y="-84347.0" z="-3654.0" />
+				<point x="59700.0" y="-82138.0" z="-4323.0" />
+				<point x="52711.0" y="-82555.0" z="-4465.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="300921" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="84308.0" y="-84723.0" z="-4703.0" />
+				<point x="83687.0" y="-79493.0" z="-4465.0" />
+				<point x="82862.0" y="-87027.0" z="-4656.0" />
+				<point x="81225.0" y="-79988.0" z="-4486.0" />
+				<point x="82242.0" y="-78625.0" z="-4420.0" />
+				<point x="80785.0" y="-87158.0" z="-4723.0" />
+				<point x="84284.0" y="-83560.0" z="-4693.0" />
+				<point x="84334.0" y="-83277.0" z="-4664.0" />
+				<point x="83933.0" y="-88273.0" z="-4715.0" />
+				<point x="82993.0" y="-80698.0" z="-4542.0" />
+				<point x="84999.0" y="-86525.0" z="-4685.0" />
+				<point x="82312.0" y="-83033.0" z="-4530.0" />
+				<point x="79262.0" y="-84460.0" z="-4645.0" />
+				<point x="85552.0" y="-83184.0" z="-4612.0" />
+				<point x="79619.0" y="-85150.0" z="-4737.0" />
+				<point x="81323.0" y="-88135.0" z="-4723.0" />
+				<point x="84636.0" y="-81596.0" z="-4513.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="601" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="49645.0" y="-79026.0" z="-4728.0" />
+				<point x="64147.0" y="-69136.0" z="-3941.0" />
+				<point x="50464.0" y="-77243.0" z="-4691.0" />
+				<point x="63861.0" y="-69807.0" z="-3900.0" />
+				<point x="63452.0" y="-69272.0" z="-4036.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="300911" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="57658.0" y="-82899.0" z="-4427.0" />
+				<point x="57919.0" y="-83861.0" z="-4416.0" />
+				<point x="53932.0" y="-84741.0" z="-4407.0" />
+				<point x="53784.0" y="-83847.0" z="-4449.0" />
+				<point x="58759.0" y="-83677.0" z="-4346.0" />
+				<point x="53029.0" y="-82320.0" z="-4389.0" />
+				<point x="55560.0" y="-85868.0" z="-4256.0" />
+				<point x="59250.0" y="-83377.0" z="-4337.0" />
+				<point x="57050.0" y="-82963.0" z="-4312.0" />
+				<point x="52073.0" y="-82348.0" z="-4504.0" />
+				<point x="56649.0" y="-84020.0" z="-4388.0" />
+				<point x="52153.0" y="-87383.0" z="-3289.0" />
+				<point x="53464.0" y="-86507.0" z="-3386.0" />
+				<point x="59433.0" y="-83572.0" z="-4354.0" />
+				<point x="54451.0" y="-85221.0" z="-4389.0" />
+				<point x="55433.0" y="-84919.0" z="-4425.0" />
+				<point x="52782.0" y="-83934.0" z="-4384.0" />
+				<point x="53511.0" y="-83216.0" z="-4437.0" />
+				<point x="58382.0" y="-84927.0" z="-4338.0" />
+				<point x="53762.0" y="-81035.0" z="-4325.0" />
+				<point x="58718.0" y="-82816.0" z="-4367.0" />
+				<point x="52247.0" y="-81423.0" z="-4521.0" />
+				<point x="56187.0" y="-85184.0" z="-4320.0" />
+				<point x="57319.0" y="-85070.0" z="-4358.0" />
+				<point x="53754.0" y="-79944.0" z="-4421.0" />
+				<point x="55790.0" y="-84112.0" z="-4352.0" />
+				<point x="57589.0" y="-84341.0" z="-4462.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="300910" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="55266.0" y="-65515.0" z="-5475.0" />
+				<point x="55080.0" y="-67112.0" z="-5476.0" />
+				<point x="54123.0" y="-66925.0" z="-5442.0" />
+				<point x="59961.0" y="-67808.0" z="-5061.0" />
+				<point x="61179.0" y="-68300.0" z="-5028.0" />
+				<point x="61045.0" y="-67151.0" z="-4908.0" />
+				<point x="55641.0" y="-66373.0" z="-5432.0" />
+				<point x="55707.0" y="-68697.0" z="-5552.0" />
+				<point x="56858.0" y="-69086.0" z="-5650.0" />
+				<point x="53568.0" y="-65562.0" z="-5467.0" />
+				<point x="57357.0" y="-69016.0" z="-5598.0" />
+				<point x="54465.0" y="-65530.0" z="-5480.0" />
+				<point x="57782.0" y="-68568.0" z="-5494.0" />
+				<point x="62145.0" y="-67112.0" z="-4686.0" />
+				<point x="55710.0" y="-67535.0" z="-5475.0" />
+				<point x="59539.0" y="-68550.0" z="-5108.0" />
+				<point x="57023.0" y="-68348.0" z="-5536.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="301194" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="72754.0" y="-77922.0" z="-2722.0" />
+				<point x="73818.0" y="-76547.0" z="-2713.0" />
+				<point x="70386.0" y="-73221.0" z="-3006.0" />
+				<point x="72870.0" y="-76510.0" z="-2757.0" />
+				<point x="69729.0" y="-73836.0" z="-2998.0" />
+				<point x="68692.0" y="-73599.0" z="-3027.0" />
+				<point x="71522.0" y="-74909.0" z="-2792.0" />
+				<point x="72431.0" y="-75585.0" z="-2757.0" />
+				<point x="73391.0" y="-75353.0" z="-2788.0" />
+				<point x="69430.0" y="-74960.0" z="-2791.0" />
+				<point x="67760.0" y="-74176.0" z="-3029.0" />
+				<point x="68578.0" y="-75656.0" z="-2765.0" />
+				<point x="71368.0" y="-74184.0" z="-2918.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300945" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="67053.0" y="-72480.0" z="-3426.0" />
+				<point x="67623.0" y="-71758.0" z="-3369.0" />
+				<point x="66525.0" y="-70878.0" z="-3614.0" />
+				<point x="65423.0" y="-69730.0" z="-3794.0" />
+				<point x="64560.0" y="-69899.0" z="-3823.0" />
+				<point x="64765.0" y="-71054.0" z="-3611.0" />
+				<point x="65426.0" y="-68748.0" z="-3932.0" />
+				<point x="64046.0" y="-67960.0" z="-4136.0" />
+				<point x="65757.0" y="-67411.0" z="-4125.0" />
+				<point x="66765.0" y="-71983.0" z="-3483.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300944" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="79665.0" y="-83356.0" z="-4487.0" />
+				<point x="78513.0" y="-83338.0" z="-4370.0" />
+				<point x="80104.0" y="-85122.0" z="-4726.0" />
+				<point x="80941.0" y="-82874.0" z="-4522.0" />
+				<point x="79915.0" y="-83528.0" z="-4505.0" />
+				<point x="78619.0" y="-83284.0" z="-4364.0" />
+				<point x="78457.0" y="-84367.0" z="-4558.0" />
+				<point x="79232.0" y="-82567.0" z="-4450.0" />
+				<point x="79478.0" y="-84441.0" z="-4641.0" />
+				<point x="80313.0" y="-86643.0" z="-4725.0" />
+				<point x="80354.0" y="-85811.0" z="-4739.0" />
+				<point x="78349.0" y="-85586.0" z="-4572.0" />
+				<point x="80122.0" y="-82464.0" z="-4500.0" />
+				<point x="79872.0" y="-87389.0" z="-4683.0" />
+				<point x="78972.0" y="-85257.0" z="-4691.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300951" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="49796.0" y="-66902.0" z="-5563.0" />
+				<point x="51349.0" y="-68198.0" z="-5668.0" />
+				<point x="50023.0" y="-68061.0" z="-5656.0" />
+				<point x="51929.0" y="-66269.0" z="-5505.0" />
+				<point x="50936.0" y="-67164.0" z="-5602.0" />
+				<point x="51479.0" y="-67556.0" z="-5612.0" />
+				<point x="52616.0" y="-65393.0" z="-5407.0" />
+				<point x="48533.0" y="-66936.0" z="-5428.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300942" type="13">
+		 <ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="52385.0" y="-73038.0" z="-5579.0" />
+				<point x="49128.0" y="-72460.0" z="-5656.0" />
+				<point x="49150.0" y="-72518.0" z="-5652.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300930" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="75718.0" y="-80596.0" z="-4187.0" />
+				<point x="77871.0" y="-80562.0" z="-4345.0" />
+				<point x="78349.0" y="-80584.0" z="-4362.0" />
+				<point x="78820.0" y="-81392.0" z="-4407.0" />
+				<point x="76484.0" y="-80085.0" z="-4238.0" />
+				<point x="79409.0" y="-80895.0" z="-4381.0" />
+				<point x="77142.0" y="-82347.0" z="-4272.0" />
+				<point x="77836.0" y="-81534.0" z="-4347.0" />
+				<point x="78887.0" y="-82652.0" z="-4416.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300931" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="83928.0" y="-83813.0" z="-4692.0" />
+				<point x="84931.0" y="-88169.0" z="-4625.0" />
+				<point x="81330.0" y="-79684.0" z="-4470.0" />
+				<point x="80547.0" y="-87277.0" z="-4720.0" />
+				<point x="82517.0" y="-79508.0" z="-4527.0" />
+				<point x="83676.0" y="-81400.0" z="-4539.0" />
+				<point x="84196.0" y="-84044.0" z="-4731.0" />
+				<point x="85171.0" y="-83442.0" z="-4623.0" />
+				<point x="86161.0" y="-84318.0" z="-4684.0" />
+				<point x="82219.0" y="-79659.0" z="-4523.0" />
+				<point x="84607.0" y="-82171.0" z="-4537.0" />
+				<point x="85760.0" y="-86150.0" z="-4658.0" />
+				<point x="82911.0" y="-87652.0" z="-4676.0" />
+				<point x="83632.0" y="-89102.0" z="-4727.0" />
+				<point x="84254.0" y="-88090.0" z="-4699.0" />
+				<point x="85672.0" y="-84528.0" z="-4701.0" />
+				<point x="81872.0" y="-86420.0" z="-4719.0" />
+				<point x="84878.0" y="-81017.0" z="-4497.0" />
+				<point x="84120.0" y="-80167.0" z="-4495.0" />
+				<point x="85742.0" y="-86967.0" z="-4685.0" />
+				<point x="84553.0" y="-83847.0" z="-4729.0" />
+				<point x="81863.0" y="-87332.0" z="-4675.0" />
+				<point x="83726.0" y="-84834.0" z="-4690.0" />
+				<point x="84022.0" y="-84014.0" z="-4717.0" />
+				<point x="83751.0" y="-83585.0" z="-4641.0" />
+				<point x="83609.0" y="-87011.0" z="-4687.0" />
+				<point x="86479.0" y="-83352.0" z="-4663.0" />
+				<point x="81482.0" y="-86003.0" z="-4778.0" />
+				<point x="83376.0" y="-80139.0" z="-4557.0" />
+				<point x="83919.0" y="-86914.0" z="-4690.0" />
+				<point x="82362.0" y="-81026.0" z="-4525.0" />
+				<point x="84373.0" y="-86286.0" z="-4707.0" />
+				<point x="81716.0" y="-82726.0" z="-4553.0" />
+				<point x="85459.0" y="-86158.0" z="-4680.0" />
+				<point x="83955.0" y="-84849.0" z="-4687.0" />
+				<point x="82425.0" y="-88067.0" z="-4729.0" />
+				<point x="85791.0" y="-82223.0" z="-4569.0" />
+				<point x="83239.0" y="-85453.0" z="-4770.0" />
+				<point x="82794.0" y="-88775.0" z="-4731.0" />
+				<point x="85264.0" y="-81950.0" z="-4524.0" />
+				<point x="82412.0" y="-85789.0" z="-4777.0" />
+				<point x="84997.0" y="-84862.0" z="-4714.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300932" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="64931.0" y="-83803.0" z="-3800.0" />
+				<point x="69135.0" y="-84196.0" z="-3532.0" />
+				<point x="66564.0" y="-83812.0" z="-3640.0" />
+				<point x="67931.0" y="-84323.0" z="-3649.0" />
+				<point x="72437.0" y="-85977.0" z="-3852.0" />
+				<point x="66743.0" y="-83245.0" z="-3605.0" />
+				<point x="72549.0" y="-85754.0" z="-3883.0" />
+				<point x="69420.0" y="-84869.0" z="-3621.0" />
+				<point x="68311.0" y="-83826.0" z="-3533.0" />
+				<point x="68098.0" y="-86034.0" z="-3621.0" />
+				<point x="68007.0" y="-85130.0" z="-3670.0" />
+				<point x="68195.0" y="-86454.0" z="-3472.0" />
+				<point x="72325.0" y="-86887.0" z="-3691.0" />
+				<point x="66120.0" y="-83978.0" z="-3677.0" />
+				<point x="67223.0" y="-84274.0" z="-3660.0" />
+				<point x="67523.0" y="-83551.0" z="-3577.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300933" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="76260.0" y="-82892.0" z="-4051.0" />
+				<point x="78253.0" y="-81273.0" z="-4390.0" />
+				<point x="78888.0" y="-80411.0" z="-4373.0" />
+				<point x="75459.0" y="-80801.0" z="-4129.0" />
+				<point x="77946.0" y="-82331.0" z="-4354.0" />
+				<point x="77389.0" y="-80255.0" z="-4250.0" />
+				<point x="76542.0" y="-81498.0" z="-4179.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="901" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="50167.0" y="-77841.0" z="-4747.0" />
+				<point x="49787.0" y="-80004.0" z="-4664.0" />
+				<point x="50882.0" y="-78036.0" z="-4780.0" />
+				<point x="49316.0" y="-77898.0" z="-4707.0" />
+				<point x="50466.0" y="-79883.0" z="-4677.0" />
+				<point x="49994.0" y="-77548.0" z="-4729.0" />
+				<point x="49500.0" y="-79335.0" z="-4706.0" />
+				<point x="52615.0" y="-77315.0" z="-4437.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1016" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="70923.0" y="-69957.0" z="-3336.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1017" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80799.0" y="-81159.0" z="-4409.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1018" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="64416.0" y="-65444.0" z="-4218.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1700" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="72808.0" y="-83202.0" z="-3517.0" />
+				<point x="66956.0" y="-74733.0" z="-3018.0" />
+				<point x="86251.0" y="-85419.0" z="-4614.0" heading="28190" />
+				<point x="53254.0" y="-70206.0" z="-5668.0" />
+				<point x="65024.0" y="-66507.0" z="-4194.0" />
+				<point x="80168.0" y="-80747.0" z="-4383.0" />
+				<point x="75796.0" y="-82788.0" z="-3962.0" heading="2621" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1020" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55208.0" y="-82088.0" z="-4196.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1021" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55608.0" y="-82162.0" z="-4197.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1009" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="63771" y="-84143" z="-3808" heading="4958" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1022" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69936.0" y="-78400.0" z="-2311.0" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1023" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67091.336" y="-81628.55" z="-3255.0383" heading="44799" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1023" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="80974.0" y="-80898.0" z="-4411.0" heading="32452" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="300542" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="57339.0" y="-80692.0" z="-4413.0" />
+				<point x="58074.0" y="-80406.0" z="-4397.0" />
+				<point x="57628.0" y="-80702.0" z="-4417.0" />
+				<point x="57643.0" y="-81660.0" z="-4376.0" />
+				<point x="54248.0" y="-78316.0" z="-4604.0" />
+				<point x="54896.0" y="-79520.0" z="-4410.0" />
+				<point x="58483.0" y="-81669.0" z="-4418.0" />
+				<point x="53620.0" y="-77883.0" z="-4587.0" />
+				<point x="54425.0" y="-78891.0" z="-4508.0" />
+				<point x="59378.0" y="-81551.0" z="-4389.0" />
+				<point x="55674.0" y="-79919.0" z="-4325.0" />
+				<point x="58806.0" y="-81655.0" z="-4415.0" />
+				<point x="56133.0" y="-79125.0" z="-4438.0" />
+				<point x="56350.0" y="-79011.0" z="-4458.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1008" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="55434.92" y="-82646.36" z="-4239.337" heading="1611" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1011" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="70121.0" y="-81505.0" z="-3077.0" heading="48025" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1014" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="91993.0" y="-88226.0" z="-4566.0" heading="711" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1015" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="58986.0" y="-75321.0" z="-5726.0" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1008" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66885.0" y="-78746.0" z="-2957.0" heading="37073"/>
+			</time>
+		</ai>
+	</npc>
+<!-- 
+	<npc id="1001" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66603.0" y="-77933.0" z="-2963.0" heading="36717" />
+			</time>
+		</ai>
+	</npc> -->
+
+	<npc id="1003" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66933.0" y="-80064.0" z="-3003.0" heading="7619" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1002" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66251.0" y="-79054.0" z="-3002.0" heading="3032" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1002" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="52306.0" y="-75413.0" z="-3631.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1005" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="67561.0" y="-80128.0" z="-3018.0" heading="40053" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="1004" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66126.0" y="-78657.0" z="-2995.0" heading="1564" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="1007" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66965" y="-79079" z="-2961" heading="36096" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1007" type="213">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="66011.98" y="-70390.414" z="-3663.2917" heading="43346" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="1006" type="64">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="69094.0" y="-79230.0" z="-2567.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+	<npc id="999" type="13">
+		<ai class="DEFAULT" config="DefaultMonster" >
+			<time respawn="45" >
+				<point x="50696.0" y="-77917.0" z="-4770.0" />
+				<point x="49920.0" y="-78644.0" z="-4763.0" />
+				<point x="50647.0" y="-79274.0" z="-4719.0" />
+				<point x="50858.0" y="-77664.0" z="-4746.0" />
+				<point x="52080.0" y="-78628.0" z="-4647.0" />
+			</time>
+		</ai>
+	</npc>
+
+
+</list>

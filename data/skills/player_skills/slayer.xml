@@ -1,0 +1,2372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67118964" class="2" name="Combo Attack I" levels="4">
+		<table name="#power">7 8 8 12</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="67119064" class="2" name="Combo Attack II" levels="4">
+        <table name="#power">9 10 10 16</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" />
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	 <skill id="67119164" class="2" name="Combo Attack III" levels="4">
+        <table name="#power">11 13 13 22</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119264" class="2" name="Combo Attack IV" levels="4">
+        <table name="#power">15 19 19 32</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119364" class="2" name="Combo Attack V" levels="4">
+        <table name="#power">22 27 27 46</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+		
+	<skill id="67119464" class="2" name="Combo Attack VI" levels="4">
+        <table name="#power">33 40 40 68</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119564" class="2" name="Combo Attack VII" levels="4">
+		<table name="#power">48 58 58 99</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="67119664" class="2" name="Combo Attack VIII" levels="4">
+		<table name="#power">70 84 84 144</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119764" class="2" name="Combo Attack IX" levels="4">
+		<table name="#power">102 123 123 210</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119864" class="2" name="Combo Attack X" levels="4">
+		<table name="#power">149 179 179 306</table>
+		<table name="#radius">70 60 70 80</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67119964" class="2" name="Combo Attack XI" levels="4">
+		<table name="#power">217 262 262 447</table>
+		<table name="#radius">80 70 80 100</table>	
+		<table name="#targetType">TARGET_AURA TARGET_AURA TARGET_AURA TARGET_AURA</table>
+		<table name="#skillName">COMBO_ATTACK_1 COMBO_ATTACK_2 COMBO_ATTACK_3 COMBO_ATTACK_4</table>
+		<table name="#hitTime">1500 1900 1500 2700</table>		
+		<table name="#delay">800 800 900 1300</table>
+		<table name="#moveDistance">40 40 40 50</table>
+		<table name="#moveTime">800 800 800 1500</table>
+		<table name="#moveDelay">200 200 200 300</table>
+		<table name="#gainMp">110 140 150 170</table>
+		<set name="power" value="#power" />
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveTime" value="#moveTime" />
+		<set name="moveDelay" value="#moveDelay" />
+        <set name="targetType" value="#targetType" />
+		<set name="hitTime" value="#hitTime" />
+		<set name="radius" value="#radius"/>
+		<set name="delay" value="#delay" />
+		<set name="skillType" value="MANA_STRIKE" />
+		<set name="skillName" value="#skillName" /> 
+		<set name="gainMp" value="#gainMp" /> 
+		<set name="operateType" value="ACTIVE" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>		
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>
+	
+	<skill id="67148964" class="2" name="Evasive Roll" levels="1">
+	    <set name="moveDistance" value="150" />	
+		<set name="reuseDelay" value="4000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="JUMP" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="75" />
+		<set name="hitTime" value="2500" />	
+		<set name="moveTime" value="1000" />	
+		<set name="evasion" value="true" />		
+		<set name="implemented" value="true" />		
+		<set name="forceCast" value="true" />		
+		<cond>
+			<player notBarrier="true" msg="Нельзя использовать около преград." />
+		</cond>	
+	</skill>
+		
+	<skill id="67138964" class="2" name="Whirlwind I" levels="1">
+        <set name="power" value="72"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	 <skill id="67139064" class="2" name="Whirlwind II" levels="1">
+		<set name="power" value="105"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139164" class="2" name="Whirlwind III" levels="1">
+        <set name="power" value="153"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139264" class="2" name="Whirlwind IV" levels="1">
+        <set name="power" value="224"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139364" class="2" name="Whirlwind V" levels="1">
+        <set name="power" value="326"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139464" class="2" name="Whirlwind VI" levels="1">
+        <set name="power" value="476"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139564" class="2" name="Whirlwind VII" levels="1">
+        <set name="power" value="694"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139664" class="2" name="Whirlwind VIII" levels="1">
+        <set name="power" value="1013"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139764" class="2" name="Whirlwind IX" levels="1">
+        <set name="power" value="1478"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67139864" class="2" name="Whirlwind X" levels="1">
+        <set name="power" value="2157"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="WHIRLWIND" />
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="mpConsume" value="300"/>
+        <set name="reuseDelay" value="11000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="4000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+
+    <skill id="67128964" class="2" name="Knockdown Strike I" levels="1">
+        <set name="power" value="42"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129064" class="2" name="Knockdown Strike II" levels="1">
+		<set name="power" value="62"/>
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129164" class="2" name="Knockdown Strike III" levels="1">
+        <set name="power" value="90"/>
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129264" class="2" name="Knockdown Strike IV" levels="1">
+        <set name="power" value="131"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129364" class="2" name="Knockdown Strike V" levels="1">
+        <set name="power" value="192"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129464" class="2" name="Knockdown Strike VI" levels="1">
+        <set name="power" value="280"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>
+		<set name="correctableTarget" value="true" />	
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129564" class="2" name="Knockdown Strike VII" levels="1">
+        <set name="power" value="408"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129664" class="2" name="Knockdown Strike VIII" levels="1">
+        <set name="power" value="595"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129764" class="2" name="Knockdown Strike IX" levels="1">
+        <set name="power" value="869"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67129864" class="2" name="Knockdown Strike X" levels="1">
+        <set name="power" value="1267"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="KNOCKDOWN_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="mpConsume" value="170"/>
+        <set name="hitTime" value="3500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="10"/>	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67178964" class="2" name="Triumphant Shout" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MANAHEAL"/>
+		<set name="power" value="100"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300100" time="20" count="1" type="BUFF">
+				<mul stat="regMp" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67298964" class="2" name="Tenacity I" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MANAHEAL"/>
+		<set name="power" value="240"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67299064" class="2" name="Tenacity II" levels="1">
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MANAHEAL"/>
+		<set name="power" value="360"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="30000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67158964" class="2" name="Dash I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+		<set name="mpConsume" value="100"/>
+        <set name="reuseDelay" value="25000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300600" time="10" count="1" type="BUFF" stackType="short_special_speed_up" >
+				<mul stat="runSpd" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159064" class="2" name="Dash II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+		<set name="mpConsume" value="100"/>
+        <set name="reuseDelay" value="25000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300601" time="15" count="1" type="BUFF" stackType="short_special_speed_up" >
+				<mul stat="runSpd" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67188964" class="2" name="Overhand Strike I" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67188964 67188994</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="95"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67188964"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189064" class="2" name="Overhand Strike II" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189064 67189094</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="139"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189064"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189164" class="2" name="Overhand Strike III" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189164 67189194</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="203"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189164"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189264" class="2" name="Overhand Strike IV" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189264 67189294</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="296"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189264"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189364" class="2" name="Overhand Strike V" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189364 67189394</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="432"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189364"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189464" class="2" name="Overhand Strike VI" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189464 67189494</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="631"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189464"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189564" class="2" name="Overhand Strike VII" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189564 67189594</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5300 2300</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="920"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189564"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67189664" class="2" name="Overhand Strike VIII" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67189664 67189694</table>
+		<table name="#delay">2700 1100</table>
+		<table name="#hitTime">5000 2000</table>
+		<table name="#moveTime">3500 1500</table>
+		<table name="#prevSkillNames">COMBO_ATTACK_4;WHIRLWIND;LEAPING_STRIKE;STUNNING_BACKHAND;STARTLING_KICK;HEART_THRUST;KNOCKDOWN_STRIKE UNKNOWN</table>
+        <set name="power" value="1343"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="#moveTime" />	
+		<set name="reuseDelay" value="5500"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67189664"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />	
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>	
+    </skill>
+	
+	<skill id="67258964" class="2" name="Startling Kick I" levels="1">
+        <set name="power" value="82"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259064" class="2" name="Startling Kick II" levels="1">
+        <set name="power" value="119"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259164" class="2" name="Startling Kick III" levels="1">
+        <set name="power" value="174"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259264" class="2" name="Startling Kick IV" levels="1">
+        <set name="power" value="253"/>
+         <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259364" class="2" name="Startling Kick V" levels="1">
+        <set name="power" value="370"/>
+         <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259464" class="2" name="Startling Kick VI" levels="1">
+        <set name="power" value="539"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259564" class="2" name="Startling Kick VII" levels="1">
+        <set name="power" value="787"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67259664" class="2" name="Startling Kick VIII" levels="1">
+        <set name="power" value="1148"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STARTLING_KICK"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2100"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+
+    <skill id="67278964" class="2" name="Headlong Rush I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="mpConsume" value="96"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1500" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300500" time="10" count="1" type="BUFF" stackType="attack_speed_up" onCaster="true" noAttack="true" >
+				<mul stat="atkSpd" order="0x30" val="1.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67279064" class="2" name="Headlong Rush II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="mpConsume" value="128"/>
+        <set name="hitTime" value="1500"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1500" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300501" time="10" count="1" type="BUFF" stackType="attack_speed_up" onCaster="true" noAttack="true" >
+				<mul stat="atkSpd" order="0x30" val="1.4" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67279164" class="2" name="Headlong Rush III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+        <set name="mpConsume" value="161"/>
+        <set name="hitTime" value="1300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="rush" value="true" />
+		<set name="staticCast" value="true" />
+		<set name="moveDistance" value="500" />
+		<set name="moveTime" value="1500" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300502" time="10" count="1" type="BUFF" stackType="attack_speed_up" onCaster="true" noAttack="true" >
+				<mul stat="atkSpd" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+
+    <skill id="67208964" class="2" name="Retaliate I" levels="1">
+        <set name="power" value="45"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209064" class="2" name="Retaliate II" levels="1">
+        <set name="power" value="66"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209164" class="2" name="Retaliate III" levels="1">
+        <set name="power" value="96"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209264" class="2" name="Retaliate IV" levels="1">
+        <set name="power" value="141"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209364" class="2" name="Retaliate V" levels="1">
+        <set name="power" value="205"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209464" class="2" name="Retaliate VI" levels="1">
+        <set name="power" value="300"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209564" class="2" name="Retaliate VII" levels="1">
+        <set name="power" value="437"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209664" class="2" name="Retaliate VIII" levels="1">
+        <set name="power" value="638"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67209764" class="2" name="Retaliate IX" levels="1">
+        <set name="power" value="931"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="2000"/>
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67198964" class="2" name="Leaping Strike I" levels="1">
+        <set name="power" value="39"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199064" class="2" name="Leaping Strike II" levels="1">
+        <set name="power" value="57"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199164" class="2" name="Leaping Strike III" levels="1">
+        <set name="power" value="83"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199264" class="2" name="Leaping Strike IV" levels="1">
+        <set name="power" value="120"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199364" class="2" name="Leaping Strike V" levels="1">
+        <set name="power" value="176"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199464" class="2" name="Leaping Strike VI" levels="1">
+        <set name="power" value="256"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67199564" class="2" name="Leaping Strike VII" levels="1">
+        <set name="power" value="374"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="7000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="67248964" class="2" name="Distant Blade I" levels="3">
+		<table name="#power">54 68 118</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249064" class="2" name="Distant Blade II" levels="3">
+		<table name="#power">79 99 173</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249164" class="2" name="Distant Blade III" levels="3">
+		<table name="#power">116 144 252</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249264" class="2" name="Distant Blade IV" levels="3">
+		<table name="#power">169 211 368</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249364" class="2" name="Distant Blade V" levels="3">
+		<table name="#power">246 308 537</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249464" class="2" name="Distant Blade VI" levels="3">
+		<table name="#power">360 449 783</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1100 1100 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67249564" class="2" name="Distant Blade VII" levels="3">
+		<table name="#power">525 655 1143</table>
+		<table name="#mpConsume">70 100 150</table>
+		<table name="#hitTime">1200 1200 3000</table>
+		<table name="#delay">500 500 800</table>
+		<table name="#moveDistance">80 80 120</table>
+		<table name="#moveDelay">300 200 200</table>
+		<table name="#moveTime">700 600 600</table>
+        <set name="power" value="#power"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="#moveDistance" />
+		<set name="moveDelay" value="#moveDelay" />
+		<set name="moveTime" value="#moveTime" />
+        <set name="delay" value="#delay"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67238964" class="2" name="Stunning Backhand I" levels="1">
+        <set name="power" value="145"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239064" class="2" name="Stunning Backhand II" levels="1">
+        <set name="power" value="212"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239164" class="2" name="Stunning Backhand III" levels="1">
+        <set name="power" value="310"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239264" class="2" name="Stunning Backhand IV" levels="1">
+        <set name="power" value="452"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239364" class="2" name="Stunning Backhand V" levels="1">
+        <set name="power" value="659"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67239464" class="2" name="Stunning Backhand VI" levels="1">
+        <set name="power" value="962"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="STUNNING_BACKHAND"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="130"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300700" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67268964" class="2" name="Fury Strike I" levels="1">
+        <set name="power" value="278"/>
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SLAYER_FURY_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA" />
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="100" />
+		<set name="moveTime" value="500" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="700"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67269064" class="2" name="Fury Strike II" levels="1">
+        <set name="power" value="593"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SLAYER_FURY_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA" />
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="100" />
+		<set name="moveTime" value="500" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="700"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67269164" class="2" name="Fury Strike III" levels="1">
+        <set name="power" value="1262"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SLAYER_FURY_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA" />
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="moveDistance" value="100" />
+		<set name="moveTime" value="500" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="700"/>
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67228964" class="2" name="Heart Thrust I" levels="1">
+        <set name="power" value="545"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="HEART_THRUST"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="80"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="3700"/>
+		<set name="delay" value="1700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveDelay" value="1100" />
+		<set name="moveTime" value="700" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67229064" class="2" name="Heart Thrust II" levels="1">
+        <set name="power" value="795"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="HEART_THRUST"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="80"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="3700"/>
+		<set name="delay" value="1700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveDelay" value="1100" />
+		<set name="moveTime" value="700" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67229164" class="2" name="Heart Thrust III" levels="1">
+        <set name="power" value="1160"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="HEART_THRUST"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="80"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="3700"/>
+		<set name="delay" value="1700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveDelay" value="1100" />
+		<set name="moveTime" value="700" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67229264" class="2" name="Heart Thrust IV" levels="1">
+        <set name="power" value="1693"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="HEART_THRUST"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="80"/>
+        <set name="mpConsume" value="250"/>
+        <set name="hitTime" value="3700"/>
+		<set name="delay" value="1700"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveDelay" value="1100" />
+		<set name="moveTime" value="700" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<skill id="67318964" class="2" name="Exhausting Blow" levels="1">
+        <set name="power" value="700"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="800"/>
+        <set name="reuseDelay" value="90000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="900" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="300900" time="5" count="1" type="DEBUFF" stackType="skill_reuse_time_up" chance="100" debuff="true" >
+				<mul stat="shortReuse" order="0x30" val="1.5" />
+				<mul stat="rangeReuse" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67288964" class="2" name="Overpower" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="130" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="8000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+        <for>
+			<effect id="300300" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="76118964" class="2" name="Velik's Horn" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="town" value="VELIKA"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="3600"/>
+        <set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67308964" class="2" name="In Cold Blood" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+		<set name="mpConsume" value="100"/>
+        <set name="reuseDelay" value="180000"/>
+		<set name="blockingMove" value="false" />
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="300800" time="20" count="1" type="BUFF" stackType="power_up" >
+				<mul stat="atk" order="0x50" val="1.15" >
+					<target player="true" />
+				</mul>
+				<add stat="powerFactor" order="0x40" val="26" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67338964" class="2" name="Measured Slice" levels="1">
+        <set name="power" value="2284"/>
+        <set name="operateType" value="ACTIVE"/>
+		<set name="skillName" value="LEAPING_STRIKE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA" />
+        <set name="radius" value="100"/>
+        <set name="mpConsume" value="150"/>
+        <set name="hitTime" value="2300"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="moveDelay" value="1800" />
+		<set name="moveDistance" value="190" />
+		<set name="moveTime" value="700" />
+        <set name="delay" value="2000"/>
+		<set name="implemented" value="true" />
+		<set name="owerturnMod" value="10" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+    </skill>
+	
+	<!-- <skill id="67168964" class="2" name="Backstab" levels="1">
+        <set name="power" value="700"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="300"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="800"/>
+        <set name="reuseDelay" value="900"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="900" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="GREATSWORD" msg="Используется только с мечем." />
+		</cond>
+		<for>
+			<effect id="201200" time="15" count="1" type="DEBUFF" stackType="skill_reuse_time_up" chance="100" resistType="weakResist" debuff="true" >
+				<mul stat="shortReuse" order="0x30" val="1.5" />
+				<mul stat="rangeReuse" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill> -->
+</list>

@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- 51300-51700 -->
+	<skill id="7100" class="-9" name="Onslaught Charm I" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7100" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51100" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.05" />
+			</effect>
+			<effect id="51200" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.05" />
+			</effect>
+			<effect id="51300" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7101" class="-9" name="Onslaught Charm II" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7101" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51110" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.07" />
+			</effect>
+			<effect id="51210" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.07" />
+			</effect>
+			<effect id="51310" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.07" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7102" class="-9" name="Onslaught Charm III" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7102" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51120" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.09" />
+			</effect>
+			<effect id="51220" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.09" />
+			</effect>
+			<effect id="51320" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.09" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7103" class="-9" name="Onslaught Charm IV" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7103" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51130" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51230" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51330" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.13" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7104" class="-9" name="Etheral Charm I" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7104" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="52100" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="defenseFactor" order="0x30" val="1.05" />
+			</effect>
+			<effect id="52200" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="critChanceRcpt" order="0x30" val="1.05" />
+			</effect>
+			<effect id="52300" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="balance" order="0x30" val="1.05" />
+			</effect>
+			<effect id="52400" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="weakRcpt" order="0x30" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7105" class="-9" name="Etheral Charm II" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7105" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="52110" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="defenseFactor" order="0x30" val="1.07" />
+			</effect>
+			<effect id="52210" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="critChanceRcpt" order="0x30" val="1.07" />
+			</effect>
+			<effect id="52310" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="balance" order="0x30" val="1.07" />
+			</effect>
+			<effect id="52410" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="weakRcpt" order="0x30" val="1.07" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7106" class="-9" name="Etheral Charm III" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7106" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="52120" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="defenseFactor" order="0x30" val="1.09" />
+			</effect>
+			<effect id="52220" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="critChanceRcpt" order="0x30" val="1.09" />
+			</effect>
+			<effect id="52320" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="balance" order="0x30" val="1.09" />
+			</effect>
+			<effect id="52420" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="weakRcpt" order="0x30" val="1.09" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7107" class="-9" name="Etheral Charm IV" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7107" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="52130" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="defenseFactor" order="0x30" val="1.13" />
+			</effect>
+			<effect id="52230" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="critChanceRcpt" order="0x30" val="1.13" />
+			</effect>
+			<effect id="52330" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="balance" order="0x30" val="1.13" />
+			</effect>
+			<effect id="52430" count="1" time="900" type="CHARM_BUFF" stackType="charm_defense" >
+				<mul stat="weakRcpt" order="0x30" val="1.13" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7108" class="-9" name="Sanguine Charm I" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7108" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="53100" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxHp" order="0x30" val="1.05" />
+			</effect>
+			<effect id="53200" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxMp" order="0x30" val="1.05" />
+			</effect>
+			<effect id="53300" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regHp" order="0x30" val="1.05" />
+			</effect>
+			<effect id="53400" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regMp" order="0x30" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7109" class="-9" name="Sanguine Charm II" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7109" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="53110" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxHp" order="0x30" val="1.07" />
+			</effect>
+			<effect id="53210" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxMp" order="0x30" val="1.07" />
+			</effect>
+			<effect id="53310" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regHp" order="0x30" val="1.07" />
+			</effect>
+			<effect id="53410" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regMp" order="0x30" val="1.07" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7110" class="-9" name="Sanguine Charm III" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7110" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="53120" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxHp" order="0x30" val="1.08" />
+			</effect>
+			<effect id="53220" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxMp" order="0x30" val="1.08" />
+			</effect>
+			<effect id="53320" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regHp" order="0x30" val="1.08" />
+			</effect>
+			<effect id="53420" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regMp" order="0x30" val="1.08" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="7111" class="-9" name="Sanguine Charm IV" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="7111" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="53130" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxHp" order="0x30" val="1.13" />
+			</effect>
+			<effect id="53230" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="maxMp" order="0x30" val="1.13" />
+			</effect>
+			<effect id="53330" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regHp" order="0x30" val="1.13" />
+			</effect>
+			<effect id="53430" count="1" time="900" type="CHARM_BUFF" stackType="charm_supplementary" >
+				<mul stat="regMp" order="0x30" val="1.13" />
+			</effect>
+		</for>
+	</skill>
+
+	<!-- Greater charms -->
+	<skill id="70021" class="-9" name="Greater Power Charm" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="70021" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51130" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51230" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51330" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.13" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="70020" class="-9" name="Greater Power Charm" levels="1">
+		<set name="iconId" value="127349064" />
+		<set name="targetType" value="TARGET_AREA_PARTY"/>		
+		<set name="skillType" value="CHARM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="1500" />
+		<set name="delay" value="1000" />
+		<set name="radius" value="200" />
+		<set name="itemIdConsume" value="70020" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="51130" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="powerFactor" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51230" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="rCrit" order="0x30" val="1.13" />
+			</effect>
+			<effect id="51330" count="1" time="900" type="CHARM_BUFF" stackType="charm_attack" >
+				<mul stat="atkSpd" order="0x30" val="1.13" />
+			</effect>
+		</for>
+	</skill>
+</list>

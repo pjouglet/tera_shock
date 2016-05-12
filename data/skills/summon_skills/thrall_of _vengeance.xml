@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>  
+	<skill id="50100" class="-8" name="Выстрел" levels="1">
+		<set name="iconId" value="1207895117"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="range" value="400"/>	
+		<set name="speed" value="600"/>	
+		<set name="skillType" value="NPC_SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="50101" class="-8" name="Взыр под себя" levels="1">
+		<set name="iconId" value="1207895118"/>
+		<set name="power" value="100"/>		
+		<set name="delay" value="3000"/>
+		<set name="hitTime" value="4000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="80"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="50102" class="-8" name="Выстрел с 2х рук" levels="1">
+		<set name="iconId" value="1207895120"/>
+		<set name="power" value="50"/>		
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="3500"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="range" value="400"/>	
+		<set name="speed" value="1000"/>	
+		<set name="skillType" value="NPC_SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="reuseDelay" value="5000"/>		
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+</list>

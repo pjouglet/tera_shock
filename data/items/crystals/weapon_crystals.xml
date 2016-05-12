@@ -1,0 +1,2437 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+<!-- Нужно сделать	
+	Headstrong Crystals (8392)
+8392 ?
+
+-->
+
+
+	<!-- Slaying crystals -->	
+
+	<crystal id="8200" type="weapon" stackType="slaying" name="Slaying Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.64" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8201" type="weapon" stackType="slaying" name="Slaying Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.78" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8202" type="weapon" stackType="slaying" name="Slaying Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.9" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+ 
+	<crystal id="8203" type="weapon" stackType="slaying" name="Slaying Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.04" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+ 
+	<crystal id="8204" type="weapon" stackType="slaying" name="Slaying Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.16" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+ 
+	<crystal id="8205" type="weapon" stackType="slaying" name="Slaying Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.3" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+ 
+	<crystal id="8206" type="weapon" stackType="slaying" name="Fine Slaying Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.8" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8207" type="weapon" stackType="slaying" name="Fine Slaying Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.96" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8208" type="weapon" stackType="slaying" name="Fine Slaying Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.1" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8209" type="weapon" stackType="slaying" name="Fine Slaying Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.26" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8210" type="weapon" stackType="slaying" name="Fine Slaying Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.42" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8211" type="weapon" stackType="slaying" name="Fine Slaying Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.58" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8700" type="weapon" stackType="slaying" name="Pristine Slaying Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.72" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8701" type="weapon" stackType="slaying" name="Pristine Slaying Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.86" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8702" type="weapon" stackType="slaying" name="Pristine Slaying Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8703" type="weapon" stackType="slaying" name="Pristine Slaying Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.16" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8704" type="weapon" stackType="slaying" name="Pristine Slaying Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.3" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8705" type="weapon" stackType="slaying" name="Pristine Slaying Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.44" >
+				<and>
+					<target player="false" />
+					<player percentHp="50" />
+				</and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<!-- Furious crystals -->	
+
+	<crystal id="8212" type="weapon" stackType="furious" name="Furious Rhomb" noStack="false" itemLevel="1" buyPrice="194" sellPride="19" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.04" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8213" type="weapon" stackType="furious" name="Furious Cabachon" noStack="false" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.047" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8214" type="weapon" stackType="furious" name="Furious Hexage" noStack="false" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.054" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8215" type="weapon" stackType="furious" name="Furious Penant" noStack="false" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.062" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8216" type="weapon" stackType="furious" name="Furious Concach" noStack="false" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.07" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8217" type="weapon" stackType="furious" name="Furious Crux" noStack="false" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.078" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8218" type="weapon" stackType="furious" name="Fine Furious Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.048" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8219" type="weapon" stackType="furious" name="Fine Furious Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.057" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8220" type="weapon" stackType="furious" name="Fine Furious Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.067" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8221" type="weapon" stackType="furious" name="Fine Furious Penant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.076" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8222" type="weapon" stackType="furious" name="Fine Furious Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.086" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8223" type="weapon" stackType="furious" name="Fine Furious Crux" noStack="false" itemLevel="58" buyPrice="114361" sellPrice="10891" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.095" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8706" type="weapon" stackType="furious" name="Pristine Furious Rhomb" noStack="false" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.043" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8707" type="weapon" stackType="furious" name="Pristine Furious Cabachon" noStack="false" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.052" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8708" type="weapon" stackType="furious" name="Pristine Furious Hexage" noStack="false" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.06" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8709" type="weapon" stackType="furious" name="Pristine Furious Penant" noStack="false" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.069" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8710" type="weapon" stackType="furious" name="Pristine Furious Concach" noStack="false" itemLevel="48" buyPrice="93582" sellPrice="8212" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.078" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8711" type="weapon" stackType="furious" name="Pristine Furious Crux" noStack="false" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.086" >
+				<player percentHp="50" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<!-- Focused crystals -->	
+
+	<crystal id="8242" type="weapon" stackType="focused" name="Focused Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.7" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8243" type="weapon" stackType="focused" name="Focused Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.86" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8244" type="weapon" stackType="focused" name="Focused Hexage" itemLevel="23" buyPrice="8355" sellPrice="397" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8245" type="weapon" stackType="focused" name="Focused Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.14" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8246" type="weapon" stackType="focused" name="Focused Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.28" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8247" type="weapon" stackType="focused" name="Focused Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.42" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8248" type="weapon" stackType="focused" name="Fine Focused Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.86" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8249" type="weapon" stackType="focused" name="Fine Focused Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.02" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8250" type="weapon" stackType="focused" name="Fine Focused Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.2" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8251" type="weapon" stackType="focused" name="Fine Focused Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.36" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+		
+	<crystal id="8252" type="weapon" stackType="focused" name="Fine Focused Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.54" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8253" type="weapon" stackType="focused" name="Fine Focused Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.7" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8712" type="weapon" stackType="focused" name="Pristine Focused Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.78" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8713" type="weapon" stackType="focused" name="Pristine Focused Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.94" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8714" type="weapon" stackType="focused" name="Pristine Focused Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.1" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8715" type="weapon" stackType="focused" name="Pristine Focused Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.26" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8716" type="weapon" stackType="focused" name="Pristine Focused Concach" itemLevel="48" buyPrice="93582" sellPrice="8212" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.4" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8717" type="weapon" stackType="focused" name="Pristine Focused Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.56" >
+				<target npcRage="true" />
+			</add>
+		</funcs>
+	</crystal>
+
+	<!-- Virulent crystals -->
+
+	<crystal id="8254" type="weapon" stackType="virulent" name="Virulent Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10100" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8255" type="weapon" stackType="virulent" name="Virulent Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10101" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8256" type="weapon" stackType="virulent" name="Virulent Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10102" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8257" type="weapon" stackType="virulent" name="Virulent Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10103" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8258" type="weapon" stackType="virulent" name="Virulent Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10104" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8259" type="weapon" stackType="virulent" name="Virulent Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10105" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8260" type="weapon" stackType="virulent" name="Fine Virulent Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10110" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8261" type="weapon" stackType="virulent" name="Fine Virulent Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10111" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8262" type="weapon" stackType="virulent" name="Fine Virulent Hexage" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10112" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8263" type="weapon" stackType="virulent" name="Fine Virulent Penant" itemLevel="35" buyPrice="17383" sellPrice="1655" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10113" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8264" type="weapon" stackType="virulent" name="Fine Virulent Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10114" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8265" type="weapon" stackType="virulent" name="Fine Virulent Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10115" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8718" type="weapon" stackType="virulent" name="Pristine Virulent Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10120" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8719" type="weapon" stackType="virulent" name="Pristine Virulent Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10121" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8720" type="weapon" stackType="virulent" name="Pristine Virulent Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10122" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8721" type="weapon" stackType="virulent" name="Pristine Virulent Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10123" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8722" type="weapon" stackType="virulent" name="Pristine Virulent Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10124" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8723" type="weapon" stackType="virulent" name="Pristine Virulent Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10125" class="-10" critAttack="true" >
+				<target owerturned="true" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<!-- Brutal crystals -->
+	
+	<crystal id="8266" type="weapon" stackType="brutal" name="Brutal Rhomb" noStack="false" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.038" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8267" type="weapon" stackType="brutal" name="Brutal Cabachon" noStack="false" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.045" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8268" type="weapon" stackType="brutal" name="Brutal Hexage" noStack="false" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.053" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8269" type="weapon" stackType="brutal" name="Brutal Penant" noStack="false" itemLevel="35" buyPrice="12825" sellPrice="1226" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.06" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8270" type="weapon" stackType="brutal" name="Brutal Concach" noStack="false" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.068" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8271" type="weapon" stackType="brutal" name="Brutal Crux" noStack="false" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.075" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8272" type="weapon" stackType="brutal" name="Fine Brutal Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.046" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8273" type="weapon" stackType="brutal" name="Fine Brutal Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.056" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8274" type="weapon" stackType="brutal" name="Fine Brutal Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.065" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8275" type="weapon" stackType="brutal" name="Fine Brutal Penant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.074" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8276" type="weapon" stackType="brutal" name="Fine Brutal Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.083" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8277" type="weapon" stackType="brutal" name="Fine Brutal Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.093" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8724" type="weapon" stackType="brutal" name="Pristine Brutal Rhomb" noStack="false" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.042" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8725" type="weapon" stackType="brutal" name="Pristine Brutal Cabachon" noStack="false" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.05" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8726" type="weapon" stackType="brutal" name="Pristine Brutal Hexage" noStack="false" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.059" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8727" type="weapon" stackType="brutal" name="Pristine Brutal Penant" noStack="false" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.067" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8728" type="weapon" stackType="brutal" name="Pristine Brutal Concach" noStack="false" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.075" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8729" type="weapon" stackType="brutal" name="Pristine Brutal Crux" noStack="false" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.084" >
+				<target owerturned="true" />
+			</mul>
+		</funcs>
+	</crystal>
+
+	<!-- Cruel crystals -->
+
+	<crystal id="8278" type="weapon" stackType="cruel" name="Cruel Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10300" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8279" type="weapon" stackType="cruel" name="Cruel Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10301" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8280" type="weapon" stackType="cruel" name="Cruel Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10302" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8281" type="weapon" stackType="cruel" name="Cruel Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10303" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8282" type="weapon" stackType="cruel" name="Cruel Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10304" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8283" type="weapon" stackType="cruel" name="Cruel Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10305" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8284" type="weapon" stackType="cruel" name="Fine Cruel Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10310" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8285" type="weapon" stackType="cruel" name="Fine Cruel Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10311" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8286" type="weapon" stackType="cruel" name="Fine Cruel Hexage" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10312" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8287" type="weapon" stackType="cruel" name="Fine Cruel Penant" itemLevel="35" buyPrice="17383" sellPrice="1655" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10313" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8288" type="weapon" stackType="cruel" name="Fine Cruel Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10314" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8289" type="weapon" stackType="cruel" name="Fine Cruel Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10315" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8730" type="weapon" stackType="cruel" name="Pristine Cruel Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10320" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8731" type="weapon" stackType="cruel" name="Pristine Cruel Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10321" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8732" type="weapon" stackType="cruel" name="Pristine Cruel Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10322" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8733" type="weapon" stackType="cruel" name="Pristine Cruel Penant" itemLevel="35" buyPrice="24525" sellPrice="2452">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10323" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8734" type="weapon" stackType="cruel" name="Pristine Cruel Concach" itemLevel="48" buyPrice="89126" sellPrice="8912">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10324" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8735" type="weapon" stackType="cruel" name="Pristine Cruel Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10325" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+
+	<!-- Forceful crystals -->
+	
+	<crystal id="8290" type="weapon" stackType="forceful" name="Forceful Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10300" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8291" type="weapon" stackType="forceful" name="Forceful Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10301" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8292" type="weapon" stackType="forceful" name="Forceful Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10302" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8293" type="weapon" stackType="forceful" name="Forceful Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10303" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8294" type="weapon" stackType="forceful" name="Forceful Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10304" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8295" type="weapon" stackType="forceful" name="Forceful Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10305" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8296" type="weapon" stackType="forceful" name="Fine Forceful Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10310" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8297" type="weapon" stackType="forceful" name="Fine Forceful Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10311" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8298" type="weapon" stackType="forceful" name="Fine Forceful Hexage" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10312" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8299" type="weapon" stackType="forceful" name="Fine Forceful Penant" itemLevel="35" buyPrice="17383" sellPrice="1655" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10313" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8300" type="weapon" stackType="forceful" name="Fine Forceful Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10314" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8301" type="weapon" stackType="forceful" name="Fine Forceful Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10315" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8736" type="weapon" stackType="forceful" name="Pristine Forceful Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10320" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8737" type="weapon" stackType="forceful" name="Pristine Forceful Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10321" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8738" type="weapon" stackType="forceful" name="Pristine Forceful Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10322" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8739" type="weapon" stackType="forceful" name="Pristine Forceful Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10323" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8740" type="weapon" stackType="forceful" name="Pristine Forceful Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10324" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8741" type="weapon" stackType="forceful" name="Pristine Forceful Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10325" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+
+	<!-- Acrimonious crystals -->
+
+	<crystal id="8302" type="weapon" stackType="acrimonious" name="Acrimonious Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.68" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8303" type="weapon" stackType="acrimonious" name="Acrimonious Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.82" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8304" type="weapon" stackType="acrimonious" name="Acrimonious Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.96" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8305" type="weapon" stackType="acrimonious" name="Acrimonious Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.1" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+		
+	<crystal id="8306" type="weapon" stackType="acrimonious" name="Acrimonious Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.24" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8307" type="weapon" stackType="acrimonious" name="Acrimonious Crux" itemLevel="58" buyPrice="114361" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.38" >
+			    <and>
+					<target npcType="MINION_LEADER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+
+	<!-- Backbiting crystals -->
+	
+	<crystal id="8308" type="weapon" stackType="backbiting" name="Backbiting Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.68" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8309" type="weapon" stackType="backbiting" name="Backbiting Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.82" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8310" type="weapon" stackType="backbiting" name="Backbiting Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.96" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8311" type="weapon" stackType="backbiting" name="Backbiting Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.1" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8312" type="weapon" stackType="backbiting" name="Backbiting Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.24" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8313" type="weapon" stackType="backbiting" name="Backbiting Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.38" >
+			    <and>
+					<target npcType="MONSTER" />
+					<target side="BEHIND" />
+			   </and>
+			</add>
+		</funcs>
+	</crystal>
+	
+	<!-- Savage crystals -->
+	
+	<crystal id="8314" type="weapon" stackType="savage" name="Savage Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.46" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8315" type="weapon" stackType="savage" name="Savage Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.56" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8316" type="weapon" stackType="savage" name="Savage Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.64" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8317" type="weapon" stackType="savage" name="Savage Penant" itemLevel="35" buyPrice="12262" sellprice="1226" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.74" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8318" type="weapon" stackType="savage" name="Savage Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.82" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8319" type="weapon" stackType="savage" name="Savage Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.92" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8320" type="weapon" stackType="savage" name="Fine Savage Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.6" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8321" type="weapon" stackType="savage" name="Fine Savage Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.72" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8322" type="weapon" stackType="savage" name="Fine Savage Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.84" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8323" type="weapon" stackType="savage" name="Fine Savage Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.96" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8324" type="weapon" stackType="savage" name="Fine Savage Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.08" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8325" type="weapon" stackType="savage" name="Fine Savage Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.2" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8742" type="weapon" stackType="savage" name="Pristine Savage Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.54" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8743" type="weapon" stackType="savage" name="Pristine Savage Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.64" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8744" type="weapon" stackType="savage" name="Pristine Savage Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.74" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8745" type="weapon" stackType="savage" name="Pristine Savage Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.86" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8746" type="weapon" stackType="savage" name="Pristine Savage Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.96" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8747" type="weapon" stackType="savage" name="Pristine Savage Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.06" >
+				<target side="BEHIND" />
+			</add>
+		</funcs>
+	</crystal>
+
+	<!-- Hunter's crystals -->
+		
+	<crystal id="8326" type="weapon" stackType="hunters" name="Hunter's Rhomb" noStack="false" itemLevel="1" buyPrice="235" sellPrice="28" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.039" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8327" type="weapon" stackType="hunters" name="Hunter's Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.047" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8328" type="weapon" stackType="hunters" name="Hunter's Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.054" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+		
+	<crystal id="8329" type="weapon" stackType="hunters" name="Hunter's Pentant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.062" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8330" type="weapon" stackType="hunters" name="Hunter's Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.07" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8331" type="weapon" stackType="hunters" name="Hunter's Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.078" >
+				<target npcType="MONSTER" />
+			</mul>
+		</funcs>
+	</crystal>
+
+	<!-- Cunning crystals  -->	
+	
+	<crystal id="8332" type="weapon" stackType="cunning" name="Cunning Rhomb" noStack="false" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="94" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8333" type="weapon" stackType="cunning" name="Cunning Cabachon" noStack="false" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="113" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8334" type="weapon" stackType="cunning" name="Cunning Hexage" noStack="false" itemLevel="23" buyPrice="3979" sellPrice="391" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="131" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8335" type="weapon" stackType="cunning" name="Cunning Penant" noStack="false" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="150" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8336" type="weapon" stackType="cunning" name="Cunning Concach" noStack="false" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="169" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8337" type="weapon" stackType="cunning" name="Cunning Crux" noStack="false" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="188" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8338" type="weapon" stackType="cunning" name="Fine Cunning Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="127" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8339" type="weapon" stackType="cunning" name="Fine Cunning Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="152" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8340" type="weapon" stackType="cunning" name="Fine Cunning Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="177" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8341" type="weapon" stackType="cunning" name="Fine Cunning Penant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="203" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8342" type="weapon" stackType="cunning" name="Fine Cunning Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="228" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8343" type="weapon" stackType="cunning" name="Fine Cunning Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="253" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8748" type="weapon" stackType="cunning" name="Pristine Cunning Rhomb" noStack="false" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="110" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8749" type="weapon" stackType="cunning" name="Pristine Cunning Cabachon" noStack="false" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="132" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8750" type="weapon" stackType="cunning" name="Pristine Cunning Hexage" noStack="false" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="154" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8751" type="weapon" stackType="cunning" name="Pristine Cunning Penant" noStack="false" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="176" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8752" type="weapon" stackType="cunning" name="Pristine Cunning Concach" noStack="false" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="198" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8753" type="weapon" stackType="cunning" name="Pristine Cunning Crux" noStack="false" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<add stat="maxMp" order="0x40" val="220" />
+		</funcs>
+	</crystal>
+
+	<!-- Infused crystals -->	
+	
+	<crystal id="8344" type="weapon" stackType="infused" name="Infused Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10900" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8345" type="weapon" stackType="infused" name="Infused Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10901" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8346" type="weapon" stackType="infused" name="Infused Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10902" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8347" type="weapon" stackType="infused" name="Infused Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10903" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8348" type="weapon" stackType="infused" name="Infused Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10904" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8349" type="weapon" stackType="infused" name="Infused Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10905" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8350" type="weapon" stackType="infused" name="Fine Infused Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10910" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8351" type="weapon" stackType="infused" name="Fine Infused Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10911" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8352" type="weapon" stackType="infused" name="Fine Infused Hexage" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10912" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8353" type="weapon" stackType="infused" name="Fine Infused Penant" itemLevel="35" buyPrice="17383" sellPrice="1655" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10913" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8354" type="weapon" stackType="infused" name="Fine Infused Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10914" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8355" type="weapon" stackType="infused" name="Fine Infused Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10915" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8754" type="weapon" stackType="infused" name="Pristine Infused Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10920" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8755" type="weapon" stackType="infused" name="Pristine Infused Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10921" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8756" type="weapon" stackType="infused" name="Pristine Infused Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10922" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8757" type="weapon" stackType="infused" name="Pristine Infused Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10923" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8758" type="weapon" stackType="infused" name="Pristine Infused Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10924" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8759" type="weapon" stackType="infused" name="Pristine Infused Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10925" class="-10" owerturn="true" />
+		</funcs>
+	</crystal>
+
+	<!-- Glistening crystals -->	
+
+	<crystal id="8356" type="weapon" stackType="glistening" name="Glistening Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10900" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8357" type="weapon" stackType="glistening" name="Glistening Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10901" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8358" type="weapon" stackType="glistening" name="Glistening Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10902" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8359" type="weapon" stackType="glistening" name="Glistening Penant" itemLevel="35" buyPrice="12262" sellPrice="1226">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10903" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8360" type="weapon" stackType="glistening" name="Glistening Concach" itemLevel="48" buyPrice="44563" sellPrice="4456">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10904" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8361" type="weapon" stackType="glistening" name="Glistening Crux" itemLevel="58" buyPrice="80681" sellPrice="8068">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10905" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8362" type="weapon" stackType="glistening" name="Fine Glistening Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10910" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8363" type="weapon" stackType="glistening" name="Fine Glistening Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10911" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8364" type="weapon" stackType="glistening" name="Fine Glistening Hexage" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10912" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8365" type="weapon" stackType="glistening" name="Fine Glistening Penant" itemLevel="35" buyPrice="17383" sellPrice="1655">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10913" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8366" type="weapon" stackType="glistening" name="Fine Glistening Concach" itemLevel="48" buyPrice="60160" sellPrice="6016">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10914" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8367" type="weapon" stackType="glistening" name="Fine Glistening Crux" itemLevel="58" buyPrice="108919" sellPrice="10891">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10915" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8760" type="weapon" stackType="glistening" name="Pristine Glistening Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10920" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8761" type="weapon" stackType="glistening" name="Pristine Glistening Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10921" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8762" type="weapon" stackType="glistening" name="Pristine Glistening Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10922" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8763" type="weapon" stackType="glistening" name="Pristine Glistening Penant" itemLevel="35" buyPrice="24525" sellPrice="2452">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10923" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8764" type="weapon" stackType="glistening" name="Pristine Glistening Concach" itemLevel="48" buyPrice="89126" sellPrice="8912">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10924" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8765" type="weapon" stackType="glistening" name="Pristine Glistening Crux" itemLevel="58" buyPrice="161362" sellPrice="16136">
+		<funcs>
+			<chance name="ApplySkill" chance="100" id="10925" class="-10" critAttack="true" >
+				<target side="BEHIND" />
+			</chance>
+		</funcs>
+	</crystal>
+	
+	<!-- Swift crystals -->	
+		
+	<crystal id="8368" type="weapon" stackType="swift" name="Swift Rhomb" itemLevel="1" buyPrice="194" sellPrice= "19" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="6" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8369" type="weapon" stackType="swift" name="Swift Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="7" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8370" type="weapon" stackType="swift" name="Swift Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="8" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8371" type="weapon" stackType="swift" name="Swift Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="9" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8372" type="weapon" stackType="swift" name="Swift Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="10" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8373" type="weapon" stackType="swift" name="Swift Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="11" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8374" type="weapon" stackType="swift" name="Fine Swift Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="7" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8375" type="weapon" stackType="swift" name="Fine Swift Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="9" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8376" type="weapon" stackType="swift" name="Fine Swift Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="10" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8377" type="weapon" stackType="swift" name="Fine Swift Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="12" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8378" type="weapon" stackType="swift" name="Fine Swift Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="13" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8379" type="weapon" stackType="swift" name="Fine Swift Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="runSpd" order="0x40" val="15" >
+			   <player battle="true" />
+			</add>
+		</funcs>
+	</crystal>
+
+	<!-- Brilliant crystals -->	
+	
+	<crystal id="8380" type="weapon" stackType="brilliant" name="Brilliant Rhomb" noStack="false" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="18" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8381" type="weapon" stackType="brilliant" name="Brilliant Cabachon" noStack="false" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="20" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8382" type="weapon" stackType="brilliant" name="Brilliant Hexage" noStack="false" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="23" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8383" type="weapon" stackType="brilliant" name="Brilliant Penant" noStack="false" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="27" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8384" type="weapon" stackType="brilliant" name="Brilliant Concach" noStack="false" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="29" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8385" type="weapon" stackType="brilliant" name="Brilliant Crux" noStack="false" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="30" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8386" type="weapon" stackType="brilliant" name="Fine Brilliant Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="24" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8387" type="weapon" stackType="brilliant" name="Fine Brilliant Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="830" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="27" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8388" type="weapon" stackType="brilliant" name="Fine Brilliant Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="31" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8389" type="weapon" stackType="brilliant" name="Fine Brilliant Penant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="37" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8390" type="weapon" stackType="brilliant" name="Fine Brilliant Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="39" />
+		</funcs>
+	</crystal>
+		
+	<crystal id="8391" type="weapon" stackType="brilliant" name="Fine Brilliant Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="41" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8766" type="weapon" stackType="brilliant" name="Pristine Brilliant Rhomb" noStack="false" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="21" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8767" type="weapon" stackType="brilliant" name="Pristine Brilliant Cabachon" noStack="false" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="23" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8768" type="weapon" stackType="brilliant" name="Pristine Brilliant Hexage" noStack="false" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="27" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8769" type="weapon" stackType="brilliant" name="Pristine Brilliant Penant" noStack="false" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="32" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8770" type="weapon" stackType="brilliant" name="Pristine Brilliant Concach" noStack="false" itemLevel="48" buyPrice="93582" sellPrice="8212" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="34" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8771" type="weapon" stackType="brilliant" name="Pristine Brilliant Crux" noStack="false" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<task name="ManaHealTask" interval="5000" power="35" />
+		</funcs>
+	</crystal>
+	
+	<!-- Carving crystals -->	
+
+	<crystal id="8530" type="weapon" stackType="carving" name="Carving Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.011" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8531" type="weapon" stackType="carving" name="Carving Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.014" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8532" type="weapon" stackType="carving" name="Carving Hexage" itemLevel="23" buyPrice="3979" sellPrice="396" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.016" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8533" type="weapon" stackType="carving" name="Carving Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.018" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8534" type="weapon" stackType="carving" name="Carving Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.02" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8535" type="weapon" stackType="carving" name="Carving Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.023" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8536" type="weapon" stackType="carving" name="Fine Carving Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.015" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8537" type="weapon" stackType="carving" name="Fine Carving Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.018" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8538" type="weapon" stackType="carving" name="Fine Carving Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.021" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8539" type="weapon" stackType="carving" name="Fine Carving Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.024" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8540" type="weapon" stackType="carving" name="Fine Carving Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.027" />
+		</funcs>
+	</crystal>	
+	
+	<crystal id="8541" type="weapon" stackType="carving" name="Fine Carving Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<mul stat="rCrit" order="0x30" val="1.03" />
+		</funcs>
+	</crystal>	
+	
+	<!-- Salivating crystals -->	
+
+	<crystal id="8542" type="weapon" stackType="salivating" name="Salivating Rhomb" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="30" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+		
+	<crystal id="8543" type="weapon" stackType="salivating" name="Salivating Cabachon" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="36" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8544" type="weapon" stackType="salivating" name="Salivating Hexage" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="42" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8545" type="weapon" stackType="salivating" name="Salivating Penant" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="48" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8546" type="weapon" stackType="salivating" name="Salivating Concach" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="54" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8547" type="weapon" stackType="salivating" name="Salivating Crux" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="60" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8548" type="weapon" stackType="salivating" name="Fine Salivating Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="41" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8549" type="weapon" stackType="salivating" name="Fine Salivating Cabachon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="49" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8550" type="weapon" stackType="salivating" name="Fine Salivating Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="57" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8551" type="weapon" stackType="salivating" name="Fine Salivating Penant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="65" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8552" type="weapon" stackType="salivating" name="Fine Salivating Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="73" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8553" type="weapon" stackType="salivating" name="Fine Salivating Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="81" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8826" type="weapon" stackType="salivating" name="Pristine Salivating Rhomb" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="35" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8827" type="weapon" stackType="salivating" name="Pristine Salivating Cabachon" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="42" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8828" type="weapon" stackType="salivating" name="Pristine Salivating Hexage" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="49" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8829" type="weapon" stackType="salivating" name="Pristine Salivating Penant" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="56" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8830" type="weapon" stackType="salivating" name="Pristine Salivating Concach" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="63" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+	
+	<crystal id="8831" type="weapon" stackType="salivating" name="Pristine Salivating Crux" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<add stat="atkAbsMp" order="0x40" val="71" >
+				<target player="true" />
+			</add>
+		</funcs>
+	</crystal>
+
+	<!-- Threatening crystals -->	
+		
+	<crystal id="8566" type="weapon" stackType="threatening" name="Threatening Rhomb" noStack="false" itemLevel="1" buyPrice="194" sellPrice="19" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.04" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8567" type="weapon" stackType="threatening" name="Threatening Cabachon" noStack="false" itemLevel="11" buyPrice="615" sellPrice="61" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.05" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8568" type="weapon" stackType="threatening" name="Threatening Hexage" noStack="false" itemLevel="23" buyPrice="3979" sellPrice="397" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.06" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8569" type="weapon" stackType="threatening" name="Threatening Penant" noStack="false" itemLevel="35" buyPrice="12262" sellPrice="1226" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.07" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8570" type="weapon" stackType="threatening" name="Threatening Concach" noStack="false" itemLevel="48" buyPrice="44563" sellPrice="4456" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.08" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8571" type="weapon" stackType="threatening" name="Threatening Crux" noStack="false" itemLevel="58" buyPrice="80681" sellPrice="8068" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.09" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8572" type="weapon" stackType="threatening" name="Fine Threatening Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.1" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8573" type="weapon" stackType="threatening" name="Fine Threatening Cabachon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.11" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8574" type="weapon" stackType="threatening" name="Fine Threatening Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="573" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.12" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8575" type="weapon" stackType="threatening" name="Fine Threatening Penant" noStack="false" itemLevel="35" buyPrice="17383" sellPrice="1655" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.13" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8576" type="weapon" stackType="threatening" name="Fine Threatening Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.14" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8577" type="weapon" stackType="threatening" name="Fine Threatening Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.15" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8838" type="weapon" stackType="threatening" name="Pristine Threatening Rhomb" noStack="false" itemLevel="1" buyPrice="388" sellPrice="38" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.065" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8839" type="weapon" stackType="threatening" name="Pristine Threatening Cabachon" noStack="false" itemLevel="11" buyPrice="1230" sellPrice="123" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.075" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8840" type="weapon" stackType="threatening" name="Pristine Threatening Hexage" noStack="false" itemLevel="23" buyPrice="7958" sellPrice="795" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.085" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8841" type="weapon" stackType="threatening" name="Pristine Threatening Penant" noStack="false" itemLevel="35" buyPrice="24525" sellPrice="2452" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.095" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8842" type="weapon" stackType="threatening" name="Pristine Threatening Concach" noStack="false" itemLevel="48" buyPrice="89126" sellPrice="8912" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.105" />
+		</funcs>
+	</crystal>
+	
+	<crystal id="8843" type="weapon" stackType="threatening" name="Pristine Threatening Crux" noStack="false" itemLevel="58" buyPrice="161362" sellPrice="16136" >
+		<funcs>
+			<mul stat="agrMod" order="0x30" val="1.115" />
+		</funcs>
+	</crystal>
+		
+	<!-- Squelching crystals -->
+	
+	<crystal id="8224" type="weapon" stackType="squelching" name="Squelching Rhomb" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.72" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>	
+	
+	<crystal id="8225" type="weapon" stackType="squelching" name="Squelching Cabochon" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="0.88" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>	
+	
+	<crystal id="8226" type="weapon" stackType="squelching" name="Squelching Hexage" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.02" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>	
+	
+	<crystal id="8227" type="weapon" stackType="squelching" name="Squelching Pentant" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.16" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>		
+	
+	<crystal id="8228" type="weapon" stackType="squelching" name="Squelching Concach" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.32" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>		
+	
+	<crystal id="8229" type="weapon" stackType="squelching" name="Squelching Crux" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<add stat="cAtk" order="0x40" val="1.46" >
+				<target npcType="MINION" />
+			</add>
+		</funcs>
+	</crystal>	
+
+	<!-- Domineering crystals -->
+	
+	<crystal id="8230" type="weapon" stackType="domineering" name="Domineering Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.04" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>		
+	</crystal>	
+	
+	<crystal id="8231" type="weapon" stackType="domineering" name="Domineering Cabochon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.05" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>	
+	</crystal>	
+	
+	<crystal id="8232" type="weapon" stackType="domineering" name="Domineering Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.06" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>	
+	</crystal>	
+	
+	<crystal id="8233" type="weapon" stackType="domineering" name="Domineering Pentant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.07" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>	
+	</crystal>		
+	
+	<crystal id="8234" type="weapon" stackType="domineering" name="Domineering Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.08" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>	
+	</crystal>		
+	
+	<crystal id="8235" type="weapon" stackType="domineering" name="Domineering Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.09" >
+				<target npcType="MINION" />
+			</mul>
+		</funcs>	
+	</crystal>	
+
+	<!-- Mutinous crystals -->
+	
+	<crystal id="8236" type="weapon" stackType="mutinous" name="Mutinous Rhomb" noStack="false" itemLevel="1" buyPrice="262" sellPrice="26" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.039" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>		
+	</crystal>	
+	
+	<crystal id="8237" type="weapon" stackType="mutinous" name="Mutinous Cabochon" noStack="false" itemLevel="11" buyPrice="830" sellPrice="83" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.047" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>	
+	</crystal>	
+	
+	<crystal id="8238" type="weapon" stackType="mutinous" name="Mutinous Hexage" noStack="false" itemLevel="23" buyPrice="5372" sellPrice="537" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.054" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>	
+	</crystal>	
+	
+	<crystal id="8239" type="weapon" stackType="mutinous" name="Mutinous Pentant" noStack="false" itemLevel="35" buyPrice="16554" sellPrice="1655" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.062" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>	
+	</crystal>		
+	
+	<crystal id="8240" type="weapon" stackType="mutinous" name="Mutinous Concach" noStack="false" itemLevel="48" buyPrice="60160" sellPrice="6016" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.07" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>	
+	</crystal>		
+	
+	<crystal id="8241" type="weapon" stackType="mutinous" name="Mutinous Crux" noStack="false" itemLevel="58" buyPrice="108919" sellPrice="10891" >
+		<funcs>
+			<mul stat="atk" order="0x30" val="1.078" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>	
+	</crystal>	
+
+</list>

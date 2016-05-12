@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<config name="Khuljarak" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время потрулирования -->
+			<interval state="PATROL" val="4000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="250" />
+			<!-- определяем скорость во время ярости -->
+			<interval state="IN_RAGE" val="250" />
+			<!-- определяем скорость во время убегания -->
+			<interval state="IN_RUN_AWAY" val="750" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="150" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="25000" />
+				<!-- определяем радиус обращения внимания -->
+				<set name="noticeRange" val="300" />
+			</task>
+			
+			<task state="PATROL" factory="DefaultPatrolTaskFactory" />
+			<task state="RETURN_TO_HOME" factory="DefaultReturnTaskFactory" />
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="100" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование уклоняющего скила -->
+				<set name="JUMP" val="100" />
+			</task>
+			
+			<task state="IN_RAGE" factory="DefaultRageTaskFactory" />
+			
+			<!-- определяем фабрику заданий по убеганию -->
+			<task state="IN_RUN_AWAY" factory="DefaultRunAwayTaskFactory" />
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="DefaultWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="30000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="120000" />
+			</think>
+			
+			<think state="PATROL" action="DefaultPatrolAction" />
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="DefaultReturnAction" >
+				<!-- определям, какое максимальное расстояние от точки спавна, является местом респа -->
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="4000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="3000" />
+				<!-- ближнее расстояние -->
+				<set name="shortRange" val="300" />
+				<!-- уровень критического ХП -->
+				<set name="criticalHp" val="30" />
+				<!-- шанс перехода в режим ярости -->
+				<set name="rearRate" val="0" />
+				<!-- шанс перехода в режим сбегания -->
+				<set name="runAwayRate" val="0" />
+			</think>
+			
+			<think state="IN_RAGE" action="DefaultRageAction" />
+			<!-- определяем генератор действий для режим убегания от врагов -->
+			<think state="IN_RUN_AWAY" action="DefaultRunAwayAction" />
+		</thinks>
+	</config>
+	
+	<config name="Baracos" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время потрулирования -->
+			<interval state="PATROL" val="4000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="250" />
+			<!-- определяем скорость во время ярости -->
+			<interval state="IN_RAGE" val="250" />
+			<!-- определяем скорость во время убегания -->
+			<interval state="IN_RUN_AWAY" val="750" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="150" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="25000" />
+				<!-- определяем радиус обращения внимания -->
+				<set name="noticeRange" val="300" />
+			</task>
+			
+			<task state="PATROL" factory="DefaultPatrolTaskFactory" />
+			<task state="RETURN_TO_HOME" factory="DefaultReturnTaskFactory" />
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="100" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование уклоняющего скила -->
+				<set name="JUMP" val="100" />
+			</task>
+			
+			<task state="IN_RAGE" factory="DefaultRageTaskFactory" />
+			
+			<!-- определяем фабрику заданий по убеганию -->
+			<task state="IN_RUN_AWAY" factory="DefaultRunAwayTaskFactory" />
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="DefaultWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="30000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="120000" />
+			</think>
+			
+			<think state="PATROL" action="DefaultPatrolAction" />
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="DefaultReturnAction" >
+				<!-- определям, какое максимальное расстояние от точки спавна, является местом респа -->
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="4000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="3000" />
+				<!-- ближнее расстояние -->
+				<set name="shortRange" val="300" />
+				<!-- уровень критического ХП -->
+				<set name="criticalHp" val="30" />
+				<!-- шанс перехода в режим ярости -->
+				<set name="rearRate" val="0" />
+				<!-- шанс перехода в режим сбегания -->
+				<set name="runAwayRate" val="0" />
+			</think>
+			
+			<think state="IN_RAGE" action="DefaultRageAction" />
+			<!-- определяем генератор действий для режим убегания от врагов -->
+			<think state="IN_RUN_AWAY" action="DefaultRunAwayAction" />
+		</thinks>
+	</config>
+	
+	<config name="NightmareAuricadis" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время потрулирования -->
+			<interval state="PATROL" val="4000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="250" />
+			<!-- определяем скорость во время ярости -->
+			<interval state="IN_RAGE" val="250" />
+			<!-- определяем скорость во время убегания -->
+			<interval state="IN_RUN_AWAY" val="750" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="DefaultWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="150" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="25000" />
+				<!-- определяем радиус обращения внимания -->
+				<set name="noticeRange" val="300" />
+			</task>
+			
+			<task state="PATROL" factory="DefaultPatrolTaskFactory" />
+			<task state="RETURN_TO_HOME" factory="DefaultReturnTaskFactory" />
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="DefaultBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="100" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование уклоняющего скила -->
+				<set name="JUMP" val="100" />
+			</task>
+			
+			<task state="IN_RAGE" factory="DefaultRageTaskFactory" />
+			
+			<!-- определяем фабрику заданий по убеганию -->
+			<task state="IN_RUN_AWAY" factory="DefaultRunAwayTaskFactory" />
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="DefaultWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="250" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="30000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="120000" />
+			</think>
+			
+			<think state="PATROL" action="DefaultPatrolAction" />
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="DefaultReturnAction" >
+				<!-- определям, какое максимальное расстояние от точки спавна, является местом респа -->
+				<set name="distanceToSpawnLoc" val="40" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="DefaultBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="4000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="3000" />
+				<!-- ближнее расстояние -->
+				<set name="shortRange" val="300" />
+				<!-- уровень критического ХП -->
+				<set name="criticalHp" val="30" />
+				<!-- шанс перехода в режим ярости -->
+				<set name="rearRate" val="0" />
+				<!-- шанс перехода в режим сбегания -->
+				<set name="runAwayRate" val="0" />
+			</think>
+			
+			<think state="IN_RAGE" action="DefaultRageAction" />
+			<!-- определяем генератор действий для режим убегания от врагов -->
+			<think state="IN_RUN_AWAY" action="DefaultRunAwayAction" />
+		</thinks>
+	</config>
+</list>
+
+
+<!-- 
+/** в ожидании чего-то */
+	WAIT(null, null),
+	/** в патрулировании местности */
+	PATROL(null, null),
+	/** в возвращении на точку респа */
+	RETURN_TO_HOME(null, null),
+	/** в бою */
+	IN_BATTLE(null, null),
+	/** в ярости */
+	IN_RAGE(null, null),
+	/** убегает от противника */
+	IN_RUN_AWAY(null, null);
+	-->

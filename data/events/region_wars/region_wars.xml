@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- String date = new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new java.util.Date (unix время*1000)); 
+		 long epoch = new java.text.SimpleDateFormat ("dd/MM/yyyy HH:mm:ss").parse("01/01/1970 01:00:00") -->
+	
+	<!-- настройки региона -->
+	<region id="400" name="Veritas District" regionId="1_15_177@7015" tax="15" interval="168" battleTime="120" startTime="09.06.2013 16:00:00" >
+		<!-- положительные бонусы -->
+		<!-- positive>
+			<mul stat="atk" order="0x30" val="1.05" />
+			<mul stat="def" order="0x30" val="1.05" />
+			<mul stat="atkSpd" order="0x30" val="1.05" />
+			<mul stat="maxHp" order="0x30" val="1.05" />
+			<mul stat="maxMp" order="0x30" val="1.05" />
+			<mul stat="impact" order="0x30" val="1.05" />
+			<mul stat="balance" order="0x30" val="1.05" />
+			<mul stat="cAtk" order="0x30" val="1.05" />
+			<mul stat="rCrit" order="0x30" val="1.05" />
+			<mul stat="critChanceRcpt" order="0x30" val="1.05" />
+			<mul stat="powerFactor" order="0x30" val="1.05" />
+			<mul stat="defenseFactor" order="0x30" val="1.05" />
+			<mul stat="impactFactor" order="0x30" val="1.05" />
+			<mul stat="balanceFactor" order="0x30" val="1.05" />
+		</positive>
+		
+		
+		<negative>
+			<mul stat="atk" order="0x30" val="0.95" />
+			<mul stat="def" order="0x30" val="0.95" />
+			<mul stat="atkSpd" order="0x30" val="0.95" />
+			<mul stat="maxHp" order="0x30" val="0.95" />
+			<mul stat="maxMp" order="0x30" val="0.95" />
+			<mul stat="impact" order="0x30" val="0.95" />
+			<mul stat="balance" order="0x30" val="0.95" />
+			<mul stat="cAtk" order="0x30" val="0.95" />
+			<mul stat="rCrit" order="0x30" val="0.95" />
+			<mul stat="critChanceRcpt" order="0x30" val="0.95" />
+			<mul stat="powerFactor" order="0x30" val="0.95" />
+			<mul stat="defenseFactor" order="0x30" val="0.95" />
+			<mul stat="impactFactor" order="0x30" val="0.95" />
+			<mul stat="balanceFactor" order="0x30" val="0.95" />
+		</negative -->
+		
+		<!-- спавны связанные с осадой -->
+		<spawns>
+			<spawn name="defense" filepath="/data/events/region_wars/bastion_defense_spawn.xml" />
+			<spawn name="control" filepath="/data/events/region_wars/bastion_control_spawn.xml" />
+			<spawn name="manager" filepath="/data/events/region_wars/bastion_manager_spawn.xml" />
+			<spawn name="barriers" filepath="/data/events/region_wars/bastion_barriers_spawn.xml" />
+			<spawn name="shops" filepath="/data/events/region_wars/bastion_shops_spawn.xml" />
+		</spawns>
+	</region>
+	
+	<!-- настройки региона -->
+	<region id="401" name="Ostgarath" regionId="1_6_56@7004@" tax="15" interval="168" battleTime="120" startTime="09.06.2013 16:00:00" >
+		<!-- положительные бонусы -->
+		<!-- positive>
+			<mul stat="atk" order="0x30" val="1.05" />
+			<mul stat="def" order="0x30" val="1.05" />
+			<mul stat="atkSpd" order="0x30" val="1.05" />
+			<mul stat="maxHp" order="0x30" val="1.05" />
+			<mul stat="maxMp" order="0x30" val="1.05" />
+			<mul stat="impact" order="0x30" val="1.05" />
+			<mul stat="balance" order="0x30" val="1.05" />
+			<mul stat="cAtk" order="0x30" val="1.05" />
+			<mul stat="rCrit" order="0x30" val="1.05" />
+			<mul stat="critChanceRcpt" order="0x30" val="1.05" />
+			<mul stat="powerFactor" order="0x30" val="1.05" />
+			<mul stat="defenseFactor" order="0x30" val="1.05" />
+			<mul stat="impactFactor" order="0x30" val="1.05" />
+			<mul stat="balanceFactor" order="0x30" val="1.05" />
+		</positive>
+		
+		<negative>
+			<mul stat="atk" order="0x30" val="0.95" />
+			<mul stat="def" order="0x30" val="0.95" />
+			<mul stat="atkSpd" order="0x30" val="0.95" />
+			<mul stat="maxHp" order="0x30" val="0.95" />
+			<mul stat="maxMp" order="0x30" val="0.95" />
+			<mul stat="impact" order="0x30" val="0.95" />
+			<mul stat="balance" order="0x30" val="0.95" />
+			<mul stat="cAtk" order="0x30" val="0.95" />
+			<mul stat="rCrit" order="0x30" val="0.95" />
+			<mul stat="critChanceRcpt" order="0x30" val="0.95" />
+			<mul stat="powerFactor" order="0x30" val="0.95" />
+			<mul stat="defenseFactor" order="0x30" val="0.95" />
+			<mul stat="impactFactor" order="0x30" val="0.95" />
+			<mul stat="balanceFactor" order="0x30" val="0.95" />
+		</negative -->
+		
+		<!--  спавны связанные с осадой -->
+		<spawns>
+			<spawn name="defense" filepath="/data/events/region_wars/ostgarath_defense_spawn.xml" />
+			<spawn name="control" filepath="/data/events/region_wars/ostgarath_control_spawn.xml" />
+			<spawn name="manager" filepath="/data/events/region_wars/ostgarath_manager_spawn.xml" />
+			<spawn name="barriers" filepath="/data/events/region_wars/ostgarath_barriers_spawn.xml" />
+			<spawn name="shops" filepath="/data/events/region_wars/ostgarath_shops_spawn.xml" />
+		</spawns>
+	</region>
+	
+	<!-- настройки региона -->
+	<region id="402" name="Val Palrada" regionId="1_14_156@7013@" tax="15" interval="168" battleTime="120" startTime="08.06.2013 20:00:00" >
+		<!-- положительные бонусы -->
+		<!-- positive>
+			<mul stat="atk" order="0x30" val="1.05" />
+			<mul stat="def" order="0x30" val="1.05" />
+			<mul stat="atkSpd" order="0x30" val="1.05" />
+			<mul stat="maxHp" order="0x30" val="1.05" />
+			<mul stat="maxMp" order="0x30" val="1.05" />
+			<mul stat="impact" order="0x30" val="1.05" />
+			<mul stat="balance" order="0x30" val="1.05" />
+			<mul stat="cAtk" order="0x30" val="1.05" />
+			<mul stat="rCrit" order="0x30" val="1.05" />
+			<mul stat="critChanceRcpt" order="0x30" val="1.05" />
+			<mul stat="powerFactor" order="0x30" val="1.05" />
+			<mul stat="defenseFactor" order="0x30" val="1.05" />
+			<mul stat="impactFactor" order="0x30" val="1.05" />
+			<mul stat="balanceFactor" order="0x30" val="1.05" />
+		</positive>
+		
+		
+		<negative>
+			<mul stat="atk" order="0x30" val="0.95" />
+			<mul stat="def" order="0x30" val="0.95" />
+			<mul stat="atkSpd" order="0x30" val="0.95" />
+			<mul stat="maxHp" order="0x30" val="0.95" />
+			<mul stat="maxMp" order="0x30" val="0.95" />
+			<mul stat="impact" order="0x30" val="0.95" />
+			<mul stat="balance" order="0x30" val="0.95" />
+			<mul stat="cAtk" order="0x30" val="0.95" />
+			<mul stat="rCrit" order="0x30" val="0.95" />
+			<mul stat="critChanceRcpt" order="0x30" val="0.95" />
+			<mul stat="powerFactor" order="0x30" val="0.95" />
+			<mul stat="defenseFactor" order="0x30" val="0.95" />
+			<mul stat="impactFactor" order="0x30" val="0.95" />
+			<mul stat="balanceFactor" order="0x30" val="0.95" />
+		</negative -->
+		
+		<!--  спавны связанные с осадой -->
+		<spawns>
+			<spawn name="defense" filepath="/data/events/region_wars/val_palrada_defense_spawn.xml" />
+			<spawn name="control" filepath="/data/events/region_wars/val_palrada_control_spawn.xml" />
+			<spawn name="manager" filepath="/data/events/region_wars/val_palrada_manager_spawn.xml" />
+			<spawn name="barriers" filepath="/data/events/region_wars/val_palrada_barriers_spawn.xml" />
+			<spawn name="shops" filepath="/data/events/region_wars/val_palrada_shops_spawn.xml" />
+		</spawns>
+	</region>
+	
+	<!-- настройки региона -->
+	<region id="403" name="Val Aureum" regionId="1_5_48@7003@" tax="15" interval="168" battleTime="120" startTime="08.06.2013 20:00:00" >
+		<!-- положительные бонусы -->
+		<!-- positive>
+			<mul stat="atk" order="0x30" val="1.05" />
+			<mul stat="def" order="0x30" val="1.05" />
+			<mul stat="atkSpd" order="0x30" val="1.05" />
+			<mul stat="maxHp" order="0x30" val="1.05" />
+			<mul stat="maxMp" order="0x30" val="1.05" />
+			<mul stat="impact" order="0x30" val="1.05" />
+			<mul stat="balance" order="0x30" val="1.05" />
+			<mul stat="cAtk" order="0x30" val="1.05" />
+			<mul stat="rCrit" order="0x30" val="1.05" />
+			<mul stat="critChanceRcpt" order="0x30" val="1.05" />
+			<mul stat="powerFactor" order="0x30" val="1.05" />
+			<mul stat="defenseFactor" order="0x30" val="1.05" />
+			<mul stat="impactFactor" order="0x30" val="1.05" />
+			<mul stat="balanceFactor" order="0x30" val="1.05" />
+		</positive>
+		
+		<negative>
+			<mul stat="atk" order="0x30" val="0.95" />
+			<mul stat="def" order="0x30" val="0.95" />
+			<mul stat="atkSpd" order="0x30" val="0.95" />
+			<mul stat="maxHp" order="0x30" val="0.95" />
+			<mul stat="maxMp" order="0x30" val="0.95" />
+			<mul stat="impact" order="0x30" val="0.95" />
+			<mul stat="balance" order="0x30" val="0.95" />
+			<mul stat="cAtk" order="0x30" val="0.95" />
+			<mul stat="rCrit" order="0x30" val="0.95" />
+			<mul stat="critChanceRcpt" order="0x30" val="0.95" />
+			<mul stat="powerFactor" order="0x30" val="0.95" />
+			<mul stat="defenseFactor" order="0x30" val="0.95" />
+			<mul stat="impactFactor" order="0x30" val="0.95" />
+			<mul stat="balanceFactor" order="0x30" val="0.95" />
+		</negative -->
+		
+		<!--  спавны связанные с осадой -->
+		<spawns>
+			<spawn name="defense" filepath="/data/events/region_wars/val_aureum_defense_spawn.xml" />
+			<spawn name="control" filepath="/data/events/region_wars/val_aureum_control_spawn.xml" />
+			<spawn name="manager" filepath="/data/events/region_wars/val_aureum_manager_spawn.xml" />
+			<spawn name="barriers" filepath="/data/events/region_wars/val_aureum_barriers_spawn.xml" />
+			<spawn name="shops" filepath="/data/events/region_wars/val_aureum_shops_spawn.xml" />
+		</spawns>
+	</region>
+</list>

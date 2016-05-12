@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- вывод дебаг инфы о пересылке клиент пакетов -->
+	<set name="DEVELOPER_DEBUG_CLIENT_PACKETS" value="false" />
+	<!-- вывод дебаг инфы о пересылке серверных пакетов -->
+	<set name="DEVELOPER_DEBUG_SERVER_PACKETS" value="false" />
+	<!-- вывод общей дебаг инфы -->
+	<set name="DEVELOPER_MAIN_DEBUG" value="false" />
+	<!-- вывод дебаг инфы связанной с таргетами скилов -->
+	<set name="DEVELOPER_DEBUG_TARGET_TYPE" value="false" />
+	
+	<!-- вывод дебага связанного с кастом скилов -->
+	<set name="DEVELOPER_DEBUG_CASTING_SKILL" value="false" />
+	<!-- вывод дебага связанного с перемещением игрока -->
+	<set name="DEVELOPER_DEBUG_MOVING_PLAYER" value="false" />
+	<!-- вывод дебага связанного с перемещением нпс -->
+	<set name="DEVELOPER_DEBUG_MOVING_NPC" value="false" />
+	<!-- логгирование перемещения игроков -->
+	<set name="DEVELOPER_GEO_LOGING" value="false" />
+	
+	<!-- установить принудительную скорость атаки всех персонажей(0 - выключено) -->
+	<set name="DEVELOPER_FORCE_ATTACK_SPEED" value="0" />
+</list>

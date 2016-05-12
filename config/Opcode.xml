@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!--  21.08.2012  18.16 -->
+	<protocol port="7803" class="DefaultProtocol" name="Opcode">		
+		<packet id="0x4DBD" class="SERVER_PACKET" name="AUTH_ATTEMPT" visible="true"/><!-- 1 -->	
+		<packet id="0x1111" class="SERVER_PACKET" name="AUTH_FAILED" visible="true"/><!-- 1 -->
+		<packet id="0xC2DD" class="SERVER_PACKET" name="AUTH_SUCCESFUL" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0x8F86" class="SERVER_PACKET" name="AUTH_SUCCESFUL_2" visible="true"><!-- 1 -->
+				<!-- 01 00 02 00 -->
+		</packet>
+		<packet id="0xB85C" class="SERVER_PACKET" name="PLAYER_LIST" visible="true"><!-- 1 -->
+		
+		</packet>
+
+		<packet id="0xC3A5" class="SERVER_PACKET" name="PLAYER_NAME_RESULT" visible="true"><!-- 1 -->
+				<!-- 01 -->
+		</packet>
+		<packet id="0xBA06" class="SERVER_PACKET" name="RESULT_CHECK_NAME" visible="true"><!-- 1 -->
+				<!-- 28 00 0C 8D 01 00 08 00 08 00 00 00 16 00 01 00 -->
+		</packet>
+		<packet id="0xF759" class="SERVER_PACKET" name="PLAYER_CREATE_RESULT" visible="true"><!-- 1 -->
+			<!-- 01 -->
+		</packet>
+		<packet id="0xBB1B" class="SERVER_PACKET" name="PLAYER_DELETE_RESULT" visible="true"><!-- 1 -->
+			<!-- 01 -->
+		</packet>
+		
+		<packet id="0xAB0E" class="SERVER_PACKET" name="PLAYER_SELECTED" visible="true"><!-- 1 -->
+				<!-- 01 00 00 00  00 00 00 00  -->
+		</packet>
+		<packet id="0xA332" class="SERVER_PACKET" name="PLAYER_ENTERED" visible="true"><!-- 1 -->
+			<!-- AF 00 B9 00 -->
+		</packet>
+		<packet id="0xEFCD" class="SERVER_PACKET" name="PLAYER_INVENTORY" visible="true"><!-- 1 -->
+			<!-- 06 00 1F 00 -->
+		</packet>
+		<packet id="0xAACA" class="SERVER_PACKET" name="PLAYER_SKILL_LIST" visible="true"><!-- 1 -->
+			<!-- 06 00 08 00 -->
+		</packet>
+		<packet id="0x9E84" class="SERVER_PACKET" name="TEST_2" /><!-- 1 -->
+		<packet id="0xABC0" class="SERVER_PACKET" name="STRUCTURE" visible="true"><!-- 1 -->
+			<!-- 06 00 19 00 00 00 00 00 -->
+		</packet>
+		<packet id="0xFF85" class="SERVER_PACKET" name="FF_STRUCTURE" visible="true"><!-- 1 -->
+			<!-- 05 00 16 00 01 00 FFFFFF -->
+		</packet>
+		<packet id="0x7400" class="SERVER_PACKET" name="TEST_4" /><!-- 1 -->
+		<packet id="0xA9E9" class="SERVER_PACKET" name="TEST_5" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00  00 00 00 00 -->
+		</packet>
+		<packet id="0x581D" class="SERVER_PACKET" name="TEST_6" visible="true"><!-- 1 -->
+			<!-- 00 00 48 43 -->
+		</packet> 
+		<packet id="0x7073" class="SERVER_PACKET" name="TEST_7" visible="true"><!-- 1 -->
+			<!-- 06 00 00 00 -->
+		</packet>
+		<packet id="0x76A7" class="SERVER_PACKET" name="WORLD_ZONE" visible="true"><!-- 1 -->
+			<!-- 0D 00 00 00 80 47 82 47 00 2A 8E C7 -->
+		</packet> 
+		<packet id="0xBDF0" class="SERVER_PACKET" name="TEST_23" visible="true"><!-- 1 -->
+			<!--  00 00 00 00 -->
+		</packet>	
+		<packet id="0x59EF" class="SERVER_PACKET" name="SETTINGS" visible="true"><!-- 1 -->
+			<!-- КУча -->
+		</packet>
+		<packet id="0x9DD1" class="SERVER_PACKET" name="HOT_KEY" visible="true"><!-- 1 -->
+			<!-- КУЧА -->
+		</packet>
+
+		
+		
+		<packet id="0x5AE6" class="SERVER_PACKET" name="TEST_29" visible="true"><!-- 1 -->
+			<!-- 02 00 08 00 08 00 18 00 01 00 00 00  -->
+		</packet>  
+		<packet id="0xD342" class="SERVER_PACKET" name="TEST_24" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00 -->
+		</packet>
+		<packet id="0xF2DC" class="SERVER_PACKET" name="TEST_25" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00 -->
+		</packet>
+		<packet id="0xB6EF" class="SERVER_PACKET" name="TEST_26" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00 -->
+		</packet>
+		<packet id="0x6C95" class="SERVER_PACKET" name="TEST_30" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00 00 00 00 00 -->
+		</packet>
+		<packet id="0xE784" class="SERVER_PACKET" name="TEST_27" visible="true"><!-- 1 -->
+			<!-- 00 00 00 00 00 00 00 00   -->
+		</packet> 
+		<packet id="0xA6EE" class="SERVER_PACKET" name="CHAR_SPAWN" visible="true"><!-- 1 -->
+			<!-- 0F 13 B5 03 00 80 00 0B -->
+		</packet>
+		<packet id="0xBB75" class="SERVER_PACKET" name="TEST_35" visible="true"><!-- 1 -->
+			<!-- 15 00 02 88-FF FF FF 7F ** -->
+		</packet>	
+		<packet id="0xBDD2" class="SERVER_PACKET" name="USER_INFO" visible="false"><!-- 1 -->
+			<!-- C7 00 C2 06 00 00 - 78 00 00 00   -->
+		</packet>  
+		<packet id="0x1111" class="SERVER_PACKET" name="TEST_32" visible="true"><!-- 0 -->
+			<!-- ID 00  -->
+		</packet>	   
+		<packet id="0xB542" class="SERVER_PACKET" name="REQUEST_CHECKING_SERVER" visible="true"><!-- 1 -->
+			<!-- 08 00 67 BB 01 00 00 00 -->
+		</packet>
+	
+		<packet id="0x9DDB" class="SERVER_PACKET" name="GUILD_MEMBERS" visible="true"><!-- 1 -->
+			<!-- 06 00 08 00 -->
+		</packet>	
+		<packet id="0xD08C" class="SERVER_PACKET" name="GUILD_INFO" visible="true"><!-- 1 -->
+			<!-- 06 00 08 00 -->
+		</packet>
+		
+		<packet id="0x6039" class="SERVER_PACKET" name="SAY" visible="false"><!-- 1 -->
+		</packet>
+		<packet id="0x555B" class="SERVER_PACKET" name="LFG_CHAT" visible="false"><!-- 1 -->		
+		</packet> 
+    	<packet id="0x8FC5" class="SERVER_PACKET" name="CHAR_MOVE" visible="false"><!-- 1 -->
+			<field type="DS" name="objectId" />
+			<field type="DS" name="subId" />
+			<field type="FS" name="startX" />
+			<field type="FS" name="startY" />
+			<field type="FS" name="startZ" />
+			<field type="HS" name="heading" />
+			<field type="HS" name="speed" />
+			<field type="FS" name="targetX" />
+			<field type="FS" name="targetY" />
+			<field type="FS" name="targetZ" />
+			<field type="C" name="type" />	
+			</packet>    
+		<packet id="0xA404" class="SERVER_PACKET" name="PLAYER_MOVE" visible="false"><!-- 1 -->		
+		</packet> 
+		<packet id="0x0A44" class="SERVER_PACKET" name="PLAYER_MOVE2" visible="false"><!-- 1 -->		
+		</packet> 		
+		
+		<packet id="0x9AFA" class="SERVER_PACKET" name="DELETE_OBJECT" visible="false"><!-- 1 -->
+			<!-- 20 00 63 D7 2D 98 00 00 00 80 0B 00 57 54 B7 47 -->	
+		</packet>
+		<packet id="0x5EC6" class="SERVER_PACKET" name="CHAR_BATTLE_STATE" visible="false"><!-- 1 -->
+			<!-- 11 00 95 6B 0D 60 0C 00 00 80 00 01 01 00 00 00 00 -->
+		</packet>
+		<packet id="0xCB6F" class="SERVER_PACKET" name="CHAR_BATTLE_STATE2" visible="true"><!-- 1 -->
+			<!-- 10 00 6F CB 88 66 0D 00 00 80 00 01 01 00 00 00  -->
+		</packet>
+		<packet id="0x559F" class="SERVER_PACKET" name="CHAR_ACTION??" visible="false"><!-- 1 -->
+			<!-- 10 00 9F 55 9C 45 0D 00 00 80 00 01 01 00 00 00   -->
+		</packet>			
+		<packet id="0xD1ED" class="SERVER_PACKET" name="CHAR_TURN" visible="false"><!-- 1 -->
+			<!-- 12 00 26 B7 94 DD 0A 00 00 80 0B 00 3A 81 A9 07 поворот -->
+		</packet>
+		<packet id="0xB87B" class="SERVER_PACKET" name="PLAYER_INFO" visible="true"><!-- 1 -->
+			<!-- 93 00 9F 00 A1 00 A3 00 -->
+		</packet>  
+		<packet id="0xB4D2" class="SERVER_PACKET" name="PLAYER_CURRENT_HP" visible="false"><!-- 1 -->
+			<!-- 24 00 5А 15 7F 0C 00 00 7F 0C 00 00 20 00 00 00   -->
+		</packet>
+		<packet id="0xA28A" class="SERVER_PACKET" name="PLAYER_CURRENT_MP" visible="false"><!-- 1 -->
+			<!-- 24 00 53 B0 02 0B 00 00 7F 0C 00 00 20 00 00 00  -->
+		</packet>
+		<packet id="0x871A" class="SERVER_PACKET" name="PLAYER_EXP" visible="true"><!-- 1 -->
+			<!-- 44 00 5F 9D 83 00 00 00 00 00 00 00 48 01 00 00 -->
+		</packet>
+		<packet id="0xAD90" class="SERVER_PACKET" name="PLAYER_INCREASE_LEVEL" visible="true"><!-- 1 -->
+			<!-- 10 00 DE D7 0D 60 0C 00 00 80 00 01 02 00 00 00 -->
+		</packet> 
+      	<packet id="0xFA9E" class="SERVER_PACKET" name="CHAR_DEAD" visible="true"><!-- 1 -->
+			<!-- 1B 00 9E FA 26 6A 0D 00 00 80 00 01 6F 22 A7 47   -->
+		</packet>
+		<packet id="0xF329" class="SERVER_PACKET" name="PLAYER_DEAD_WINDOW" visible="true"><!-- 1 -->
+			<!-- 12 00 29 F3 1E 00 00 00 E6 32 00 00 00 00 00 00 00 00  -->
+		</packet>
+		
+    
+   
+    
+   
+	
+		<packet id="0xBCAA" class="SERVER_PACKET" name="EMOTION" visible="false"><!-- 1 -->
+			<!-- 15 00 18 8A E1 11 B7 03 00 80 00 01 26 00 00 00 -->
+		</packet>
+		<packet id="0x5FBD" class="SERVER_PACKET" name="DAMAGE" visible="true"><!-- 1 -->
+			<!-- 53 00 d(0) 48 0E B2 03 00 80 00 02 DD 2E 02 00 00 80 0B 00 -->
+		</packet>
+		<packet id="0xC867" class="SERVER_PACKET" name="TARGET_CURRENT_HP" visible="false"><!-- 1 -->
+			<!-- 38 00 67 C8 00 00 00 00 00 00 00 00 C5 88 05 00    8.gÈ........Å..
+			00 80 0B 00 C3 4D A6 3E 00 00 00 00 01 00 00 00    ...ÃM¦>........
+			00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+			40 1F 00 00 05 00 00 00                            @...... -->
+		</packet>
+		<packet id="0x8B75" class="SERVER_PACKET" name="TARGET_NPC_HP" visible="false"><!-- 1 -->
+			<!-- 21 00 63 E9 69 F2 0A 00 00 80 0B 00 99 42 4B 3E  над бошкой -->
+		</packet>
+		<packet id="0xC143" class="SERVER_PACKET" name="NOTIFY_CHARACTER" visible="true"><!-- 1 -->
+			<!-- 200 11 00 0E 00 EC A3 1E 00 00 00 E6 32 00 00 00 00 -->
+		</packet>
+		<packet id="0x7B71" class="SERVER_PACKET" name="BONFIRE_INFO" visible="true"><!-- 1 -->
+			<!-- 00 80 0E 00 -->
+		</packet>		
+		<packet id="0xDFD4" class="SERVER_PACKET" name="BONFIRE_ADDLE" visible="true"><!-- 1 -->
+			<!-- 0D 00 D4 DF 30 ED 09 00 00 80 0E 00 01  -->
+		</packet> 
+		<packet id="0x950A" class="SERVER_PACKET" name="BONFIRE_DELETE" visible="true"><!-- 1 -->
+			<!-- 0C 6C BE 55 20 00 00 00 80 0E 00 01 -->
+		</packet>
+		<packet id="0xA93A" class="SERVER_PACKET" name="NPC_INFO" visible="true"><!-- 1 -->
+			<!-- 69 00 6E AB 00 00 00 80 0B 00 -->
+		</packet>  
+		<packet id="0xD914" class="SERVER_PACKET" name="NPC_SPEAK" visible="true"><!-- 1 -->
+			<!-- 200 20 00 D5 B8 BB 52 00 00 00 80 0B 00 CD 08 B5 03 -->
+		</packet>
+		<packet id="0xEA44" class="SERVER_PACKET" name="NPC_REQUEST_INTERACTION_SUCCESS" visible="true"><!-- 1 -->
+			<!-- 08 00 44 EA 01 00 00 00 -->
+		</packet>
+		<packet id="0xD23A" class="SERVER_PACKET" name="NPC_DIALOG_WINDOW" visible="true"><!-- 1 -->
+			<!-- 01 00 3D 00 -->
+		</packet>
+		<packet id="0x941E" class="SERVER_PACKET" name="NPC_NOTICE" visible="false"><!-- 1 -->
+			<!-- 1D 00 C3 A1 D0 9A 04 00 00 80 0B 00 00 05 00 00 -->
+		</packet>
+		<packet id="0xA4F7" class="SERVER_PACKET" name="NPC_DIALOG_REPLY_QUEST" visible="true"><!-- 1 -->
+			<!-- 01 00 3D 00 -->
+		</packet>
+		<packet id="0xA4F7" class="SERVER_PACKET" name="NPC_DIALOG_REPLY_TRADE" visible="true"><!-- 1 -->
+			<!--  01 00 3D 00 -->
+		</packet>
+		<packet id="0xA4F7" class="SERVER_PACKET" name="NPC_DIALOG_REPLY_SHOP" visible="true"><!-- 1 -->
+			<!-- 01 00 3D 00 -->
+		</packet>
+		<packet id="0x76E2" class="SERVER_PACKET" name="NPC_DIALOG_SKILL_LEARN" visible="true"><!-- 1 -->
+			<!-- 6A 13 E2 76 96 00 08 00 08 00 22 00 00 00 00 00 -->
+		</packet>
+		<packet id="0xD521" class="SERVER_PACKET" name="NPC_DIALOG_SKILL_LEARN_PANEL" visible="true"><!-- 1 -->
+			<!-- 3E 00 21 D5 2C 00 3C 00 3E 00 00 00 B4 72 0D 00    -->
+		</packet>
+		<packet id="0xAE09" class="SERVER_PACKET" name="QUEST_NPC_NOTICE" visible="false"><!-- 1 -->
+			<!-- 11 00 09 AE 39 9E 00 00 00 80 0B 00 00 00 00 00 01 -->
+		</packet>		
+		<packet id="0x9DE0" class="SERVER_PACKET" name="QUEST_VIDEO" visible="true"><!-- 1 -->
+			<!-- 08 00 55 11 02 00 00 00 -->
+		</packet>
+		<packet id="0xD5ED" class="SERVER_PACKET" name="NPC_ACTIVING" visible="false"><!-- 1 -->
+			<!-- 0C 00 ED D5 24 72 03 00 00 80 0B 00   -->
+		</packet>
+		<packet id="0xC41E" class="SERVER_PACKET" name="NPC_ACTIVING2" visible="false"><!-- 1 -->
+			<!-- 0D 00 1E C4 24 72 03 00 00 80 0B 00 00     -->
+		</packet>
+		<packet id="0xC66B" class="SERVER_PACKET" name="NPC_NARRATED" visible="true"><!-- 1 -->
+			<!-- 0C 00 6B C6 B5 AC 00 00 00 80 0B 00     -->
+		</packet>		
+		<packet id="0xC3D7" class="SERVER_PACKET" name="NPC_LIKE_PLAYER" visible="true"><!-- 1 -->
+			<!-- 1C 00 D7 C3 79 99 0E 00 00 80 0B 00 54 32 00 00 3B 00 0D 00 7F 71 0D 00 00 80 00 01  -->
+		</packet>
+		<packet id="0xE6DD" class="SERVER_PACKET" name="NPC_ACTION??" visible="false"><!-- 1 -->
+		   <!-- 10 00 DD E6 9D 2A 0A 00 00 80 0B 00 00 00 00 00  -->
+		</packet>
+		<packet id="0xA616" class="SERVER_PACKET" name="ITEM_SHOP_TRADE" visible="true"><!-- 1 -->
+			<!-- 4E 00 16 A6 00 00 00 00 01 00 38 00 F4 40 0D 00   -->
+		</packet> 
+		<packet id="0xB2E4" class="SERVER_PACKET" name="BANK" visible="true"><!-- 1 -->
+			<!-- 58 0A E4 B2 2A 00 2C 00 45 53 0D 00 00 80 00 01    -->
+		</packet> 
+    
+    
+		<packet id="0xA831" class="SERVER_PACKET" name="SKILL_START" visible="true"><!-- 1 -->
+					<!-- 32 00 FC A3 00 00 00 00 54 5A AA 03 00 80 00 00  -->
+		</packet>
+		<packet id="0x77A4" class="SERVER_PACKET" name="SKILL_END" visible="true"><!-- 1 -->
+			<!-- 2A 00 C9 C3 54 5A AA 03 00 80 00 00 00 9A B6 47 -->
+		</packet> 
+		<packet id="0x77A4" class="SERVER_PACKET" name="CANCEL_OWERTURN" visible="true"><!-- 1 -->
+			<!-- 2A 00 C9 C3 54 5A AA 03 00 80 00 00 00 9A B6 47 -->
+		</packet> 
+		<packet id="0xBECB" class="SERVER_PACKET" name="SKILL_REUSE" visible="true"><!-- 1 -->
+			<!-- 0C 00 20 90 C4 EA 00 04 58 1B 00 00   -->
+		</packet>
+		<packet id="0x5E9B" class="SERVER_PACKET" name="CHARGE_SKILL_START" visible="true"><!-- 1 -->
+			<!-- 32 00 FC A3 00 00 00 00 54 5A AA 03 00 80 00 00 -->
+		</packet>
+		<packet id="0xA7B7" class="SERVER_PACKET" name="SKILL_MOVE" visible="true"><!-- 1 -->
+			<!-- 2A 00 C9 C3 54 5A AA 03 00 80 00 00 00 9A B6 47 -->
+		</packet>
+		<packet id="0xB9A3" class="SERVER_PACKET" name="SKILL_FAST_SHOT" visible="true"><!-- 1 -->
+			<!-- 40 00 A3 B9 01 00 20 00 01 00 30 00 C8 6C 0D 00  -->
+		</packet>
+		<packet id="0x622F" class="SERVER_PACKET" name="SKILL_SLOW_SHOT" visible="true"><!-- 1 -->
+			<!-- 3C 00 61 77 DD 31 AF 03 00 80 00 01 63 2B 00 00 -->
+		</packet>
+		<packet id="0xBC12" class="SERVER_PACKET" name="SKILL_DELETE_SHOT" visible="true"><!-- 1 -->
+			<!-- 0D 00 12 BC 81 65 0D 00 02 80 00 01 00    -->
+		</packet>
+		<packet id="0xA14E" class="SERVER_PACKET" name="SHIELD_BLOCK" visible="true"><!-- 1 -->
+			<!-- 14 00 FE DA 69 60 0C 00 00 80 00 01 4F 04 0D 44   -->
+		</packet>
+		<packet id="0xCCE8" class="SERVER_PACKET" name="SKILL_LOCK_TARGET" visible="true"><!-- 1 -->
+			<!--  11 00 E8 CC 93 FA 0C 00 00 80 0B 00 E8 4E 00 04 01  -->
+		</packet>
+		<packet id="0xA1C1" class="SERVER_PACKET" name="SKILL_LOCK_ATTACK" visible="true"><!-- 1 -->
+			<!--  11 00 E8 CC 93 FA 0C 00 00 80 0B 00 E8 4E 00 04 01  -->
+		</packet>
+		
+		<packet id="0xBE59" class="SERVER_PACKET" name="APPLED_BUFF_PACKET" visible="true"><!-- 1 -->
+			<!-- 20 00 33 92 61 29 AF 03 00 80 00 01 61 29 -->
+		</packet>
+		<packet id="0x8BD1" class="SERVER_PACKET" name="CANCELED_EFFECT_PACKET" visible="true"><!-- 1 -->
+			<!-- 10 00 8B D1  61 29 AF 03 00 80 00 01 AA 05 00 00 -->
+		</packet>
+	
+    
+		<packet id="0xEA44" class="SERVER_PACKET" name="GUILD_INPUT_NAME" visible="true"><!-- 1 -->
+			<!-- 10 00 82 93 61 29 AF 03 00 80 00 01 AA 05 00 00 -->
+		</packet>
+        <packet id="0xB229" class="SERVER_PACKET" name="GUILD_ICON_DOWNLOAD" visible="true"><!-- 1 -->
+			<!-- 0A 00 32 00 18 13 67 00 75 00 69 00 -->
+		</packet>
+		<packet id="0x96BA" class="SERVER_PACKET" name="GUILD_NAME_ICON" visible="true"><!-- 1 -->
+			<!-- 50 00 BA 96 0C 00 2A 00 02 00 00 00 53 00 74 00  -->
+		</packet>
+		<packet id="0xC99D" class="SERVER_PACKET" name="GUILD_ICON_ON_OBJECT" visible="true"><!-- 1 -->
+			<!-- 54 00 9D C9 10 00 2E 00 93 63 02 00 00 80 0B 00  -->
+		</packet>
+	
+	
+		<packet id="0xE5CC" class="SERVER_PACKET" name="CHAR_PICK_UP_ITEM" visible="true"><!-- 1 -->
+			<!-- 15 00 6C A6 0D 60 0C 00 00 80 00 01 6B BD 0E 00   -->
+		</packet>    
+		<packet id="0xA07A" class="SERVER_PACKET" name="ITEM_INFO" visible="true"><!-- 1 -->
+			<!-- 3D 00 45 BE 01 00 31 00 48 D9 0F 00 00 80 09 00 -->
+		</packet>
+		<packet id="0x79C9" class="SERVER_PACKET" name="ITEM_DELETE" visible="true"><!-- 1 -->
+			<!-- 0C 00 C9 79 91 E3 0C 00 00 80 09 00  -->
+		</packet>
+		<packet id="0x7F02" class="SERVER_PACKET" name="ITEM_REUSE" visible="false"><!-- 1 -->
+			<!-- 0C 00 0C A0 7D 00 00 00 14 00 00 00 -->
+		</packet>
+		<packet id="0xFF45" class="SERVER_PACKET" name="PLAYER_EQUIPMENT" visible="true"><!-- 1 -->
+			<!-- 40 00 45 F1 8B 06 B0 03 00 80 00 02 11 27 00 00 -->
+		</packet>
+		<packet id="0xE239" class="SERVER_PACKET" name="PLAYER_INVENTORY_ITEM_INFO" visible="true"><!-- 1 -->
+			<!-- 2F 01 5D DF 00 00 00 00  -->
+		</packet>
+       
+       
+		<packet id="0xA853" class="SERVER_PACKET" name="PLAYER_RESTART" /><!-- 1 -->
+		<packet id="0xFEDC" class="SERVER_PACKET" name="RESTART_TIME" ><!-- 1 -->
+			<!-- DC FE 0A 00 00 00  -->
+		</packet>
+		
+		<packet id="0x1111" class="SERVER_PACKET" name="PLAYER_RESTART_CANCEL_OK" visible="true"><!-- 0 -->
+		</packet>
+		<packet id="0x1111" class="SERVER_PACKET" name="PLAYER_EXIT_OK" visible="true"><!-- 0 -->
+			<!-- 0A 00 00 00 -->
+		</packet>
+		<packet id="0x1111" class="SERVER_PACKET" name="PLAYER_EXIT_CANCEL_OK" visible="true"><!-- 0 -->
+		</packet>
+    
+    
+    
+    
+      
+		<packet id="0xF49D" class="SERVER_PACKET" name="PLAYER_ACTION_DONED" visible="true"><!-- 1 -->
+			<!-- 1C 00 D4 86 3A 54 0D 00 00 80 00 03 00 00 00 00 -->
+		</packet>
+		<packet id="0x63E1" class="SERVER_PACKET" name="PLAYER_ACTION_INVITE" visible="true"><!-- 1 -->
+			<!-- 36 00 F1 C8 16 00 26 00 10 00 04 00 00 00 3C 8F  -->
+		</packet>
+		<packet id="0xC3F2" class="SERVER_PACKET" name="ACTION_START" visible="true"><!-- 1 -->
+			<!--  08 00 24 A9 04 00 00 00  -->
+		</packet>
+		<packet id="0xD521" class="SERVER_PACKET" name="PLAYER_WAITING_ACTION" visible="true"><!-- 1 -->
+			<!-- 54 00 80 78 2C 00 3A 00 3C 00 18 00 3A 54 0D 00   -->
+		</packet>
+	
+		<packet id="0xC2DE" class="SERVER_PACKET" name="PARTY_INFO" visible="true"><!-- 1 -->
+			<!-- 9C 00 77 FF 02 00 30 00 30 00 00 00 00 E5 7F 00 -->
+		</packet>
+		<packet id="0xFCFE" class="SERVER_PACKET" name="PARTY_MEMBER_INFO" visible="true"><!-- 1 -->
+			<!-- 33 00 32 B9 0D 00 00 00 5F 78 00 00 78 05 00 00 -->
+		</packet>
+		<packet id="0xED9D" class="SERVER_PACKET" name="PARTY_MEMBER_EFFECT" visible="true"><!-- 1 -->
+			<!-- 31 00 4F B1 01 00 14 00 01 00 24 00 0D 00 00 00  -->
+		</packet>/
+		<packet id="0xF5C9" class="SERVER_PACKET" name="PARTY_LEAVE" visible="true"><!-- 1 -->
+			<!-- 04 00 55 DA -->
+		</packet>
+		<packet id="0xDF18" class="SERVER_PACKET" name="PARTY_MEMBER_COORDS" visible="true"><!-- 1 -->
+			<!-- 20 00 18 DF 0D 00 00 00 A2 73 02 00 00 DB AF 47 -->
+		</packet>
+		
+		<packet id="0x559F" class="SERVER_PACKET" name="NAME_COLOR" visible="true"><!-- 1 -->
+			<!-- 10 00 29 5A 86 5D 0D 00 00 80 00 03 02 00 00 00  -->
+		</packet>
+		<packet id="0xAA9B" class="SERVER_PACKET" name="OPEN_TRADE" visible="true"><!-- 1 -->
+			<!-- 9C 00 49 B5 38 00 32 00 6A 00 32 00 C6 52 0D 00  -->
+		</packet>
+		<packet id="0xF49D" class="SERVER_PACKET" name="CLOSE_TRADE" visible="true"><!-- 1! -->
+			<!-- 1C 00 9D F4 2F 58 0D 00 00 80 00 01 5B 55 0D 00 
+				  00 80 00 01 03 00 00 00 3E EA 0D 00   PLAYER_ACTION_DONED -->
+		</packet>
+		<packet id="0xF21C" class="SERVER_PACKET" name="DUEL_START" visible="true"><!-- 1 -->
+			<!-- 06 AD 72 88 13 -->
+		</packet>
+		<packet id="0xA5A2" class="SERVER_PACKET" name="DUEL_CANCEL" visible="true"><!-- 1 -->
+			<!--		06 00 A2 A5 00 00   -->
+		</packet>
+		<packet id="0xD5ED" class="SERVER_PACKET" name="CANCEL_TARGET_HP" visible="false"><!-- 1 -->
+			<!-- 70 F4 D2 07 00 10 00 80 00 13 
+			10 00 EE 94 83 4F 0D 00 00 80 00 00 04 BC 0D 00    ..îO......¼.
+			14 00 52 9B 83 4F 0D 00 00 80 00 00 85 4F 0D 00    ..RO.....O..
+			00 80 00 00                                        ..-->
+		</packet>    
+    	<packet id="0xA07A" class="SERVER_PACKET" name="DROP_ITEM" visible="false"><!-- 1 -->
+			<!-- 3D 00 7A A0 01 00 31 00 FD 70 0D 00 00 80 09 00  -->
+		</packet>   
+		
+		<packet id="0xE19F" class="SERVER_PACKET" name="SYSTEM_MASSAGE" visible="true"><!-- 1 -->
+			<!-- @  -->
+		</packet> 
+		<packet id="0x653D" class="SERVER_PACKET" name="MASSAGE??" visible="true"><!-- 1 -->
+			<!-- @  -->
+		</packet> 
+		<packet id="0xBE9F" class="SERVER_PACKET" name="MASSAGE_ITEM_AMOUNT" visible="true"><!-- 1 -->
+			<!-- @  -->
+		</packet> 
+		<packet id="0xB79F" class="SERVER_PACKET" name="MASSAGE_NEEDED_ITEM_AMOUNT" visible="true"><!-- 1 -->
+			<!-- 8E 00 9F B7 20 00 C4 1B 00 00 00 00 00 00 01 00    .·..Ä......... -->
+		</packet>  
+		
+		
+		
+		<packet id="0xE49B" class="SERVER_PACKET" name="PLANTS_??" visible="true"><!-- 1 -->
+			<!-- 9B E4 04 00 00 00 08 00 -->
+		</packet>  
+		<packet id="0xC014" class="SERVER_PACKET" name="PLANTS_????" visible="true"><!-- 1 -->
+			<!-- 11 00 14 C0 01 00 08 00 08 00 00 00 00 03 00 00 00  -->
+		</packet> 
+		<packet id="0xB6C1" class="SERVER_PACKET" name="PLANTS_SKILL" visible="true"><!-- 1 -->
+			<!--0C 00 C1 B6 77 00 0D 00 02 00 00 00 -->
+		</packet> 
+		<packet id="0xAB9D" class="SERVER_PACKET" name="PLANTS_INFO" visible="true"><!-- 1 -->
+			<!-- 20 00 9D AB 82 56 02 00 00 80 04 00 F0 01 00 00    ..«V.....ð...
+				01 00 00 00 20 F1 80 47 41 F1 98 C7 DD 07 3B C5    .....ñGAñÇÝ.;Å    -->
+		</packet> 
+		<packet id="0xC0D6" class="SERVER_PACKET" name="DELETE_PLANTS" visible="true"><!-- 1 -->
+			<!-- 0D 00 D6 C0 D8 97 09 00 00 80 04 00 00     -->
+		</packet> 
+		<packet id="0xFB4E" class="SERVER_PACKET" name="START_EXTRACT_PLANTS" visible="true"><!-- 1 -->
+			<!-- 14 00 4E FB 6B 6D 0D 00 00 80 00 01 1B A8 02 00 00 80 04 00  -->
+		</packet> 
+		<packet id="0xA671" class="SERVER_PACKET" name="EXTRACT_PLANTS_PROGRESS" visible="true"><!-- 1 -->
+			<!-- 08 00 71 A6 18 00 00 00   -->
+		</packet>
+		<packet id="0x9D3F" class="SERVER_PACKET" name="EXTRACT_PLANTS_SUCKSES" visible="true"><!-- 1 -->
+			<!-- 18 00 3F 9D 6B 6D 0D 00 00 80 00 01 1B A8 02 00  
+								00 80 04 00 03 00 00 00       -->
+		</packet>		
+		<packet id="0xCFA7" class="SERVER_PACKET" name="BONUS_EXTRACT" visible="true"><!-- 1 -->
+			<!-- 18 00 A7 CF 6B 6D 0D 00 00 80 00 01 40 AB E6 05 C0 27 09 00 02 00 00 00   -->
+		</packet>
+		
+		
+		
+		<packet id="0x9F1F" class="SERVER_PACKET" name="TRAP_INFO" visible="true"><!-- 1 -->
+			<!-- 3D 00 1F 9F 5F DC 0A 00 00 80 0D 00 00 00 00 00    =..?_U...?......
+				08 D1 03 04 07 6D D1 46 35 3F A2 47 00 E0 E8 44    .N...mNF5??G.aeD
+				07 6D D1 46 35 3F A2 47 00 E0 E8 44 00 00 00 00    .mNF5??G.aeD....
+				00 F0 54 0D 00 00 80 00 01 FE 2A 00 00             .?T...?..?*.  -->
+		</packet>
+		<packet id="0x6772" class="SERVER_PACKET" name="TRAP_DELETE" visible="true"><!-- 1 -->
+			<!-- 0D 00 72 67 97 B6 0E 00 00 80 0D 00 00      -->
+		</packet>
+		
+		
+		<packet id="0x80FA" class="SERVER_PACKET" name="FUCKING_STRUCTURE" visible="false"><!-- 1 -->
+			<!-- 08 01 FA 80 08 00 08 00 08 00 28 00 01 00 14 00 какаято шляпа     -->
+		</packet> 
+		
+		<packet id="0x7B08" class="SERVER_PACKET" name="QUEST_STARTED" visible="true"><!-- 1 -->
+			<!-- 5D 00 08 7B 01 00 0E 00 0C 00 00 00 00 00 0E 00  -->
+		</packet>  		
+		<packet id="0x9847" class="SERVER_PACKET" name="QUEST_MOVE_TO_PANEL" visible="true"><!-- 1 -->
+			<!-- 0D 00 47 98 15 05 00 00 15 C2 61 01 01 -->
+		</packet> 
+		<packet id="0x9847" class="SERVER_PACKET" name="QUEST_REMOVE_TO_PANEL" visible="true"><!-- 1 -->
+			<!-- 0D 00 47 98 15 05 00 00 15 C2 61 01 01 -->
+		</packet> 
+		
+		<packet id="0x905E" class="SERVER_PACKET" name="QUEST_REMOVE_TO_PANEL" visible="true"><!-- 1 -->
+			<!-- 0E 00 5E 90 15 05 00 00 15 C2 61 01 00 00 -->
+		</packet> 
+		<packet id="0x8FBB" class="SERVER_PACKET" name="QUEST_UPDATE_COUNTER" visible="true"><!-- 1 -->
+			<!-- 1F 00 BB 8F 00 00 00 00 01 00 17 00 2A 05 00 00 
+				B1 4B 62 01 00 00 00 17 00 00 00 03 00 00 00 -->
+		</packet>   
+		<packet id="0xAA83" class="SERVER_PACKET" name="QUEST_BOOK" visible="true"><!-- 1 -->
+		<!-- E0 00 83 AA 1B 00 08 00 08 00 10 00 C9 00 00 00    à.ª........É...
+			10 00 18 00 CA 00 00 00 18 00 20 00 CB 00 00 00    ....Ê.......Ë...
+			20 00 28 00 2D 01 00 00 28 00 30 00 2E 01 00 00    ..(.-...(.0.....
+			30 00 38 00 59 02 00 00 38 00 40 00 5A 02 00 00    0.8.Y...8.@.Z...
+			40 00 48 00 5B 02 00 00 48 00 50 00 5C 02 00 00    @.H.[...H.P.\.. -->
+		</packet>
+		
+		
+		
+		<packet id="0xB548" class="SERVER_PACKET" name="NULLED" visible="false"><!-- 1 -->
+			<!-- 14 00 48 B5 00 00 00 00 00 00 00 00 00 00 00 00  00 00 00 00       -->
+		</packet> 
+		<packet id="0xA885" class="SERVER_PACKET" name="RECHARGE_STAMINA" visible="true"><!-- 1 -->
+			<!-- 0E 00 85 A8 71 00 00 00 78 00 00 00 03 00 -->
+		</packet> 
+		<packet id="0x816C" class="SERVER_PACKET" name="SERVER_AND_CHANNEL" visible="false"><!-- 1 -->
+			<!-- 10 00 6C 81 0D 00 00 00 03 00 00 00 00 00 00 00 -->
+		</packet> 
+		<packet id="0xB78E" class="SERVER_PACKET" name="SERVER_PING" visible="false"/><!-- 1 -->
+		<packet id="0x9EE0" class="SERVER_PACKET" name="SERVER_PING2" visible="false"><!-- 1 -->
+			<!-- 11 00 E0 9E 00 01 00 00 00 02 00 00 00 07 00 00   -->
+		</packet>
+		<packet id="0xC55A" class="SERVER_PACKET" name="SERVER_PING3" visible="true"><!-- 1 -->		  
+			<!-- 05 00 5A C5 01 -->
+		</packet>
+		<packet id="0xA4E7" class="SERVER_PACKET" name="TERRITORY_LOGO" visible="false"><!-- 1 -->
+		<!-- 5E 00 E7 A4 14 00 24 00 36 00 38 00 A1 44 0D 00    ^.ç¤..$.6.8.¡D..
+			00 80 00 01 43 00 6F 00 72 00 72 00 69 00 6E 00    ...C.o.r.r.i.n.
+			6F 00 00 00 50 00 72 00 69 00 6E 00 63 00 65 00    o...P.r.i.n.c.e.
+			73 00 73 00 00 00 00 00 67 00 75 00 69 00 6C 00    s.s.....g.u.i.l.
+			64 00 6C 00 6F 00 67 00 6F 00 5F 00 31 00 33 00    d.l.o.g.o._.1.3.
+			5F 00 38 00 34 00 32 00 5F 00 33 00 00 00     -->
+		</packet>
+		
+		
+		
+		
+		
+		<packet id="0x6881" class="SERVER_PACKET" name="PUT_AN_PEGAS" visible="true"><!-- 1 -->
+				<!--  10 00 E9 57 4F 6E 0D 00 00 80 00 04 01 00 00 00 -->
+			</packet>
+		<packet id="0xE738" class="SERVER_PACKET" name="FLY_PEGAS" visible="true"><!-- 1 -->
+				<!-- 18 00 38 E7 4F 6E 0D 00 00 80 00 04 08 00 00 00  -->		
+			</packet>
+		<packet id="0x1111" class="SERVER_PACKET" name="FLY_PEGAS_REPLY_PACKET" visible="true"/>
+		<packet id="0x1111" class="SERVER_PACKET" name="DEPARTURE_PORTAL" visible="true">
+				<!--  18 00 AD B9 4F 6E 0D 00 00 80 00 04 08 00 00 00  -->
+			</packet>
+		<packet id="0x71C3" class="SERVER_PACKET" name="STATE_ALLOWED" visible="true">
+				<!--   7E2D  -->
+			</packet>
+		<packet id="0xBD6A" class="SERVER_PACKET" name="GET_OFF_PEGAS" visible="true"><!-- 1 -->
+				<!--  0C 00 6A BD 38 72 0D 00 00 80 00 00     -->
+			</packet>
+		<packet id="0x7C5D" class="SERVER_PACKET" name="ROUTE_PEGAS" visible="true"><!-- 1 -->
+				<!-- 20 00 A6 EF 01 00 08 00 08 00 00 00 08 00 00 00   -->
+			</packet>
+		
+				
+		
+		
+		 
+		
+		<packet id="0x5429" class="CLIENT_PACKET" name="PLAYER_MOVE" visible="false"><!-- 1 -->	
+			<field type="FS" name="startX" />
+			<field type="FS" name="startY" />
+			<field type="FS" name="startZ" />
+			<field type="HS" name="heading" />
+			<field type="FS" name="targetX" />
+			<field type="FS" name="targetY" />
+			<field type="FS" name="targetZ" />
+			<field type="C" name="type" />
+		</packet>   
+		<packet id="0xA5A4" class="CLIENT_PACKET" name="PLAYER_SKILL_MOVE" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xBB52" class="CLIENT_PACKET" name="PLAYER_SAY" visible="false"><!-- 1 -->			
+		</packet>
+		<packet id="0x6015" class="CLIENT_PACKET" name="PLAYER_PRIVATE_SAY" visible="false"><!-- 1 -->			
+		</packet>
+		<packet id="0xF17D" class="CLIENT_PACKET" name="REQUEST_WORLD_ZONE" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0x5929" class="CLIENT_PACKET" name="REQUEST_INVENTORY_INFO" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xE6C6" class="CLIENT_PACKET" name="REQUEST_DRESSING_ITEM" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0xE476" class="CLIENT_PACKET" name="REQUEST_TAKING_ITEM" visible="true"><!-- 1 -->			
+		</packet>		
+		<packet id="0xE7B6" class="CLIENT_PACKET" name="REQUEST_INVENTORY_MOVING_ITEM" visible="true"><!-- 1 -->			
+				<!-- 14 00 B6 E7 D0 66 0D 00 00 80 00 01 2D 00 00 00 -->
+		</packet>
+		<packet id="0xCFAE" class="CLIENT_PACKET" name="REQUEST_SORT_INVENTORY" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0x53AA" class="CLIENT_PACKET" name="REQUEST_DELETE_ITEM" visible="true"><!-- 1 -->			
+		</packet> 	
+		<packet id="0x83B2" class="CLIENT_PACKET" name="REQUEST_INVENTORY_ITEM_INFO" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0xB314" class="CLIENT_PACKET" name="REQUEST_PICK_UP_ITEM" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xA443" class="CLIENT_PACKET" name="REQUEST_USE_ITEM" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xED28" class="CLIENT_PACKET" name="REQUEST_ITEM_TEMPLATE_INFO" visible="true"><!-- 1 -->			
+		</packet>
+    
+		<packet id="0x7F90" class="CLIENT_PACKET" name="REQUEST_START_EMOTION" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xA519" class="CLIENT_PACKET" name="REQUEST_GUILD_INFO" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xE0FF" class="CLIENT_PACKET" name="REQUEST_GUILD_LEAVE" visible="true"><!-- 1 -->			
+		</packet> 
+		<packet id="0xC1EE" class="CLIENT_PACKET" name="REQUEST_USE_SHORT_SKILL" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xDF07" class="CLIENT_PACKET" name="REQUEST_USE_QUEUE_SKILL" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0xB494" class="CLIENT_PACKET" name="REQUEST_USE_RANGE_SKILL" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0xBF14" class="CLIENT_PACKET" name="REQUEST_USE_RUSH_SKILL" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xF47A" class="CLIENT_PACKET" name="REQUEST_USE_DEFENSE_SKILL" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xD1F2" class="CLIENT_PACKET" name="REQUEST_LOCK_ON_TARGET" visible="true"><!-- 1 -->			
+				<!-- 10 00 F2 D1 93 FA 0C 00 00 80 0B 00 E8 4E 00 04 -->
+		</packet>
+		<packet id="0xEDB8" class="CLIENT_PACKET" name="UPDATE_HOT_KEY" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0x999D" class="CLIENT_PACKET" name="UPDATE_CLIENT_SETTING" visible="true"><!-- 1 -->			
+		</packet>		
+		<packet id="0x8130" class="CLIENT_PACKET" name="REQUEST_RESSURECT" visible="true"><!-- 1 -->			
+				<!-- 30 81 00 00 00 00 FF FF FF FF -->
+		</packet>
+		<packet id="0x9FCA" class="CLIENT_PACKET" name="REQUEST_CONFIRM_SERVER" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xF532" class="CLIENT_PACKET" name="REQUEST_RESTART" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xE5EA" class="CLIENT_PACKET" name="REQUEST_CLIENT_CLOSE" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xB3C9" class="CLIENT_PACKET" name="REQUEST_NPC_INTERACTION" visible="true"><!-- 1 -->			
+		</packet>		
+		<packet id="0xE83A" class="CLIENT_PACKET" name="REQUEST_NPC_LINK" visible="true"><!-- 1 -->	
+			<!-- 14 00 20 D9 40 7B D5 1E 01 00 00 00 FF FF FF FF -->
+		</packet>
+		<packet id="0x504E" class="CLIENT_PACKET" name="REQUEST_NPC_ADD_BUY_SHOP" visible="true"><!-- 1 -->	
+			<!-- 1C 00 CC EB F5 5F 00 00 00 00 00 00 65 B1 B6 48 -->
+		</packet>
+		<packet id="0xA087" class="CLIENT_PACKET" name="REQUEST_NPC_SUB_BUY_SHOP" visible="true"><!-- 1 -->
+			<!-- 20 00 12 CC F5 5F 00 00 00 00 00 00 65 B1 B6 48 -->
+		</packet>
+		<packet id="0xBBE0" class="CLIENT_PACKET" name="REQUEST_NPC_ADD_SELL_SHOP" visible="true"><!-- 1 -->
+			<!-- 18 00 5E F5 F5 5F 00 00 00 00 00 00 65 B1 B6 48  -->
+		</packet>
+		<packet id="0xC549" class="CLIENT_PACKET" name="REQUEST_NPC_SUB_SELL_SHOP" visible="true"><!-- 1 -->
+			<!-- 18 00 74 D1 F5 5F 00 00 00 00 00 00 65 B1 B6 48  -->
+		</packet>
+		<packet id="0xA798" class="CLIENT_PACKET" name="REQUEST_NPC_CONFIRM_SHOP" visible="true"><!-- 1 -->	
+			<!-- 10 00 77 65 F5 5F 00 00 00 00 00 00 65 B1 B6 48 -->
+		</packet>
+		<packet id="0x962D" class="CLIENT_PACKET" name="REQUEST_NPC_CONFIRM_SKILL_SHOP" visible="true"><!-- 1 -->	
+			<!--  -->
+		</packet>
+   
+    
+		<!-- packet id="0x962D" class="CLIENT_PACKET" name="CLIENT_SELECT_SKILL_LEARN" visible="true">			
+		</packet -->
+		<packet id="0xCACE" class="CLIENT_PACKET" name="REQUEST_NPC_START_PEGAS_FLY" visible="true"><!-- 1 -->
+			<!-- 08 00  08 00 00 00  -->
+		</packet>
+		<packet id="0xBE7C" class="CLIENT_PACKET" name="REQUEST_DIALOG_CANCEL" visible="true"><!-- 1 -->			
+			<!-- 0C 00 31 C5 09 00 00 00 65 B1 B6 48   -->
+		</packet>
+		
+		
+		<packet id="0x509E" class="CLIENT_PACKET" name="REQUEST_TRADE_LOCK" visible="true"><!-- 1 -->
+		</packet>	
+		<packet id="0x8A21" class="CLIENT_PACKET" name="REQUEST_TRADE_ADD_ITEM" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xC19E" class="CLIENT_PACKET" name="ASSENT_TRADE" visible="true"><!-- 1 -->			
+			<!-- 0C 00 9E C1 03 00 00 00 04 00 00 00  -->
+		</packet>
+		<!-- 0xF49D -->
+		<packet id="0xC8FE" class="CLIENT_PACKET" name="CANCEL_TRADE" visible="true"><!-- 1 -->	
+			<!--  1C 00 9D F4 2F 58 0D 00 00 80 00 01 5B 55 0D 00    ..ô/X.....[U..
+				 00 80 00 01 03 00 00 00 3E EA 0D 00     -->
+		</packet>
+		<packet id="0xF307" class="CLIENT_PACKET" name="REQUEST_ACTION_INVITE" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xBFEF" class="CLIENT_PACKET" name="REQUEST_ACTION_AGREE" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xE58F" class="CLIENT_PACKET" name="REQUEST_ACTION_CANCEL" visible="true"><!-- 0 -->			
+		</packet>
+		<packet id="0x2222" class="CLIENT_PACKET" name="REQUEST_PARTY_INVITE" visible="true"><!-- 0 -->			
+		</packet>
+		<packet id="0x9490" class="CLIENT_PACKET" name="REQUEST_PARTY_LEAVE" visible="true"><!-- 1 -->			
+		</packet>
+		
+		<packet id="0x78A4" class="CLIENT_PACKET" name="REQUEST_AUTH_LOGIN" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xCEB2" class="CLIENT_PACKET" name="REQUEST_CREATE_PLAYER" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0x591C" class="CLIENT_PACKET" name="REQUEST_DELETE_PLAYER" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0xA340" class="CLIENT_PACKET" name="REQUEST_PLAYER_LIST" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0x5A9A" class="CLIENT_PACKET" name="CAN_BE_USED_NAME" visible="true"><!-- 1 -->			
+			<!-- 26 00 9A 5A 01 00 0C 00 0A 00 00 00 0C 00 00 00 -->
+		</packet>
+		<packet id="0xF562" class="CLIENT_PACKET" name="NAME_CHANGED" visible="true"><!-- 1 -->			
+			<!-- 16 00 62 F5 06 00 4C 00 61 00 6E 00 63 00 65 00   -->
+		</packet>
+  
+   
+		<packet id="0xB1D0" class="CLIENT_PACKET" name="PLAYER_SELECTED_PACKET" visible="true"><!-- 1 -->			
+		</packet>	
+		<packet id="0x998C" class="CLIENT_PACKET" name="PLAYER_ENTERED_PACKET" visible="true"><!-- 1 -->			
+		</packet>
+		<packet id="0x8CFA" class="CLIENT_PACKET" name="PLAYER_ARRIVING_PORTAL" visible="true"><!-- 1 -->			
+		</packet>
+		
+		<packet id="0x94FD" class="CLIENT_PACKET" name="EXTRACT_PLANTS" visible="true"><!-- 1 -->	
+			<!--	0C 00 FD 94 36 EC 0C 00 00 80 04 00  -->
+		</packet>
+		
+		
+		<packet id="0xAC93" class="CLIENT_PACKET" name="GIVEME_GILD_ICON" visible="true"><!-- 1 -->		
+		   <!-- 2E 00 93 AC 06 00 67 00 75 00 69 00 6C 00 64 00    ..¬..g.u.i.l.d.
+				6C 00 6F 00 67 00 6F 00 5F 00 31 00 33 00 5F 00    l.o.g.o._.1.3._.
+				31 00 39 00 37 00 33 00 5F 00 36 00 00 00          1.9.7.3._.6..  -->
+		</packet>
+		<packet id="0xB5A9" class="CLIENT_PACKET" name="SLOW_SHOT_HIT" visible="true"><!-- 1 -->		
+		   <!-- -->
+		</packet>
+		 
+		<packet id="0xB5D2" class="CLIENT_PACKET" name="CLIENT_ANSERVER_SERVER_PING" visible="false"/><!-- 1 -->	
+		<packet id="0xD6C0" class="CLIENT_PACKET" name="CLIENT_PING2" visible="false"><!-- 1 -->
+			<!-- 10 00 C0 D6 01 00 00 00 02 00 00 00 07 00 00 00 ждёт ответа SERVER_PING2-->
+		</packet>
+		<packet id="0xD28D" class="CLIENT_PACKET" name="CLIENT_PING3" visible="true"/><!-- 1 -->
+	
+	</protocol>
+</list>    

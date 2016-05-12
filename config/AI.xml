@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- максимальный радиус действия моба -->
+	<set name="AI_MAX_ACTIVE_RANGE" value="2000" />
+	<!-- максимальный радиус реагирования моба -->
+	<set name="AI_MAX_REACTION_RANGE" value="1500" />
+	
+	<!-- минимальный ренж случайного брождения от точки респавна -->
+	<set name="AI_MIN_RANDOM_WALK_RANGE" value="60" />
+	<!-- максимальный ренж случайного брождения от точки спавна -->
+	<set name="AI_MAX_RANDOM_WALK_RANGE" value="120" />
+	<!-- время между брождением (макс 32000) -->
+	<set name="AI_MIN_RANDOM_WALK_DELAY" value="900000" />
+	<!-- время между брождением (макс 32000) -->
+	<set name="AI_MAX_RANDOM_WALK_DELAY" value="180000" />
+	
+	<!-- промежуток между выполнением АИ тасков(чем меньше, тем быстрее моб думает) -->
+	<set name="AI_TASK_DELAY" value="200" />
+	
+	<!--  шанс выбора рандомной точки для атаки цели -->
+	<set name="AI_RANDOM_POINT_ON_CAST" value="60" />
+	
+	<!-- шансы использовани скилов -->
+	<set name="AI_ATTACK_RATE" value="50" />
+	<set name="AI_BUFF_RATE" value="5" />
+	<set name="AI_DEBUFF_RATE" value="25" />
+	<set name="AI_DEFENSE_RATE" value="20" />
+	<set name="AI_JUMP_RATE" value="50" />
+	<set name="AI_SIDE_RATE" value="25" />
+	<set name="AI_ULTIMATE_RATE" value="20" />
+</list>    

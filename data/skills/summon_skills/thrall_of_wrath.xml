@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="42000" class="-8" name="Attack" levels="1">
+		<set name="iconId" value="67118964"/>		
+		<set name="power" value="50" />
+		<set name="moveDistance" value="40" />
+		<set name="moveTime" value="800" />
+		<set name="moveDelay" value="200" />
+        <set name="targetType" value="TARGET_AURA" />
+		<set name="hitTime" value="1500" />
+		<set name="radius" value="70"/>
+		<set name="delay" value="800" />
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE" />
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="42001" class="-8" name="Attack" levels="1">
+		<set name="iconId" value="67118965"/>	
+		<set name="power" value="60" />
+		<set name="moveDistance" value="40" />
+		<set name="moveTime" value="800" />
+		<set name="moveDelay" value="200" />
+        <set name="targetType" value="TARGET_AURA" />
+		<set name="hitTime" value="1900" />
+		<set name="radius" value="60"/>
+		<set name="delay" value="800" />
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE" />	
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="42002" class="-8" name="Attack" levels="1">
+		<set name="iconId" value="67118966"/>	
+		<set name="power" value="70" />
+		<set name="moveDistance" value="40" />
+		<set name="moveTime" value="800" />
+		<set name="moveDelay" value="200" />
+        <set name="targetType" value="TARGET_AURA" />
+		<set name="hitTime" value="1500" />
+		<set name="radius" value="70"/>
+		<set name="delay" value="900" />
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE" />	
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="42003" class="-8" name="Attack" levels="1">
+		<set name="iconId" value="67118967"/>	
+		<set name="power" value="80" />
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="1500" />
+		<set name="moveDelay" value="300" />
+        <set name="targetType" value="TARGET_AURA" />
+		<set name="hitTime" value="2700" />
+		<set name="radius" value="80"/>
+		<set name="delay" value="1300" />
+		<set name="skillType" value="STRIKE" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE" />
+		<for> 
+			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
+				<sub stat="runSpd" order="0x40" val="55" />
+			</effect>	
+		</for>
+    </skill>	
+	
+	<skill id="42004" class="-8" name="Evasive Roll" levels="1">
+		<set name="iconId" value="67148964"/>	
+	    <set name="moveDistance" value="150" />	
+		<set name="reuseDelay" value="4000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="JUMP" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="2500" />	
+		<set name="moveTime" value="1000" />	
+		<set name="evasion" value="true" />	
+	</skill>
+	
+	<skill id="42005" class="-8" name="Whirlwind" levels="1">
+		<set name="iconId" value="67138964"/>	
+        <set name="power" value="200"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="120" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="120" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="1800" />			
+        <set name="radius" value="70"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="castCount" value="2" />	
+		<set name="hitTime" value="5000" />		
+		<set name="delay" value="2300" />
+		<set name="interval" value="1000" />
+    </skill>
+	
+	<skill id="42006" class="-8" name="Knockdown Strike" levels="1">
+		<set name="iconId" value="67128964"/>
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="240" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70" />
+        <set name="hitTime" value="4500"/>
+		<set name="delay" value="2000" />
+        <set name="reuseDelay" value="4000"/>
+		<set name="moveDistance" value="210" />	
+		<set name="moveTime" value="2500" />
+		<set name="moveDelay" value="220" />	
+		<set name="owerturnMod" value="20"/>	
+    </skill>
+	
+	<skill id="42007" class="-8" name="Dash" levels="1">
+		<set name="iconId" value="67159064"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillGroup" value="BUFF" />	
+        <set name="hitTime" value="1000"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="25000"/>
+		<for>
+			<effect id="300601" time="15" count="1" type="BUFF" stackType="short_special_speed_up" >
+				<mul stat="runSpd" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="42008" class="-8" name="Overhand Strike" levels="1">
+		<set name="iconId" value="67188994"/>
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />	
+		<set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="60"/>
+        <set name="hitTime" value="2300"/>
+		<set name="delay" value="1100" />
+		<set name="moveDistance" value="170" />	
+		<set name="moveTime" value="1500" />	
+		<set name="reuseDelay" value="4000"/>
+    </skill>
+	
+	<skill id="42009" class="-8" name="Startling Kick" levels="1">
+		<set name="iconId" value="67258964"/>
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="JUMP" />		
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="35"/>
+		<set name="range" value="35"/>
+        <set name="hitTime" value="2700"/>
+		<set name="moveDistance" value="-180" />
+		<set name="moveTime" value="1000" />
+		<set name="reuseDelay" value="5000"/>
+		<for>
+			<effect id="300400" time="6" count="1" type="STUN" dynamicTime="true" resistType="stunResist" chance="60" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="42010" class="-8" name="Leaping Strike" levels="1">
+		<set name="iconId" value="67198964"/>
+        <set name="power" value="60"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_AREA" />
+        <set name="radius" value="40"/>
+		<set name="range" value="40"/>
+        <set name="hitTime" value="3500"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="230" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="1000"/>
+		<cast>
+			<mul stat="atk" order="0x50" val="5" >
+				<target owerturned="true" />
+			</mul>
+		</cast>
+    </skill>
+	
+	<skill id="42011" class="-8" name="Distant Blade" levels="1">
+		<set name="iconId" value="67248964"/>
+        <set name="power" value="80"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="450" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_ONE" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="hitTime" value="1100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveDelay" value="300" />
+		<set name="moveTime" value="700" />
+        <set name="delay" value="500"/>
+    </skill>
+	
+	<skill id="42012" class="-8" name="Distant Blade" levels="1">
+		<set name="iconId" value="67248965"/>
+        <set name="power" value="90"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="450" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_ONE" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="hitTime" value="1100"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveDelay" value="200" />
+		<set name="moveTime" value="600" />
+        <set name="delay" value="500"/>
+    </skill>
+	
+	<skill id="42013" class="-8" name="Distant Blade" levels="1">
+		<set name="iconId" value="67248966"/>
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="450" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_ONE" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="hitTime" value="3000"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="owerturnMod" value="0"/>
+		<set name="moveDistance" value="120" />
+		<set name="moveDelay" value="200" />
+		<set name="moveTime" value="600" />
+        <set name="delay" value="800"/>
+    </skill>
+	
+	<skill id="42014" class="-8" name="Stunning Backhand" levels="1">
+		<set name="iconId" value="67238964"/>
+        <set name="power" value="100"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_ONE_AREA" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="hitTime" value="3700"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="60" />
+		<set name="moveTime" value="1000" />
+        <set name="delay" value="500"/>
+		<for>
+			<effect id="300700" time="6" count="1" type="STUN" dynamicTime="true" resistType="stunResist" chance="40" stackType="stun" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="42015" class="-8" name="Fury Strike" levels="1">
+		<set name="iconId" value="67268964"/>
+        <set name="power" value="150"/>
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_AURA" />
+        <set name="radius" value="60"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="100" />
+		<set name="moveTime" value="500" />
+		<set name="moveDelay" value="200" />
+        <set name="delay" value="700"/>
+    </skill>
+	
+	<skill id="42016" class="-8" name="Heart Thrust" levels="1">
+		<set name="iconId" value="67228964"/>
+        <set name="power" value="180"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_RAIL" />
+        <set name="radius" value="20"/>
+		<set name="range" value="80"/>
+        <set name="hitTime" value="3700"/>
+		<set name="delay" value="1700"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="180" />
+		<set name="moveDelay" value="1100" />
+		<set name="moveTime" value="700" />
+    </skill>
+	
+	<skill id="42017" class="-8" name="Exhausting Blow" levels="1">
+		<set name="iconId" value="67318964"/>
+        <set name="power" value="120"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SINGLE_SHOT"/>
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="450" />	
+		<set name="castMinRange" value="0" />	
+        <set name="targetType" value="TARGET_ONE" />
+        <set name="radius" value="10"/>
+		<set name="range" value="450"/>
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="800"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="moveDistance" value="80" />
+		<set name="moveTime" value="900" />
+		<for>
+			<effect id="300900" time="6" count="1" type="DEBUFF" dynamicTime="true" stackType="skill_reuse_time_up" chance="100" resistType="weakResist" debuff="true" >
+				<mul stat="shortReuse" order="0x30" val="1.5" />
+				<mul stat="rangeReuse" order="0x30" val="1.5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="42018" class="-8" name="Overpower" levels="1">
+		<set name="iconId" value="67288964"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+		<set name="skillGroup" value="BUFF" />	
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="mpConsume" value="130" />
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="8000"/>
+        <for>
+			<effect id="300300" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
+				<mul stat="atk" order="0x50" val="1.3" />
+			</effect>
+		</for>
+    </skill>
+</list>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Warrior Castanic Male -->
+	<template id="10001" iconId="10701" name="*Воин*" title="Убиватель" appearance="top_warrior_male" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="180000" defense="5000" impact="1500" balance="10000" maxHp="200000" maxMp="3000" atkSpd="156" runSpd="142" critRate="135" critRcpt="135" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="30001;30002;30003;30004;30005;30006;30007;30008;30009;30010;30011;30012;30013;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="72" />
+		<add stat="stunRcpt" order="0x40" val="48" />
+		<mul stat="cAtk" order="0x15" val="1.35" />
+	</template>
+	
+	<!-- Warrior Castanic Female -->
+	<template id="10002" iconId="10801" name="*Воин*" title="Убиватель" appearance="top_warrior_female" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="180000" defense="5000" impact="1500" balance="10000" maxHp="200000" maxMp="3000" atkSpd="156" runSpd="142" critRate="135" critRcpt="135" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="30001;30002;30003;30004;30005;30006;30007;30008;30009;30010;30011;30012;30013;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="72" />
+		<add stat="stunRcpt" order="0x40" val="48" />
+		<mul stat="cAtk" order="0x15" val="1.35" />
+	</template>
+	
+	<!-- Sorc Elf Male -->
+	<template id="10003" iconId="10305" name="*Маг*" title="Убиватель" appearance="top_sorcerer_male" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="220000" defense="4000" impact="1500" balance="7000" maxHp="200000" maxMp="3000" atkSpd="172" runSpd="136" critRate="62" critRcpt="37" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="31000;31001;31002;31003;31004;31005;31006;31007;31008;31009;31010;31011;31012;31013;31014;31015;31016;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="54" />
+		<add stat="stunRcpt" order="0x40" val="24" />
+		<mul stat="cAtk" order="0x15" val="1.25" />
+	</template>
+	
+	<!-- Sorc Elf Female -->
+	<template id="10004" iconId="10405" name="*Маг*" title="Убиватель" appearance="top_sorcerer_female" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="220000" defense="4000" impact="1500" balance="7000" maxHp="200000" maxMp="3000" atkSpd="172" runSpd="136" critRate="62" critRcpt="37" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="31000;31001;31002;31003;31004;31005;31006;31007;31008;31009;31010;31011;31012;31013;31014;31015;31016;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="54" />
+		<add stat="stunRcpt" order="0x40" val="24" />
+		<mul stat="cAtk" order="0x15" val="1.25" />
+	</template>
+	
+	<!-- Priest Baraka -->
+	<template id="10005" iconId="11107" name="*Целитель*" title="Убиватель" appearance="top_priest" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="130000" defense="5000" impact="1500" balance="10000" maxHp="200000" maxMp="3000" atkSpd="110" runSpd="105" critRate="24" critRcpt="24" geomRadius="30" geomHeight="70" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="32000;32001;32002;32003;32004;32005;32006;32007;32008;32009;32010;32011;32012;32013;32014;32015;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="95" />
+		<add stat="stunRcpt" order="0x40" val="95" />
+	</template>
+	
+	<!-- Slayer Aman Male -->
+	<template id="10006" iconId="10503" name="*Убийца*" title="Убиватель" appearance="top_slayer_male" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="330000" defense="5000" impact="14500" balance="15000" maxHp="300000" maxMp="3000" atkSpd="99" runSpd="99" critRate="45" critRcpt="90" geomRadius="25" geomHeight="70" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="33000;33001;33002;33003;33004;33005;33006;33007;33008;33009;33010;33011;33012;33013;33014;33015;33016;33017;33018;33019;33020;" >
+		<add stat="weakRcpt" order="0x40" val="24" />
+		<add stat="dmgRcpt" order="0x40" val="95" />
+		<add stat="stunRcpt" order="0x40" val="72" />
+	</template>
+	
+	<!-- Slayer Aman Demale -->
+	<template id="10007" iconId="10603" name="*Убийца*" title="Убиватель" appearance="top_slayer_female" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="330000" defense="5000" impact="14500" balance="15000" maxHp="300000" maxMp="3000" atkSpd="99" runSpd="99" critRate="45" critRcpt="90" geomRadius="25" geomHeight="70" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="33000;33001;33002;33003;33004;33005;33006;33007;33008;33009;33010;33011;33012;33013;33014;33015;33016;33017;33018;33019;33020;" >
+		<add stat="weakRcpt" order="0x40" val="24" />
+		<add stat="dmgRcpt" order="0x40" val="95" />
+		<add stat="stunRcpt" order="0x40" val="72" />
+	</template>
+	
+	<!-- Lancer Baraka -->
+	<template id="10008" iconId="11102" name="*Защитник*" title="Убиватель" appearance="top_lancer" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="130000" defense="11000" impact="1000" balance="20000" maxHp="250000" maxMp="3000" atkSpd="85" runSpd="85" critRate="40" critRcpt="40" geomRadius="30" geomHeight="70" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="34000;34001;34002;34003;34004;34005;34006;34007;34008;34009;34010;34011;34012;34013;34014;34015;34016;34017;" >
+		<add stat="weakRcpt" order="0x40" val="45" />
+		<add stat="dmgRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="95" />
+		<add stat="maxDamDef" order="0x40" val="40000"/>  
+	</template>
+	
+	<!-- Archer Castanic Male -->
+	<template id="10009" iconId="10706" name="*Стрелок*" title="Убиватель" appearance="top_archer_male" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="130000" defense="4000" impact="1500" balance="7000" maxHp="200000" maxMp="3000" atkSpd="180" runSpd="144" critRate="94" critRcpt="162" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="35000;35001;35002;35003;35004;35005;35006;35007;35008;35009;35010;35011;35012;35013;35014;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="72" />
+		<add stat="stunRcpt" order="0x40" val="48" />
+		<mul stat="cAtk" order="0x15" val="1.35" />
+	</template>
+	
+	<!-- Archer Castanic Female -->
+	<template id="10010" iconId="10806" name="*Стрелок*" title="Убиватель" appearance="top_archer_female" class="PLAYER_KILLER" type="300" level="60" exp="0" attack="130000" defense="4000" impact="1500" balance="7000" maxHp="200000" maxMp="3000" atkSpd="156" runSpd="142" critRate="135" critRcpt="135" geomRadius="20" geomHeight="60" aggro="0" fractionRange="500" owerturnTime="2500" fractionId="Мастер Джедай" skills="35000;35001;35002;35003;35004;35005;35006;35007;35008;35009;35010;35011;35012;35013;35014;" >
+		<add stat="weakRcpt" order="0x40" val="95" />
+		<add stat="dmgRcpt" order="0x40" val="72" />
+		<add stat="stunRcpt" order="0x40" val="48" />
+		<mul stat="cAtk" order="0x15" val="1.35" />
+	</template>
+</list>
+

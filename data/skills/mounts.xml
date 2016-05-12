@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67219975" class="-15" name="Bay Gelding" levels="1"><!--240 1 100-->
+        <set name="mountId" value="1"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>	
+	
+	<skill id="67219976" class="-15" name="Fast Bay Gelding" levels="1"><!--270 2 600-->
+        <set name="mountId" value="2"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="270" />
+		</for>
+    </skill>
+			
+	<skill id="67219977" class="-15" name="Honor Steed" levels="1"><!--290 11 4000-->
+        <set name="mountId" value="11"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="290" />
+		</for>
+    </skill>
+	
+	<skill id="67219978" class="-15" name="Fast White Stallion" levels="1"><!--290 17 4000-->
+        <set name="mountId" value="17"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="290" />
+		</for>
+    </skill>
+	
+	<skill id="67219979" class="-15" name="Arcadian Drapple 240" levels="1"><!--240 24 200-->
+        <set name="mountId" value="24"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>
+
+	<skill id="67219980" class="-15" name="Chestnut Gelding 240" levels="1"><!--240 6 200-->
+        <set name="mountId" value="6"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>
+	
+	<skill id="67219981" class="-15" name="Velikan Grey 240" levels="1"><!--240 26 200-->
+        <set name="mountId" value="26"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>
+	
+	<skill id="67219982" class="-15" name="Pinto 240" levels="1"><!--240 8 200-->
+        <set name="mountId" value="8"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>
+	
+	<skill id="67219983" class="-15" name="Blue Roan 240" levels="1"><!--240 25 200-->
+        <set name="mountId" value="25"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="240" />
+		</for>
+    </skill>
+	
+	<skill id="67219984" class="-15" name="Black Stallion" levels="1"><!--290 10 4000-->
+        <set name="mountId" value="10"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="290" />
+		</for>
+    </skill>
+	
+	<skill id="67219985" class="-15" name="Fast Arcadian Dapple" levels="1"><!--280 5 1000-->
+        <set name="mountId" value="5"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+	<skill id="67219986" class="-15" name="Fast Pinto" levels="1"><!--280 27 1200-->
+        <set name="mountId" value="27"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+
+	<skill id="67219987" class="-15" name="Night Mare" levels="1"><!--280 12 3000-->
+        <set name="mountId" value="12"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>		
+	
+	<skill id="67219988" class="-15" name="Federation Charger" levels="1"><!-- ! -->
+        <set name="mountId" value="11"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="290" />
+		</for>
+    </skill>
+	
+    <skill id="67219989" class="-15" name="Veteran Federation Charger" levels="1"><!-- ! -->
+        <set name="mountId" value="11"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="290" />
+		</for>
+    </skill>	
+	
+	<skill id="67219990" class="-15" name="White Stallion" levels="1"><!--255 23 600-->
+        <set name="mountId" value="23"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+	
+	<skill id="67219991" class="-15" name="Arcadian Dapple" levels="1"><!--255 24 500-->
+        <set name="mountId" value="24"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+	
+	<skill id="67219992" class="-15" name="Blue Roan" levels="1"><!--255 25 500-->
+        <set name="mountId" value="25"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+
+	<skill id="67219993" class="-15" name="Velikan Grey" levels="1"><!--255 26 500-->
+        <set name="mountId" value="26"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+
+	<skill id="67219994" class="-15" name="Pinto" levels="1"><!--255 8 500-->
+        <set name="mountId" value="8"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+	
+	<skill id="67219995" class="-15" name="Chestnut Gelding" levels="1"><!--255 6 500-->
+        <set name="mountId" value="6"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="255" />
+		</for>
+    </skill>
+	
+	<skill id="67219996" class="-15" name="Regal Frostlion" levels="1"><!--280 29 2000-->
+        <set name="mountId" value="29"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+	<skill id="67219997" class="-15" name="Frost Mare" levels="1"><!--280 30 3000-->
+        <set name="mountId" value="30"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+	<skill id="67220054" class="-15" name="Fast Velikan Grey" levels="1"><!--270 26 700-->
+        <set name="mountId" value="26"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="270" />
+		</for>
+    </skill>
+		
+	<skill id="67220055" class="-15" name="Shadow Steed" levels="1"><!--280 13 1000-->
+        <set name="mountId" value="13"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220056" class="-15" name="Velik's Festival Horse" levels="1"><!--280 15 1200-->
+        <set name="mountId" value="15"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220057" class="-15" name="Nexus Warhorse" levels="1"><!--280 16 2000-->
+        <set name="mountId" value="16"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220058" class="-15" name="Winter Mare" levels="1"><!--280 30-->
+        <set name="mountId" value="30"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+	<skill id="67220059" class="-15" name="Aeolian Zebra" levels="1"><!--280 18 2000-->
+        <set name="mountId" value="18"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220060" class="-15" name="Death Charger" levels="1"><!--280 19 2000-->
+        <set name="mountId" value="19"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220061" class="-15" name="Jeweled Lion" levels="1"><!--280 20 2500-->
+        <set name="mountId" value="20"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>	
+	
+	<skill id="67220062" class="-15" name="Tawny Huntress" levels="1"><!--280 21 2000-->
+        <set name="mountId" value="21"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+	<skill id="67220063" class="-15" name="Black Leopard" levels="1"><!--280 22 2500-->
+        <set name="mountId" value="22"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="MOUNT"/>
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="reuseDelay" value="1000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false" msg="It can not be used in combat." />
+		</cond>
+		<for> 
+			<set stat="runSpd" order="0x50" val="280" />
+		</for>
+    </skill>
+	
+
+</list>

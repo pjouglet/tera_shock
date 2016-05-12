@@ -1,0 +1,3473 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="67118964" class="6" name="Divine Radiance I" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="10" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+	</skill>
+	
+	<skill id="67119064" class="6" name="Divine Radiance II" levels="1">
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="14" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->		
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67119084" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119164" class="6" name="Divine Radiance III" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="20" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119264" class="6" name="Divine Radiance IV" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="29" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119364" class="6" name="Divine Radiance V" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="43" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119464" class="6" name="Divine Radiance VI" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="62" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->		
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119564" class="6" name="Divine Radiance VII" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="91" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67118984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119664" class="6" name="Divine Radiance VIII" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="132" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67119684" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119764" class="6" name="Divine Radiance IX" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="193" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67119784" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119864" class="6" name="Divine Radiance X" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="281" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67119884" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67119964" class="6" name="Divine Radiance XI" levels="1">
+        <set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="450"/>
+		<set name="power" value="410" />
+		<set name="radius" value="10" />
+		<set name="skillType" value="SINGLE_SLOW_SHOT" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="25" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="500" />	
+		<!-- set name="reuseDelay" value="1000" / -->	
+		<set name="implemented" value="true" />
+		<set name="damageId" value="67119984" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+		
+	<skill id="67288964" class="6" name="Heal Thyself I" levels="1">
+	    <set name="power" value="402" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+	</skill>
+	
+	<skill id="67289064" class="6" name="Heal Thyself II" levels="1">
+        <set name="power" value="511" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289164" class="6" name="Heal Thyself III" levels="1">
+        <set name="power" value="675" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289264" class="6" name="Heal Thyself IV" levels="1">
+        <set name="power" value="921" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289364" class="6" name="Heal Thyself V" levels="1">
+        <set name="power" value="1306" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289464" class="6" name="Heal Thyself VI" levels="1">
+        <set name="power" value="1640" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289564" class="6" name="Heal Thyself VII" levels="1">
+        <set name="power" value="2071" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289664" class="6" name="Heal Thyself VIII" levels="1">
+        <set name="power" value="2450" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289764" class="6" name="Heal Thyself IX" levels="1">
+        <set name="power" value="2682" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289864" class="6" name="Heal Thyself X" levels="1">
+        <set name="power" value="2813" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67289964" class="6" name="Heal Thyself XI" levels="1">
+        <set name="power" value="3010" />
+		<set name="reuseDelay" value="5000"/>
+		<set name="delay" value="1500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="HEAL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="200" />
+		<set name="hitTime" value="3000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+
+	<skill id="67488964" class="6" name="Backstep" levels="1">
+		<set name="targetType" value="TARGET_SELF" />
+		<set name="reuseDelay" value="7000" />
+		<set name="moveDistance" value="-200" />
+		<set name="evasion" value="true" />		
+		<set name="skillType" value="JUMP" />
+		<set name="operateType" value="ACTIVE" />	
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="hitTime" value="1500" />	
+		<set name="moveTime" value="1000" />	
+		<set name="implemented" value="true" />
+		<set name="forceCast" value="true" />
+		<cond>
+			<player notBarrier="true" msg="Нельзя использовать около преград." />
+		</cond>	
+	</skill>
+	
+	<skill id="67298964" class="6" name="Focus Heal I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="774"/>
+		<set name="aggroPoint" value="3000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67298964"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299064" class="6" name="Focus Heal II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="1104"/>
+		<set name="aggroPoint" value="5000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299064"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299164" class="6" name="Focus Heal III" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="1399"/>
+		<set name="aggroPoint" value="8000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299164"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299264" class="6" name="Focus Heal IV" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="1715"/>
+		<set name="aggroPoint" value="12000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299264"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299364" class="6" name="Focus Heal V" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="2025"/>
+		<set name="aggroPoint" value="17000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299364"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299464" class="6" name="Focus Heal VI" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="2297"/>
+		<set name="aggroPoint" value="22000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299464"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299564" class="6" name="Focus Heal VII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="2501"/>
+		<set name="aggroPoint" value="25000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299564"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67299664" class="6" name="Focus Heal VIII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_HEAL</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">300000 4000</table>
+		<table name="#reuseDelay">0 2500</table>
+		<table name="#blockingMove">false true</table>
+		<table name="#mpConsume">338 338</table>
+		<table name="#castCount">1 2</table>
+        <set name="power" value="2624"/>
+		<set name="aggroPoint" value="25000" />
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_FRIEND"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="1000"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="2"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67299664"/>
+		<set name="blockingMove" value="#blockingMove"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67188964" class="6" name="Mana Infusion" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="7500"/>
+		<set name="delay" value="7000"/>
+        <set name="reuseDelay" value="10000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<player battle="false"/>
+		</cond>
+        <for>
+			<effect id="800200" time="1" count="20" type="MANA_HEAL_OVER_TIME" noAttack="true" noAttacked="true" power="100" />	
+		</for>
+    </skill>
+	
+	 <skill id="67368964" class="6" name="Fiery Escape I" levels="1">
+        <set name="power" value="17"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369064" class="6" name="Fiery Escape II" levels="1">
+        <set name="power" value="24"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369164" class="6" name="Fiery Escape III" levels="1">
+        <set name="power" value="35"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369264" class="6" name="Fiery Escape IV" levels="1">
+        <set name="power" value="51"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369364" class="6" name="Fiery Escape V" levels="1">
+        <set name="power" value="75"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369464" class="6" name="Fiery Escape VI" levels="1">
+        <set name="power" value="109"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369564" class="6" name="Fiery Escape VII" levels="1">
+        <set name="power" value="160"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="60"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369664" class="6" name="Fiery Escape VIII" levels="1">
+        <set name="power" value="233"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369764" class="6" name="Fiery Escape IX" levels="1">
+        <set name="power" value="340"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67369864" class="6" name="Fiery Escape X" levels="1">
+        <set name="power" value="496"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_AREA"/>
+        <set name="radius" value="60"/>
+		<set name="range" value="20"/>
+        <set name="mpConsume" value="120"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="200"/>
+		<set name="moveTime" value="1000"/>
+		<set name="moveDelay" value="200"/>
+		<set name="moveDistance" value="-250" />
+        <set name="reuseDelay" value="8000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="forceCast" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<and>
+				<using weapon="STAFF" msg="Используется только с посохом."/>
+				<player notBarrier="true" msg="Нельзя использовать около преград." />
+			</and>
+		</cond>
+		<for> 
+			<effect id="800800" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x30" val="0.3" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67378964" class="6" name="Final Reprisal I" levels="2">
+		<table name="#hasFast">true false</table>
+		<table name="#iconId">67378964 67378994</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="58"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67378964"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379064" class="6" name="Final Reprisal II" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379064 67379094</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="84"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379064"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379164" class="6" name="Final Reprisal III" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379164 67379194</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="123"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379164"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379264" class="6" name="Final Reprisal IV" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379264 67379294</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="179"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379264"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379364" class="6" name="Final Reprisal V" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379364 67379394</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="261"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379364"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379464" class="6" name="Final Reprisal VI" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379464 67379494</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="381"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379464"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379564" class="6" name="Final Reprisal VII" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379564 67379594</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="555"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379564"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379664" class="6" name="Final Reprisal VIII" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379664 67379694</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="810"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379564"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67379764" class="6" name="Final Reprisal IX" levels="2">
+        <table name="#hasFast">true false</table>
+		<table name="#iconId">67379764 67379794</table>
+		<table name="#delay">2100 800</table>
+		<table name="#hitTime">4500 1800</table>
+		<table name="#prevSkillNames">SHOCKING_IMPLOSION;TRIPLE_NEMESIS UNKNOWN</table>
+        <set name="power" value="1182"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="60"/>
+        <set name="mpConsume" value="250"/>
+        <set name="delay" value="#delay"/>
+		<set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="4000"/>
+		<set name="owerturnMod" value="20"/>
+		<set name="iconId" value="#iconId"/>
+		<set name="reuseId" value="67379564"/>
+		<set name="hasFast" value="#hasFast" />
+		<set name="prevSkillNames" value="#prevSkillNames" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67218964" class="6" name="Metamorphic Blast I" levels="1">
+		<set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="22"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>    
+	
+	 <skill id="67219064" class="6" name="Metamorphic Blast II" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="33"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219164" class="6" name="Metamorphic Blast III" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="48"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219264" class="6" name="Metamorphic Blast IV" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="70"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219364" class="6" name="Metamorphic Blast V" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="102"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219464" class="6" name="Metamorphic Blast VI" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="149"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219564" class="6" name="Metamorphic Blast VII" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="217"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219664" class="6" name="Metamorphic Blast VIII" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="317"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219764" class="6" name="Metamorphic Blast IX" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="462"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67219864" class="6" name="Metamorphic Blast X" levels="1">
+        <set name="targetType" value="TARGET_DEGREE_AURA" />
+		<set name="width" value="60"/>
+		<set name="radius" value="150" />
+		<set name="power" value="675"/>
+		<set name="skillType" value="STRIKE" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="1500" />	
+		<set name="delay" value="300" />	
+		<set name="castCount" value="2"/>
+		<set name="interval" value="300"/>
+		<set name="mpConsume" value="130"/>
+		<set name="reuseDelay" value="2500"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	 <skill id="67268964" class="6" name="Shocking Implosion I" levels="1">
+		<set name="power" value="173"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269064" class="6" name="Shocking Implosion II" levels="1">
+        <set name="power" value="253"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269164" class="6" name="Shocking Implosion III" levels="1">
+        <set name="power" value="369"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269264" class="6" name="Shocking Implosion IV" levels="1">
+        <set name="power" value="539"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269364" class="6" name="Shocking Implosion V" levels="1">
+        <set name="power" value="786"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269464" class="6" name="Shocking Implosion VI" levels="1">
+        <set name="power" value="1147"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269564" class="6" name="Shocking Implosion VII" levels="1">
+        <set name="power" value="1674"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67269664" class="6" name="Shocking Implosion VIII" levels="1">
+        <set name="power" value="2443"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+		<set name="skillName" value="SHOCKING_IMPLOSION" />
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="55"/>
+		<set name="radius" value="40"/>
+        <set name="mpConsume" value="500"/>
+		<set name="delay" value="1300"/>
+		<set name="castCount" value="5"/>
+		<set name="interval" value="170"/>
+		<set name="hitTime" value="2800"/>
+        <set name="reuseDelay" value="15000"/>
+		<set name="owerturnMod" value="0.1" />
+		<set name="correctableTarget" value="true" />
+		<set name="implemented" value="true" />
+        <cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67358964" class="6" name="Retaliate I" levels="1">
+		<set name="power" value="45"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359064" class="6" name="Retaliate II" levels="1">
+        <set name="power" value="66"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359164" class="6" name="Retaliate III" levels="1">
+        <set name="power" value="96"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359264" class="6" name="Retaliate IV" levels="1">
+        <set name="power" value="141"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359364" class="6" name="Retaliate V" levels="1">
+        <set name="power" value="205"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359464" class="6" name="Retaliate VI" levels="1">
+        <set name="power" value="300"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359564" class="6" name="Retaliate VII" levels="1">
+        <set name="power" value="437"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359664" class="6" name="Retaliate VIII" levels="1">
+        <set name="power" value="638"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+	
+	<skill id="67359764" class="6" name="Retaliate IX" levels="1">
+        <set name="power" value="931"/>
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="OWERTURNED_STRIKE"/>
+        <set name="targetType" value="TARGET_AURA"/>
+        <set name="radius" value="80"/>
+        <set name="delay" value="1000"/>
+		<set name="reuseDelay" value="15000"/>
+        <set name="hitTime" value="1000"/>
+		<set name="owerturnMod" value="0" />
+        <set name="implemented" value="true" />
+		<cond>
+			<player owerturned="true" msg="Вы не опрокинуты."/>
+		</cond>
+    </skill>
+
+	<skill id="67398964" class="6" name="Triple Nemesis I" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">14 16 32</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+    </skill>
+	
+	<skill id="67399064" class="6" name="Triple Nemesis II" levels="3">
+        <table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">20 24 47</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />	
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+
+    <skill id="67399164" class="6" name="Triple Nemesis III" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">29 35 68</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399264" class="6" name="Triple Nemesis IV" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">42 51 100</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399364" class="6" name="Triple Nemesis V" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">61 74 145</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399464" class="6" name="Triple Nemesis VI" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">82 109 212</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399564" class="6" name="Triple Nemesis VII" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">130 158 309</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399664" class="6" name="Triple Nemesis VIII" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">190 231 451</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399764" class="6" name="Triple Nemesis IX" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">278 337 659</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+	
+	<skill id="67399864" class="6" name="Triple Nemesis X" levels="3">
+		<table name="#hitTime">2100 2100 2800</table>
+		<table name="#delay">600 600 1800</table>
+		<table name="#power">405 492 961</table>
+		<table name="#mpConsume">50 75 100</table>
+		<set name="targetType" value="TARGET_ONE" />
+		<set name="range" value="420"/>
+		<set name="power" value="#power" />
+		<set name="radius" value="5" />
+		<set name="skillType" value="SINGLE_SHOT" />
+		<set name="skillName" value="TRIPLE_NEMESIS" />
+		<set name="rangeType" value="RANGE_SKILL" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="mpConsume" value="#mpConsume" />
+		<set name="speed" value="900" />
+		<set name="speedOffset" value="-400" />
+		<set name="hitTime" value="#hitTime" />	
+		<set name="delay" value="#delay" />	
+		<set name="implemented" value="true" />
+		<set name="reuseDelay" value="7000"/>
+		<set name="forceCast" value="true" />
+		<set name="correctableTarget" value="true" />
+		<set name="canOwerturn" value="false" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>			
+    </skill>
+
+    <skill id="67388964" class="6" name="Mana Charge" levels="14">
+        <table name="#operateType">CHARGE ACTIVE</table>
+        <table name="#skillType">CHARGE CHARGE_MANA_HEAL </table>
+		<table name="#delay">1300 300</table>
+		<table name="#hitTime">6000 1600</table>
+		<table name="#interval">1300 0</table>
+		<table name="#moveDistance">0 170</table>
+		<table name="#castCount">3 1</table>
+		<table name="#startState">0 0</table>
+		<table name="#blockingMove">false true</table>
+		<set name="reuseDelay" value="8000"/>
+		<set name="power" value="730"/>
+		<set name="startPower" value="0.8"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="hitTime" value="#hitTime"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseId" value="67388964"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="startState" value="#startState" />
+		<set name="offsetId" value="13"/>
+		<set name="interval" value="#interval"/>
+		<set name="blockingMove" value="#blockingMove" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+
+    <skill id="67208964" class="6" name="Purifying Circle" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="CLEAR_DEBUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="160"/>
+        <set name="mpConsume" value="375"/>
+        <set name="hitTime" value="2100"/>
+		<set name="delay" value="1600"/>
+        <set name="reuseDelay" value="2500"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67168964" class="6" name="Arise" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="maxTargets" value="5"/>
+        <set name="radius" value="400"/>
+        <set name="mpConsume" value="400"/>
+        <set name="hitTime" value="1500"/>
+		<set name="delay" value="1000"/>
+        <set name="reuseDelay" value="40000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="801300" time="5" count="1" type="BUFF" stackType="special_balance_up" >
+				<mul stat="balance" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67248964" class="6" name="Summon: Party" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="PARTY_SUMMON"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="mpConsume" value="1000"/>
+        <set name="hitTime" value="7000"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="600000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67228964" class="6" name="Resurrect" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="RESURRECT"/>
+        <set name="targetType" value="TARGET_AREA_PARTY_GUILD"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="60"/>
+		<set name="range" value="60"/>
+        <set name="mpConsume" value="1700"/>
+        <set name="hitTime" value="8700"/>
+		<set name="delay" value="7500"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="1"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+
+    <skill id="67128964" class="6" name="Regeneration Circle I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800100" time="2" count="5" type="HEAL" stackType="heal_over_time" power="88" />
+		</for>
+    </skill>
+	
+	<skill id="67129064" class="6" name="Regeneration Circle II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800101" time="2" count="5" type="HEAL" stackType="heal_over_time" power="111" />
+		</for>
+    </skill>
+	
+	<skill id="67129164" class="6" name="Regeneration Circle III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800102" time="2" count="5" type="HEAL" stackType="heal_over_time" power="136" />
+		</for>
+    </skill>
+	
+	<skill id="67129264" class="6" name="Regeneration Circle IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800103" time="2" count="5" type="HEAL" stackType="heal_over_time" power="161" />
+		</for>
+    </skill>
+	
+	<skill id="67129364" class="6" name="Regeneration Circle V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800104" time="2" count="5" type="HEAL" stackType="heal_over_time" power="182" />
+		</for>
+    </skill>
+	
+	<skill id="67129464" class="6" name="Regeneration Circle VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800105" time="2" count="5" type="HEAL" stackType="heal_over_time" power="198" />
+		</for>
+    </skill>
+	
+	<skill id="67129564" class="6" name="Regeneration Circle VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800106" time="2" count="5" type="HEAL" stackType="heal_over_time" power="208" />
+		</for>
+    </skill>
+	
+	<skill id="67129664" class="6" name="Regeneration Circle VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="range" value="150"/>
+		<set name="delay" value="3000"/>
+        <set name="mpConsume" value="500"/>
+        <set name="hitTime" value="5000"/>
+        <set name="reuseDelay" value="20000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800107" time="2" count="5" type="HEAL" stackType="heal_over_time" power="214" />
+		</for>
+    </skill>
+	
+	<skill id="67138964" class="6" name="Healing Circle I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="2645"/>
+		<set name="aggroPoint" value="6000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67139064" class="6" name="Healing Circle II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="2993"/>
+		<set name="aggroPoint" value="9000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67139164" class="6" name="Healing Circle III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="3490"/>
+		<set name="aggroPoint" value="12000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67139264" class="6" name="Healing Circle IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="3903"/>
+		<set name="aggroPoint" value="15000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67139364" class="6" name="Healing Circle V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="4194"/>
+		<set name="aggroPoint" value="17000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67139464" class="6" name="Healing Circle VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+		<set name="power" value="4343"/>
+		<set name="aggroPoint" value="17000" />
+        <set name="skillType" value="HEAL"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="90"/>
+		<set name="range" value="100"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="650"/>
+        <set name="hitTime" value="2900"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="noCaster" value="true" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+    <skill id="67258964" class="6" name="Blessing of Zenobia" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="180"/>
+        <set name="mpConsume" value="200"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="5000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="15" time="600" count="1" type="BUFF" stackType="special_speed_up" >
+				<add stat="runSpd" order="0x40" val="10" >	
+					<player battle="false"/>
+				</add>
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67158964" class="6" name="Blessing of Shakan I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="120"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2100"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="201" time="900" count="1" stackType="power_factor_up_priest" type="BUFF" >
+				<add stat="powerFactor" order="0x40" val="17" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67159064" class="6" name="Blessing of Shakan II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_AREA_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="120"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2100"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="202" time="900" count="1" stackType="power_factor_up_priest" type="BUFF" >
+				<add stat="powerFactor" order="0x40" val="25" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67308964" class="6" name="Blessing of Seren I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="220"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800500" time="900" count="1" stackType="defense_factor_up" type="BUFF" >
+				<add stat="defenseFactor" order="0x40" val="6" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67309064" class="6" name="Blessing of Seren II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="220"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800501" time="900" count="1" stackType="defense_factor_up" type="BUFF" >
+				<add stat="defenseFactor" order="0x40" val="11" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67338964" class="6" name="Blessing of Balder I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800600" time="2" count="450" type="HEAL_MOD" power="55" stackType="special_heal_over_time" value="0.055" />
+		</for>
+    </skill>
+	
+	<skill id="67339064" class="6" name="Blessing of Balder II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800601" time="2" count="450" type="HEAL_MOD" power="62" stackType="special_heal_over_time" value="0.055" />
+		</for>
+    </skill>
+	
+	<skill id="67339164" class="6" name="Blessing of Balder III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800602" time="2" count="450" type="HEAL_MOD" power="67" stackType="special_heal_over_time" value="0.055" />
+		</for>
+    </skill>
+	
+	<skill id="67339264" class="6" name="Blessing of Balder IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800603" time="2" count="450" type="HEAL_MOD" power="71" stackType="special_heal_over_time" value="0.055" />
+		</for>
+    </skill>
+	
+	<skill id="67339364" class="6" name="Blessing of Balder V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="radius" value="220"/>
+		<set name="delay" value="1200"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2200"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="maxTargets" value="5"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="800604" time="2" count="450" type="HEAL_MOD" power="73" stackType="special_heal_over_time" value="0.055" />
+		</for>
+    </skill>
+	
+	<skill id="67438964" class="6" name="Ishara's Lullaby I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 4000</table>
+		<table name="#reuseDelay">0 35000</table>
+		<table name="#mpConsume">500 500</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67438964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="801200" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67439064" class="6" name="Ishara's Lullaby II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 4000</table>
+		<table name="#reuseDelay">0 35000</table>
+		<table name="#mpConsume">500 500</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="500"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67439064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect id="801200" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
+				<mul stat="runSpd" order="0x50" val="0" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67408964" class="6" name="Plague of Exhaustion I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67408964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800900" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" options="buff" debuff="true" power="136" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409064" class="6" name="Plague of Exhaustion II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800901" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" options="buff" debuff="true" power="193" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409164" class="6" name="Plague of Exhaustion III" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409164"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800902" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" debuff="true" power="284" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409264" class="6" name="Plague of Exhaustion IV" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409264"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800903" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" debuff="true" power="410" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409364" class="6" name="Plague of Exhaustion V" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409364"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800904" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" debuff="true" power="569" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409464" class="6" name="Plague of Exhaustion VI" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409464"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800904" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" debuff="true" power="786" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67409564" class="6" name="Plague of Exhaustion VII" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_EFFECT</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 5000</table>
+		<table name="#reuseDelay">0 60000</table>
+		<table name="#mpConsume">750 750</table>
+		<table name="#castCount">1 2</table>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="470"/>
+		<set name="delay" value="1100"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="4"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="castCount" value="#castCount"/>
+		<set name="interval" value="1000"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67409564"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+		<for>
+			<effect time="0" count="1" type="CANCEL_EFFECT" options="buff" debuff="true" />
+			<effect id="800905" time="3" count="5" type="DAM_OVER_TIME" stackType="dot" chance="100" debuff="true" power="1145" >
+				<mul stat="shortReuse" order="0x30" val="2" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67278964" class="6" name="Prayer of Peace I" levels="1">
+		<set name="reuseDelay" value="300000"/>
+		<set name="delay" value="3500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="UNAGGRO" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="500" />
+		<set name="hitTime" value="4000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67279064" class="6" name="Prayer of Peace II" levels="1">
+		<set name="reuseDelay" value="300000"/>
+		<set name="delay" value="3500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="UNAGGRO" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="500" />
+		<set name="hitTime" value="4000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67279164" class="6" name="Prayer of Peace III" levels="1">
+		<set name="reuseDelay" value="300000"/>
+		<set name="delay" value="3500"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="UNAGGRO" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="mpConsume" value="500" />
+		<set name="hitTime" value="4000" />
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>		
+    </skill>
+	
+	<skill id="67458964" class="6" name="Energy Stars I" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE_PARTY_BUFF</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 1000</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#castCount">1 2</table>
+		<table name="#mpConsume">750 750</table>
+        <set name="power" value="150"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="490"/>
+		<set name="delay" value="100"/>
+		<set name="interval" value="100"/>
+		<set name="staticInterval" value="true"/>
+		<set name="castCount" value="#castCount"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67458964"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="801500" time="15" count="1" stackType="ultimate_stat_up" type="BUFF" >
+				<add stat="powerFactor" order="0x40" val="18" />	
+				<mul stat="atkSpd" order="0x30" val="1.05" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67459064" class="6" name="Energy Stars II" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE_PARTY_BUFF</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 1000</table>
+		<table name="#castCount">1 2</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#mpConsume">813 813</table>
+        <set name="power" value="265"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="490"/>
+		<set name="radius" value="400"/>
+		<set name="delay" value="100"/>
+		<set name="interval" value="100"/>
+		<set name="staticInterval" value="true"/>
+		<set name="castCount" value="#castCount"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67459064"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="801501" time="15" count="1" stackType="ultimate_stat_up" type="BUFF" >
+				<add stat="powerFactor" order="0x40" val="20" />	
+				<mul stat="atkSpd" order="0x30" val="1.05" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67459164" class="6" name="Energy Stars III" levels="11">
+		<table name="#skillType">LOCK_ON LOCK_ON_STRIKE_PARTY_BUFF</table>
+		<table name="#operateType">LOCK_ON ACTIVE</table>
+		<table name="#hitTime">5000 1000</table>
+		<table name="#reuseDelay">0 30000</table>
+		<table name="#castCount">1 2</table>
+		<table name="#mpConsume">875 875</table>
+        <set name="power" value="467"/>
+        <set name="operateType" value="#operateType"/>
+        <set name="skillType" value="#skillType"/>
+        <set name="targetType" value="LOCK_ON_WAR"/>
+		<set name="rangeType" value="RANGE_SKILL" />
+        <set name="range" value="490"/>
+		<set name="radius" value="400"/>
+		<set name="delay" value="100"/>
+		<set name="interval" value="100"/>
+		<set name="castCount" value="#castCount"/>
+        <set name="mpConsume" value="#mpConsume"/>
+        <set name="maxTargets" value="1"/>
+        <set name="hitTime" value="#hitTime"/>
+		<set name="staticInterval" value="true"/>
+        <set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67459164"/>
+		<set name="blockingMove" value="false"/>
+		<set name="implemented" value="true" />
+		<for>
+			<effect id="801502" time="15" count="1" stackType="ultimate_stat_up" type="BUFF" >
+				<add stat="powerFactor" order="0x40" val="22" />	
+				<mul stat="atkSpd" order="0x30" val="1.05" />	
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67448964" class="6" name="Restorative Burst I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="range" value="260"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67448984" class="6" name="Restorative Burst Heal I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801400" time="1" count="5" type="HEAL" stackType="heal_over_time" power="136" />
+		</for>
+    </skill>
+	
+	<skill id="67449064" class="6" name="Restorative Burst II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="range" value="260"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449084" class="6" name="Restorative Burst Heal II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801401" time="1" count="5" type="HEAL" stackType="heal_over_time" power="181" />
+		</for>
+    </skill>
+	
+	<skill id="67449164" class="6" name="Restorative Burst III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="range" value="260"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449184" class="6" name="Restorative Burst Heal III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801402" time="1" count="5" type="HEAL" stackType="heal_over_time" power="235" />
+		</for>
+    </skill>
+	
+	<skill id="67449264" class="6" name="Restorative Burst IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="range" value="260"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449284" class="6" name="Restorative Burst Heal IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801403" time="1" count="5" type="HEAL" stackType="heal_over_time" power="298" />
+		</for>
+    </skill>
+	
+	<skill id="67449364" class="6" name="Restorative Burst V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="range" value="260"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449384" class="6" name="Restorative Burst Heal V" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801404" time="1" count="5" type="HEAL" stackType="heal_over_time" power="366" />
+		</for>
+    </skill>
+	
+	<skill id="67449464" class="6" name="Restorative Burst VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="range" value="260"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449484" class="6" name="Restorative Burst Heal VI" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801405" time="1" count="5" type="HEAL" stackType="heal_over_time" power="431" />
+		</for>
+    </skill>
+	
+	<skill id="67449564" class="6" name="Restorative Burst VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="range" value="260"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449584" class="6" name="Restorative Burst Heal VII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801406" time="1" count="5" type="HEAL" stackType="heal_over_time" power="489" />
+		</for>
+    </skill>
+	
+	<skill id="67449664" class="6" name="Restorative Burst VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="range" value="260"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449684" class="6" name="Restorative Burst Heal VIII" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801407" time="1" count="5" type="HEAL" stackType="heal_over_time" power="533" />
+		</for>
+    </skill>
+	
+	<skill id="67449764" class="6" name="Restorative Burst IX" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="SPAWN_BUFF_TRAP"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_SELF" />
+        <set name="mpConsume" value="1100"/>
+        <set name="hitTime" value="2600"/>
+		<set name="delay" value="1000"/>
+		<set name="range" value="260"/>
+		<set name="lifeTime" value="5"/>
+        <set name="reuseDelay" value="12000"/>
+		<set name="offsetId" value="20"/>
+		<set name="radius" value="100"/>
+		<set name="implemented" value="true" />
+    </skill>
+	
+	<skill id="67449784" class="6" name="Restorative Burst Heal IX" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_ONE"/>
+		<for>
+			<effect id="801408" time="1" count="5" type="HEAL" stackType="heal_over_time" power="559" />
+		</for>
+    </skill>
+	
+	<skill id="67238964" class="6" name="Homeward Bound" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_NEAR_BONFIRE"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="radius" value="550"/>
+        <set name="mpConsume" value="1000"/>
+        <set name="hitTime" value="7500"/>
+		<set name="delay" value="6500"/>
+        <set name="reuseDelay" value="600000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>	
+    </skill>
+	
+	<skill id="67318964" class="6" name="Blessing of Arachne" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="470"/>
+        <set name="mpConsume" value="625"/>
+        <set name="hitTime" value="2500"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="3000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800400" time="1500" count="1" stackType="resist_up" type="BUFF" >
+				<add stat="weakRcpt" order="0x40" val="5" />	
+				<add stat="dmgRcpt" order="0x40" val="5" />
+				<add stat="stunRcpt" order="0x40" val="5" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67328964" class="6" name="Kaia's Shield I" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="520"/>
+        <set name="mpConsume" value="675"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="75000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800300" time="12" count="1" stackType="absorb_damage" type="DAMAGE_ABSORPTION" power="5111" value="0" >
+				<add stat="owerturnRcpt" order="0x40" val="100" />
+				<add stat="stunRcpt" order="0x40" val="100" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67329064" class="6" name="Kaia's Shield II" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="520"/>
+        <set name="mpConsume" value="675"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="75000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800301" time="12" count="1" stackType="absorb_damage" type="DAMAGE_ABSORPTION" power="7095" value="0" >
+				<add stat="owerturnRcpt" order="0x40" val="100" />
+				<add stat="stunRcpt" order="0x40" val="100" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67329164" class="6" name="Kaia's Shield III" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="520"/>
+        <set name="mpConsume" value="675"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="75000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800302" time="12" count="1" stackType="absorb_damage" type="DAMAGE_ABSORPTION" power="9803" value="0" >
+				<add stat="owerturnRcpt" order="0x40" val="100" />
+				<add stat="stunRcpt" order="0x40" val="100" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="67329264" class="6" name="Kaia's Shield IV" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="targetType" value="TARGET_PARTY"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="range" value="80"/>
+        <set name="radius" value="520"/>
+        <set name="mpConsume" value="675"/>
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="1500"/>
+        <set name="reuseDelay" value="75000"/>
+		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="STAFF" msg="Используется только с посохом."/>
+		</cond>
+		<for>
+			<effect id="800303" time="12" count="1" stackType="absorb_damage" type="DAMAGE_ABSORPTION" power="14282" value="0" >
+				<add stat="owerturnRcpt" order="0x40" val="100" />
+				<add stat="stunRcpt" order="0x40" val="100" />
+			</effect>
+		</for>
+    </skill>
+	
+	<skill id="76118964" class="6" name="Velik's Horn" levels="1">
+        <set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="TELEPORT_TOWN"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="rangeType" value="OTHER_SKILL" />
+		<set name="town" value="VELIKA"/>
+        <set name="hitTime" value="10000"/>
+		<set name="delay" value="9000"/>
+        <set name="reuseDelay" value="3600"/>
+        <set name="implemented" value="true" />
+    </skill>
+</list>

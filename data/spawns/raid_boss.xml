@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Khuljarak -->
+	<npc id="100" type="472">
+		<ai newAI="true" class="DEFAULT" config="Khuljarak" >
+			<time respawn="86400" random="7200" >
+				<point x="102910" y="56227" z="2205" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Baracos -->
+	<npc id="101" type="472">
+		<ai newAI="true" class="DEFAULT" config="Baracos" >
+			<time respawn="86400" random="7200" >
+				<point x="98179" y="69778" z="1200" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Nightmare Auricadis -->
+	<npc id="8005" type="725" continentId="1" >
+		<ai newAI="true" class="DEFAULT" config="NightmareAuricadis" >
+			<time respawn="86400" random="7200" >
+				<point x="-8524" y="68839" z="500" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<config name="thrall_of_protection" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="SummonWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="50" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="150" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+				<!-- определяем интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- определяем пакет сообщений -->
+				<set name="walkMessage" val="thrall_of_protection_walk" />
+				<!-- определяем пакет сообщений -->
+				<set name="followMessage" val="thrall_of_protection_follow" />
+			</task>
+
+			<task state="RETURN_TO_HOME" factory="SummonReturnTaskFactory" >
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="returnMessages" val="thrall_of_protection_return" />
+			</task>
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="SummonBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="100" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="30" />
+				<!-- определяем шанс использование баф скила -->
+				<set name="BUFF" val="30" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="DEBUFF" val="30" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="SHIELD" val="100" />
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="buffMessages" val="thrall_of_protection_buff" />
+				<!-- указываем пакет сообщений -->
+				<set name="debuffMesages" val="thrall_of_protection_debuff" />
+				<!-- указываем пакет сообщений -->
+				<set name="shieldMessages" val="thrall_of_protection_shield" />
+				<!-- указываем пакет сообщений -->
+				<set name="attackMessages" val="thrall_of_protection_attack" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="SummonWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="maxDistance" val="600" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="SummonReturnAction" >
+				<!-- определям, какое максимальное расстояние от владельца -->
+				<set name="distanceToSpawnLoc" val="40" />
+				<!-- определям, какое максимальное расстояние от владельца для телепорта -->
+				<set name="distanceToTeleport" val="5000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="SummonBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="3000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="2000" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="thrall_of_vengeance" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="SummonWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="50" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="150" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+				<!-- определяем интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- определяем пакет сообщений -->
+				<set name="walkMessage" val="thrall_of_vengeance_walk" />
+				<!-- определяем пакет сообщений -->
+				<set name="followMessage" val="thrall_of_vengeance_follow" />
+			</task>
+
+			<task state="RETURN_TO_HOME" factory="SummonReturnTaskFactory" >
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="returnMessages" val="thrall_of_vengeance_return" />
+			</task>
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="SummonRangeBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="20" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование баф скила -->
+				<set name="BUFF" val="40" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="TRAP" val="30" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="JUMP" val="100" />
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="buffMessages" val="thrall_of_vengeance_buff" />
+				<!-- указываем пакет сообщений -->
+				<set name="attackMessages" val="thrall_of_vengeance_attack" />
+				<!-- дистанция, которая считается ближней -->
+				<set name="shortRange" val="100" />
+				<!-- дистанция, которая считается ближней -->
+				<set name="runAwayRate" val="40" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="SummonWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="maxDistance" val="600" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="SummonReturnAction" >
+				<!-- определям, какое максимальное расстояние от владельца -->
+				<set name="distanceToSpawnLoc" val="40" />
+				<!-- определям, какое максимальное расстояние от владельца для телепорта -->
+				<set name="distanceToTeleport" val="5000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="SummonBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="3000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="2000" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="thrall_of_wrath" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="SummonWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="50" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="150" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+				<!-- определяем интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- определяем пакет сообщений -->
+				<set name="walkMessage" val="thrall_of_wrath_walk" />
+				<!-- определяем пакет сообщений -->
+				<set name="followMessage" val="thrall_of_wrath_follow" />
+			</task>
+
+			<task state="RETURN_TO_HOME" factory="SummonReturnTaskFactory" >
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="returnMessages" val="thrall_of_wrath_return" />
+			</task>
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="SummonBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="100" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование баф скила -->
+				<set name="BUFF" val="20" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="JUMP" val="50" />
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="buffMessages" val="thrall_of_wrath_buff" />
+				<!-- указываем пакет сообщений -->
+				<set name="attackMessages" val="thrall_of_wrath_attack" />
+				<!-- указываем пакет сообщений -->
+				<set name="evasionMessages" val="thrall_of_wrath_evasion" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="SummonWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="maxDistance" val="600" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="SummonReturnAction" >
+				<!-- определям, какое максимальное расстояние от владельца -->
+				<set name="distanceToSpawnLoc" val="40" />
+				<!-- определям, какое максимальное расстояние от владельца для телепорта -->
+				<set name="distanceToTeleport" val="5000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="SummonBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="3000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="2000" />
+			</think>
+		</thinks>
+	</config>
+	
+	<config name="thrall_of_life" >
+		<!-- определяем скороть мозгов для различных стадий АИ -->
+		<intervals default="1000" >
+			<!-- определяем скорость во время ожидания -->
+			<interval state="WAIT" val="1000" />
+			<!-- определяем скорость во время возвращения домой -->
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<!-- определяем скорость во время боя -->
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<!-- определяем фабрику заданий для режима ожидания -->
+			<task state="WAIT" factory="SummonHealWaitTaskFactory" >
+				<!-- определяем минимальный радиус брождения -->
+				<set name="randomWalkMinRange" val="50" />
+				<!-- определяем максимальный радиус брождения -->
+				<set name="randomWalkMaxRange" val="150" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+				<!-- определяем интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- определяем пакет сообщений -->
+				<set name="walkMessage" val="thrall_of_life_walk" />
+				<!-- определяем пакет сообщений -->
+				<set name="followMessage" val="thrall_of_life_follow" />
+				<!-- указываем пакет сообщений -->
+				<set name="buffMessages" val="thrall_of_life_buff" />
+				<!-- указываем пакет сообщений -->
+				<set name="healMessages" val="thrall_of_life_heal" />
+				<!-- определяем шанс использование баф скила -->
+				<set name="BUFF" val="20" />
+				<!-- определяем шанс использование хил скила -->
+				<set name="HEAL" val="50" />
+			</task>
+
+			<task state="RETURN_TO_HOME" factory="SummonReturnTaskFactory" >
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="returnMessages" val="thrall_of_life_return" />
+			</task>
+			
+			<!-- определяем фабрику заданий в режиме боя -->
+			<task state="IN_BATTLE" factory="SummonRangeBattleTaskFactory" groupChance="0" >
+				<!-- определяем шанс использование ближнего скила -->
+				<set name="SHORT_ATTACK" val="20" />
+				<!-- определяем шанс использование дальнего скила -->
+				<set name="LONG_ATTACK" val="100" />
+				<!-- определяем шанс использование баф скила -->
+				<set name="BUFF" val="30" />
+				<!-- определяем шанс использование хил скила -->
+				<set name="HEAL" val="100" />
+				<!-- определяем шанс использование дебаф скила -->
+				<set name="JUMP" val="100" />
+				<!-- ставим интервал сообщений -->
+				<set name="messageInterval" val="60000" />
+				<!-- указываем пакет сообщений -->
+				<set name="buffMessages" val="thrall_of_life_buff" />
+				<!-- указываем пакет сообщений -->
+				<set name="healMessages" val="thrall_of_life_heal" />
+				<!-- указываем пакет сообщений -->
+				<set name="attackMessages" val="thrall_of_life_attack" />
+				<!-- указываем пакет сообщений -->
+				<set name="evasionMessages" val="thrall_of_life_evasion" />
+				<!-- дистанция, которая считается ближней -->
+				<set name="shortRange" val="100" />
+				<!-- дистанция, которая считается ближней -->
+				<set name="runAwayRate" val="40" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<!-- определяем генератор действий для режима ожидания -->
+			<think state="WAIT" action="SummonWaitAction" >
+				<!-- определяем максимальный радиус брождения -->
+				<set name="maxDistance" val="600" />
+				<!-- определяем минимальный интервал брождения -->
+				<set name="randomWalkMinDelay" val="5000" />
+				<!-- определяем максимальный интервал брождения -->
+				<set name="randomWalkMaxDelay" val="10000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима возвращения домой -->
+			<think state="RETURN_TO_HOME" action="SummonReturnAction" >
+				<!-- определям, какое максимальное расстояние от владельца -->
+				<set name="distanceToSpawnLoc" val="40" />
+				<!-- определям, какое максимальное расстояние от владельца для телепорта -->
+				<set name="distanceToTeleport" val="5000" />
+			</think>
+			
+			<!-- определяем генератор действий для режима боя -->
+			<think state="IN_BATTLE" action="SummonBattleAction" >
+				<!-- определяем максимальный радиус ведения боя -->
+				<set name="battleMaxRange" val="3000" />
+				<!-- определяем максимальный радиус реагирования на врага -->
+				<set name="reactionMaxRange" val="2000" />
+			</think>
+		</thinks>
+	</config>
+
+	<config name="smoke_aggressor" >
+		<intervals default="1000" >
+			<interval state="WAIT" val="1000" />
+			<interval state="RETURN_TO_HOME" val="1000" />
+			<interval state="IN_BATTLE" val="500" />
+		</intervals>
+		
+		<tasks>
+			<task state="WAIT" factory="SummonWaitTaskFactory" >
+				<set name="randomWalkMinRange" val="50" />
+				<set name="randomWalkMaxRange" val="150" />
+				<set name="randomWalkMinDelay" val="5000" />
+				<set name="randomWalkMaxDelay" val="10000" />
+			</task>
+
+			<task state="RETURN_TO_HOME" factory="SummonReturnTaskFactory" />
+			
+			<task state="IN_BATTLE" factory="SummonBattleTaskFactory" groupChance="0" >
+				<set name="SHORT_ATTACK" val="100" />
+				<set name="LONG_ATTACK" val="30" />
+				<set name="JUMP" val="90" />
+			</task>
+		</tasks>
+		
+		<thinks>
+			<think state="WAIT" action="SummonWaitAction" >
+				<set name="maxDistance" val="600" />
+				<set name="randomWalkMinDelay" val="5000" />
+				<set name="randomWalkMaxDelay" val="10000" />
+			</think>
+			
+			<think state="RETURN_TO_HOME" action="SummonReturnAction" >
+				<set name="distanceToSpawnLoc" val="40" />
+				<set name="distanceToTeleport" val="5000" />
+			</think>
+
+			<think state="IN_BATTLE" action="SummonBattleAction" >
+				<set name="battleMaxRange" val="3000" />
+				<set name="reactionMaxRange" val="2000" />
+			</think>
+		</thinks>
+	</config>
+</list>
+
+
+<!-- 
+/** в ожидании чего-то */
+	WAIT(null, null),
+	/** в патрулировании местности */
+	PATROL(null, null),
+	/** в возвращении на точку респа */
+	RETURN_TO_HOME(null, null),
+	/** в бою */
+	IN_BATTLE(null, null),
+	/** в ярости */
+	IN_RAGE(null, null),
+	/** убегает от противника */
+	IN_RUN_AWAY(null, null);
+	-->

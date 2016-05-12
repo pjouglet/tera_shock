@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- размер читаемого буфера -->
+	<set name="SELECTOR_READ_BUFFER_SIZE" value="131072" />
+	<!-- размер записываемого буфера -->
+	<set name="SELECTOR_WRITE_BUFFER_SIZE" value="131072" />
+	<!-- размер прямого записываемого буффера -->
+	<set name="SELECTOR_DIRECT_WRITE_BUFFER_SIZE" value="262144" />
+	<!-- максимальное кол-во отправляемых пакетов за проход -->
+	<set name="SELECTOR_MAX_SEND_PER_PASS" value="5" />
+	<!-- максимальное кол-во буфферов в пуле -->
+	<set name="SELECTOR_HELPER_BUFFER_COUNT" value="20" />
+	<!-- интервал в цикле селектора (мс) -->
+	<set name="SELECTOR_SLEEP_TIME" value="3" />
+	<!-- максимальное число разрезаемых пакетов (10) -->
+	<set name="SELECTOR_MAXIMUM_PACKET_CUT" value="10" />
+</list>

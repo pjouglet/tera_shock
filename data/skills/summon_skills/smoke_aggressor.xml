@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>  
+
+	<skill id="50300" class="-8" name="Кругавой удар" levels="1">
+		<set name="iconId" value="1207895121"/>
+		<set name="power" value="100"/>		
+		<set name="delay" value="1000"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="80"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="80" />	
+		<set name="moveTime" value="1000" />	
+		<set name="castCount" value="2" />	
+		<set name="interval" value="200" />	
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />	
+		<set name="ignoreBarrier" value="false"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+
+	<skill id="50301" class="-8" name="Рубка" levels="1">
+		<set name="iconId" value="1207895122"/>
+		<set name="power" value="150"/>		
+		<set name="delay" value="500"/>
+		<set name="hitTime" value="4500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="range" value="20"/>
+        <set name="radius" value="70"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="160" />	
+		<set name="moveTime" value="4000"/>		
+		<set name="castCount" value="8" />	
+		<set name="interval" value="500;200;400;100;350;150;600;100" />
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />	
+		<set name="ignoreBarrier" value="false"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="50302" class="-8" name="Вортекс" levels="1">
+		<set name="iconId" value="1207895123"/>
+		<set name="radius" value="75"/>
+        <set name="hitTime" value="2500"/>
+        <set name="delay" value="600"/>
+		<set name="castCount" value="2" />
+		<set name="interval" value="100" />
+		<set name="power" value="75"/>	
+		<set name="reuseDelay" value="6000" />	
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK" />	
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="operateType" value="ACTIVE"/>
+		<cond>
+			<has effectId="100400" />
+		</cond>
+    </skill>
+	
+	<skill id="50303" class="-8" name="Раш" levels="1">
+		<set name="iconId" value="1207895124"/>
+		<set name="power" value="75"/>	
+		<set name="operateType" value="ACTIVE"/>
+        <set name="skillType" value="STRIKE"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+        <set name="range" value="40"/>
+		<set name="radius" value="40"/>
+		<set name="moveDistance" value="150" />
+		<set name="moveTime" value="400" />
+		<set name="moveDelay" value="150" />
+        <set name="hitTime" value="2000"/>
+		<set name="delay" value="600"/>
+		<set name="reuseDelay" value="3000" />	
+		<set name="skillGroup" value="LONG_ATTACK" />	
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />	
+		<set name="ignoreBarrier" value="false"/>
+		<for>
+			<effect id="101200" time="15" count="1" type="DEBUFF" stackType="combative_strike" resistType="weakResist" chance="90" debuff="true" >
+				<mul stat="defenseFactor" order="0x30" val="0.95" />
+			</effect>
+		</for>
+    </skill>
+
+	<skill id="50304" class="-8" name="Evasive Roll" levels="1">
+		<set name="iconId" value="1207895221"/>
+		<set name="moveDistance" value="150" />	
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="JUMP" />
+		<set name="operateType" value="ACTIVE" />
+		<set name="hitTime" value="2000" />	
+		<set name="moveTime" value="1000" />
+		<set name="skillGroup" value="JUMP" />
+		<set name="reuseDelay" value="6000" />	
+		<set name="ignoreBarrier" value="true"/>		
+		<set name="evasion" value="true" />
+		<for> 
+			<effect id="100400" time="5" count="1" type="BUFF" /> 
+		</for>
+	</skill>
+
+</list>

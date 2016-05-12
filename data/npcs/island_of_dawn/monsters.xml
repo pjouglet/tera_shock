@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- 1 levels -->
+	<template id="300931" name="Ghilliedhu" class="MONSTER" level="1" exp="131" type="13" attack="75" defense="20" impact="10" balance="50" maxHp="1000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="100;101;102;111;178;179;"/>
+	<template id="300921" name="Noruk" class="MONSTER" level="1" exp="131" type="13" attack="90" defense="20" impact="10" balance="50" maxHp="1200" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="104;105;106;115;182;183;"/>
+	<template id="101" name="Beet" class="MONSTER" level="1" exp="5" type="13" attack="5" defense="50" impact="10" balance="10" maxHp="70" maxMp="300" atkSpd="120" runSpd="80" aggro="0" geomRadius="25" skills="119;"/>
+	
+	<template id="102" name="Docile Terron" class="MONSTER" level="1" exp="13" type="13" geomRadius="15" attack="35" defense="20" impact="50" balance="50" maxHp="50" maxMp="20" atkSpd="120" runSpd="100" fractionId="start_loc_1" fractionRange="150" aggro="0" skills="103;113;114;"/>
+	
+	<template id="300944" name="Terron Chief" class="MINION_LEADER" level="1" exp="78" type="13" attack="75" defense="20" impact="10" balance="10" maxHp="800" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="20" skills="107;109;116;180;181;"/>
+	<template id="300941" name="Terron" class="MINION" level="1" exp="13" type="13" attack="25" defense="20" impact="10" balance="50" maxHp="150" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="10" skills="108;110;117;180;181;"/>
+
+	<!-- 2 levels -->	
+	<template id="300930" name="Elder Ghilliedhu" class="MONSTER" level="2" exp="149" type="13" attack="95" defense="25" impact="12" balance="50" maxHp="1200" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="100;101;102;111;178;179;"/>
+	
+	<template id="1" name="Pigling" class="MONSTER" level="3" exp="16" type="13" geomRadius="15" attack="35" defense="25" impact="50" balance="50" maxHp="270" maxMp="300" atkSpd="80" runSpd="100" fractionId="start_loc_3" fractionRange="150" aggro="0" skills="118;184;185;186;"/>
+	<template id="111" name="Gentle Pigling" class="MONSTER" level="3" exp="16" type="13" geomRadius="15" attack="40" defense="25" impact="50" balance="50" maxHp="270" maxMp="50" regHp="3" regMp="9" atkSpd="100" runSpd="100" fractionId="start_loc_2" fractionRange="150" aggro="0" skills="118;184;185;186;"/>
+	
+	
+	<!-- 3 levels -->
+	<template id="300933" name="Hardened Ghilliedhu" class="MONSTER" level="3" exp="166" type="13" attack="125" defense="30" impact="20" balance="50" maxHp="1400" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="100;101;102;111;178;179;"/>
+	<template id="304" name="Sickly Noruk" class="MONSTER" level="3" exp="166" type="13" attack="140" defense="30" impact="50" balance="50" maxHp="1400" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="104;105;106;115;182;183;"/>
+	<template id="999" name="Barrel" class="MONSTER" level="3" exp="0" type="13" attack="180" defense="30" impact="50" balance="50" maxHp="800" maxMp="300" atkSpd="120" runSpd="0" aggro="0" skills=""/>
+	<template id="301" name="Rockrawler Tumbler" class="MONSTER" level="3" exp="16" type="13" attack="75" defense="25" impact="50" balance="50" maxHp="600" maxMp="300" atkSpd="120" runSpd="100" fractionId="start_loc_4" fractionRange="150" aggro="0" geomRadius="25" skills="129;130;"/>
+
+	<template id="301194" name="Stonebeak Highcrest" class="MINION_LEADER" level="3" exp="98" type="13" attack="125" defense="25" impact="21" balance="50" maxHp="1400" maxMp="300" atkSpd="120" runSpd="180" aggro="0" skills="153;155;156;"/>
+	<template id="301193" name="Stonebeak Brigand" class="MINION" level="3" exp="16" type="13" attack="45" defense="25" impact="21" balance="50" maxHp="300" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="157;158;159;"/>
+	<template id="301191" name="Stonebeak Raider" class="MINION" level="3" exp="16" type="13" attack="45" defense="25" impact="21" balance="50" maxHp="300" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="157;158;159;"/>
+		
+	<template id="302" name="Terron Ringleader" class="MINION_LEADER" level="3" exp="98" type="13" attack="125" defense="25" impact="20" balance="50" maxHp="1400" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="20" skills="107;109;116;180;181;"/>
+	<template id="303" name="Terron Thief" class="MINION" level="3" exp="16" type="13" attack="45" defense="25" impact="20" balance="50" maxHp="300" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="10" skills="108;110;117;180;181;"/>
+	
+	
+	<!-- 4 levels -->
+	<template id="300932" name="Horned Ghilliedhu" class="MONSTER" level="4" exp="222" type="13" attack="150" defense="30" impact="20" balance="50" maxHp="1500" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="100;101;102;111;178;179;"/>
+	<template id="1001" name="Vekas" class="MONSTER" level="4" exp="300" type="13" attack="300" defense="60" impact="20" balance="100" maxHp="4500" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="100;101;102;111;178;179;"/>
+	
+	<!-- 5 levels -->
+	<template id="2" name="Sporewalker" class="MONSTER" level="5" exp="207" type="13" attack="175" defense="30" impact="20" balance="55" maxHp="1700" maxMp="300" atkSpd="120" runSpd="80" aggro="0" skills="120;121;122;123;187;188;"/>
+	<template id="3" name="Ponderous Sporewalker" class="MONSTER" level="5" exp="217" type="13" attack="180" defense="30" impact="22" balance="55" maxHp="1700" maxMp="300" atkSpd="120" runSpd="80" aggro="0" skills="120;121;122;123;187;188;"/>
+	
+	<template id="300542" name="Rockcrawler Cleaver" class="MINION_LEADER" level="5" exp="122" type="13" attack="150" defense="25" impact="50" balance="50" maxHp="1700" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="127;128;"/>
+	<template id="300541" name="Rockcrawler" class="MINION" level="5" exp="20" type="13" attack="60" defense="25" impact="25" balance="25" maxHp="400" maxMp="200" atkSpd="120" runSpd="100" aggro="0" geomRadius="25" skills="129;130;"/>
+	
+	<!-- 7 levels -->
+	<template id="300911" name="Cromos" class="MONSTER" level="7" exp="257" type="13" attack="200" defense="35" impact="35" balance="55" maxHp="2000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="124;125;126;172;173;174;"/>
+	<template id="300920" name="Shaggy Noruk" class="MONSTER" level="7" exp="257" type="13" attack="200" defense="35" impact="20" balance="55" maxHp="2000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="104;105;106;115;182;183;"/>
+	<template id="601" name="Dark Marauder" class="MONSTER" level="7" exp="257" type="13" attack="70" defense="35" impact="35" balance="55" maxHp="2000" maxMp="300" atkSpd="120" runSpd="100" radius="70" aggro="0" skills="149;150;170;171;"/>
+
+	<template id="5" name="Orcan Raider" class="MINION_LEADER" level="7" exp="157" type="13" attack="70" defense="35" impact="30" balance="50" maxHp="2000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="131;132;133;175;189;190;191;192;"/>
+	<template id="4" name="Dwarf Orcan" class="MINION" level="7" exp="18" type="13" attack="35" defense="35" impact="30" balance="50" maxHp="500" maxMp="400" atkSpd="120" runSpd="100" aggro="0" geomRadius="25" skills="134;135;"/>
+
+    <template id="901" name="Orcan Gurdian" class="MINION_LEADER" level="7" exp="157" type="13" attack="70" defense="35" impact="30" balance="50" maxHp="2000" maxMp="300" atkSpd="100" runSpd="100" aggro="0" skills="131;132;133;175;189;190;191;192;"/>
+	<template id="902" name="Dwarf Gurdian" class="MINION" level="7" exp="18" type="13" attack="30" defense="35" impact="50" balance="50" maxHp="500" maxMp="400" atkSpd="120" runSpd="130" aggro="0" geomRadius="25" skills="134;135;"/>
+
+	<template id="1002" name="Acharak " class="MINION_LEADER" level="8" exp="200" type="13" attack="90" defense="50" impact="30" balance="50" maxHp="5000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="131;132;133;175;189;190;191;192;"/>
+	<template id="1003" name="Acharak Soldier" class="MINION" level="8" exp="30" type="13" attack="35" defense="45" impact="30" balance="50" maxHp="800" maxMp="400" atkSpd="120" runSpd="100" aggro="0" geomRadius="25" skills="134;135;"/>
+
+	<template id="300945" name="Terron Lama" class="MINION_LEADER" level="7" exp="157" type="13" attack="160" defense="35" impact="20" balance="50" maxHp="2000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="35" skills="107;109;116;"/>
+    <template id="300943" name="Terron Saboteur" class="MINION" level="7" exp="18" type="13" attack="65" defense="35" impact="20" balance="50" maxHp="400" maxMp="300" atkSpd="120" runSpd="100" aggro="0" geomRadius="20" skills="108;110;117;"/>
+
+	<!-- level 9-->
+	<template id="7" name="Disc Reaper" class="MONSTER" level="9" exp="360" type="13" attack="250" defense="40" impact="20" balance="50" maxHp="3000" maxMp="300" atkSpd="120" runSpd="90" geomRadius="30" aggro="0" skills="143;144;166;167;197;198;199;200;"/>
+	<template id="300910" name="Prowling Cromos" class="MONSTER" level="9" exp="360" type="13" attack="250" defense="40" impact="20" balance="50" maxHp="3000" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="124;125;126;172;173;174;"/>
+	
+	<template id="300951" name="Dark Raider" class="MINION_LEADER" level="9" exp="187" type="13" attack="250" defense="30" impact="20" balance="35" maxHp="3000" maxMp="300" atkSpd="120" runSpd="80" geomRadius="30" aggro="0" skills="149;150;170;171;"/>
+	<template id="300960" name="Devoted Ebon Imp" class="MINION" level="9" exp="15" type="13" attack="75" defense="30" impact="20" balance="50" maxHp="600" maxMp="300" atkSpd="120" runSpd="80" geomRadius="15" aggro="0" skills="151;152;"/>
+	
+    <template id="6" name="Kariagon" class="MINION_LEADER" level="9" exp="360" type="13" attack="80" defense="30" impact="20" balance="50" maxHp="3000" maxMp="300" atkSpd="120" runSpd="90" geomRadius="30" aggro="0" skills="164;165;201;"/>
+    <template id="300942" name="Terron Thrall" class="MINION" level="9" exp="52" type="13" attack="35" defense="30" impact="20" balance="50" maxHp="600" maxMp="400" atkSpd="120" runSpd="100" geomRadius="20" aggro="0" skills="108;110;117;"/>
+
+	<!-- level 10-->
+	<template id="558" name="Scion Scout" class="MONSTER" level="1" exp="357" type="13" attack="90" defense="45" impact="50" balance="50" maxHp="3200" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="160;161;162;"/>
+	<template id="556" name="Scion Scout" class="MONSTER" level="1" exp="357" type="13" attack="90" defense="45" impact="50" balance="50" maxHp="3200" maxMp="300" atkSpd="120" runSpd="100" aggro="0" skills="160;161;162;"/>
+	
+	<!-- level 11-->
+	<template id="8" name="Runekeeper" class="MONSTER" level="11" exp="398" type="13" attack="100" defense="45" impact="30" balance="70" maxHp="3500" maxMp="1007" atkSpd="120" runSpd="120" geomRadius="35" aggro="0" skills="140;141;142;169;195;196;"/>
+	<template id="9" name="Destroyer" class="MONSTER" level="11" exp="550" type="13" attack="100" defense="45" impact="30" balance="70" maxHp="4000" maxMp="1000" atkSpd="120" runSpd="100" geomRadius="50" aggro="0" skills="136;137;138;139;193;194;"/><!-- 29; -->
+
+	<template id="1004" name="Destroyer" class="MONSTER" level="11" exp="800" type="13" attack="200" defense="65" impact="50" balance="110" maxHp="8000" maxMp="1000" atkSpd="120" runSpd="100" geomRadius="50" aggro="0" skills="136;137;138;139;193;194;" />
+	
+	<template id="888" name="Training Dymmy" class="MONSTER" level="1" exp="131" type="13" attack="90" defense="50" impact="50" balance="50" maxHp="800" maxMp="300" atkSpd="120" runSpd="180" aggro="0" skills=""/>
+</list>
+
+
+
+

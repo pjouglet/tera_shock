@@ -1,0 +1,1521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<skill id="1470" class="-9" name="Speed Bottle" levels="1">
+		<set name="reuseDelay" value="30000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<set name="itemIdConsume" value="8007" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="1" time="180" stackType="speed_up" type="BUFF"  >
+				<add stat="runSpd" order="0x40" val="15" />
+				<!-- Бег +15-->
+			</effect>	
+		</for>			
+	</skill>	
+	
+	<skill id="129" class="-9" name="Arunic Panacea" levels="1">
+		<set name="reuseDelay" value="30000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="RESTORE_STAMINA" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<set name="power" value="120"/>
+		<set name="itemIdConsume" value="129" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>		
+	</skill>	
+	
+	<skill id="171" class="-9" name="Combat Panacea" levels="1">
+		<set name="reuseDelay" value="30000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="RESTORE_STAMINA" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<set name="power" value="40"/>
+		<set name="itemIdConsume" value="171" />
+	</skill>	
+	
+	<skill id="117" class="-9" name="Veteran Panacea" levels="1">
+		<set name="reuseDelay" value="30000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="RESTORE_STAMINA" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<set name="power" value="120"/>
+		<set name="itemIdConsume" value="117" />
+	</skill>	
+	
+	<skill id="701500" class="-9" name="Arun's Vitae Herb I" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="103" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701501" class="-9" name="Arun's Vitae Herb II" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="136" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701502" class="-9" name="Arun's Vitae Herb III" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="189" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701503" class="-9" name="Arun's Vitae Herb IV" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="262" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701504" class="-9" name="Arun's Vitae Herb V" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="363" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701505" class="-9" name="Arun's Vitae Herb VI" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="502" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701506" class="-9" name="Arun's Vitae Herb VII" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="693" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701507" class="-9" name="Arun's Vitae Herb VIII" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="957" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701508" class="-9" name="Arun's Vitae Herb IX" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1322" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="701509" class="-9" name="Arun's Vitae Herb X" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="CANCEL_EFFECT" options="debuff" />	
+			<effect count="7" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1826" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+	
+	<skill id="702510" class="-9" name="Arun's Tears" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="639" />	
+		</for>
+		<!--Банка мистика -->
+	</skill>
+		
+	<skill id="1450" class="-9" name="Bandage" levels="1"> <!-- 127478964  60420100 799F004 3992CB4-->
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="125" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="48"/>
+		</for>
+		<!--Бинт выдаётся в начале-->
+	</skill>
+	
+	<skill id="1451" class="-9" name="Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="126" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="79"/>
+		</for>
+	</skill>
+	
+	<skill id="1452" class="-9" name="Bandage" levels="1">
+		<set name="iconId" value="127479164" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="127" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="152"/>
+		</for>
+	</skill>
+	
+	<skill id="1453" class="-9" name="Bandage" levels="1">
+		<set name="iconId" value="127479264" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="128" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="290"/>
+		</for>
+	</skill>
+	
+	<skill id="1454" class="-9" name="Toira Bandage" levels="1">
+		<set name="iconId" value="127478964" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="7154" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="582"/>
+		</for>
+	</skill>
+	
+	<skill id="1455" class="-9" name="Luria Bandage" levels="1">
+		<set name="iconId" value="127478964" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="7155" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="954"/>
+		</for>
+	</skill>
+	
+	<skill id="1490" class="-9" name="Rejuvination Mote" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="PERCENT_HEAL_OVER_TIME" stackType="heal_over_time" power="10"/>
+		</for>
+	</skill>
+	
+	<skill id="172" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="172" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1440" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="57"/>
+		</for>
+	</skill>
+	
+	<skill id="173" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="173" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1441" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="105"/>
+		</for>
+	</skill>
+	
+	<skill id="174" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="174" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1442" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="202"/>
+		</for>
+	</skill>
+	
+	
+	<skill id="175" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="175" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1443" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="386"/>
+		</for>
+	</skill>
+	
+	<skill id="176" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="176" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1444" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="777"/>
+		</for>
+	</skill>
+	
+	<skill id="177" class="-9" name="Medicated Bandage" levels="1">
+		<set name="iconId" value="127479064" />
+		<set name="reuseDelay" value="20000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="hitTime" value="2000" />
+		<set name="staticCast" value="true" />
+		<set name="delay" value="2000" />
+		<set name="itemIdConsume" value="177" />
+		<set name="reuseId" value="1450" />
+		<cond>
+			<player battle="false" msg="Нельзя использовать в бою." />
+		</cond>
+		<for>
+			<effect id="1445" count="15" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1273"/>
+		</for>
+	</skill>
+	
+	<skill id="8005" class="-9" name="Toira Bandage" levels="1">
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="PERCENT_HEAL_OVER_TIME" stackType="heal_over_time" power="10"/>
+		</for>
+	</skill>
+	
+	<skill id="2530" class="-9" name="Mana Elixir I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6064" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="50"/>
+		</for>
+	</skill>
+	
+	<skill id="2531" class="-9" name="Mana Elixir II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6066" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="56"/>
+		</for>
+	</skill>
+	
+	<skill id="2532" class="-9" name="Mana Elixir III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6068" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="62"/>
+		</for>
+	</skill>
+	
+	<skill id="2533" class="-9" name="Mana Elixir IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6070" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="67"/>
+		</for>
+	</skill>
+	
+	<skill id="2534" class="-9" name="Mana Elixir V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6072" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="73"/>
+		</for>
+	</skill>
+	
+	<skill id="2535" class="-9" name="Mana Elixir VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6074" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="79"/>
+		</for>
+	</skill>
+	
+	<skill id="2536" class="-9" name="Mana Elixir VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6076" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="85"/>
+		</for>
+	</skill>
+	
+	<skill id="2537" class="-9" name="Mana Elixir VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6078" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="12" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="91"/>
+		</for>
+	</skill>
+	
+	<skill id="2545" class="-9" name="Major Mana Elixir I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6065" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="63"/>
+		</for>
+	</skill>
+	
+	<skill id="2546" class="-9" name="Major Mana Elixir II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6067" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="70"/>
+		</for>
+	</skill>
+	
+	<skill id="2547" class="-9" name="Major Mana Elixir III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6069" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="77"/>
+		</for>
+	</skill>
+	
+	<skill id="2548" class="-9" name="Major Mana Elixir IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6071" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="84"/>
+		</for>
+	</skill>
+	
+	<skill id="2549" class="-9" name="Major Mana Elixir V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6073" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="91"/>
+		</for>
+	</skill>
+	
+	<skill id="2550" class="-9" name="Major Mana Elixir VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6075" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="98"/>
+		</for>
+	</skill>
+	
+	<skill id="2551" class="-9" name="Major Mana Elixir VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6077" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="105"/>
+		</for>
+	</skill>
+	
+	<skill id="2552" class="-9" name="Major Mana Elixir VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6079" />
+		<set name="reuseId" value="2530" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="10" time="1" type="MANA_HEAL_OVER_TIME" stackType="mana_heal_over_time" power="113"/>
+		</for>
+	</skill>
+	
+	<skill id="130" class="-9" name="Divine Infusion" levels="1">
+		<set name="reuseDelay" value="30000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="130" />
+		<set name="reuseId" value="130" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="1530" count="15" time="1" type="MANA_HEAL_OVER_TIME_PERCENT" stackType="mana_heal_over_time" power="5" limit="75" />
+		</for>
+	</skill>
+	
+	<skill id="6048" class="-9" name="Healing Elixir I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6048" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2500" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="67" />
+		</for>
+	</skill>
+	
+	<skill id="6049" class="-9" name="Major Healing Elixir I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6049" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2515" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="78" />
+		</for>
+	</skill>
+	
+	<skill id="6050" class="-9" name="Healing Elixir II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6050" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2501" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="103" />
+		</for>
+	</skill>
+	
+	<skill id="6051" class="-9" name="Major Healing Elixir II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6051" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2516" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="121" />
+		</for>
+	</skill>
+	
+	<skill id="6052" class="-9" name="Healing Elixir III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6052" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2502" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="160" />
+		</for>
+	</skill>
+	
+	<skill id="6053" class="-9" name="Major Healing Elixir III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6053" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2517" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="160" />
+		</for>
+	</skill>
+	
+	<skill id="6054" class="-9" name="Healing Elixir IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6054" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2503" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="246" />
+		</for>
+	</skill>
+	
+	<skill id="6055" class="-9" name="Major Healing Elixir IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6055" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2518" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="287" />
+		</for>
+	</skill>
+	
+	<skill id="6056" class="-9" name="Healing Elixir V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6056" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2504" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="378" />
+		</for>
+	</skill>
+	
+	<skill id="6057" class="-9" name="Major Healing Elixir V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6057" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2519" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="442" />
+		</for>
+	</skill>
+	
+	<skill id="6058" class="-9" name="Healing Elixir VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6058" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2505" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="581" />
+		</for>
+	</skill>
+	
+	<skill id="6059" class="-9" name="Major Healing Elixir VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6059" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2520" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="679" />
+		</for>
+	</skill>
+	
+	<skill id="6060" class="-9" name="Healing Elixir VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6060" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2506" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1002" />
+		</for>
+	</skill>
+	
+	<skill id="6061" class="-9" name="Major Healing Elixir VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6061" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2521" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1178" />
+		</for>
+	</skill>
+	
+	<skill id="6062" class="-9" name="Healing Elixir VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6062" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2501" count="12" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1406" />
+		</for>
+	</skill>
+	
+	<skill id="6063" class="-9" name="Major Healing Elixir VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6063" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2515" count="10" time="1" type="HEAL_OVER_TIME" stackType="heal_over_time" power="1652" />
+		</for>
+	</skill>
+	
+	<skill id="6000" class="-9" name="Healing Potion I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6000" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="700" />
+		</for>
+	</skill>
+	
+	<skill id="6001" class="-9" name="Major Healing Potion I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6001" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="670" />
+		</for>
+	</skill>
+	
+	<skill id="6002" class="-9" name="Healing Potion II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6002" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="1085" />
+		</for>
+	</skill>
+	
+	<skill id="6003" class="-9" name="Major Healing Potion II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6003" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="1037" />
+		</for>
+	</skill>
+	
+	<skill id="6004" class="-9" name="Healing Potion III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6004" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="1675" />
+		</for>
+	</skill>
+	
+	<skill id="6005" class="-9" name="Major Healing Potion III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6005" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="1600" />
+		</for>
+	</skill>
+	
+	<skill id="6006" class="-9" name="Healing Potion IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6006" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="2580" />
+		</for>
+	</skill>
+	
+	<skill id="6007" class="-9" name="Major Healing Potion IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6007" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="2463" />
+		</for>
+	</skill>
+	
+	<skill id="6008" class="-9" name="Healing Potion V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6008" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="3969" />
+		</for>
+	</skill>
+	
+	<skill id="6009" class="-9" name="Major Healing Potion V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6009" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="3789" />
+		</for>
+	</skill>
+	
+	<skill id="6010" class="-9" name="Healing Potion VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6010" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="6103" />
+		</for>
+	</skill>
+	
+	<skill id="6011" class="-9" name="Major Healing Potion VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6011" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="5824" />
+		</for>
+	</skill>
+	
+	<skill id="6012" class="-9" name="Healing Potion VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6012" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="10526" />
+		</for>
+	</skill>
+	
+	<skill id="6013" class="-9" name="Major Healing Potion VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6013" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="10098" />
+		</for>
+	</skill>
+	
+	<skill id="6014" class="-9" name="Healing Potion VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6002" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="14760" />
+		</for>
+	</skill>
+	
+	<skill id="6015" class="-9" name="Major Healing Potion VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6015" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="HEAL_OVER_TIME" power="14161" />
+		</for>
+	</skill>
+	
+	<skill id="6016" class="-9" name="Mana Potion I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6016" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="478" />
+		</for>
+	</skill>
+	
+	<skill id="6017" class="-9" name="Major Mana Potion I" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6017" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="506" />
+		</for>
+	</skill>
+	
+	<skill id="6018" class="-9" name="Mana Potion II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6018" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="534" />
+		</for>
+	</skill>
+	
+	<skill id="6019" class="-9" name="Major Mana Potion II" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6019" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="563" />
+		</for>
+	</skill>
+	
+	<skill id="6020" class="-9" name="Mana Potion III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6020" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="591" />
+		</for>
+	</skill>
+	
+	<skill id="6021" class="-9" name="Major Mana Potion III" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6021" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="591" />
+		</for>
+	</skill>
+	
+	<skill id="6022" class="-9" name="Mana Potion IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6022" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="647" />
+		</for>
+	</skill>
+	
+	<skill id="6023" class="-9" name="Major Mana Potion IV" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6023" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="675" />
+		</for>
+	</skill>
+	
+	<skill id="6024" class="-9" name="Mana Potion V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6024" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="703" />
+		</for>
+	</skill>
+	
+	<skill id="6025" class="-9" name="Major Mana Potion V" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6025" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="731" />
+		</for>
+	</skill>
+	
+	<skill id="6026" class="-9" name="Mana Potion VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6026" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="759" />
+		</for>
+	</skill>
+	
+	<skill id="6027" class="-9" name="Major Mana Potion VI" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6027" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="788" />
+		</for>
+	</skill>
+	
+	<skill id="6028" class="-9" name="Mana Potion VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6028" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="816" />
+		</for>
+	</skill>
+	
+	<skill id="6029" class="-9" name="Major Mana Potion VII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6029" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="844" />
+		</for>
+	</skill>
+	
+	<skill id="6030" class="-9" name="Mana Potion VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6030" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="872" />
+		</for>
+	</skill>
+	
+	<skill id="6031" class="-9" name="Major Mana Potion VIII" levels="1">
+		<set name="reuseDelay" value="60000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6031" />
+		<set name="reuseId" value="6000" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect count="1" time="0" type="MANA_HEAL_OVER_TIME" power="900" />
+		</for>
+	</skill>
+	
+	<skill id="6283" class="-9" name="Ranger's Nostrum I" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6283" />
+		<set name="reuseId" value="6283" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2945" count="1" time="300" type="BUFF" stackType="range_reuse" >
+				<mul stat="rangeReuse" order="0x30" val="0.95" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6284" class="-9" name="Ranger's Nostrum II" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6284" />
+		<set name="reuseId" value="6283" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2946" count="1" time="300" type="BUFF" stackType="range_reuse" >
+				<mul stat="rangeReuse" order="0x30" val="0.925" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6285" class="-9" name="Ranger's Nostrum III" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6285" />
+		<set name="reuseId" value="6283" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2947" count="1" time="300" type="BUFF" stackType="range_reuse" >
+				<mul stat="rangeReuse" order="0x30" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6286" class="-9" name="Ranger's Nostrum IV" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6286" />
+		<set name="reuseId" value="6283" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2948" count="1" time="300" type="BUFF" stackType="range_reuse" >
+				<mul stat="rangeReuse" order="0x30" val="0.875" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6287" class="-9" name="Ranger's Nostrum V" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6287" />
+		<set name="reuseId" value="6283" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2949" count="1" time="300" type="BUFF" stackType="range_reuse" >
+				<mul stat="rangeReuse" order="0x30" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6288" class="-9" name="Nostrum of Energy I" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6288" />
+		<set name="reuseId" value="6288" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2960" count="1" time="300" type="BUFF" stackType="short_reuse" >
+				<mul stat="shortReuse" order="0x30" val="0.95" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6289" class="-9" name="Nostrum of Energy II" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6289" />
+		<set name="reuseId" value="6288" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2961" count="1" time="300" type="BUFF" stackType="short_reuse" >
+				<mul stat="shortReuse" order="0x30" val="0.925" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6290" class="-9" name="Nostrum of Energy III" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6290" />
+		<set name="reuseId" value="6288" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2962" count="1" time="300" type="BUFF" stackType="short_reuse" >
+				<mul stat="shortReuse" order="0x30" val="0.9" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6291" class="-9" name="Nostrum of Energy IV" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6291" />
+		<set name="reuseId" value="6288" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2963" count="1" time="300" type="BUFF" stackType="short_reuse" >
+				<mul stat="shortReuse" order="0x30" val="0.875" />
+			</effect>
+		</for>
+	</skill>
+	
+	<skill id="6292" class="-9" name="Nostrum of Energy V" levels="1">
+		<set name="reuseDelay" value="5000"/>
+		<set name="targetType" value="TARGET_SELF"/>		
+		<set name="skillType" value="ITEM_BUFF" />
+		<set name="operateType" value="CAST_ITEM" />
+		<set name="blockingMove" value="false" />
+		<set name="itemIdConsume" value="6292" />
+		<set name="reuseId" value="6288" />
+		<set name="altCast" value="true" />
+		<for>
+			<effect id="2964" count="1" time="300" type="BUFF" stackType="short_reuse" >
+				<mul stat="shortReuse" order="0x30" val="0.85" />
+			</effect>
+		</for>
+	</skill>
+</list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Контрольная точка -->
+	<npc id="30000" type="488" continentId="1" >
+		<ai newAI="true" class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="10" >
+				<point x="-11055" y="67165" z="526" regionId="1_15_177@7015" name="Seren's Garden" />
+				<point x="9269" y="60941" z="2108" regionId="1_15_177@7015" name="Upper Archive" />
+				<point x="3573" y="74956" z="-519" regionId="1_15_177@7015" name="Lower Archive" />
+			</time>
+		</ai>
+	</npc>
+</list>
+

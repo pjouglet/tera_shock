@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list> 
+
+	<!-- 	
+			Оружие для класса "Mystic"
+			@autor Glowing
+			Последнее обновление: 13.02.2014
+	-->	
+
+	<weapon id="4016" type="scepter" name="Tier 2 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000"/>
+	<weapon id="4152" type="scepter" name="Unusual Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4168" type="scepter" name="Tier 11 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4056" type="scepter" name="Tier 8 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4160" type="scepter" name="Masterpiece Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4144" type="scepter" name="Celebrity Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4120" type="scepter" name="Decade Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="7875000" sellPrice="750000"/>
+	<weapon id="4128" type="scepter" name="Shift Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4096" type="scepter" name="Tier 6 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4136" type="scepter" name="Tier 10 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4048" type="scepter" name="Tier 7 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4064" type="scepter" name="Unique Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4072" type="scepter" name="Sepokt Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4040" type="scepter" name="Answers Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="787500" sellPrice="75000"/>
+	<weapon id="4032" type="scepter" name="Tier 5 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000"/>
+	<weapon id="4104" type="scepter" name="Honor Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4088" type="scepter" name="Oknon Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4176" type="scepter" name="Tier 12 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="10500000" sellPrice="1000000"/>
+	<weapon id="4112" type="scepter" name="Tier 9 Scepter Template" requiredLevel="22" rank="uncommon" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3937500" sellPrice="375000"/>
+	<weapon id="4080" type="scepter" name="Equinox Rod" requiredLevel="27" rank="common" bindType="none" attack="144" impact="142" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3937500" sellPrice="375000"/>
+	
+	<weapon id="10008" type="scepter" name="Standard Issue Scepter" requiredLevel="1" rank="common" bindType="none" attack="27" impact="13" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="true" bank="true" guildBank="false" buyPrice="316" sellPrice="30">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="67"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11632" type="scepter" name="Expedition Scout's Ceremonial Scepter" requiredLevel="2" rank="common" bindType="none" attack="27" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="154" sellPrice="14">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="72"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10016" type="scepter" name="Sunbeam" requiredLevel="2" rank="common" bindType="none" attack="27" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="154" sellPrice="14">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="72"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12408" type="scepter" name="Root of Evil" requiredLevel="3" rank="common" bindType="none" attack="27" impact="14" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="514" sellPrice="49">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="77"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12136" type="scepter" name="Taproot of Vekas" requiredLevel="4" rank="common" bindType="none" attack="33" impact="19" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1063" sellPrice="101">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="88"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12416" type="scepter" name="Brand New Scepter" requiredLevel="6" rank="common" bindType="none" attack="33" impact="19" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1169" sellPrice="111">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="94"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11640" type="scepter" name="Expedition Outrider's Ceremonial Scepter" requiredLevel="7" rank="common" bindType="none" attack="41" impact="22" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1275" sellPrice="121">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="100"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10024" type="scepter" name="Scepter of the First Expedition" requiredLevel="7" rank="common" bindType="none" attack="41" impact="22" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1275" sellPrice="121">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="100"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12144" type="scepter" name="Kugai's Scepter" requiredLevel="8" rank="common" bindType="none" attack="46" impact="28" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1488" sellPrice="141">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="115"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10544" type="scepter" name="Darkclaw Scepter" requiredLevel="9" rank="common" bindType="none" attack="42" impact="25" sockets="2" enchantable="false" extractable="1" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1488" sellPrice="141">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="115"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10944" type="scepter" name="Attuned Initiate's Rokewood Scepter" requiredLevel="10" rank="common" bindType="none" attack="46" impact="28" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="123"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12128" type="scepter" name="Furcula Struth" requiredLevel="10" rank="common" bindType="none" attack="48" impact="31" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="123"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10856" type="scepter" name="Initiate's Rokewood Scepter" requiredLevel="10" rank="common" bindType="none" attack="48" impact="31" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2874" sellPrice="273">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="123"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12152" type="scepter" name="Karascha's Toothpick" requiredLevel="10" rank="common" bindType="none" attack="53" impact="33" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3449" sellPrice="328">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="132"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10600" type="scepter" name="Rod of Revelation" requiredLevel="11" rank="uncommon" bindType="none" attack="51" impact="38" sockets="3" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="6899" sellPrice="657">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="140"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11648" type="scepter" name="Arcadian Guard's Ceremonial Scepter" requiredLevel="12" rank="common" bindType="none" attack="56" impact="37" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="141"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11736" type="scepter" name="Arcadian Guard's Scepter" requiredLevel="12" rank="common" bindType="none" attack="48" impact="31" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="132"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10120" type="scepter" name="Grafted Stem" requiredLevel="12" rank="common" bindType="none" attack="53" impact="33" sockets="2" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="141"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10032" type="scepter" name="Silvarod" requiredLevel="12" rank="common" bindType="none" attack="56" impact="37" sockets="2" enchantable="false" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4024" sellPrice="383">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="141"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10552" type="scepter" name="Avenging Mace" requiredLevel="13" rank="uncommon" bindType="none" attack="59" impact="46" sockets="3" enchantable="false" extractable="2" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="8049" sellPrice="766">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="160"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11368" type="scepter" name="Pixie Stick" requiredLevel="13" rank="uncommon" bindType="onEquip" attack="69" impact="56" sockets="3" enchantable="true" extractable="2" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="10349" sellPrice="985">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="183"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10952" type="scepter" name="Attuned Roken Deosilex Scepter" requiredLevel="15" rank="common" bindType="none" attack="65" impact="45" sockets="2" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="173"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10560" type="scepter" name="Devanesque Scepter" requiredLevel="15" rank="common" bindType="none" attack="65" impact="45" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="183"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10608" type="scepter" name="Ineluctable Mace" requiredLevel="15" rank="uncommon" bindType="none" attack="69" impact="56" sockets="3" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="10471" sellPrice="997">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="183"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="4679" type="scepter" name="Lulunpang's Heart Scepter" requiredLevel="15" rank="rare" bindType="none" attack="79" impact="74" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="regMp" order="0x40" val="10"/>
+			<add stat="healPowerStatic" order="0x40" val="196"/> 
+			<!-- top aggro -->
+			<!-- receive healing -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10864" type="scepter" name="Roken Deosilex Scepter" requiredLevel="15" rank="common" bindType="none" attack="68" impact="50" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="5235" sellPrice="498">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="67"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11656" type="scepter" name="Arcadian Outrider's Ceremonial Scepter" requiredLevel="17" rank="common" bindType="none" attack="77" impact="60" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="186"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11744" type="scepter" name="Arcadian Outrider's Scepter" requiredLevel="17" rank="common" bindType="none" attack="68" impact="50" sockets="2" enchantable="true" extractable="3" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="174"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10040" type="scepter" name="Seedrod" requiredLevel="17" rank="common" bindType="none" attack="77" impact="60" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7330" sellPrice="698">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="186"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10128" type="scepter" name="Wand of the Frond" requiredLevel="17" rank="uncommon" bindType="onEquip" attack="76" impact="69" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="14660" sellPrice="1396">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="198"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="4024" type="scepter" name="Tier 3 Scepter Template" requiredLevel="1" rank="common" bindType="none" attack="25" impact="12" sockets="2" enchantable="false" extractable="0" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="315000" sellPrice="30000">
+		<funcs>
+			<add stat="regMp" order="0x40" val="2"/>
+			<add stat="healPowerStatic" order="0x40" val="67"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10616" type="scepter" name="Cane of the Cult" requiredLevel="18" rank="uncommon" bindType="none" attack="81" impact="75" sockets="3" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="16754" sellPrice="1595">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="212"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10568" type="scepter" name="Echo Ranch Fencepost" requiredLevel="18" rank="common" bindType="none" attack="77" impact="60" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="8376" sellPrice="797">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="199"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10680" type="scepter" name="Bomb Fuse" requiredLevel="19" rank="uncommon" bindType="none" attack="86" impact="83" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="18849" sellPrice="1795">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="226"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12160" type="scepter" name="Intrepid Scepter" requiredLevel="19" rank="common" bindType="none" attack="82" impact="67" sockets="2" enchantable="false" extractable="3" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="9424" sellPrice="897">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="213"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11376" type="scepter" name="Rod of Absolute Insight" requiredLevel="19" rank="uncommon" bindType="onEquip" attack="102" impact="100" sockets="3" enchantable="true" extractable="3" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="259"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- /1-20 Lv. -->	
+	
+	<!-- 20-30 Lv. -->	
+	
+	<weapon id="11104" type="scepter" name="Attuned Gilded Sunrod" requiredLevel="20" rank="uncommon" bindType="onEquip" attack="96" impact="91" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="regMp" order="0x40" val="7"/>
+			<add stat="healPowerStatic" order="0x40" val="242"/> 
+			<!-- increase healing -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10960" type="scepter" name="Attuned Sun-Infused Scepter" requiredLevel="20" rank="common" bindType="none" attack="91" impact="73" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11022" sellPrice="1049">
+		<funcs>
+			<add stat="regMp" order="0x40" val="4"/>
+			<add stat="healPowerStatic" order="0x40" val="228"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11032" type="scepter" name="Gilded Sunrod" requiredLevel="20" rank="uncommon" bindType="onEquip" attack="102" impact="100" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="22045" sellPrice="2099">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="242"/> 
+			<!-- increase healing -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="13197" type="scepter" name="Seren's Soothing Scepter" requiredLevel="20" rank="uncommon" bindType="none" attack="104" impact="106" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="23883" sellPrice="2274">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="259"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10872" type="scepter" name="Sun-Infused Scepter" requiredLevel="20" rank="common" bindType="none" attack="97" impact="80" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11022" sellPrice="1049">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="228"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12328" type="scepter" name="Bloodstone Scepter" requiredLevel="21" rank="uncommon" bindType="onEquip" attack="133" impact="147" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="317"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10624" type="scepter" name="Scepter of Reveals" requiredLevel="21" rank="uncommon" bindType="none" attack="106" impact="110" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="23883" sellPrice="2274">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="277"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10576" type="scepter" name="Visionary's Scepter" requiredLevel="21" rank="common" bindType="none" attack="101" impact="88" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="11941" sellPrice="1137">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="261"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12320" type="scepter" name="Witchflame" requiredLevel="21" rank="uncommon" bindType="onEquip" attack="133" impact="147" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="317"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11824" type="scepter" name="Arcadian Decurion's Ceremonial Scepter" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="115" impact="122" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="277"/> 
+			<!-- атака топ агра -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11896" type="scepter" name="Arcadian Decurion's Scepter" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="102" impact="100" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="259"/> 
+			<!-- атака топ агра -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11664" type="scepter" name="Arcadian Warden's Ceremonial Scepter" requiredLevel="22" rank="common" bindType="none" attack="109" impact="97" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="261"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11752" type="scepter" name="Arcadian Warden's Scepter" requiredLevel="22" rank="common" bindType="none" attack="97" impact="80" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="244"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12272" type="scepter" name="Bloodhorn" requiredLevel="22" rank="rare" bindType="none" attack="135" impact="161" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="80310" sellPrice="3824">
+		<funcs>
+			<add stat="regMp" order="0x40" val="14"/>
+			<add stat="healPowerStatic" order="0x40" val="338"/> 
+			<!-- increasing heal -->
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10048" type="scepter" name="Lower Ground" requiredLevel="22" rank="common" bindType="none" attack="117" impact="107" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="279"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10136" type="scepter" name="Fey Scepter" requiredLevel="22" rank="common" bindType="none" attack="101" impact="88" sockets="2" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="11810" sellPrice="1124">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="261"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10208" type="scepter" name="Restraining Timberstalk" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="123" impact="134" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="297"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10280" type="scepter" name="Rotting Scepter" requiredLevel="22" rank="uncommon" bindType="onEquip" attack="106" impact="110" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="23620" sellPrice="2249">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="277"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12560" type="scepter" name="Scepter of False Deeds" requiredLevel="22" rank="rare" bindType="onEquip" attack="154" impact="194" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="80310" sellPrice="3824">
+		<funcs>
+			<add stat="regMp" order="0x40" val="14"/>
+			<add stat="healPowerStatic" order="0x40" val="361"/> 
+			<!-- increasing heal -->
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10584" type="scepter" name="Natural Inclination" requiredLevel="24" rank="common" bindType="none" attack="126" impact="118" sockets="2" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="14959" sellPrice="1424">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="320"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10688" type="scepter" name="Scepter of Hundur" requiredLevel="24" rank="uncommon" bindType="none" attack="123" impact="134" sockets="3" enchantable="true" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="29919" sellPrice="2849">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="317"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10632" type="scepter" name="Scepter of Wrath" requiredLevel="24" rank="uncommon" bindType="none" attack="133" impact="147" sockets="3" enchantable="false" extractable="4" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="29919" sellPrice="2849">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="340"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10968" type="scepter" name="Attuned Scepter of Jumbled Winds" requiredLevel="25" rank="common" bindType="none" attack="126" impact="118" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="320"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11112" type="scepter" name="Attuned Wind Essence Scepter" requiredLevel="25" rank="uncommon" bindType="onEquip" attack="133" impact="147" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="340"/> 
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10880" type="scepter" name="Scepter of Jumbled Winds" requiredLevel="25" rank="common" bindType="none" attack="144" impact="142" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="342"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11040" type="scepter" name="Wind Essence Scepter" requiredLevel="25" rank="uncommon" bindType="onEquip" attack="152" impact="178" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="363"/> 
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="4690" type="scepter" name="Yoki's Short Scepter" requiredLevel="25" rank="rare" bindType="onEquip" attack="154" impact="194" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="31779" sellPrice="3026">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="386"/> 
+			<!-- recevie heal -->
+			<!-- extra hate dmg -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="13205" type="scepter" name="Royal Scepter" requiredLevel="26" rank="uncommon" bindType="none" attack="167" impact="171" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="15889" sellPrice="1513">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="342"/> 
+		</funcs>
+	</weapon>
+	
+	
+	
+	<weapon id="10056" type="scepter" name="Confusion Therapy" requiredLevel="27" rank="common" bindType="none" attack="163" impact="172" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="392"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10144" type="scepter" name="Equinox Rod" requiredLevel="27" rank="common" bindType="none" attack="144" impact="142" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="365"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10216" type="scepter" name="Disorderly Conductor" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="172" impact="215" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="416"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10288" type="scepter" name="Deathshine Rod" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="152" impact="178" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="389"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10592" type="scepter" name="Percussor Mace" requiredLevel="27" rank="common" bindType="none" attack="153" impact="157" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="392"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11832" type="scepter" name="Poporia Decurion's Ceremonial Scepter" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="161" impact="196" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="389"/>
+			<!-- extra hate dmg -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11904" type="scepter" name="Poporia Decurion's Scepter" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="140" impact="162" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="363"/> 
+			<!-- extra hate dmg -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11672" type="scepter" name="Poporia Warden's Ceremonial Scepter" requiredLevel="27" rank="common" bindType="none" attack="153" impact="157" sockets="2" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="365"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11760" type="scepter" name="Poporia Warden's Scepter" requiredLevel="27" rank="common" bindType="none" attack="133" impact="130" sockets="2" enchantable="true" extractable="5" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="17796" sellPrice="1694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="342"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12568" type="scepter" name="Scepter of Remonstrance" requiredLevel="27" rank="rare" bindType="onEquip" attack="224" impact="327" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="114405" sellPrice="5447">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="476"/> 
+			<!-- increasing heal -->
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11384" type="scepter" name="Trifle of Whimsy" requiredLevel="27" rank="uncommon" bindType="onEquip" attack="172" impact="215" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="38134" sellPrice="3631">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="445"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10640" type="scepter" name="Vampir's Cane" requiredLevel="27" rank="uncommon" bindType="none" attack="172" impact="215" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="35592" sellPrice="3389">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="416"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12336" type="scepter" name="Volperon's Finest Cane" requiredLevel="27" rank="rare" bindType="onEquip" attack="219" impact="312" sockets="3" enchantable="false" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="114405" sellPrice="5447">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="476"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12280" type="scepter" name="Witchbinder" requiredLevel="27" rank="epic" bindType="onEquip" attack="197" impact="321" sockets="4" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="228811" sellPrice="10895">
+		<funcs>
+			<add stat="regMp" order="0x40" val="17"/>
+			<add stat="healPowerStatic" order="0x40" val="503"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11392" type="scepter" name="Jurzendactyl" requiredLevel="29" rank="rare" bindType="onEquip" attack="219" impact="312" sockets="3" enchantable="true" extractable="5" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="510"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- /20-30 Lv. -->	
+	
+	
+	<!-- 30-40 Lv. -->	
+	
+	<weapon id="10976" type="scepter" name="Attuned Brazen Windy Scepter" requiredLevel="30" rank="common" bindType="none" attack="177" impact="189" sockets="2" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="20823" sellPrice="1983">
+		<funcs>
+			<add stat="regMp" order="0x40" val="9"/>
+			<add stat="healPowerStatic" order="0x40" val="421"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11120" type="scepter" name="Attuned Runed Aerosilex Scepter" requiredLevel="30" rank="uncommon" bindType="onEquip" attack="187" impact="236" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="448"/> 
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11232" type="scepter" name="Attuned Wand of Winds" requiredLevel="30" rank="rare" bindType="onEquip" attack="205" impact="284" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="regMp" order="0x40" val="14"/>
+			<add stat="healPowerStatic" order="0x40" val="476"/> 
+			<!-- increasing heal -->
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10888" type="scepter" name="Brazen Windy Scepter" requiredLevel="30" rank="common" bindType="none" attack="200" impact="229" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="20823" sellPrice="1983">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="451"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10696" type="scepter" name="Cursus Scepter" requiredLevel="30" rank="rare" bindType="none" attack="219" impact="312" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="510"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11048" type="scepter" name="Runed Aerosilex Scepter" requiredLevel="30" rank="uncommon" bindType="onEquip" attack="211" impact="286" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="408"/> 
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10648" type="scepter" name="Scepter of Grievous Deceit" requiredLevel="30" rank="uncommon" bindType="none" attack="211" impact="286" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="41647" sellPrice="3966">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="408"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11400" type="scepter" name="Semiquaver" requiredLevel="30" rank="rare" bindType="onEquip" attack="231" impact="343" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="141685" sellPrice="13485">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="545"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11176" type="scepter" name="Wand of Winds" requiredLevel="30" rank="rare" bindType="onEquip" attack="231" impact="343" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="124942" sellPrice="11899">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="510"/> 
+			<!-- increasing heal -->
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10064" type="scepter" name="Captain's Leg" requiredLevel="32" rank="common" bindType="none" attack="231" impact="276" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="517"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11968" type="scepter" name="Ostgarath Centurion's Ceremonial Scepter" requiredLevel="32" rank="rare" bindType="onEquip" attack="249" impact="377" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="545"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="12024" type="scepter" name="Ostgarath Centurion's Scepter" requiredLevel="32" rank="rare" bindType="onEquip" attack="219" impact="312" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="510"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11840" type="scepter" name="Ostgarath Decurion's Ceremonial Scepter" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="227" impact="314" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="513"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11912" type="scepter" name="Ostgarath Decurion's Scepter" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="199" impact="260" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="480"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+		</funcs>
+	</weapon>
+	
+	<weapon id="11680" type="scepter" name="Ostgarath Warden's Ceremonial Scepter" requiredLevel="32" rank="common" bindType="none" attack="215" impact="251" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="483"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11768" type="scepter" name="Ostgarath Warden's Scepter" requiredLevel="32" rank="common" bindType="none" attack="189" impact="208" sockets="2" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="451"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10152" type="scepter" name="Petition Rod" requiredLevel="32" rank="common" bindType="none" attack="200" impact="229" sockets="2" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="26084" sellPrice="2484">
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="483"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10224" type="scepter" name="Terpsicore" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="243" impact="345" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="549"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10296" type="scepter" name="Immitis Rod" requiredLevel="32" rank="uncommon" bindType="onEquip" attack="211" impact="286" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="513"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11424" type="scepter" name="Celestial Spindle" requiredLevel="33" rank="rare" bindType="onEquip" attack="285" impact="456" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="18206">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="668"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10352" type="scepter" name="Hitching Post" requiredLevel="33" rank="rare" bindType="onEquip" attack="285" impact="456" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="624"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10408" type="scepter" name="Duskwand" requiredLevel="33" rank="rare" bindType="onEquip" attack="249" impact="377" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="624"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10656" type="scepter" name="Labyrinth Scepter" requiredLevel="33" rank="uncommon" bindType="none" attack="259" impact="380" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="52169" sellPrice="4968">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="588"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10704" type="scepter" name="Obdurate Scepter" requiredLevel="33" rank="rare" bindType="none" attack="285" impact="456" sockets="3" enchantable="false" extractable="6" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="169922" sellPrice="16183">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="624"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+			<!-- increasing heal -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="11416" type="scepter" name="Scepter of Resonance" requiredLevel="33" rank="rare" bindType="onEquip" attack="285" impact="456" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="18206">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="668"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11408" type="scepter" name="Swaggering Stick" requiredLevel="33" rank="rare" bindType="onEquip" attack="285" impact="456" sockets="3" enchantable="true" extractable="6" remodelable="true" tradable="false" sellable="true" bank="true" guildBank="true" buyPrice="191163" sellPrice="191163">
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="668"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10984" type="scepter" name="Attuned Basic Astrosilex Rod" requiredLevel="35" rank="common" bindType="none" attack="246" impact="304" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="34813" sellPrice="3315" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="591"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11128" type="scepter" name="Attuned Etched Astrorod" requiredLevel="35" rank="uncommon" bindType="onEquip" attack="259" impact="380" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="69628" sellPrice="6631" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="629"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11240" type="scepter" name="Attuned Mace of Constellations" requiredLevel="35" rank="rare" bindType="onEquip" attack="285" impact="456" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="668"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10896" type="scepter" name="Basic Astrosilex Rod" requiredLevel="35" rank="common" bindType="none" attack="281" impact="368" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="34813" sellPrice="3315" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="633"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11056" type="scepter" name="Etched Astrorod" requiredLevel="35" rank="uncommon" bindType="onEquip" attack="296" impact="460" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="69628" sellPrice="6631" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="672"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11184" type="scepter" name="Mace of Constellations" requiredLevel="35" rank="rare" bindType="onEquip" attack="325" impact="552" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="715"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="4701" type="scepter" name="Shan's Terron Scepter" requiredLevel="35" rank="epic" bindType="onEquip" attack="318" impact="626" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="208885" sellPrice="19893" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="19"/>
+			<add stat="healPowerStatic" order="0x40" val="760"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11432" type="scepter" name="Transcendental Mediator" requiredLevel="35" rank="rare" bindType="onEquip" attack="325" impact="552" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="227875" sellPrice="21702" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="765"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10712" type="scepter" name="Seeker's Prod" requiredLevel="36" rank="rare" bindType="none" attack="349" impact="608" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="227875" sellPrice="21702" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="765"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10664" type="scepter" name="Untinder" requiredLevel="36" rank="uncommon" bindType="none" attack="318" impact="506" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="75958" sellPrice="7234" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="720"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11440" type="scepter" name="Fetching Rod" requiredLevel="37" rank="rare" bindType="onEquip" attack="375" impact="668" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="876"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10072" type="scepter" name="Polemic Post" requiredLevel="37" rank="common" bindType="none" attack="324" impact="446" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="724"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10160" type="scepter" name="Princely Scepter" requiredLevel="37" rank="common" bindType="none" attack="281" impact="368" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="677"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10304" type="scepter" name="Snow Cane" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="296" impact="460" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="720"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11448" type="scepter" name="Stand of Leadership" requiredLevel="37" rank="rare" bindType="onEquip" attack="375" impact="668" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="876"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10232" type="scepter" name="Titanic Cosh" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="341" impact="557" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="770"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11976" type="scepter" name="Val Aureum Centurion's Ceremonial Scepter" requiredLevel="37" rank="rare" bindType="onEquip" attack="349" impact="608" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="765"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12032" type="scepter" name="Val Aureum Centurion's Scepter" requiredLevel="37" rank="rare" bindType="onEquip" attack="304" impact="502" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="715"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11848" type="scepter" name="Val Aureum Decurion's Ceremonial Scepter" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="318" impact="506" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="720"/> 
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11920" type="scepter" name="Val Aureum Decurion's Scepter" requiredLevel="37" rank="uncommon" bindType="onEquip" attack="277" impact="418" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="81233" sellPrice="7736" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="672"/> 
+			<mul stat="atk" order="0x50" val="1.03" >
+				<target aggroMe="true" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11688" type="scepter" name="Val Aureum Warden's Ceremonial Scepter" requiredLevel="37" rank="common" bindType="none" attack="302" impact="405" sockets="2" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="677"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11776" type="scepter" name="Val Aureum Warden's Scepter" requiredLevel="37" rank="common" bindType="none" attack="263" impact="335" sockets="2" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="40616" sellPrice="3868" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="633"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12352" type="scepter" name="Darkweaver" requiredLevel="38" rank="rare" bindType="onEquip" attack="458" impact="891" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1003"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12288" type="scepter" name="Direwand" requiredLevel="38" rank="epic" bindType="onEquip" attack="419" impact="917" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="false" sellable="true" bank="true" guildBank="false" buyPrice="626657" sellPrice="29840" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="19"/>
+			<add stat="healPowerStatic" order="0x40" val="996"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10416" type="scepter" name="Primed Scepter of Shadowed Days" requiredLevel="38" rank="rare" bindType="onEquip" attack="349" impact="608" sockets="3" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="818"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12576" type="scepter" name="Rod of None More Black" requiredLevel="38" rank="rare" bindType="onEquip" attack="473" impact="936" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1003"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="12344" type="scepter" name="Scepter of Edict" requiredLevel="38" rank="rare" bindType="onEquip" attack="458" impact="891" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1003"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="17933" type="scepter" name="Scepter of Infatuation" requiredLevel="38" rank="epic" bindType="onEquip" attack="419" impact="917" sockets="4" enchantable="true" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="626657" sellPrice="29840" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="19"/>
+			<add stat="healPowerStatic" order="0x40" val="996"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<!-- chance buff -->
+		</funcs>
+	</weapon>
+	
+	<weapon id="10360" type="scepter" name="Scepter of Shadowed Days" requiredLevel="38" rank="rare" bindType="onEquip" attack="400" impact="736" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="278514" sellPrice="26525" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="876"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10672" type="scepter" name="Forest Limb" requiredLevel="39" rank="uncommon" bindType="none" attack="390" impact="675" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="104442" sellPrice="9946" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="882"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10720" type="scepter" name="Honor Bound Scepter" requiredLevel="39" rank="rare" bindType="none" attack="428" impact="810" sockets="3" enchantable="false" extractable="7" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="313328" sellPrice="14920" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="937"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<!-- /30-40 Lv. -->
+
+	<!-- 40-50 Lv. -->	
+	
+	<weapon id="10992" type="scepter" name="Attuned Scepter of Starry Nights" requiredLevel="40" rank="common" bindType="none" attack="346" impact="490" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="74148" sellPrice="7061" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="11"/>
+			<add stat="healPowerStatic" order="0x40" val="830"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11248" type="scepter" name="Attuned Star-crossed Wand" requiredLevel="40" rank="rare" bindType="onEquip" attack="400" impact="736" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="937"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11136" type="scepter" name="Attuned Star-runed Scepter" requiredLevel="40" rank="uncommon" bindType="onEquip" attack="365" impact="613" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="882"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11328" type="scepter" name="Attuned Twisting Starwand" requiredLevel="40" rank="epic" bindType="onEquip" attack="419" impact="917" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="889796" sellPrice="84742" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="19"/>
+			<add stat="healPowerStatic" order="0x40" val="996"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="12168" type="scepter" name="Primus's Scepter of Dedication" requiredLevel="40" rank="rare" bindType="onEquip" attack="375" impact="668" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="937"/> 
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+		</funcs>
+	</weapon>
+	
+	<weapon id="12208" type="scepter" name="Primus's Scepter of Victory" requiredLevel="40" rank="epic" bindType="onEquip" attack="400" impact="736" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="16"/>
+			<add stat="healPowerStatic" order="0x40" val="996"/> 
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="10904" type="scepter" name="Scepter of Starry Nights" requiredLevel="40" rank="common" bindType="none" attack="396" impact="594" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="74148" sellPrice="7061" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="888"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11192" type="scepter" name="Star-crossed Wand" requiredLevel="40" rank="rare" bindType="onEquip" attack="458" impact="891" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="444897" sellPrice="42371" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1003"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="11064" type="scepter" name="Star-runed Scepter" requiredLevel="40" rank="uncommon" bindType="onEquip" attack="417" impact="742" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="148298" sellPrice="14123" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="943"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11288" type="scepter" name="Twisting Starwand" requiredLevel="40" rank="epic" bindType="onEquip" attack="480" impact="1111" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="889796" sellPrice="84742" >
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1066"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+		</funcs>
+	</weapon>
+	
+	<weapon id="11472" type="scepter" name="Deadwood Scepter" requiredLevel="41" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11464" type="scepter" name="Nadir" requiredLevel="41" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11456" type="scepter" name="Obfuscating Scepter" requiredLevel="41" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11480" type="scepter" name="Wand of Distrust" requiredLevel="41" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+		</funcs>
+	</weapon>
+	
+	<weapon id="10464" type="scepter" name="Captured Memory" requiredLevel="42" rank="epic" bindType="onEquip" attack="550" impact="1345" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1182441" sellPrice="118244">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1220"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10504" type="scepter" name="Picayuecent" requiredLevel="42" rank="epic" bindType="onEquip" attack="480" impact="1111" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1182441" sellPrice="118244">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1140"/> 
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 0.2% of your total MP instantly returns when you use a skill. -->
+	<weapon id="10800" type="scepter" name="Regressing Wand" requiredLevel="42" rank="epic" bindType="none" attack="550" impact="1345" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1182441" sellPrice="118244">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1220"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10728" type="scepter" name="Rod of Discharge" requiredLevel="42" rank="rare" bindType="none" attack="488" impact="980" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="591220" sellPrice="59122">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10240" type="scepter" name="Scepter of Raging Storms" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="479" impact="899" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1080"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10312" type="scepter" name="Seeker's Bar" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="417" impact="742" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1009"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10168" type="scepter" name="Seeker's Bar" requiredLevel="42" rank="common" bindType="none" attack="396" impact="594" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="950"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10080" type="scepter" name="Understated Elegance" requiredLevel="42" rank="common" bindType="none" attack="454" impact="719" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1016"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11984" type="scepter" name="Westonia Centurion's Ceremonial Scepter" requiredLevel="42" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1073"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12040" type="scepter" name="Westonia Centurion's Scepter" requiredLevel="42" rank="rare" bindType="onEquip" attack="428" impact="810" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1003"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11856" type="scepter" name="Westonia Decurion's Ceremonial Scepter" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="445" impact="817" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1009"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11928" type="scepter" name="Westonia Decurion's Scepter" requiredLevel="42" rank="uncommon" bindType="onEquip" attack="390" impact="675" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="197073" sellPrice="19707">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="943"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11696" type="scepter" name="Westonia Defender's Ceremonial Scepter" requiredLevel="42" rank="common" bindType="none" attack="422" impact="653" sockets="2" enchantable="false" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="950"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11784" type="scepter" name="Westonia Defender's Scepter" requiredLevel="42" rank="common" bindType="none" attack="370" impact="540" sockets="2" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="98536" sellPrice="9853">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="888"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10368" type="scepter" name="Stress Spar" requiredLevel="43" rank="rare" bindType="onEquip" attack="560" impact="1187" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1228"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="10424" type="scepter" name="Veniculum" requiredLevel="43" rank="rare" bindType="onEquip" attack="488" impact="980" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="675680" sellPrice="67568">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1148"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="12360" type="scepter" name="Ebonheart Rod" requiredLevel="44" rank="epic" bindType="onEquip" attack="721" impact="1969" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">	
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1600"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11512" type="scepter" name="Frezraff's Scepter" requiredLevel="44" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11496" type="scepter" name="Kythe Tiller" requiredLevel="44" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12296" type="scepter" name="Lifedrinker" requiredLevel="44" rank="epic" bindType="onEquip" attack="629" impact="1627" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1495"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+
+	<weapon id="12368" type="scepter" name="Mace Dalmana" requiredLevel="44" rank="epic" bindType="onEquip" attack="721" impact="1969" sockets="4" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1600"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11488" type="scepter" name="Magistrate's Thrasher" requiredLevel="44" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12584" type="scepter" name="Roarescent Rod" requiredLevel="44" rank="rare" bindType="onEquip" attack="712" impact="1658" sockets="3" enchantable="false" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="43092">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1505"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+
+	<weapon id="11520" type="scepter" name="Rod of Defiance" requiredLevel="44" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+		</funcs>
+	</weapon>
+
+	<weapon id="11504" type="scepter" name="Scepter of Wrathful Shadows" requiredLevel="44" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="8" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+		</funcs>
+	</weapon>
+
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="18589" type="scepter" name="Attenuate" requiredLevel="45" rank="epic" bindType="onPickUp" attack="769" impact="2166" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">	
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="4152"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>				
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11144" type="scepter" name="Attuned Ice-imbued Rod" requiredLevel="45" rank="uncommon" bindType="onEquip" attack="510" impact="989" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="287281" sellPrice="28728">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1237"/> 		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->	
+	<weapon id="11336" type="scepter" name="Attuned Scepter of Frozen Gazes" requiredLevel="45" rank="epic" bindType="onEquip" attack="586" impact="1479" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1397"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->	
+	<weapon id="11256" type="scepter" name="Attuned Scepter of the Ice Queen" requiredLevel="45" rank="rare" bindType="onEquip" attack="560" impact="1187" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1314"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11000" type="scepter" name="Attuned Simple Cryosilex Scepter" requiredLevel="45" rank="common" bindType="none" attack="484" impact="791" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="143640" sellPrice="14364">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1163"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11072" type="scepter" name="Ice-imbued Rod" requiredLevel="45" rank="uncommon" bindType="onEquip" attack="585" impact="1197" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="287281" sellPrice="28728">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1323"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="4712" type="scepter" name="Nepir's Expeller Scepter" requiredLevel="45" rank="epic" bindType="onEquip" attack="629" impact="1627" sockets="4" enchantable="true" extractable="8" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1495"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>		
+			<mul stat="atkSpd" order="0x30" val="1.08" />			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->	
+	<weapon id="11296" type="scepter" name="Scepter of Frozen Gazes" requiredLevel="45" rank="epic" bindType="onEquip" attack="672" impact="1791" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1723691" sellPrice="172369">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1495"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>				
+		</funcs>
+	</weapon>	
+		
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->	
+	<weapon id="11200" type="scepter" name="Scepter of the Ice Queen" requiredLevel="45" rank="rare" bindType="onEquip" attack="642" impact="1436" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10912" type="scepter" name="Simple Cryosilex Scepter" requiredLevel="45" rank="common" bindType="none" attack="555" impact="958" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="143640" sellPrice="14364">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1245"/> 				
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10736" type="scepter" name="Treasure Divining Rod" requiredLevel="45" rank="rare" bindType="none" attack="600" impact="1305" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="861845" sellPrice="86184">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12176" type="scepter" name="Tribune's Scepter of Dedication" requiredLevel="45" rank="rare" bindType="onEquip" attack="525" impact="1079" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="287281" sellPrice="14364">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1314"/> 
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>		
+			<mul stat="atkSpd" order="0x30" val="1.08" />			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12216" type="scepter" name="Tribune's Scepter of Victory" requiredLevel="45" rank="epic" bindType="onEquip" attack="560" impact="1187" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="861845" sellPrice="43092">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1397"/> 
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>		
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11528" type="scepter" name="Twilight Scepter" requiredLevel="46" rank="rare" bindType="onEquip" attack="688" impact="1580" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1206583" sellPrice="120658">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1610"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10320" type="scepter" name="Fanbrin" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="585" impact="1197" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1415"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10472" type="scepter" name="Little Stick" requiredLevel="47" rank="epic" bindType="onEquip" attack="769" impact="2166" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2413167" sellPrice="241316">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1711"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10512" type="scepter" name="Rattlespine" requiredLevel="47" rank="epic" bindType="onEquip" attack="672" impact="1791" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2413167" sellPrice="241316">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1600"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11536" type="scepter" name="Rod of Reign" requiredLevel="47" rank="rare" bindType="onEquip" attack="735" impact="1737" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1723"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10248" type="scepter" name="Scepter of Sinister Complements" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="669" impact="1448" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1515"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10088" type="scepter" name="Shivers" requiredLevel="47" rank="common" bindType="none" attack="635" impact="1158" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1426"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11992" type="scepter" name="Val Palrada Centurion's Ceremonial Scepter" requiredLevel="47" rank="rare" bindType="onEquip" attack="688" impact="1580" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1505"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12048" type="scepter" name="Val Palrada Centurion's Scepter" requiredLevel="47" rank="rare" bindType="onEquip" attack="600" impact="1305" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1406"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11864" type="scepter" name="Val Palrada Decurion's Ceremonial Scepter" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="627" impact="1316" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1415"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11936" type="scepter" name="Val Palrada Decurion's Scepter" requiredLevel="47" rank="uncommon" bindType="onEquip" attack="547" impact="1088" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="402194" sellPrice="40219">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1323"/> 
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11704" type="scepter" name="Val Palrada Defender's Ceremonial Scepter" requiredLevel="47" rank="common" bindType="none" attack="595" impact="1053" sockets="2" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1333"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11792" type="scepter" name="Val Palrada Defender's Scepter" requiredLevel="47" rank="common" bindType="none" attack="519" impact="870" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1245"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10176" type="scepter" name="Wand of Many Stings" requiredLevel="47" rank="common" bindType="none" attack="555" impact="958" sockets="2" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="201097" sellPrice="20109">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1333"/> 
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10432" type="scepter" name="Annexirod" requiredLevel="48" rank="rare" bindType="onEquip" attack="688" impact="1580" sockets="3" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1610"/> 
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10376" type="scepter" name="Rod of Red Hands" requiredLevel="48" rank="rare" bindType="onEquip" attack="788" impact="1912" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1723"/> 
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10744" type="scepter" name="Rod of the Crown" requiredLevel="48" rank="rare" bindType="none" attack="788" impact="1912" sockets="3" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1337166" sellPrice="133716">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1723"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 0.2% of your total MP instantly returns when you use a skill. -->
+	<weapon id="10808" type="scepter" name="Whitehawk Wand" requiredLevel="48" rank="epic" bindType="none" attack="825" impact="2383" sockets="4" enchantable="false" extractable="9" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="2674332" sellPrice="267433">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1831"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11544" type="scepter" name="Venator's Scepter" requiredLevel="49" rank="epic" bindType="onEquip" attack="880" impact="2622" sockets="4" enchantable="true" extractable="9" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2096"/> 
+		</funcs>
+	</weapon>	
+	
+	<!-- /40-50 Lv. -->	
+	
+	<!-- 50-60 Lv. -->	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12608" type="scepter" name="Arolial Grasp" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11008" type="scepter" name="Attuned Gilded Frost-licked Rod" requiredLevel="50" rank="common" bindType="none" attack="681" impact="1274" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1632"/> 		
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11344" type="scepter" name="Attuned Icy Khatic Scepter" requiredLevel="50" rank="epic" bindType="onEquip" attack="825" impact="2383" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1960"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+		
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11264" type="scepter" name="Attuned Runed Cryosilex Scepter" requiredLevel="50" rank="rare" bindType="onEquip" attack="788" impact="1912" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1843"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11152" type="scepter" name="Attuned Scepter of Ice Crystals" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="718" impact="1593" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1734"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12480" type="scepter" name="Fiducial Bar" requiredLevel="50" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2096"/> 				
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12456" type="scepter" name="Galvanized Seclusion" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="718" impact="1593" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1734"/> 				
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12304" type="scepter" name="Gateopener Scepter" requiredLevel="50" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10920" type="scepter" name="Gilded Frost-licked Rod" requiredLevel="50" rank="common" bindType="none" attack="779" impact="1543" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1747"/> 				
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->	
+	<weapon id="12424" type="scepter" name="Gluda's Blood Bar" requiredLevel="50" rank="epic" bindType="onEquip" attack="1009" impact="3172" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2400"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12624" type="scepter" name="Icewalker Rod" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11304" type="scepter" name="Icy Khatic Scepter" requiredLevel="50" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2096"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12472" type="scepter" name="Maundercosh" requiredLevel="50" rank="rare" bindType="onEquip" attack="788" impact="1912" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1843"/> 		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="32106" type="scepter" name="Nature's Frostrod" requiredLevel="50" rank="epic" bindType="none" attack="943" impact="2885" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2096"/> 		
+		</funcs>
+	</weapon>		
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="12640" type="scepter" name="Palpable Chill" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12488" type="scepter" name="Precious Minacity" requiredLevel="50" rank="epic" bindType="onEquip" attack="825" impact="2383" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1960"/> 		
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12184" type="scepter" name="Prefect's Scepter of Dedication" requiredLevel="50" rank="rare" bindType="onEquip" attack="735" impact="1737" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1843"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12248" type="scepter" name="Prefect's Scepter of Glory" requiredLevel="50" rank="epic" bindType="onEquip" attack="825" impact="2383" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1960"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>				
+		</funcs>
+	</weapon>		
+	
+	<weapon id="12224" type="scepter" name="Prefect's Scepter of Victory" requiredLevel="50" rank="epic" bindType="onEquip" attack="788" impact="1912" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="75641">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1960"/> 
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="atk" order="0x50" val="1.05" >
+				<target player="true" />
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.07" >
+				<and>
+					<target player="true" />
+					<target side="BEHIND" />
+				</and>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12440" type="scepter" name="Rhodomontade" requiredLevel="50" rank="common" bindType="none" attack="681" impact="1274" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1632"/> 		
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 0.2% of your total MP instantly returns when you use a skill. -->
+	<weapon id="12592" type="scepter" name="Rod of the Endless Path" requiredLevel="50" rank="rare" bindType="onEquip" attack="1022" impact="2940" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1711666" sellPrice="85583">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2258"/> 		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+	
+	<!-- Добавить параметр: Do 6% more damage when you attack enraged monsters. -->	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="325" type="scepter" name="Rod of the Witch" requiredLevel="50" rank="epic" bindType="onEquip" attack="1009" impact="3172" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 		
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>
+	
+	<weapon id="11560" type="scepter" name="Ruinous Rod" requiredLevel="50" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="342333">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 		
+		</funcs>
+	</weapon>	
+
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<weapon id="11208" type="scepter" name="Runed Cryosilex Scepter" requiredLevel="50" rank="rare" bindType="onEquip" attack="901" impact="2314" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="1972"/> 	
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+
+	<weapon id="12376" type="scepter" name="Scepter of Balance" requiredLevel="50" rank="epic" bindType="onEquip" attack="1027" impact="3491" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2400"/> 		
+		</funcs>
+	</weapon>	
+
+	<weapon id="12632" type="scepter" name="Scepter of Darkest Days" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 	
+			<mul stat="atkSpd" order="0x30" val="1.08" />	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="10752" type="scepter" name="Scepter of Devotion" requiredLevel="50" rank="rare" bindType="none" attack="901" impact="2314" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="1711666" sellPrice="171166">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2111"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION"/>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+
+	<weapon id="11080" type="scepter" name="Scepter of Ice Crystals" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="821" impact="1928" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1856"/> 		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+	
+	<weapon id="12872" type="scepter" name="Scepter of Imperiality" requiredLevel="50" rank="epic" bindType="onEquip" attack="880" impact="2622" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="true" bank="false" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 				
+		</funcs>
+	</weapon>
+
+	<weapon id="12648" type="scepter" name="Scepter of Sabranak" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="11552" type="scepter" name="Scepter of Taelrithia" requiredLevel="50" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="342333">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 				
+		</funcs>
+	</weapon>
+
+	<weapon id="12656" type="scepter" name="Scepter of the Shrouded Rose" requiredLevel="50" rank="epic" bindType="onEquip" attack="880" impact="2622" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 				
+		</funcs>
+	</weapon>
+
+	<weapon id="12616" type="scepter" name="Scepter of the Would-be Queen" requiredLevel="50" rank="epic" bindType="onEquip" attack="976" impact="3029" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MONSTER"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />		
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="12600" type="scepter" name="Sorrowblack Rod" requiredLevel="50" rank="rare" bindType="onEquip" attack="1022" impact="2940" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1711666" sellPrice="85583">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2258"/> 
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>		
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 			
+		</funcs>
+	</weapon>
+
+	<weapon id="12384" type="scepter" name="Switchback Course" requiredLevel="50" rank="epic" bindType="onEquip" attack="1027" impact="3491" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3423333" sellPrice="171166">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2400"/> 				
+		</funcs>
+	</weapon>
+
+	<weapon id="12432" type="scepter" name="Tempo Keeper" requiredLevel="50" rank="common" bindType="none" attack="779" impact="1543" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1747"/> 				
+		</funcs>
+	</weapon>
+
+	<weapon id="12448" type="scepter" name="Trimmed Patience" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="821" impact="1928" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1856"/> 				
+		</funcs>
+	</weapon>
+	
+	<weapon id="12528" type="scepter" name="Val Elenium Centurion's Ceremonial Scepter" requiredLevel="50" rank="rare" bindType="onEquip" attack="841" impact="2103" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="1843"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 				
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="12536" type="scepter" name="Val Elenium Centurion's Scepter" requiredLevel="50" rank="rare" bindType="onEquip" attack="735" impact="1737" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1723"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 				
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="12512" type="scepter" name="Val Elenium Decurion's Ceremonial Scepter" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="766" impact="1753" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1734"/> 			
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="12520" type="scepter" name="Val Elenium Decurion's Scepter" requiredLevel="50" rank="uncommon" bindType="onEquip" attack="669" impact="1448" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="504278" sellPrice="50427">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1621"/> 			
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>
+
+	<weapon id="12496" type="scepter" name="Val Elenium Defender's Ceremonial Scepter" requiredLevel="50" rank="common" bindType="none" attack="727" impact="1402" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1632"/> 					
+		</funcs>
+	</weapon>
+
+	<weapon id="12504" type="scepter" name="Val Elenium Defender's Scepter" requiredLevel="50" rank="common" bindType="none" attack="635" impact="1158" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="252139" sellPrice="25213">
+		<funcs>
+			<add stat="regMp" order="0x40" val="13"/>
+			<add stat="healPowerStatic" order="0x40" val="1525"/> 					
+		</funcs>
+	</weapon>
+
+	<weapon id="12544" type="scepter" name="Val Elenium Tribune's Ceremonial Scepter" requiredLevel="50" rank="epic" bindType="onEquip" attack="880" impact="2622" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="1960"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 				
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>
+
+	<weapon id="12552" type="scepter" name="Val Elenium Tribune's Scepter" requiredLevel="50" rank="epic" bindType="onEquip" attack="769" impact="2166" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3025673" sellPrice="302567">
+		<funcs>
+			<add stat="regMp" order="0x40" val="21"/>
+			<add stat="healPowerStatic" order="0x40" val="1831"/> 
+			<mul stat="healPowerPercent" order="0x30" val="1.091"/> 				
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>	
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>
+
+	<weapon id="12464" type="scepter" name="Wicked Cane" requiredLevel="50" rank="rare" bindType="onEquip" attack="901" impact="2314" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1512836" sellPrice="151283">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="1972"/> 			
+		</funcs>
+	</weapon>	
+
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11272" type="scepter" name="Attuned Emblazoned Storm Scepter" requiredLevel="52" rank="rare" bindType="onEquip" attack="964" impact="2545" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="2402712" sellPrice="240271">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2111"/> 			
+		</funcs>
+	</weapon>		
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11352" type="scepter" name="Attuned Lightning-etched Rod" requiredLevel="52" rank="epic" bindType="onEquip" attack="1009" impact="3172" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4805425" sellPrice="480542">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2243"/> 	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>				
+		</funcs>
+	</weapon>		
+	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11160" type="scepter" name="Attuned Scepter of Captured Lightning" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="878" impact="2121" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="800904" sellPrice="80090">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1986"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11016" type="scepter" name="Attuned Sparking Scepter" requiredLevel="52" rank="common" bindType="none" attack="833" impact="1696" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="400452" sellPrice="40045">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1868"/> 			
+		</funcs>
+	</weapon>	
+
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11216" type="scepter" name="Emblazoned Storm Scepter" requiredLevel="52" rank="rare" bindType="onEquip" attack="1077" impact="3387" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1996944" sellPrice="199694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2416"/> 			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11312" type="scepter" name="Lightning-etched Rod" requiredLevel="52" rank="epic" bindType="onEquip" attack="1099" impact="4223" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2568"/> 	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>				
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="18606" type="scepter" name="Rod of Obedience" requiredLevel="52" rank="epic" bindType="onPickUp" attack="1099" impact="4223" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="4152"/> 	
+			<mul stat="atk" order="0x50" val="1.045">
+				<target npcType="MINION_LEADER"/>
+			</mul>	
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>		
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="11088" type="scepter" name="Scepter of Captured Lightning" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="1006" impact="2823" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="2274"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10928" type="scepter" name="Sparking Scepter" requiredLevel="52" rank="common" bindType="none" attack="984" impact="2258" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2139"/> 			
+		</funcs>
+	</weapon>		
+	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="12000" type="scepter" name="Sylvanoth Centurion's Ceremonial Scepter" requiredLevel="52" rank="rare" bindType="onEquip" attack="1052" impact="3079" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="1996944" sellPrice="199694">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2258"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="12056" type="scepter" name="Sylvanoth Centurion's Scepter" requiredLevel="52" rank="rare" bindType="onEquip" attack="901" impact="2314" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="2282222" sellPrice="228222">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="1972"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11872" type="scepter" name="Sylvanoth Decurion's Ceremonial Scepter" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="970" impact="2566" sockets="3" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="2125"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11944" type="scepter" name="Sylvanoth Decurion's Scepter" requiredLevel="52" rank="uncommon" bindType="onEquip" attack="821" impact="1928" sockets="3" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="665648" sellPrice="66564">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="1856"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11712" type="scepter" name="Sylvanoth Defender's Ceremonial Scepter" requiredLevel="52" rank="common" bindType="none" attack="935" impact="2053" sockets="2" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2000"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="11800" type="scepter" name="Sylvanoth Defender's Scepter" requiredLevel="52" rank="common" bindType="none" attack="779" impact="1543" sockets="2" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="332824" sellPrice="33282">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="1747"/> 			
+		</funcs>
+	</weapon>		
+
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="12080" type="scepter" name="Sylvanoth Tribune's Ceremonial Scepter" requiredLevel="52" rank="epic" bindType="onEquip" attack="1087" impact="3839" sockets="4" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2400"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>		
+	
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="12104" type="scepter" name="Sylvanoth Tribune's Scepter" requiredLevel="52" rank="epic" bindType="onEquip" attack="943" impact="2885" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="true" guildBank="false" buyPrice="3993889" sellPrice="399388">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="2096"/> 	
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>			
+			<mul stat="atkSpd" order="0x30" val="1.08" />				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10384" type="scepter" name="Grandpa's Cane" requiredLevel="53" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10440" type="scepter" name="Primed Grandpa's Cane" requiredLevel="53" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10096" type="scepter" name="Actuator Rod" requiredLevel="54" rank="common" bindType="unknown" attack="984" impact="2258" sockets="2" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2139"/> 				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10184" type="scepter" name="Actuator Rod Primed" requiredLevel="54" rank="common" bindType="unknown" attack="883" impact="1867" sockets="2" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2000"/> 				
+		</funcs>
+	</weapon>	
+	
+	<weapon id="11280" type="scepter" name="Attuned Lightning Rod" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11360" type="scepter" name="Attuned Titan's Scepter" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11024" type="scepter" name="Attuned Turgid Storm Rod" requiredLevel="54" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11168" type="scepter" name="Attuned Weighty Galvarod" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10256" type="scepter" name="Chilling Spine" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12192" type="scepter" name="Legate's Scepter of Dedication" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12256" type="scepter" name="Legate's Scepter of Glory" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12232" type="scepter" name="Legate's Scepter of Victory" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11224" type="scepter" name="Lightning Rod" requiredLevel="54" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10328" type="scepter" name="Primed Chilling Spine" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10520" type="scepter" name="Primed Rod of Withering Touch" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10480" type="scepter" name="Rod of Withering Touch" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12792" type="scepter" name="Scepter of the Bright Void" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11320" type="scepter" name="Titan's Scepter" requiredLevel="54" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10936" type="scepter" name="Turgid Storm Rod" requiredLevel="54" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11096" type="scepter" name="Weighty Galvarod" requiredLevel="54" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12856" type="scepter" name="Rod of Oriyn" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12800" type="scepter" name="Rod of Punishment" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12880" type="scepter" name="Scepter of Suffering" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10760" type="scepter" name="Torsten Scepter of the Proven One" requiredLevel="55" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10784" type="scepter" name="Arid Rod" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12672" type="scepter" name="Attuned Blackbolt Mace" requiredLevel="56" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12688" type="scepter" name="Attuned Galvanic Rod" requiredLevel="56" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12704" type="scepter" name="Attuned Olnic Cyclone Cane" requiredLevel="56" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12720" type="scepter" name="Attuned Tempest Scepter" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12664" type="scepter" name="Blackbolt Mace" requiredLevel="56" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12712" type="scepter" name="Crafted 4th grade Holy Scepter" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12680" type="scepter" name="Galvanic Rod" requiredLevel="56" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12696" type="scepter" name="Olnic Cyclone Cane" requiredLevel="56" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11584" type="scepter" name="Wrath of Lyssarath" requiredLevel="56" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12008" type="scepter" name="Lorcadan Centurion's Ceremonial Scepter" requiredLevel="57" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12064" type="scepter" name="Lorcadan Centurion's Scepter" requiredLevel="57" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11880" type="scepter" name="Lorcadan Decurion's Ceremonial Scepter" requiredLevel="57" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11952" type="scepter" name="Lorcadan Decurion's Scepter" requiredLevel="57" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11720" type="scepter" name="Lorcadan Defender's Ceremonial Scepter" requiredLevel="57" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11808" type="scepter" name="Lorcadan Defender's Scepter" requiredLevel="57" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12088" type="scepter" name="Lorcadan Tribune's Ceremonial Scepter" requiredLevel="57" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12112" type="scepter" name="Lorcadan Tribune's Scepter" requiredLevel="57" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12968" type="scepter" name="Attuned Exquisite Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12752" type="scepter" name="Attuned Flashbolt Bar" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12784" type="scepter" name="Attuned Lightning's Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12768" type="scepter" name="Attuned Olnwood Arc-Catcher" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12736" type="scepter" name="Attuned Skyfire Mace" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10488" type="scepter" name="Baton of Perfect Cadence" requiredLevel="58" rank="epic" bindType="onEquip" attack="1335" impact="6183" sockets="4" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="6727595" sellPrice="672759">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="3167"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12200" type="scepter" name="Brigadier's Scepter of Dedication" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12264" type="scepter" name="Brigadier's Scepter of Glory" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12240" type="scepter" name="Brigadier's Scepter of Victory" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12848" type="scepter" name="Charred Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10264" type="scepter" name="Chatterod" requiredLevel="58" rank="uncommon" bindType="onEquip" attack="1223" impact="4133" sockets="3" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1121265" sellPrice="112126">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="2804"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10336" type="scepter" name="Rancorod" requiredLevel="58" rank="uncommon" bindType="onEquip" attack="1109" impact="3416" sockets="3" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="1121265" sellPrice="112126">
+		<funcs>
+			<add stat="regMp" order="0x40" val="18"/>
+			<add stat="healPowerStatic" order="0x40" val="2621"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12400" type="scepter" name="Civil Disobedience" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12392" type="scepter" name="Dark Awakening" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12904" type="scepter" name="Darkrise Rod" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13008" type="scepter" name="Death Wish Scepter" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12824" type="scepter" name="Dementiastick" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12912" type="scepter" name="Dichotomata" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="1039" type="scepter" name="Dowsing Rod" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10448" type="scepter" name="Fustilithe" requiredLevel="58" rank="rare" bindType="onEquip" attack="1188" impact="4099" sockets="3" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="3363797" sellPrice="336379">
+		<funcs>
+			<add stat="regMp" order="0x40" val="20"/>
+			<add stat="healPowerStatic" order="0x40" val="2785"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="12960" type="scepter" name="Emberneedle" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13157" type="scepter" name="Exquisite Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12928" type="scepter" name="Extigencia" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11608" type="scepter" name="Extremum Post" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12744" type="scepter" name="Flashbolt Bar" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12936" type="scepter" name="Grim Baton" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11568" type="scepter" name="Kezelran's Wand" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12312" type="scepter" name="Lava Stirrer" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12896" type="scepter" name="Lava Stirrer" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12776" type="scepter" name="Lightning's Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11616" type="scepter" name="Lustrum Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12760" type="scepter" name="Olnwood Arc-Catcher" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12920" type="scepter" name="Powerglow" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10528" type="scepter" name="Primed Baton of Perfect Cadence" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12952" type="scepter" name="Rimetorch" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12840" type="scepter" name="Rod of Absolute Zero" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->
+	<!-- Добавить параметр: Receive 7% more healing. -->
+	<weapon id="13181" type="scepter" name="Rod of Gyrmanus" requiredLevel="58" rank="epic" bindType="onPickUp" attack="1925" impact="12653" sockets="4" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8907188" sellPrice="890718">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="4152"/>
+ 			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MONSTER" />
+			</mul>
+			<mul stat="atkSpd" order="0x30" val="1.08" />
+		</funcs>
+	</weapon>
+	
+	<weapon id="13189" type="scepter" name="Rod of the Wrathweaver" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12808" type="scepter" name="Rod of Unceasing Pain" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12984" type="scepter" name="Scepter of Conjuring Fear" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12992" type="scepter" name="Scepter of Harsh Realities" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12976" type="scepter" name="Scepter of Predicament" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13016" type="scepter" name="Scepter of Solitude" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="11576" type="scepter" name="Scepter of the Titans" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12832" type="scepter" name="Scepter of Unmaking" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13173" type="scepter" name="Shana's Aknan Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12728" type="scepter" name="Skyfire Mace" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12888" type="scepter" name="Soundproof Scepter" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13000" type="scepter" name="Sovereign Scepter" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12944" type="scepter" name="Underfell" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10104" type="scepter" name="Unswinging Pendulum" equiredLevel="58" rank="common" bindType="unknown" attack="1196" impact="3307" sockets="2" enchantable="false" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="560632" sellPrice="56063">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2638"/> 			
+		</funcs>
+	</weapon>		
+	
+	<weapon id="10192" type="scepter" name="Charger's Rod" requiredLevel="58" rank="common" bindType="none" attack="1085" impact="2732" sockets="2" enchantable="true" extractable="11" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="560632" sellPrice="56063">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="2465"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10768" type="scepter" name="Vehement Wand" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12816" type="scepter" name="Wand of Uncertain Demise" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="13165" type="scepter" name="Yaghuth" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10112" type="scepter" name="Balance Lever" requiredLevel="60" rank="common" bindType="none" attack="1810" impact="7443" sockets="2" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
+		<funcs>
+			<add stat="regMp" order="0x40" val="15"/>
+			<add stat="healPowerStatic" order="0x40" val="3021"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="10496" type="scepter" name="Darkwynd" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10272" type="scepter" name="Justicar's Gavel" requiredLevel="60" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	
+	<weapon id="10400" type="scepter" name="Rod of Forsaken Futures" requiredLevel="60" rank="rare" bindType="onEquip" attack="1981" impact="11164" sockets="3" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="4324882" sellPrice="432488">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="3412"/> 			
+		</funcs>
+	</weapon>	
+	
+	<weapon id="13237" type="scepter" name="Impertinence" requiredLevel="60" rank="epic" bindType="none" attack="2070" impact="14582" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8649765" sellPrice="864976">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="4753"/>   
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>			
+		</funcs>
+	</weapon>
+	<!-- /50-60 Lv. -->	
+
+	<weapon id="13229" type="scepter" name="Amberrod" requiredLevel="60" rank="epic" bindType="onPickUp" attack="2339" impact="18525" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7688680" sellPrice="768868">
+		<funcs>
+			<add stat="regMp" order="0x40" val="23"/>
+			<add stat="healPowerStatic" order="0x40" val="4442"/>   
+			<!-- Добавить параметр: Receive 7% more healing. --> 
+			<!-- Добавить параметр: 50% chance to regenerate MP when combat starts. -->   
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul>    
+		</funcs>
+	</weapon>	
+</list>

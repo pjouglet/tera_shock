@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>         
+	<!-- скилы ассасина -->
+	<skill id="18000" class="-8" name="2 удара мечем" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="800"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="90" />
+		<set name="moveTime" value="1000" />
+		<set name="castCount" value="2" />	
+		<set name="interval" value="300" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18001" class="-8" name="Серия ударов в воздухе" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="800"/>
+		<set name="hitTime" value="5500"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="80"/>	
+		<set name="width" value="65"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="-120" />
+		<set name="moveTime" value="2500" />
+		<set name="castCount" value="5" />	
+		<set name="interval" value="400" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18002" class="-8" name="3 броска" levels="1">
+		<set name="iconId" value="1143473233"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_RAIL"/>
+		<set name="radius" value="5"/>	
+		<set name="range" value="700"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="3" />	
+		<set name="interval" value="550;550;650;" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18003" class="-8" name="1 сильный бросок" levels="1">
+		<set name="iconId" value="1143473234"/>
+		<set name="power" value="70"/>		
+		<set name="delay" value="4300"/>
+		<set name="hitTime" value="6300"/>
+		<set name="targetType" value="TARGET_RAIL"/>
+		<set name="radius" value="5"/>	
+		<set name="range" value="700"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="-90" />
+		<set name="moveTime" value="1700" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18004" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>		
+		<set name="hitTime" value="4500"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="JUMP"/>
+		<set name="moveDistance" value="480"/>
+		<set name="moveTime" value="2000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18005" class="-8" name="Уход влево" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="75"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18006" class="-8" name="Уход вправо" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="75"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы саблезубых -->
+	<skill id="18007" class="-8" name="Удар клыками" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="hitTime" value="2500"/>
+		<set name="delay" value="1000"/>
+		<set name="range" value="50" />	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="35"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="90" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="90" />	
+		<set name="moveTime" value="1000" />	
+		<set name="moveDelay" value="500" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18008" class="-8" name="Вертушка" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="50"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="6000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />	
+		<set name="moveDistance" value="180" />	
+		<set name="moveTime" value="2500" />	
+		<set name="moveDelay" value="500" />	
+		<set name="castCount" value="2" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="interval" value="500" />			
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18009" class="-8" name="Сильный удар клыками" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="35"/>		
+		<set name="delay" value="1700"/>
+		<set name="hitTime" value="4000"/>
+		<set name="range" value="50" />	
+		<set name="radius" value="40"/>	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="skillType" value="STRIKE"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы свинок -->
+	<skill id="18010" class="-8" name="Укус" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="range" value="30" />	
+		<set name="radius" value="30"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="40" />	
+		<set name="moveTime" value="1500" />
+		<set name="castMaxRange" value="50" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18011" class="-8" name="Бадание в бегу" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="50"/>		
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="7500"/>
+		<set name="range" value="10" />	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="35"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="150" />	
+		<set name="moveDelay" value="2000" />	
+		<set name="moveTime" value="2000" />
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="castCount" value="3" />	
+		<set name="interval" value="500" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18012" class="-8" name="Отскок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="targetType" value="TARGET_SELF"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveDistance" value="-50"/>
+		<set name="moveTime" value="1000" />
+		<set name="skillType" value="JUMP"/>
+		<set name="reuseDelay" value="10000" />
+		<set name="group" value="jump"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы лидера свинок -->
+	<skill id="18013" class="-8" name="Укус" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="range" value="40" />	
+		<set name="radius" value="40"/>	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="80" />	
+		<set name="moveTime" value="1500" />
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18014" class="-8" name="Бадание в бегу" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="50"/>		
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="7500"/>
+		<set name="range" value="35" />	
+		<set name="radius" value="45"/>	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="300" />	
+		<set name="moveDelay" value="2000" />	
+		<set name="moveTime" value="2000" />
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castCount" value="3" />	
+		<set name="interval" value="500;500;600;" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18015" class="-8" name="Отскок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="targetType" value="TARGET_SELF"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveDistance" value="-80"/>
+		<set name="moveTime" value="1000" />
+		<set name="skillType" value="JUMP"/>
+		<set name="reuseDelay" value="10000" />
+		<set name="skillGroup" value="JUMP"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы недодерева какого-то -->
+	<skill id="18016" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="3500"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="100" />
+		<set name="moveDelay" value="800" />
+		<set name="moveTime" value="500" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18017" class="-8" name="2 удара руками" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="1000"/>
+		<set name="hitTime" value="3500"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="90"/>	
+		<set name="width" value="65"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="2500" />
+		<set name="castCount" value="2" />	
+		<set name="interval" value="1100" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18018" class="-8" name="Плювок" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="1800"/>
+		<set name="hitTime" value="5000"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="100"/>	
+		<set name="width" value="30"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="9" />	
+		<set name="interval" value="200" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18019" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="JUMP"/>
+		<set name="moveDistance" value="-170"/>
+		<set name="moveTime" value="2000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18020" class="-8" name="Уход влево" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="50"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18021" class="-8" name="Уход вправо" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="50"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы волков -->
+	<skill id="18022" class="-8" name="Прыжок с укусом" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="delay" value="1100"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="moveDistance" value="140" />	
+		<set name="moveTime" value="800" />	
+		<set name="moveDelay" value="400" />	
+		<set name="castMaxRange" value="200" />	
+		<set name="castMinRange" value="0" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18023" class="-8" name="Серия укусов" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="75"/>		
+		<set name="hitTime" value="8500"/>
+		<set name="delay" value="1000"/>
+        <set name="targetType" value="TARGET_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="60"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillType" value="STRIKE"/>
+		<set name="castCount" value="4"/>
+		<set name="interval" value="1000;1600;1100;"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18024" class="-8" name="Газовая атака" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="75"/>		
+		<set name="hitTime" value="4000"/>
+		<set name="delay" value="1000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="100"/>	
+		<set name="castMaxRange" value="90" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="operateType" value="ACTIVE"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castCount" value="7"/>
+		<set name="interval" value="200"/>
+    </skill>
+	
+	<skill id="18026" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="-240"/>	
+		<set name="moveDelay" value="500"/>
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18027" class="-8" name="Уход в бок" levels="1">
+		<set name="iconId" value="1143473335"/>
+		<set name="hitTime" value="2000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="heading" value="-16000"/>	
+		<set name="moveDistance" value="60"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18028" class="-8" name="Уход в бок" levels="1">
+		<set name="iconId" value="1143473336"/>
+		<set name="hitTime" value="2000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="heading" value="16000"/>	
+		<set name="moveDistance" value="60"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы мутант воркера -->
+	<skill id="18029" class="-8" name="Удар кулаком" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="20" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18030" class="-8" name="Удар снизу кулаком" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="45"/>		
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="20" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18031" class="-8" name="Коток" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="75"/>		
+		<set name="delay" value="750"/>
+		<set name="hitTime" value="3500"/>
+		<set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="50"/>	
+		<set name="skillType" value="STAGE_STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="stage" value="-1;-1;1;-1"/>
+		<set name="apply" value="true;true;false;true;"/>
+		<set name="castMaxRange" value="170" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="80" />
+		<set name="moveDelay" value="500" />	
+		<set name="moveDistance" value="200" />	
+		<set name="moveTime" value="1800" />	
+		<set name="castCount" value="5"/>
+		<set name="interval" value="300;300;100;500;"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы минионов c лапой -->
+	<skill id="18032" class="-8" name="Удар лапой" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="25"/>	
+		<set name="range" value="25"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="castMaxRange" value="50" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="20" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18033" class="-8" name="Удар лапой" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="35"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="25"/>	
+		<set name="range" value="25"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="castMaxRange" value="50" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="50" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18034" class="-8" name="Удар в прыжке лапой" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="35"/>		
+		<set name="hitTime" value="9000"/>
+		<set name="delay" value="2000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="25"/>	
+		<set name="range" value="25"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="220" />	
+		<set name="moveTime" value="2500" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="castMaxRange" value="170" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы лидера c лапой -->
+	<skill id="18035" class="-8" name="Удар лапой" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="40" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18036" class="-8" name="Удар лапой" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="35"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="90" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18037" class="-8" name="Удар в прыжке лапой" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="35"/>		
+		<set name="hitTime" value="9000"/>
+		<set name="delay" value="2200"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDistance" value="390" />	
+		<set name="moveDelay" value="500" />	
+		<set name="moveTime" value="2300" />
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы амана лидера -->
+	<skill id="18038" class="-8" name="Удар кулаком" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1700"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="50" />
+		<set name="moveTime" value="3000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18039" class="-8" name="Удар с прыжка" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="4000"/>
+		<set name="hitTime" value="6500"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="240" />
+		<set name="moveDelay" value="1900" />
+		<set name="moveTime" value="2000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18040" class="-8" name="3 удара руками" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="2000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="90"/>	
+		<set name="width" value="35"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="3" />	
+		<set name="interval" value="700" />
+		<set name="moveDistance" value="140" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="3000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18041" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>		
+		<set name="hitTime" value="2000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="JUMP"/>
+		<set name="moveDistance" value="-100"/>
+		<set name="moveTime" value="1000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы челов с лапатой -->
+	<skill id="18044" class="-8" name="Удар лопатой" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="800"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="50" />	
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="500" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18045" class="-8" name="Удар лопатой в землю" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="65"/>		
+		<set name="delay" value="2000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="40"/>	
+		<set name="range" value="80"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="80" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18046" class="-8" name="Уход влево" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="55"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18047" class="-8" name="Уход вправо" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="55"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы челов с хуйней на спине -->
+	<skill id="18048" class="-8" name="Укол" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="30"/>	
+		<set name="range" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="30" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18049" class="-8" name="Вертуха" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="70"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="250" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="15" />	
+		<set name="interval" value="100" />	
+		<set name="moveDelay" value="1500" />	
+		<set name="moveDistance" value="200" />	
+		<set name="moveTime" value="900" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18050" class="-8" name="Вертуха 2" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="50"/>		
+		<set name="delay" value="1500"/>
+		<set name="hitTime" value="4000"/>
+		<set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="60" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="4" />	
+		<set name="interval" value="200" />	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18051" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="JUMP"/>
+		<set name="moveDistance" value="-240"/>
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18052" class="-8" name="Уход влево" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="60"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18053" class="-8" name="Уход вправо" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="60"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="ignoreBarrier" value="true"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы мелких хреней с косой -->
+	<skill id="18054" class="-8" name="Простой удар" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="hitTime" value="2500"/>
+		<set name="delay" value="900"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="35"/>	
+		<set name="range" value="35"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="60" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18055" class="-8" name="Кувырок" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="40"/>		
+		<set name="hitTime" value="5000"/>
+		<set name="delay" value="1500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDelay" value="1000"/>	
+		<set name="moveDistance" value="100"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+
+	<skill id="18056" class="-8" name="Вертуха" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="45"/>		
+		<set name="hitTime" value="4500"/>
+		<set name="delay" value="1500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDelay" value="1000"/>	
+		<set name="moveDistance" value="55"/>	
+		<set name="moveTime" value="2000"/>
+		<set name="moveDelay" value="1500"/>	
+		<set name="moveDistance" value="100"/>	
+		<set name="castCount" value="4"/>
+		<set name="interval" value="350"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="140" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18057" class="-8" name="Взрыв" levels="1">
+		<set name="iconId" value="1143473233"/>
+		<set name="power" value="50"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="delay" value="2000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="60"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="60" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18058" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="-40"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы лидеров хреней с косой -->
+	<skill id="18059" class="-8" name="Простой удар" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="hitTime" value="2500"/>
+		<set name="delay" value="900"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="50"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="120" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="50"/>	
+		<set name="moveDelay" value="200"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18060" class="-8" name="Кувырок" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="40"/>		
+		<set name="hitTime" value="5000"/>
+		<set name="delay" value="1500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="60"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDelay" value="1000"/>	
+		<set name="moveDistance" value="280"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="castCount" value="2"/>
+		<set name="interval" value="500"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="330" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+
+	<skill id="18061" class="-8" name="Вертуха" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="45"/>		
+		<set name="hitTime" value="5000"/>
+		<set name="delay" value="1500"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="70"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="moveDelay" value="1000"/>	
+		<set name="moveDistance" value="55"/>	
+		<set name="moveTime" value="1500"/>
+		<set name="moveDelay" value="1300"/>	
+		<set name="moveDistance" value="210"/>	
+		<set name="castCount" value="4"/>
+		<set name="interval" value="350"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="250" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18062" class="-8" name="Взрыв" levels="1">
+		<set name="iconId" value="1143473233"/>
+		<set name="power" value="50"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="delay" value="2000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="90"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="90" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18063" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="-100"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="ignoreBarrier" value="true"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы големов -->
+	<skill id="18064" class="-8" name="Удар косой" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="hitTime" value="3000"/>
+		<set name="delay" value="1500"/>
+		<set name="range" value="90" />	
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="45"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="120" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18066" class="-8" name="Супер разрез косой" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="600"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="radius" value="100"/>			
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="3"/>
+		<set name="interval" value="300"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18067" class="-8" name="Боковой разрез косой" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="30"/>		
+		<set name="hitTime" value="3500"/>
+		<set name="delay" value="1100"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="90"/>	
+		<set name="width" value="85"/>	
+		<set name="degree" value="45"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="90" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18068" class="-8" name="Откат назад" levels="1">
+		<set name="iconId" value="1143473334"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="-120"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="3000"/>	
+		<set name="moveTime" value="1000"/>
+		<set name="reuseDelay" value="10000" />
+	</skill>	
+	
+	<skill id="18069" class="-8" name="Хождение в бок" levels="1">
+		<set name="iconId" value="1143473335"/>
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="40"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="6000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18070" class="-8" name="Хождение в бок" levels="1">
+		<set name="iconId" value="1143473336"/>
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="40"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="6000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы минионов с киркой -->
+	<skill id="18071" class="-8" name="Атака киркой" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1000"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="moveDistance" value="80"/>	
+		<set name="moveTime" value="2500"/>	
+		<set name="radius" value="35"/>
+		<set name="range" value="20"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="castMaxRange" value="120" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>	
+	
+	<skill id="18072" class="-8" name="Серия киркой" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="35"/>		
+		<set name="delay" value="1700"/>
+		<set name="hitTime" value="3500"/>
+        <set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="35"/>
+		<set name="range" value="35"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="castMaxRange" value="60" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>	
+	
+	<skill id="18073" class="-8" name="Волна" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="2700"/>
+		<set name="hitTime" value="4500"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="170"/>	
+		<set name="width" value="16"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="castMaxRange" value="170" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="group" value="attack"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы чела с топором -->
+	<skill id="18074" class="-8" name="Удар топором" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>		
+		<set name="delay" value="1300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="100"/>	
+		<set name="width" value="45"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="40" />
+		<set name="moveDelay" value="500" />
+		<set name="moveTime" value="1000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18075" class="-8" name="Вертуха топором" levels="1">
+		<set name="iconId" value="1143473230"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="2700"/>
+		<set name="hitTime" value="7000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="80"/>	
+		<set name="range" value="50"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18076" class="-8" name="Волна" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="75"/>		
+		<set name="delay" value="3600"/>
+		<set name="hitTime" value="6000"/>
+		<set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="260"/>	
+		<set name="width" value="10"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="250" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18077" class="-8" name="Удар" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="55"/>		
+		<set name="delay" value="2900"/>
+		<set name="hitTime" value="7000"/>
+		<set name="targetType" value="TARGET_ONE_AREA"/>
+		<set name="radius" value="100"/>	
+		<set name="range" value="40"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- <skill id="18078" class="-8" name="Удар в землю" levels="1">
+		<set name="iconId" value="1143473233"/>
+		<set name="power" value="70"/>		
+		<set name="delay" value="4500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="targetType" value="TARGET_RAIL"/>
+		<set name="radius" value="5"/>	
+		<set name="range" value="700"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="-70" />
+		<set name="moveTime" value="2000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18079" class="-8" name="Серия взрывов" levels="1">
+		<set name="iconId" value="1143473236"/>
+		<set name="power" value="70"/>		
+		<set name="delay" value="4500"/>
+		<set name="hitTime" value="6000"/>
+		<set name="targetType" value="TARGET_RAIL"/>
+		<set name="radius" value="5"/>	
+		<set name="range" value="700"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="700" />	
+		<set name="castMinRange" value="0" />	
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="-70" />
+		<set name="moveTime" value="2000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill> -->
+	
+	<skill id="18080" class="-8" name="Уход влево" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="80"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18081" class="-8" name="Уход вправо" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="moveDistance" value="80"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="reuseDelay" value="4000" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<!-- скилы лучника -->
+	<skill id="18082" class="-8" name="Выстрел" levels="1">		
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="15"/>	
+		<set name="delay" value="400"/>	
+		<set name="hitTime" value="2000"/>
+		<set name="range" value="400" />	
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="radius" value="5"/>	
+		<set name="skillType" value="NPC_SINGLE_SHOT"/>
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="speed" value="600" />
+		<set name="operateType" value="ACTIVE"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="18083" class="-8" name="Сильный выстрел" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="25"/>	
+		<set name="delay" value="3200"/>	
+		<set name="hitTime" value="5000"/>
+		<set name="range" value="400" />	
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="radius" value="5"/>	
+		<set name="skillType" value="NPC_SINGLE_SHOT"/>
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="speed" value="400" />
+		<set name="operateType" value="ACTIVE"/>
+		<set name="owerturnMod" value="0.01" />
+    </skill>
+	
+	<skill id="18084" class="-8" name="Супер сильный выстрел" levels="1">
+		<set name="iconId" value="1143473235"/>
+		<set name="power" value="35"/>	
+		<set name="delay" value="6300"/>	
+		<set name="hitTime" value="9000"/>
+		<set name="range" value="400" />	
+        <set name="targetType" value="TARGET_ONE"/>
+		<set name="radius" value="5"/>	
+		<set name="skillType" value="NPC_SINGLE_SHOT"/>
+		<set name="castMaxRange" value="400" />	
+		<set name="castMinRange" value="0" />	
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="speed" value="350" />
+		<set name="operateType" value="ACTIVE"/>
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveTime" value="1000"/>	
+		<set name="moveDistance" value="-140"/>
+		<set name="moveDelay" value="6300"/>
+    </skill>
+	
+	<skill id="18085" class="-8" name="Прыжок" levels="1">
+		<set name="iconId" value="1143473334"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="-100"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="reuseDelay" value="10000" />
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="3000"/>	
+		<set name="moveTime" value="1000"/>	
+	</skill>	
+	
+	<skill id="18086" class="-8" name="Отход в бок" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="50"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveTime" value="1000"/>	
+		<set name="reuseDelay" value="4000" />
+    </skill>
+	
+	<skill id="18087" class="-8" name="Отход в бок" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="50"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveTime" value="1000"/>	
+		<set name="reuseDelay" value="4000" />
+    </skill>
+	
+	<!-- скилы чела с 2 топорами -->
+	<skill id="18088" class="-8" name="Простой удар" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>	
+		<set name="delay" value="450"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="100"/>	
+		<set name="width" value="45"/>	
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="2"/>	
+		<set name="interval" value="250"/>
+		<set name="moveDistance" value="90"/>	
+		<set name="moveTime" value="2000"/>	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18089" class="-8" name="Рубка" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="160"/>		
+		<set name="range" value="50"/>
+		<set name="delay" value="700"/>
+		<set name="hitTime" value="7500"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="radius" value="80"/>	
+		<set name="width" value="65"/>	
+		<set name="skillType" value="STAGE_STRIKE"/>
+		<set name="stage" value="-1;-1;-1;-1;1;-1;-1;2;-1;-1;3;-1;4;-1;"/>	
+		<set name="apply" value="true;true;true;true;false;true;true;false;true;true;false;true;false;true;"/>	
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="300" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="300"/>	
+		<set name="moveTime" value="6000"/>	
+		<set name="moveDelay" value="900"/>	
+		<set name="ignoreBarrier" value="true"/>
+		<set name="castCount" value="16"/>	
+		<set name="interval" value="450;500;500;120;80;450;450;80;800;170;80;650;100;450;1050;50;"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18090" class="-8" name="Рубка" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="180"/>		
+		<set name="range" value="35"/>
+		<set name="delay" value="1400"/>
+		<set name="hitTime" value="7000"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_DEGREE_AURA;TARGET_AURA;"/>
+		<set name="radius" value="100"/>	
+		<set name="width" value="65"/>	
+		<set name="skillType" value="STAGE_STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="250" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="moveDistance" value="200"/>	
+		<set name="moveTime" value="5500"/>	
+		<set name="moveDelay" value="1000"/>	
+		<set name="ignoreBarrier" value="true"/>
+		<set name="castCount" value="17"/>	
+		<set name="stage" value="-1;-1;1;-1;-1;2;-1;-1;3;-1;-1;4;-1;-1;5;-1"/>	
+		<set name="apply" value="true;true;false;true;true;false;true;true;false;true;true;false;true;true;false;true;"/>	
+		<set name="interval" value="500;100;120;400;200;100;450;150;100;700;50;100;450;100;100;1400;300;"/>
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18091" class="-8" name="Кувырок" levels="1">
+		<set name="iconId" value="1143473334"/>
+		<set name="hitTime" value="2000"/>
+        <set name="targetType" value="TARGET_SELF"/>
+		<set name="skillType" value="JUMP"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="moveDistance" value="150"/>	
+		<set name="moveTime" value="1000"/>	
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18092" class="-8" name="Отход в бок" levels="1">
+		<set name="iconId" value="1143473335"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="45"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="heading" value="-16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveTime" value="1000"/>	
+		<set name="reuseDelay" value="4000" />
+    </skill>
+	
+	<skill id="18093" class="-8" name="Отход в бок" levels="1">
+		<set name="iconId" value="1143473336"/>	
+		<set name="targetType" value="TARGET_SELF"/>
+		<set name="moveDistance" value="45"/>
+		<set name="skillType" value="EFFECT"/>
+		<set name="heading" value="16000"/>
+		<set name="skillGroup" value="JUMP"/>
+		<set name="operateType" value="ACTIVE"/>	
+		<set name="hitTime" value="2000"/>	
+		<set name="moveTime" value="1000"/>	
+		<set name="reuseDelay" value="4000" />
+    </skill>
+	
+	<!-- скилы слаера -->
+	<skill id="18094" class="-8" name="Удар мечем" levels="1">
+		<set name="iconId" value="1143473229"/>
+		<set name="power" value="25"/>	
+		<set name="delay" value="1100"/>
+		<set name="hitTime" value="3000"/>
+        <set name="targetType" value="TARGET_DEGREE_AURA"/>
+		<set name="moveDistance" value="60"/>
+		<set name="radius" value="120"/>
+		<set name="width" value="95"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="100" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18095" class="-8" name="2ой удар мечем" levels="1">
+		<set name="iconId" value="1143473231"/>
+		<set name="power" value="70"/>	
+		<set name="delay" value="5000"/>
+		<set name="hitTime" value="8500"/>
+		<set name="range" value="70"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="140"/>	
+		<set name="moveDelay" value="5000"/>	
+		<set name="moveTime" value="2000"/>	
+		<set name="radius" value="120"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="SHORT_ATTACK"/>
+		<set name="castMaxRange" value="150" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="castCount" value="3" />	
+		<set name="interval" value="1700;1500;500" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+	
+	<skill id="18096" class="-8" name="Удар опрокидывающий" levels="1">
+		<set name="iconId" value="1143473232"/>
+		<set name="power" value="40"/>	
+		<set name="delay" value="2500"/>
+		<set name="hitTime" value="5500"/>
+		<set name="range" value="70"/>
+		<set name="owerturnMod" value="80"/>
+        <set name="targetType" value="TARGET_AURA"/>
+		<set name="moveDistance" value="300"/>	
+		<set name="moveTime" value="3500"/>	
+		<set name="radius" value="110"/>
+		<set name="skillType" value="STRIKE"/>
+		<set name="skillGroup" value="LONG_ATTACK"/>
+		<set name="castMaxRange" value="250" />	
+		<set name="castMinRange" value="0" />
+		<set name="owerturnMod" value="0.01" />
+		<set name="operateType" value="ACTIVE"/>
+    </skill>
+</list>
