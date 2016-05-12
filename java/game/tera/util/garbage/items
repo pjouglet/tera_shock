@@ -1,0 +1,364 @@
+		
+		ThreadConnection con = null;
+		FiltredStatement statement = null;
+		ResultSet rset = null;
+		
+		FastMap<Integer, ArmorKind> kindMap = new FastMap<Integer, ArmorKind>();
+		
+		try
+		{
+			con = DatabaseFactory.getInstance().getConnection();
+			statement = con.createStatement();
+			
+			rset = statement.executeQuery("SELECT * FROM armor");
+			
+			while(rset.next())
+				kindMap.put(rset.getInt("id"), ArmorKind.valueOf(rset.getString("kind")));
+		}
+		catch(SQLException e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			DatabaseUtils.closeDatabaseCSR(con, statement, rset);
+		}
+		
+		FastMap<Enum<?>, FastArray<CommonTemplate>> commonTable = new FastMap<>();
+		FastMap<Enum<?>, FastMap<ArmorKind, FastArray<ArmorTemplate>>> armorTable = new FastMap<>();
+		FastMap<Enum<?>, FastArray<WeaponTemplate>> weaponTable = new FastMap<>();
+		
+		for(ItemTemplate item : items)
+		{
+			if(item instanceof CommonTemplate)
+			{
+				FastArray<CommonTemplate> array = commonTable.get(item.getType());
+				
+				if(array == null)
+				{
+					array = new FastArray<CommonTemplate>(CommonTemplate.class);
+					commonTable.put(item.getType(), array);
+				}
+				
+				array.add((CommonTemplate) item);
+			}
+			else if(item instanceof ArmorTemplate)
+			{
+				FastMap<ArmorKind, FastArray<ArmorTemplate>> kMap = armorTable.get(item.getType());
+				
+				if(kMap == null)
+				{
+					kMap = new FastMap<>();
+					armorTable.put(item.getType(), kMap);
+				}
+				
+				FastArray<ArmorTemplate> array = kMap.get(kindMap.get(item.getItemId()));
+				
+				if(array == null)
+				{
+					array = new FastArray<ArmorTemplate>(ArmorTemplate.class);
+					kMap.put(kindMap.get(item.getItemId()), array);
+				}
+				
+				array.add((ArmorTemplate) item);
+			}
+			else if(item instanceof WeaponTemplate)
+			{
+				FastArray<WeaponTemplate> array = weaponTable.get(item.getType());
+				
+				if(array == null)
+				{
+					array = new FastArray<WeaponTemplate>(WeaponTemplate.class);
+					weaponTable.put(item.getType(), array);
+				}
+				
+				array.add((WeaponTemplate) item);
+			}
+		}
+		
+		try
+		{
+			PrintWriter commons = new PrintWriter(new File("./commons.xml"));
+			PrintWriter weapons = new PrintWriter(new File("./weapons.xml"));
+			PrintWriter armors = new PrintWriter(new File("./armors.xml"));
+			
+			commons.println("<?xml version='1.0' encoding='utf-8'?>");
+			commons.println("<list>");
+			weapons.println("<?xml version='1.0' encoding='utf-8'?>");
+			weapons.println("<list>");
+			armors.println("<?xml version='1.0' encoding='utf-8'?>");
+			armors.println("<list>");
+			
+			for(CommonType type : CommonType.values())
+			{
+				FastArray<CommonTemplate> array = commonTable.get(type);
+				
+				if(array == null)
+					continue;
+				
+				commons.println("	<commons type=\"" + type + "\" >");
+				
+				array.trimToSize();
+				
+				for(CommonTemplate item : array)
+				{
+					commons.print("		<common id=\"" + item.getItemId() + "\" name=\"" + item.getName() + "\" ");
+					
+					if(item.getSkills().length > 0)
+						commons.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+					
+					if(item.getActiveSkill() != null)
+						commons.print("activeSkill=\"" + item.getActiveSkill().getId() + "\" ");
+
+					if(item.getPrice() > 0)
+						commons.print("price=\"" + item.getPrice() + "\" ");
+					
+					if(item.getWeight() > 0)
+						commons.print("weight=\"" + item.getWeight() + "\" ");
+					
+					commons.println("/>");
+				}
+				
+				commons.println("	</commons>");
+				commons.println();
+			}
+			
+			for(ArmorType type : ArmorType.values())
+			{
+				FastMap<ArmorKind, FastArray<ArmorTemplate>> kMap = armorTable.get(type);
+				
+				if(kMap == null)
+					continue;
+				
+				armors.println("	<armors type=\"" + type + "\" rank=\"" + Rank.UNCOMMON + "\" bound=\"" + BoundType.ON_EQUIP + "\" >");
+				
+				for(ArmorKind kind : ArmorKind.values())
+				{
+					FastArray<ArmorTemplate> array = kMap.get(kind);
+					
+					if(array == null)
+						continue;
+					
+					armors.println("		<armors kind=\"" + kind + "\" >");
+
+					array.trimToSize();
+					
+					for(ArmorTemplate item : array)
+					{
+						armors.print("			<armor id=\"" + item.getItemId() +"\" name=\"" + item.getName() + "\" ");
+						
+						if(item.getSkills().length > 0)
+							armors.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+						
+						if(item.getSockets() > 0)
+							armors.print("sockets=\"" + item.getSockets() + "\" ");
+						
+						if(item.getAttack() > 0)
+							armors.print("attack=\"" + item.getAttack() + "\" ");
+						
+						if(item.getDefense() > 0)
+							armors.print("defense=\"" + item.getDefense() + "\" ");
+						
+						if(item.getOwerDefense() > 0)
+							armors.print("owerDefense=\"" + item.getOwerDefense() + "\" ");
+						
+						if(item.getMinLevel() > 0)
+							armors.print("minLevel=\"" + item.getMinLevel() + "\" ");
+						
+						if(item.getHp() > 0)
+							armors.print("hp=\"" + item.getHp() + "\" ");
+						
+						if(item.getMp() > 0)
+							armors.print("mp=\"" + item.getMp() + "\" ");
+						
+						if(item.getPrice() > 0)
+							armors.print("price=\"" + item.getPrice() + "\" ");
+						
+						armors.println("/>");
+					}
+					
+					armors.println("		</armors>");
+				}
+				
+				armors.println("	</armors>");
+				armors.println();
+			}
+			
+			for(WeaponType type : WeaponType.values())
+			{
+				FastArray<WeaponTemplate> array = weaponTable.get(type);
+				
+				if(array == null)
+					continue;
+				
+				weapons.println("	<weapons type=\"" + type + "\" rank=\"" + Rank.UNCOMMON + "\" bound=\"" + BoundType.ON_EQUIP + "\" >");
+				
+				array.trimToSize();
+				
+				for(WeaponTemplate item : array)
+				{
+					weapons.print("		<weapon id=\"" + item.getItemId() + "\" name=\"" + item.getName() + "\" ");
+					
+					if(item.getSkills().length > 0)
+						weapons.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+					
+					if(item.getSockets() > 0)
+						weapons.print("sockets=\"" + item.getSockets() + "\" ");
+					
+					if(item.getAttack() > 0)
+						weapons.print("attack=\"" + item.getAttack() + "\" ");
+					
+					if(item.getOwerAttack() > 0)
+						weapons.print("owerAttack=\"" + item.getOwerAttack() + "\" ");
+					
+					if(item.getMinLevel() > 0)
+						weapons.print("minLevel=\"" + item.getMinLevel() + "\" ");
+					
+					if(item.getPrice() > 0)
+						weapons.print("price=\"" + item.getPrice() + "\" ");
+					
+					if(item.getWeight() > 0)
+						weapons.print("weight=\"" + item.getWeight() + "\" ");
+					
+					weapons.println("/>");
+				}
+				
+				weapons.println("	</weapons>");
+				weapons.println();
+			}
+			
+			commons.close();
+			weapons.close();
+			armors.close();
+		}
+		catch(FileNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+		
+		
+			public static void printWeapon(PrintWriter out, WeaponTemplate item)
+	{
+		out.print("	<weapon id=\"" + item.getItemId() + "\" name=\"" + item.getName() + "\" type=\"" + item.getType() + "\" slot=\"" + item.getSlotType() + "\" rank=\"" + item.getRank() + "\" ");
+		
+		if(!item.isTradable())
+			out.print("tradable=\"" + item.isTradable() + "\" ");
+		
+		if(!item.isSellable())
+			out.print("sellable=\"" + item.isSellable() + "\" ");
+	
+		if(!item.isDropable())
+			out.print("dropable=\"" + item.isDropable() + "\" ");
+		
+		if(!item.isStackable())
+			out.print("stackable=\"" + item.isStackable() + "\" ");
+		
+		if(item.isExtractable())
+			out.print("extractable=\"" + item.isExtractable() + "\" ");
+		
+		if(item.isEnchantable())
+			out.print("enchantable=\"" + item.isEnchantable() + "\" ");
+		
+		if(item.getSkills().length > 0)
+			out.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+		
+		if(item.getSockets() > 0)
+			out.print("sockets=\"" + item.getSockets() + "\" ");
+		
+		out.print("attack=\"" + item.getAttack() + "\" owerAttack=\"" + item.getOwerAttack() + "\" ");
+		
+		if(item.getMinLevel() > 0)
+			out.print("minLevel=\"" + item.getMinLevel() + "\" ");
+		
+		out.print("bound=\"" + item.getBoundType() + "\" ");
+		
+		if(item.getPrice() > 0)
+			out.print("price=\"" + item.getPrice() + "\" ");
+		
+		out.println("weight=\"" + item.getWeight() + "\" />");
+	}
+	
+	public static void printArmor(PrintWriter out, ArmorTemplate item)
+	{
+		out.print("	<armor id=\"" + item.getItemId() +"\" name=\"" + item.getName() + "\" type=\"" + item.getType() + "\" slot=\"" + item.getSlotType() + "\" rank=\"" + item.getRank() + "\" ");
+		
+		if(!item.isTradable())
+			out.print("tradable=\"" + item.isTradable() + "\" ");
+		
+		if(!item.isSellable())
+			out.print("sellable=\"" + item.isSellable() + "\" ");
+	
+		if(!item.isDropable())
+			out.print("dropable=\"" + item.isDropable() + "\" ");
+		
+		if(!item.isStackable())
+			out.print("stackable=\"" + item.isStackable() + "\" ");
+		
+		if(item.getSkills().length > 0)
+			out.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+		
+		if(item.getSockets() > 0)
+			out.print("sockets=\"" + item.getSockets() + "\" ");
+		
+		if(item.getAttack() > 0)
+			out.print("attack=\"" + item.getAttack() + "\" ");
+		
+		out.print("defense=\"" + item.getDefense() + "\" owerDefense=\"" + item.getOwerDefense()+ "\" ");
+		
+		if(item.getMinLevel() > 0)
+			out.print("minLevel=\"" + item.getMinLevel() + "\" ");
+		
+		out.print("bound=\"" + item.getBoundType() + "\" ");
+		
+		if(item.getHp() > 0)
+			out.print("hp=\"" + item.getHp() + "\" ");
+		
+		if(item.getMp() > 0)
+			out.print("mp=\"" + item.getMp() + "\" ");
+		
+		if(item.getPrice() > 0)
+			out.print("price=\"" + item.getPrice() + "\" ");
+		
+		out.println("weight=\"" + item.getWeight() + "\" />");
+	}
+	
+	public static void printCommon(PrintWriter out, CommonTemplate item)
+	{
+		out.print("	<common id=\"" + item.getItemId() + "\" name=\"" + item.getName() + "\" type=\"" + item.getType() + "\" ");
+		
+		if(!item.isTradable())
+			out.print("tradable=\"" + item.isTradable() + "\" ");
+		
+		if(!item.isSellable())
+			out.print("sellable=\"" + item.isSellable() + "\" ");
+		
+		if(!item.isDropable())
+			out.print("dropable=\"" + item.isDropable() + "\" ");
+		
+		if(!item.isStackable())
+			out.print("stackable=\"" + item.isStackable() + "\" ");
+		
+		if(item.getSkills().length > 0)
+			out.print("skills=\"" + printSkills(item.getSkills()) + "\" ");
+		
+		if(item.getActiveSkill() != null)
+			out.print("activeSkill=\"" + item.getActiveSkill().getId() + "\" ");
+
+		if(item.getPrice() > 0)
+			out.print("price=\"" + item.getPrice() + "\" ");
+		
+		out.println("weight=\"" + item.getWeight() + "\" />");
+	}
+	
+	public static String printSkills(Skill[] skills)
+	{
+		if(skills == null || skills.length == 0)
+			return "";
+		
+		String str = "";
+		
+		for(Skill skill : skills)
+			str += skill.getId() + ";";
+		
+		return str;
+	}
