@@ -173,7 +173,7 @@ public class Region extends SafeTask implements DieListener, PlayerSelectListene
 						}
 
 						// сообщаем об этом
-						player.sendMessage("Вы получили очко битвы.");
+						player.sendMessage("You've got a battle point.");
 					}
 				}
 
@@ -184,11 +184,11 @@ public class Region extends SafeTask implements DieListener, PlayerSelectListene
 	};
 
 	/** ссылка на регистрацию */
-	private final Link LINK_REGISTER = new NpcLink("Регистрация", LinkType.DIALOG, IconType.GREEN, REPLY_REGISTER);
+	private final Link LINK_REGISTER = new NpcLink("Registration", LinkType.DIALOG, IconType.GREEN, REPLY_REGISTER);
 	/** ссылка на отрегистрацию */
-	private final Link LINK_UNREGISTER = new NpcLink("Отрегистрация", LinkType.DIALOG, IconType.GREEN, REPLY_UNREGISTER);
+	private final Link LINK_UNREGISTER = new NpcLink("Unregister", LinkType.DIALOG, IconType.GREEN, REPLY_UNREGISTER);
 	/** ссылка на статус */
-	private final Link LINK_STATUS = new NpcLink("Статус", LinkType.DIALOG, IconType.GREEN, REPLY_STATUS);
+	private final Link LINK_STATUS = new NpcLink("Status", LinkType.DIALOG, IconType.GREEN, REPLY_STATUS);
 
 	/** формат отображении времени */
 	private final SimpleDateFormat timeFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm");
