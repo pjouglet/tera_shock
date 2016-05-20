@@ -2557,16 +2557,6 @@
 		</funcs>
 	</weapon>	
 	
-	<weapon id="13236" type="staff" name="Perdition" requiredLevel="60" rank="epic" bindType="onEquip" attack="2070" impact="12961" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8649765" sellPrice="864976">
-		<funcs>
-			<add stat="regMp" order="0x40" val="23"/>		
-			<add stat="healPowerStatic" order="0x40" val="5111"/> 
-			<mul stat="atk" order="0x50" val="1.045" >
-				<target npcType="MINION_LEADER" />
-			</mul>			
-		</funcs>
-	</weapon>
-	
 	<weapon id="13228" type="staff" name="Galestaff" requiredLevel="60" rank="epic" bindType="onPickUp" attack="2339" impact="16466" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7688680" sellPrice="768868">
 		<funcs>
 			<add stat="regMp" order="0x40" val="23"/>
@@ -2675,29 +2665,6 @@
 				<and>
 					<target npcType="MONSTER"/>
 					<target owerturned="true"/>
-				</and>
-			</mul>
-			<!-- more damage on player -->
-			<mul stat="atk" order="0x50" val="1.10" >
-				<target player="true" />
-			</mul>
-		</funcs>
-	</weapon>
-
-	<weapon id="13260" type="staff" name="Emergence" requiredLevel="60" rank="epic" bindType="onEquip" attack="1971" impact="11782" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
-		<funcs>
-			<add stat="regMp" order="0x40" val="23"/>
-			<add stat="healPowerStatic" order="0x40" val="5111"/>
-			<!-- Todo: Receive 7% more healing. --> 
-			<!-- Todo: 50% chance to regenerate MP when combat starts. -->  
-			<!-- Todo: restore 0.2% of total mp when use a skill -->  
-			<!-- Todo: Raises max HP by 7.5% -->
-			
-			<!-- more damage on normal monster -->    
-			<mul stat="atk" order="0x50" val="1.053">
-				<and>
-					<target npcType="MONSTER"/>
-					<target owerturned="false"/>
 				</and>
 			</mul>
 			<!-- more damage on player -->

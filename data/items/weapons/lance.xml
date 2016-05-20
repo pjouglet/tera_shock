@@ -2577,16 +2577,6 @@
 		</funcs>
 	</weapon>
 
-	<weapon id="13231" type="lance" name="Fatebreaker" requiredLevel="60" rank="epic" bindType="onEquip" attack="2949" impact="16202" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="false" bank="true" guildBank="false" buyPrice="7688680" sellPrice="768868">
-		<funcs>
-			<add stat="regMp" order="0x40" val="47"/>		
-			<add stat="maxDamDef" order="0x40" val="46316"/>  
-			<mul stat="agrMod" order="0x30" val="1.135"/>
-			<!--Добавить: 0.2% of your total MP instantly returns when you use a skill.-->
-			<!-- Добавить параметр: Do 6% more damage when you attack enraged monsters. --> 
-		</funcs>
-	</weapon>
-
 	<weapon id="13239" type="lance" name="Piledriver" requiredLevel="60" rank="epic" bindType="onEquip" attack="2878" impact="15465" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="false" bank="true" guildBank="false" buyPrice="7688680" sellPrice="768868">
 		<funcs>
 			<add stat="regMp" order="0x40" val="47"/>		
