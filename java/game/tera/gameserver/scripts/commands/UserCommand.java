@@ -79,11 +79,11 @@ public class UserCommand extends AbstractCommand {
 				long time = account.getEndPay();
 
 				if(System.currentTimeMillis() > time)
-					player.sendMessage("У вас не проплаченный аккаунт.");
+					player.sendMessage("You don't have premium account.");
 				else {
 					synchronized(date) {
 						date.setTime(time);
-						player.sendMessage("Дата завершения проплаты: " + timeFormat.format(date));
+						player.sendMessage("End of premium account: " + timeFormat.format(date));
 					}
 				}
 
@@ -113,7 +113,7 @@ public class UserCommand extends AbstractCommand {
 			}
 			case "kill_me": {
 				if(player.isBattleStanced()) {
-					player.sendMessage("Нельзя использовать в бою.");
+					player.sendMessage("Can't be used in battle.");
 					return;
 				}
 
@@ -125,12 +125,12 @@ public class UserCommand extends AbstractCommand {
 				break;
 			}
 			case "version":
-				player.sendMessage("Текущая версия сервера: " + Config.SERVER_VERSION);
+				player.sendMessage("Current server's version: " + Config.SERVER_VERSION);
 				break;
 			case "online": {
 				OnlineManager onlineManager = OnlineManager.getInstance();
 
-				player.sendMessage("Текущий онлаин: " + onlineManager.getCurrentOnline());
+				player.sendMessage("Online since: " + onlineManager.getCurrentOnline());
 
 				break;
 			}

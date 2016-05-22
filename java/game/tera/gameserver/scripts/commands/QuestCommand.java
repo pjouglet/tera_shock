@@ -53,7 +53,7 @@ public class QuestCommand extends AbstractCommand
 
 				dbManager.removeQuest(player, questManager.getQuest(Integer.parseInt(values)));
 
-				player.sendMessage("пройденный квест удален.");
+				player.sendMessage("Quest have been deleted.");
 
 				break;
 			}

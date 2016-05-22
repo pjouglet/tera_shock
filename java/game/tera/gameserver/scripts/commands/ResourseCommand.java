@@ -66,7 +66,7 @@ public class ResourseCommand extends AbstractCommand
 
 				if(file.exists())
 				{
-					player.sendMessage("Такой файл уже существует.");
+					player.sendMessage("This file already exist.");
 					return;
 				}
 
@@ -90,15 +90,15 @@ public class ResourseCommand extends AbstractCommand
 			{
 				if(fileName == null)
 				{
-					player.sendMessage("Вы не указали файл для экспорта");
+					player.sendMessage("You have to specify a file for export.");
 					return;
 				}
 
 				File file = new File(Config.SERVER_DIR + "/" + fileName);
 
-				if(file.canWrite())
+				if(!file.canWrite())
 				{
-					player.sendMessage("Невозможно записать в такой фаил");
+					player.sendMessage("Unable to write the file.");
 					return;
 				}
 
@@ -149,7 +149,7 @@ public class ResourseCommand extends AbstractCommand
 				}
 				catch(FileNotFoundException e)
 				{
-					player.sendMessage("Произошла ошибка во время экспорта, смените название файла.");
+					player.sendMessage("An error occured during export. Check file name and try again.");
 				}
 
 				waitSpawns.clear();
