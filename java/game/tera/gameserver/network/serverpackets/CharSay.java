@@ -4,6 +4,7 @@ import java.nio.ByteBuffer;
 
 import rlib.util.Strings;
 import tera.gameserver.model.SayType;
+import tera.gameserver.model.playable.Player;
 import tera.gameserver.network.ServerPacketType;
 
 /**
@@ -15,7 +16,10 @@ public class CharSay extends ServerPacket
 {
 	private static final ServerPacket instance = new CharSay();
 
-	public static CharSay getInstance(String name, String text, SayType type, int objectId, int subId)
+	public static CharSay getInstance(String name, String text, SayType type, int objectId, int subId){
+		return  getInstance(name, text, type, objectId, subId, false);
+	}
+	public static CharSay getInstance(String name, String text, SayType type, int objectId, int subId, boolean isGM)
 	{
 		CharSay packet = (CharSay) instance.newInstance();
 
@@ -24,6 +28,7 @@ public class CharSay extends ServerPacket
 		packet.type = type;
 		packet.objectId = objectId;
 		packet.subId = subId;
+		packet.isGmAccount = (isGM) ? 1 : 0;
 
 		return packet;
 	}
@@ -39,6 +44,8 @@ public class CharSay extends ServerPacket
 	private int objectId;
 	/** саб ид персонажа */
 	private int subId;
+
+	private int isGmAccount;
 
 	@Override
 	public void finalyze()
@@ -69,7 +76,7 @@ public class CharSay extends ServerPacket
 		writeInt(buffer, objectId);
 		writeInt(buffer, subId);
 		writeByte(buffer, 0);
-		writeByte(buffer, 0);
+		writeByte(buffer, isGmAccount);
 		writeString(buffer, name);//имя
 		writeByte(buffer, 0);
 
