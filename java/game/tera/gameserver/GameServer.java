@@ -128,7 +128,7 @@ public class GameServer extends ServerThread implements DeadLockListener
 					+ ItemLocation.BANK.ordinal());
 			CleaningManager.addQuery("delete {count} no owner guild items from a items", "DELETE FROM `items` WHERE `owner_id` NOT IN (SELECT `id` FROM `guilds`) AND `location` = "
 					+ ItemLocation.GUILD_BANK.ordinal());
-			CleaningManager.addQuery("create buffer table items", "CREATE TABLE `buffer_items` LIKE `items");
+			CleaningManager.addQuery("create buffer table items", "CREATE TABLE `buffer_items` LIKE `items`");
 			CleaningManager.addQuery("copy {count} items to buffer_items", "INSERT `buffer_items` SELECT * FROM `items`");
 			CleaningManager.addQuery("delete {count} no owner items from a buffer_items", "DELETE FROM `items` WHERE `owner_id` NOT IN (SELECT `object_id` FROM `buffer_items`) AND `location` = "
 					+ ItemLocation.CRYSTAL.ordinal());
