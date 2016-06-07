@@ -1973,6 +1973,7 @@ public final class DataBaseManager {
 				item.setLocation(ItemLocation.valueOf(rset.getInt("location")));
 				item.setOwnerId(rset.getInt("owner_id"));
 				item.setItemCount(rset.getLong("item_count"));
+				item.setMasterworked(rset.getInt("masterworked"));
 				item.setEnchantLevel(rset.getShort("enchant_level"));
 				item.setBonusId(rset.getInt("bonus_id"));
 				item.setAutor(rset.getString("autor"));

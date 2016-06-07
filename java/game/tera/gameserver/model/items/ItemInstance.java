@@ -42,6 +42,8 @@ public abstract class ItemInstance extends TObject implements Foldable
 	/** кол-во итемов */
 	protected long itemCount;
 
+	protected int masterworked;
+
 	/** отспавненное время */
 	protected long spawnTime;
 
@@ -95,6 +97,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 		this.template = template;
 		this.ownerId = 0;
 		this.itemCount = 1;
+		this.masterworked = 0;
 		this.bonusId = 0;
 		this.enchantLevel = 0;
 		this.index = 0;
@@ -134,7 +137,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 
 	/**
 	 * Выдача владельцу итема скилы итема.
-	 * 
+	 *
 	 * @param owner владелец итема.
 	 */
 	public final void addFuncsTo(Character owner)
@@ -173,7 +176,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 
 	/**
 	 * Проверка на совместимость игрока с итемом.
-	 * 
+	 *
 	 * @param player проверяемый игрок.
 	 * @return совместим ли.
 	 */
@@ -184,7 +187,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 
 	/**
 	 * Проверка, можно ли вставить крист в итем.
-	 * 
+	 *
 	 * @param crystal вставляемый кристал.
 	 */
 	public boolean checkCrystal(CrystalInstance crystal)
@@ -223,7 +226,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 
 	/**
 	 * Проверка на возможность одевания итема персонажем.
-	 * 
+	 *
 	 * @param character персонаж.
 	 * @return можно ли.
 	 */
@@ -243,6 +246,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 		dropper = null;
 		enchantLevel = 0;
 		itemCount = 1;
+		masterworked = 0;
 		ownerId = 0;
 		objectId = 0;
 		index = 0;
@@ -408,6 +412,11 @@ public abstract class ItemInstance extends TObject implements Foldable
 	{
 		return itemCount;
 	}
+
+	/**
+	 * @return masterworked value
+	 */
+	public final int getMasterworked() { return this.masterworked; }
 
 	/**
 	 * @return ид темплейта итема.
@@ -851,7 +860,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 
 	/**
 	 * Удаление скилов итема у персонажа.
-	 * 
+	 *
 	 * @param owner персонаж.
 	 */
 	public final void removeFuncsTo(Character owner)
@@ -926,6 +935,13 @@ public abstract class ItemInstance extends TObject implements Foldable
 	public final void setItemCount(long itemCount)
 	{
 		this.itemCount = itemCount;
+	}
+
+	/**
+	 * @param masterworked masterworked value
+	 */
+	public final void setMasterworked(int masterworked){
+		this.masterworked = masterworked;
 	}
 
 	/**

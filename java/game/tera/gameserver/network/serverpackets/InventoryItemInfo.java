@@ -91,26 +91,34 @@ public class InventoryItemInfo extends ServerPacket
 		writeInt(item.isBinded() ? 1 : 0); //
 		/* бонусы от заточки включаеться если заточить на +1 а так нули */
 		writeInt(10534660); // 00 00 00 00 флота атаки бонус от заточки
-		writeInt(0); // 00 00 00 00 флот овертёрна бонус от заточки
-		writeInt(0); // 00 00 00 00 флот защиты бонус от заточки
-		writeInt(0); // 00 00 00 00 флот защиты от овертёрна бонус от заточки
+		writeInt(1); // 00 00 00 00 флот овертёрна бонус от заточки
+		//+3 bonus
+		writeInt(1); // 00 00 00 00 флот защиты бонус от заточки
+		//+5 bonus
+		writeInt(1); // 00 00 00 00 флот защиты от овертёрна бонус от заточки
+		//+7 bonus
+		writeByte(1);
 
 		/*
 		 * writeIntS(0xACBD0400); //00 00 00 00 writeIntS(0x3CBF0400); //00 00 00 00 writeIntS(0x80BC0400); //00 00 00 00 writeIntS(0x30C10400); //00 00 00 00
 		 */
-
-		writeByte(0); // 00
+		//+9 bonus
+		writeInt(0xACBD0400);
+		writeInt(0x3CBF0400);
+		writeInt(0x80BC0400);
+		writeInt(0x30C10400);
 
 		/* бонусы */
-		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
-		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
+		//writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
+		//writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
 		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
 		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
 		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
 		writeLong(0x0000000000000000);// 00 00 00 00 00 00 00 00
 		// нужно распиливать на флоты на каждый параметр бонус отдельно
 
-		writeInt(0); // 00 00 00 00
+		//Masterwork
+		writeInt(item.getMasterworked()); // 00 00 00 00
 		writeShort(0); // 00 00
 
 		writeLong(0x0000000000000000);// бонус к следующим заточкам
@@ -137,6 +145,7 @@ public class InventoryItemInfo extends ServerPacket
 
 		writeLong(0xFFFFFFFFFFFFFFFFL);// не понятно иногда биндиться суда
 		writeInt(0xFFFFFFFE);// не понятно иногда биндиться суда
+
 
 		if(item.isBinded())
 		{
