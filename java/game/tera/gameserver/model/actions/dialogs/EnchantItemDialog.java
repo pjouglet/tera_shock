@@ -483,6 +483,11 @@ public class EnchantItemDialog extends AbstractActionDialog {
 					return;
 				}
 
+				if(source.getEnchantLevel() == 9 && source.getMasterworked() == 0){
+					actor.sendMessage("Item need to be masterworked.");
+					return;
+				}
+
 				if(source.getEnchantLevel() >= MAX_ENCHANT_LEVEL) {
 					actor.sendMessage("Item cannot be enchanted further.");
 					return;
