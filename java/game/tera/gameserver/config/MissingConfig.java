@@ -16,6 +16,7 @@ public final class MissingConfig {
     public static int EVENT_TDM_MAX_PLAYERS;
     public static int EVENT_TDM_MIN_PLAYERS;
     public static int EVENT_TDM_BATTLE_TIME;
+    public static boolean SERVER_FALLING_DAMAGE;
 
     public static void init(){
         VarTable vars = VarTable.newInstance();
@@ -27,5 +28,6 @@ public final class MissingConfig {
         EVENT_TDM_MAX_PLAYERS = vars.getInteger("EVENT_TDM_MAX_PLAYERS");
         EVENT_TDM_MIN_PLAYERS = vars.getInteger("EVENT_TDM_MIN_PLAYERS");
         EVENT_TDM_BATTLE_TIME = vars.getInteger("EVENT_TDM_BATTLE_TIME");
+        SERVER_FALLING_DAMAGE = vars.getBoolean("SERVER_FALLING_DAMAGE");
     }
 }

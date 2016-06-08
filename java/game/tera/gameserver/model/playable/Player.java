@@ -843,7 +843,7 @@ public final class Player extends Playable implements Nameable, Identified {
 
 		int damage = super.doFall(startZ, endZ);
 
-		if(damage > 0)
+		if(damage > 0 && MissingConfig.SERVER_FALLING_DAMAGE)
 			sendMessage("Get " + damage + " damage from falling.");
 
 		return damage;
