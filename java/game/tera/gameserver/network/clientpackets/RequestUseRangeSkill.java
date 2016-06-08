@@ -196,7 +196,7 @@ public final class RequestUseRangeSkill extends ClientPacket
 		if(skill == null)
 		{
 			// сообщаем и выходим
-			player.sendMessage("Этого скила у вас нету.");
+			player.sendMessage("You don't have this skill (maybe update ?)");
 			return;
 		}
 

@@ -121,6 +121,7 @@ public class InventoryItemInfo extends ServerPacket
 		writeInt(item.getMasterworked()); // 00 00 00 00
 		writeShort(0); // 00 00
 
+
 		writeLong(0x0000000000000000);// бонус к следующим заточкам
 		writeLong(0x0000000000000000);
 		writeLong(0x0000000000000000);
@@ -149,6 +150,7 @@ public class InventoryItemInfo extends ServerPacket
 
 		if(item.isBinded())
 		{
+			//1 is item is crafted
 			writeShort(0);
 			writeString(item.getOwnerName());
 		}

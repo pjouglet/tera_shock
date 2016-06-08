@@ -383,7 +383,7 @@ public abstract class AbstractCharacterAI<E extends Character> extends AbstractA
 			case LOOKING_FOR_GROUP:
 			{
 				// создаем сообщение
-				CharSay say = CharSay.getInstance(actor.getName(), text, type, actor.getObjectId(), actor.getSubId());
+				CharSay say = CharSay.getInstance(actor.getName(), text, type, actor.getObjectId(), actor.getSubId(), actor.isGM());
 
 				// получаем список онлаин игроков
 				Array<Player> players = World.getPlayers();
