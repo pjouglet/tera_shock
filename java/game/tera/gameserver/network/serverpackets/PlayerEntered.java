@@ -63,10 +63,10 @@ public class PlayerEntered extends ServerPacket
 			packet.writeByte(buffer, 0);
 			packet.writeShort(buffer, player.getLevel());// уровень игрока
 
-			packet.writeShort(buffer, 0);
-			packet.writeShort(buffer, 0);
-			packet.writeShort(buffer, 0);
-			packet.writeShort(buffer, 0);
+			packet.writeShort(buffer, player.getMiningLevel());//mineral
+			packet.writeShort(buffer, 0);//bug not released
+			packet.writeShort(buffer, player.getPlantLevel());//herb
+			packet.writeShort(buffer, player.getEnergyLevel());//energy
 
 			packet.writeInt(buffer, 1);
 			packet.writeShort(buffer, 0);
