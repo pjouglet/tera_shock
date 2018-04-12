@@ -99,8 +99,9 @@ public class PlayerInfo extends ServerPacket
 		packet.writeInt(buffer, newPlayer.isSpawned() ? 1 : 0); // вспышка
 		packet.writeInt(buffer, newPlayer.getMountId()); // животное
 
-		packet.writeLong(buffer, 0);
-		packet.writeLong(buffer, 0);
+		packet.writeInt(0);//pose see C_PLAYER_LOCATION
+		packet.writeInt(0);//title
+		packet.writeLong(buffer, 0);//shuttleID
 		packet.writeLong(buffer, 0);
 		packet.writeLong(buffer, 0);
 		packet.writeLong(buffer, 0);
@@ -109,9 +110,9 @@ public class PlayerInfo extends ServerPacket
 		packet.writeShort(buffer, 0);
 		packet.writeByte(buffer, 0);
 
-		packet.writeInt(buffer, weapon == null ? 0 : weapon.getEnchantLevel()); // точка ствола
+		packet.writeInt(buffer, weapon == null ? 0 : weapon.getEnchantLevel()); // Weapon enchant
 
-		packet.writeByte(buffer, 0);
+		packet.writeByte(buffer, 1);//newbie
 		packet.writeByte(buffer, newPlayer.isPvPMode() ? 1 : 0); // включен ли пвп режим
 
 		packet.writeInt(buffer, newPlayer.getLevel());
