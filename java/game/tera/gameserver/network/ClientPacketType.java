@@ -6,102 +6,7 @@ import rlib.logging.Logger;
 import rlib.logging.Loggers;
 import rlib.util.pools.FoldablePool;
 import rlib.util.pools.Pools;
-import tera.gameserver.network.clientpackets.AssentTrade;
-import tera.gameserver.network.clientpackets.CanBeUsedName;
-import tera.gameserver.network.clientpackets.CancelTrade;
-import tera.gameserver.network.clientpackets.ClientKey;
-import tera.gameserver.network.clientpackets.ClientPacket;
-import tera.gameserver.network.clientpackets.EnchantFinish;
-import tera.gameserver.network.clientpackets.EnteredWorld;
-import tera.gameserver.network.clientpackets.NameChange;
-import tera.gameserver.network.clientpackets.PlayerClimb;
-import tera.gameserver.network.clientpackets.PlayerMove;
-import tera.gameserver.network.clientpackets.PlayerMoveOnSkill;
-import tera.gameserver.network.clientpackets.PlayerSay;
-import tera.gameserver.network.clientpackets.PrivateSay;
-import tera.gameserver.network.clientpackets.QuestMovieEnded;
-import tera.gameserver.network.clientpackets.RequestActionAgree;
-import tera.gameserver.network.clientpackets.RequestActionCancel;
-import tera.gameserver.network.clientpackets.RequestActionInvite;
-import tera.gameserver.network.clientpackets.RequestAddEnchantItem;
-import tera.gameserver.network.clientpackets.RequestAuthLogin;
-import tera.gameserver.network.clientpackets.RequestBankAdd;
-import tera.gameserver.network.clientpackets.RequestBankChangeTab;
-import tera.gameserver.network.clientpackets.RequestBankMovingItem;
-import tera.gameserver.network.clientpackets.RequestBankSub;
-import tera.gameserver.network.clientpackets.RequestCancelQuest;
-import tera.gameserver.network.clientpackets.RequestClientClose;
-import tera.gameserver.network.clientpackets.RequestCollectResourse;
-import tera.gameserver.network.clientpackets.RequestConfirmServer;
-import tera.gameserver.network.clientpackets.RequestCreatePlayer;
-import tera.gameserver.network.clientpackets.RequestDeleteItem;
-import tera.gameserver.network.clientpackets.RequestDeletePlayer;
-import tera.gameserver.network.clientpackets.RequestDialogCancel;
-import tera.gameserver.network.clientpackets.RequestDressingItem;
-import tera.gameserver.network.clientpackets.RequestDuelCancel;
-import tera.gameserver.network.clientpackets.RequestFriendAdd;
-import tera.gameserver.network.clientpackets.RequestFriendList;
-import tera.gameserver.network.clientpackets.RequestFriendRemove;
-import tera.gameserver.network.clientpackets.RequestGuildChangeRank;
-import tera.gameserver.network.clientpackets.RequestGuildCreateRank;
-import tera.gameserver.network.clientpackets.RequestGuildExclude;
-import tera.gameserver.network.clientpackets.RequestGuildIcon;
-import tera.gameserver.network.clientpackets.RequestGuildInfo;
-import tera.gameserver.network.clientpackets.RequestGuildLeave;
-import tera.gameserver.network.clientpackets.RequestGuildLoadIcon;
-import tera.gameserver.network.clientpackets.RequestGuildMakeLeader;
-import tera.gameserver.network.clientpackets.RequestGuildRemoveRank;
-import tera.gameserver.network.clientpackets.RequestGuildUpdateMessage;
-import tera.gameserver.network.clientpackets.RequestGuildUpdateNote;
-import tera.gameserver.network.clientpackets.RequestGuildUpdateRank;
-import tera.gameserver.network.clientpackets.RequestGuildUpdateTitle;
-import tera.gameserver.network.clientpackets.RequestInventoryInfo;
-import tera.gameserver.network.clientpackets.RequestInventoryInfoItem;
-import tera.gameserver.network.clientpackets.RequestInventoryMovingItem;
-import tera.gameserver.network.clientpackets.RequestItemTemplateInfo;
-import tera.gameserver.network.clientpackets.RequestLocalTeleport;
-import tera.gameserver.network.clientpackets.RequestLockOnTarget;
-import tera.gameserver.network.clientpackets.RequestNpcAddBuyShop;
-import tera.gameserver.network.clientpackets.RequestNpcAddSellShop;
-import tera.gameserver.network.clientpackets.RequestNpcConfirmShop;
-import tera.gameserver.network.clientpackets.RequestNpcConfirmSkillShop;
-import tera.gameserver.network.clientpackets.RequestNpcInteraction;
-import tera.gameserver.network.clientpackets.RequestNpcLink;
-import tera.gameserver.network.clientpackets.RequestNpcStartPegasFly;
-import tera.gameserver.network.clientpackets.RequestNpcSubBuyShop;
-import tera.gameserver.network.clientpackets.RequestNpcSubSellShop;
-import tera.gameserver.network.clientpackets.RequestPartyChange;
-import tera.gameserver.network.clientpackets.RequestPartyDisband;
-import tera.gameserver.network.clientpackets.RequestPartyInvite;
-import tera.gameserver.network.clientpackets.RequestPartyKick;
-import tera.gameserver.network.clientpackets.RequestPartyLeave;
-import tera.gameserver.network.clientpackets.RequestPartyMakeLeader;
-import tera.gameserver.network.clientpackets.RequestPickUpItem;
-import tera.gameserver.network.clientpackets.RequestPlayerList;
-import tera.gameserver.network.clientpackets.RequestRessurect;
-import tera.gameserver.network.clientpackets.RequestRestart;
-import tera.gameserver.network.clientpackets.RequestServerCheck;
-import tera.gameserver.network.clientpackets.RequestSkillAction;
-import tera.gameserver.network.clientpackets.RequestSortInventory;
-import tera.gameserver.network.clientpackets.RequestStartClimb;
-import tera.gameserver.network.clientpackets.RequestStartEmotion;
-import tera.gameserver.network.clientpackets.RequestState;
-import tera.gameserver.network.clientpackets.RequestTradeAddItem;
-import tera.gameserver.network.clientpackets.RequestTradeLock;
-import tera.gameserver.network.clientpackets.RequestUpdateQuestPanel;
-import tera.gameserver.network.clientpackets.RequestUseDefenseSkill;
-import tera.gameserver.network.clientpackets.RequestUseItem;
-import tera.gameserver.network.clientpackets.RequestUseQueueSkill;
-import tera.gameserver.network.clientpackets.RequestUseRangeSkill;
-import tera.gameserver.network.clientpackets.RequestUseRushSkill;
-import tera.gameserver.network.clientpackets.RequestUseScroll;
-import tera.gameserver.network.clientpackets.RequestUseShortSkill;
-import tera.gameserver.network.clientpackets.RequestWorldZone;
-import tera.gameserver.network.clientpackets.SelectSkillLearn;
-import tera.gameserver.network.clientpackets.SelectedPlayer;
-import tera.gameserver.network.clientpackets.UpdateClientSetting;
-import tera.gameserver.network.clientpackets.UpdateHotKey;
-import tera.gameserver.network.clientpackets.UpdateTitle;
+import tera.gameserver.network.clientpackets.*;
 
 /**
  * Перечисление типов клиентских пакетов.
@@ -323,7 +228,10 @@ public enum ClientPacketType
 	/** пакет выбора персонажа, версия */
 	PLAYER_SELECTED_PACKET(0xE3A4, new SelectedPlayer()),
 	/** пакет входа в мир персонажа, версия */
-	PLAYER_ENTERED_PACKET(0x8E3C, new EnteredWorld());
+	PLAYER_ENTERED_PACKET(0x8E3C, new EnteredWorld()),
+
+	PLAYER_REQUEST_UNSTUCK(0x86E2, new RequestPlayerUnstuck());
+
 
 	private static final Logger log = Loggers.getLogger(ClientPacketType.class);
 
