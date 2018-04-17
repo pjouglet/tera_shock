@@ -2731,6 +2731,13 @@ public final class DataBaseManager {
 			playerPreview.setLevel(rset.getByte("level"));
 			playerPreview.setOnlineTime(rset.getLong("online_time"));
 			playerPreview.setName(rset.getString("char_name"));
+			playerPreview.setHp(rset.getInt("hp"));
+			playerPreview.setMp(rset.getInt("mp"));
+			playerPreview.setPosX(rset.getInt("x"));
+			playerPreview.setPosY(rset.getInt("y"));
+			playerPreview.setPosZ(rset.getInt("z"));
+			playerPreview.setZoneId(rset.getInt("zone_id"));
+			playerPreview.setZoneId(rset.getInt("continent_id"));
 
 			// загружаем внешность игрока
 			PlayerAppearance appearance = loadPlayerAppearance(objectId);

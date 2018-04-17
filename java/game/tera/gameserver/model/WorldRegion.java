@@ -655,9 +655,11 @@ public final class WorldRegion
 			WorldZone zone = zones[0];
 
 			// если объект в ее входит
-			if(zone.contains((int) object.getX(), (int) object.getY(), (int) object.getZ()))
+			//todo : check cette merde (TP kanstria)
+			return zone.getZoneId();
+			/*if(zone.contains((int) object.getX(), (int) object.getY(), (int) object.getZ()))
 				// возвращаем ее ид
-				return zone.getZoneId();
+				return zone.getZoneId();*/
 		}
 		// иначе перебираем все зоны
 		else

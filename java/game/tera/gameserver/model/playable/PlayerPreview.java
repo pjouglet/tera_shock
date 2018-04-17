@@ -57,6 +57,16 @@ public final class PlayerPreview implements Comparable<PlayerPreview>, Foldable
 	/** экиперовка */
 	private Equipment equipment;
 
+	private int hp;
+
+	private int mp;
+
+	private int posX;
+	private int posY;
+	private int posZ;
+	private int zoneId;
+	private int continentId;
+
 	@Override
 	public int compareTo(PlayerPreview playerPreview)
 	{
@@ -249,5 +259,61 @@ public final class PlayerPreview implements Comparable<PlayerPreview>, Foldable
 	public String toString()
 	{
 		return "PlayerPreview objectId = " + objectId + ", level = " + level + ", name = " + name;
+	}
+
+	public void setHp(int hp){
+		this.hp = hp;
+	}
+
+	public void setMp(int mp) {
+		this.mp = mp;
+	}
+
+	public void setPosX(int posX) {
+		this.posX = posX;
+	}
+
+	public void setPosY(int posY) {
+		this.posY = posY;
+	}
+
+	public void setPosZ(int posZ) {
+		this.posZ = posZ;
+	}
+
+	public void setZoneId(int zoneId) {
+		this.zoneId = zoneId;
+	}
+
+	public void setContinentId(int continentId) {
+		this.continentId = continentId;
+	}
+
+	public int getHp() {
+		return hp;
+	}
+
+	public int getMp() {
+		return mp;
+	}
+
+	public int getPosX() {
+		return posX;
+	}
+
+	public int getPosY() {
+		return posY;
+	}
+
+	public int getPosZ() {
+		return posZ;
+	}
+
+	public int getZoneId() {
+		return zoneId;
+	}
+
+	public int getContinentId() {
+		return continentId;
 	}
 }
