@@ -120,6 +120,7 @@ public class NpcCommands extends AbstractCommand
 				try
 				{
 					spawnTable.reload();
+					player.sendMessage("NPC spanws have been reloaded.");
 				}
 				catch(Exception e)
 				{
@@ -202,7 +203,7 @@ public class NpcCommands extends AbstractCommand
 
 				if(template == null)
 				{
-					player.sendMessage("Нет такого НПС.");
+					player.sendMessage("Target NPC doesn't exist.");
 					return;
 				}
 

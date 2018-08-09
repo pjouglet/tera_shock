@@ -22,7 +22,7 @@ public enum CommandType {
 	/** целительные команды */
 	HEAL_COMMANDS(HealCommand.class, 100, "set_hp", "set_mp", "heal"),
 	/** команды разработчиков */
-	DEVELOPER_COMMANDS(DeveloperCommand.class, 100, "event_reg_all_players", "change_class", "kick", "check_geo", "send_event", "send_system", "send_state", "add_attack", "start_event", "sub_attack",
+	DEVELOPER_COMMANDS(DeveloperCommand.class, 100, "event_reg_all_players", "zone", "change_class", "kick", "check_geo", "send_event", "send_system", "send_state", "add_attack", "start_event", "sub_attack",
 			"start_gc", "reload_dialogs", "send_packet", "set_access_level", "get_access_level", "set_heart", "set_level", "send_bytes", "send_file", "get_my_id", "invul", "set_ower_dist",
 			"my_funcs", "save_point", "a", "save_all", "gm_speed"),
 	/** команды над итемами */

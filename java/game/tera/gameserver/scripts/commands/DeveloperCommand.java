@@ -26,10 +26,7 @@ import tera.gameserver.model.skillengine.funcs.StatFunc;
 import tera.gameserver.model.skillengine.funcs.stat.MathFunc;
 import tera.gameserver.model.skillengine.lambdas.FloatMul;
 import tera.gameserver.model.skillengine.lambdas.FloatSet;
-import tera.gameserver.network.serverpackets.CharState;
-import tera.gameserver.network.serverpackets.EventMessage;
-import tera.gameserver.network.serverpackets.SeverDeveloperPacket;
-import tera.gameserver.network.serverpackets.SystemMessage;
+import tera.gameserver.network.serverpackets.*;
 import tera.gameserver.tables.NpcDialogTable;
 import tera.gameserver.tables.SkillTable;
 import tera.remotecontrol.handlers.LoadChatHandler;
@@ -74,6 +71,10 @@ public class DeveloperCommand extends AbstractCommand {
 
 				break;
 			}
+			case  "zone":{
+				player.sendMessage("ZONE :" + player.getZoneId());
+				break;
+			}
 			case "change_class": {
 
 				DataBaseManager dbManager = DataBaseManager.getInstance();
@@ -85,7 +86,7 @@ public class DeveloperCommand extends AbstractCommand {
 				}
 
 				dbManager.updatePlayerClass(player.getObjectId(), cs);
-				player.sendMessage("Класс игрока был сменен на " + cs);
+				player.sendMessage("Player class have changed to " + cs);
 				break;
 			}
 			case "kick": {
