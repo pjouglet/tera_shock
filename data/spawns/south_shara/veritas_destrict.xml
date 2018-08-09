@@ -1720,4 +1720,11 @@
 		</ai>
 	</npc>
 	
+	<npc id="1501" type="230" continentId="1">
+		<ai class="DEFAULT" config="DefaultFriendly">
+			<time respawn="60" random="30">
+				<point x="-18981.6" y="90633.26" z="-553.81415" heading="59726" />
+			</time>
+		</ai>
+	</npc>
 </list>

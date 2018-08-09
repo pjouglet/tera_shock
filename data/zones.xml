@@ -242,4 +242,41 @@
 			<respawn x="-14037" y="55100" z="640" />
 		</respawns>
 	</zone>
+
+	<zone zoneId="8001" name="Helkan District" minZ="-2000" maxZ="3000" continentId="2" >
+		<points>
+			<point x="43855" y="19895" z="0" />
+			<point x="43855" y="19895" z="0" />
+			<point x="43855" y="19895" z="0" />
+			<point x="38335" y="-3350" z="1290" />
+			<point x="38335" y="-3350" z="1290" />
+			<point x="38335" y="-3350" z="1290" />
+		</points>
+		<respawns>
+			<respawn x="43874" y="19890" z="2861" />
+			<respawn x="38335" y="-3350" z="1290" />
+		</respawns>
+	</zone>
+
+	<zone zoneId="9025" name="Balder's temple" minZ="-2000" maxZ="3000" continentId="2">
+		<points>
+			<point x="8468" y="61782" z="703" />
+			<point x="8468" y="61782" z="703" />
+			<point x="8468" y="61782" z="703" />
+			<point x="8468" y="61782" z="703" />
+		</points>
+		<respawns>
+			<respawn x="8468.0605" y="61782.4570" z="703.6260" />
+		</respawns>
+	</zone>
+	<zone zoneId="9075" name="Kelsaik's Nest" minZ="-15000" maxZ="3000" continentId="2">
+		<points>
+			<point x="62617" y="149195" z="-9474" />
+			<point x="62617" y="149195" z="-9474" />
+			<point x="62617" y="149195" z="-9474" />
+		</points>
+		<respawns>
+			<respawn x="62617" y="149195" z="-9474" />
+		</respawns>
+	</zone>
 </list>    

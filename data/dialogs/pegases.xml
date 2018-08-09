@@ -240,6 +240,33 @@
 			</reply>
 		</link>	
 	</npc>
+	<npc id="1066" type="84">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="KAIATOR_OUTSKRITS" >
+				<route index="59" price="1050" target="HABERE" />
+				<route index="61" price="1050" target="DRAGONFALL" />
+				<route index="63" price="1050" target="SCYTHERA" />
+				<route index="71" price="1050" target="VELIKA" />
+				<route index="72" price="1050" target="ALEMANTHEIA" />
+				<route index="51" price="1050" target="PATHFINDER" />
+				<route index="53" price="1050" target="ZULFIKAR" />
+				<route index="55" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+
+	<npc id="1006" type="76">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="KANSTRIA" >
+				<route index="62" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="69" price="1050" target="SCYTHERA" />
+				<route index="164" price="1050" target="PATHFINDER" />
+				<route index="166" price="1050" target="HABERE" />
+				<route index="196" price="1050" target="ZULFIKAR" />
+				<route index="70" price="1050" target="DRAGONFALL" />
+			</reply>
+		</link>	
+	</npc>
 
 	<npc id="1007" type="77">
 		<link name="Take a flight" icon="DIALOG" >
@@ -250,6 +277,20 @@
 				<route index="168" price="1050" target="SCYTHERA" />
 				<route index="65" price="1050" target="ZULFIKAR" />
 				<route index="173" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>
+
+
+	<npc id="1006" type="78">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="ZULFIKAR" >
+				<route index="62" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="69" price="1050" target="SCYTHERA" />
+				<route index="164" price="1050" target="PATHFINDER" />
+				<route index="166" price="1050" target="HABERE" />
+				<route index="173" price="1050" target="KANSTRIA" />
+				<route index="70" price="1050" target="DRAGONFALL" />
 			</reply>
 		</link>	
 	</npc>
@@ -267,19 +308,6 @@
 		</link>	
 	</npc>
 
-	<npc id="1004" type="81">
-		<link name="Take a flight" icon="DIALOG" >
-			<reply name="ReplyPegas" town="SCYTHERA" >
-				<route index="64" price="1050" target="KAIATOR_OUTSKRITS" />
-				<route index="70" price="1050" target="DRAGONFALL" />
-				<route index="167" price="1050" target="PATHFINDER" />
-				<route index="172" price="1050" target="HABERE" />
-				<route index="199" price="1050" target="ZULFIKAR" />
-				<route index="198" price="1050" target="KANSTRIA" />
-			</reply>
-		</link>	
-	</npc>
-
 	<npc id="1006" type="80">
 		<link name="Take a flight" icon="DIALOG" >
 			<reply name="ReplyPegas" town="DRAGONFALL" >
@@ -292,4 +320,17 @@
 			</reply>
 		</link>	
 	</npc>
+
+	<npc id="1004" type="81">
+		<link name="Take a flight" icon="DIALOG" >
+			<reply name="ReplyPegas" town="SCYTHERA" >
+				<route index="64" price="1050" target="KAIATOR_OUTSKRITS" />
+				<route index="70" price="1050" target="DRAGONFALL" />
+				<route index="167" price="1050" target="PATHFINDER" />
+				<route index="172" price="1050" target="HABERE" />
+				<route index="199" price="1050" target="ZULFIKAR" />
+				<route index="198" price="1050" target="KANSTRIA" />
+			</reply>
+		</link>	
+	</npc>	
 </list>

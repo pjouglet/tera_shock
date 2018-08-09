@@ -289,5 +289,25 @@
 		<link name="Guild Bank" icon="GREEN" >
 			<reply name="ReplyGuildBank" />
 		</link>
+	</npc>
+	<!-- Kaiator-->	
+	<npc id="1057" type="84" >
+		<!-- Банк в pathfinder -->
+		<link name="Bank" icon="GREEN" >
+			<reply name="ReplyPlayerBank" />
+		</link>
+		<link name="Guild Bank" icon="GREEN" >
+			<reply name="ReplyGuildBank" />
+		</link>
+	</npc>
+		
+	<npc id="1058" type="84" >
+		<!-- Банк в pathfinder -->
+		<link name="Bank" icon="GREEN" >
+			<reply name="ReplyPlayerBank" />
+		</link>
+		<link name="Guild Bank" icon="GREEN" >
+			<reply name="ReplyGuildBank" />
+		</link>
 	</npc>	
 </list>

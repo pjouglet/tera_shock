@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
+	<!--flight manager -->
 	<npc id="1069" type="84" continentId="2">
 		 <ai class="DEFAULT" config="DefaultFriendly" >
 			<time respawn="45" >
@@ -7,4 +8,108 @@
 			</time>
 		</ai>
 	</npc>
+	<npc id="1066" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-13280.225" y="8672.037" z="4216.0625" heading="56576" />
+			</time>
+		</ai>
+	</npc>
+	<!-- Kaiator Guard -->
+	<npc id="1001" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-12937.767" y="9041.605" z="4193.9473" heading="48656" />
+				<point x="-13214.706" y="9041.605" z="4193.9473" heading="48656" />
+				<point x="-16298.563" y="5097.3374" z="4442.5786" heading="65074" />
+			</time>
+		</ai>
+	</npc>
+	<npc id="1005" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-13217.239" y="7842.355" z="4193.9473" heading="16446" />
+				<point x="-12937.059" y="7842.355" z="4193.9473" heading="16446" />
+				<point x="-14101.762" y="8641.834" z="4193.9473" heading="65060" />
+				<point x="-14101.762" y="8315.38" z="4193.9473" heading="65060" />
+				<point x="-16035.076" y="5748.6216" z="4437.383" heading="65418" />
+				<point x="-16420.652" y="5217.5024" z="4447.4844" heading="65344" />
+				<point x="-16420.652" y="4974.9824" z="4447.4844" heading="65344" />
+				<point x="-14562.365" y="4644.289" z="4443.2393" heading="48802" />
+				<point x="-14562.365" y="5533.085" z="4443.2393" heading="16800" />
+			</time>
+		</ai>
+	</npc>
+	<!--Urshia -->
+	<npc id="1068" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-13290.333" y="7940.1064" z="4193.9473" heading="16230" />
+			</time>
+		</ai>
+	</npc>
+	<!--Raham -->
+	<npc id="1067" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-13876.488" y="8326.196" z="4193.9473" heading="174" />
+			</time>
+		</ai>
+	</npc>
+	<!--lakaris--> <!--banker-->
+	<npc id="1057" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-16430.271" y="5513.6104" z="4441.3135" heading="18" />
+			</time>
+		</ai>
+	</npc>
+	<!--linus-->
+	<npc id="1059" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-16430.314" y="5413.001" z="4441.3135" heading="65158" />
+			</time>
+		</ai>
+	</npc>
+	<!--Kalila-->
+	<npc id="1060" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-16430.312" y="4797.1167" z="4441.3135" heading="1058" />
+			</time>
+		</ai>
+	</npc>
+	<!--Najib--> <!-- banker -->
+	<npc id="1058" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-16430.312" y="4622.007" z="4441.3135" heading="1058" />
+			</time>
+		</ai>
+	</npc>
+	<!--Norag-->
+	<npc id="1132" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-14686.979" y="4838.567" z="4440.2803" heading="32108" />
+			</time>
+		</ai>
+	</npc>
+	<!--Prasha--> <!--Merchant-->
+	<npc id="1055" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-14686.182" y="5268.526" z="4440.2803" heading="33746" />
+			</time>
+		</ai>
+	</npc>
+	<!--Turuk--> <!--Speciality Store -->
+	<!--<npc id="1600" type="84" continentId="2">
+		 <ai class="DEFAULT" config="DefaultFriendly" >
+			<time respawn="45" >
+				<point x="-14686.182" y="5362.31" z="4440.2803" heading="33746" />
+			</time>
+		</ai>
+	</npc>-->
 </list>

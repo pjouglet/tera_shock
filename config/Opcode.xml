@@ -727,6 +727,6 @@
 			<!-- 10 00 C0 D6 01 00 00 00 02 00 00 00 07 00 00 00 ждёт ответа SERVER_PING2-->
 		</packet>
 		<packet id="0xD28D" class="CLIENT_PACKET" name="CLIENT_PING3" visible="true"/><!-- 1 -->
-	
+		<packet id="0xA8AF" class="CLIENT_PACKET" name="PLAYER_REQUEST_UNSTUCK" visible="false"/>
 	</protocol>
 </list>    
