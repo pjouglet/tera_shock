@@ -99,8 +99,8 @@ public class PlayerInfo extends ServerPacket
 		packet.writeInt(buffer, newPlayer.isSpawned() ? 1 : 0); // вспышка
 		packet.writeInt(buffer, newPlayer.getMountId()); // животное
 
-		packet.writeInt(0);//pose see C_PLAYER_LOCATION
-		packet.writeInt(0);//title
+		packet.writeInt(buffer, 0);//pose see C_PLAYER_LOCATION
+		packet.writeInt(buffer, 0);//title
 		packet.writeLong(buffer, 0);//shuttleID
 		packet.writeLong(buffer, 0);
 		packet.writeLong(buffer, 0);
